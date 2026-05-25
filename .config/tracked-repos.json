@@ -1,0 +1,42 @@
+{
+  "_comment": "Edit this file to add or remove repos. The daily-code-fetch skill reads this on every run.",
+  "tracked_repos": [
+    {"url": "https://github.com/openvla/openvla",                    "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/openvla/openvla-oft",                "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/huggingface/lerobot",                "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/Physical-Intelligence/openpi",       "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/NVIDIA/Isaac-GR00T",                 "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/droid-dataset/droid",                "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/starVLA/starVLA",                    "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/real-stanford/diffusion_policy",     "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/yuantianyuan01/FastWAM",             "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/Robbyant/lingbot-va",                "topic": "robotics",        "branch": "main"},
+    {"url": "https://github.com/dreamzero0/dreamzero",               "topic": "robotics",        "branch": "main"},
+
+    {"url": "https://github.com/huggingface/diffusers",              "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/NVlabs/Cosmos",                      "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/Wan-Video/Wan2.1",                   "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/facebookresearch/DiT",               "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/gaoyuezhou/dino_wm",                 "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/facebookresearch/dinov3",            "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/lucas-maes/le-wm",                   "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/facebookresearch/jepa",              "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/THUDM/CogVideoX",                    "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/Vchitect/VEnhancer",                 "topic": "diffusion",       "branch": "main"},
+    {"url": "https://github.com/PKU-YuanGroup/Open-Sora",            "topic": "diffusion",       "branch": "main"},
+
+    {"url": "https://github.com/vllm-project/vllm",                  "topic": "infrastructure",  "branch": "main"},
+    {"url": "https://github.com/Dao-AILab/flash-attention",          "topic": "infrastructure",  "branch": "main"},
+    {"url": "https://github.com/huggingface/transformers",           "topic": "infrastructure",  "branch": "main"},
+    {"url": "https://github.com/meta-llama/llama-models",            "topic": "infrastructure",  "branch": "main"},
+    {"url": "https://github.com/QwenLM/Qwen2.5",                     "topic": "infrastructure",  "branch": "main"},
+    {"url": "https://github.com/deepseek-ai/DeepSeek-V3",            "topic": "infrastructure",  "branch": "main"},
+    {"url": "https://github.com/microsoft/unilm",                    "topic": "infrastructure",  "branch": "master"},
+    {"url": "https://github.com/pytorch/torchtune",                  "topic": "infrastructure",  "branch": "main"}
+  ],
+  "trending_query": "language:python (robotics OR \"world model\" OR \"diffusion policy\" OR VLA OR \"video generation\" OR LLM) stars:>200 pushed:>2026-04-01",
+  "cache_dir": "/tmp/daily_code_cache",
+  "topic_rotation": ["robotics", "diffusion", "infrastructure"],
+  "min_file_lines": 30,
+  "max_snippet_lines": 120
+}
