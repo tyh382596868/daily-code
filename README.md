@@ -10,7 +10,9 @@ real code → step-by-step walkthrough → vivid analogy → minimal runnable ex
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
-_Run `daily code` to generate the first entry._
+- **2026-05-25** · diffusion · [CEM planning inside a learned world model](2026/05/2026-05-25-nano-world-model-cem-planner.md) — `simchowitzlabpublic/nano-world-model`
+- **2026-05-25** · diffusion · [DiT's adaLN-Zero block](2026/05/2026-05-25-dit-adaln-zero-block.md) — `facebookresearch/DiT`
+- **2026-05-10** · robotics · [OpenVLA action tokenizer](2026/05/2026-05-10-openvla-action-tokenizer-example.md) — `openvla/openvla`
 
 ## Topics
 
