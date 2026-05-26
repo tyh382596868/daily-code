@@ -32,7 +32,9 @@
     {"url": "https://github.com/QwenLM/Qwen2.5",                     "topic": "infrastructure",  "branch": "main"},
     {"url": "https://github.com/deepseek-ai/DeepSeek-V3",            "topic": "infrastructure",  "branch": "main"},
     {"url": "https://github.com/microsoft/unilm",                    "topic": "infrastructure",  "branch": "master"},
-    {"url": "https://github.com/pytorch/torchtune",                  "topic": "infrastructure",  "branch": "main"}
+    {"url": "https://github.com/pytorch/torchtune",                  "topic": "infrastructure",  "branch": "main"},
+    {"url": "https://github.com/karpathy/nanoGPT",                   "topic": "infrastructure",  "branch": "master"},
+    {"url": "https://github.com/huggingface/nanoVLM",                "topic": "infrastructure",  "branch": "main"}
   ],
   "trending_query": "language:python (robotics OR \"world model\" OR \"diffusion policy\" OR VLA OR \"video generation\" OR LLM) stars:>200 pushed:>2026-04-01",
   "cache_dir": "/tmp/daily_code_cache",
