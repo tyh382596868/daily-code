@@ -10,6 +10,8 @@ real code → step-by-step walkthrough → vivid analogy → minimal runnable ex
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-05-26** · infrastructure · [StreamingLLM in 30 lines](2026/05/2026-05-26-kvpress-streaming-llm.md) — `NVIDIA/kvpress`
+- **2026-05-26** · infrastructure · [vLLM's intrusive doubly-linked list for KV cache LRU](2026/05/2026-05-26-vllm-intrusive-lru-queue.md) — `vllm-project/vllm`
 - **2026-05-25** · diffusion · [CEM planning inside a learned world model](2026/05/2026-05-25-nano-world-model-cem-planner.md) — `simchowitzlabpublic/nano-world-model`
 - **2026-05-25** · diffusion · [DiT's adaLN-Zero block](2026/05/2026-05-25-dit-adaln-zero-block.md) — `facebookresearch/DiT`
 - **2026-05-10** · robotics · [OpenVLA action tokenizer](2026/05/2026-05-10-openvla-action-tokenizer-example.md) — `openvla/openvla`
