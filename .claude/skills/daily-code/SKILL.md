@@ -41,4 +41,6 @@ If `.config/tracked-repos.json` does not exist:
 
 ## Output format
 
-All notes are written in **English**, following the code-snippet + explanation + analogy template defined in `/daily-code-teach`.
+All notes are written in **bilingual format — Chinese (中文) + English** in every prose
+section, following the code-snippet + explanation + analogy template defined in
+`/daily-code-teach`. Code blocks appear once and are not translated.
