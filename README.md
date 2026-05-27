@@ -10,11 +10,11 @@ real code → step-by-step walkthrough → vivid analogy → minimal runnable ex
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-05-27** · diffusion · [MPPI's softmax update: the heart of model-based planning in 30 lines](2026/05/2026-05-27-stable-worldmodel-mppi.md) — `galilai-group/stable-worldmodel`
+- **2026-05-27** · diffusion · [SIGReg: single-GPU isotropic-Gaussian regularization via random projections](2026/05/2026-05-27-le-wm-sigreg.md) — `lucas-maes/le-wm`
 - **2026-05-26** · robotics · [ReinFlow: rectified flow refactored into PyTorch modules](2026/05/2026-05-26-reinflow-rectified-flow.md) — `ReinFlow/ReinFlow`
 - **2026-05-26** · robotics · [π₀'s flow matching loss in 25 lines](2026/05/2026-05-26-openpi-flow-matching-loss.md) — `Physical-Intelligence/openpi`
 - **2026-05-26** · infrastructure · [StreamingLLM in 30 lines](2026/05/2026-05-26-kvpress-streaming-llm.md) — `NVIDIA/kvpress`
-- **2026-05-26** · infrastructure · [vLLM's intrusive doubly-linked list for KV cache LRU](2026/05/2026-05-26-vllm-intrusive-lru-queue.md) — `vllm-project/vllm`
-- **2026-05-25** · diffusion · [CEM planning inside a learned world model](2026/05/2026-05-25-nano-world-model-cem-planner.md) — `simchowitzlabpublic/nano-world-model`
 
 ## Topics
 
