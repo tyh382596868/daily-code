@@ -4,9 +4,9 @@ description: |
   Daily code learning entry point. Trigger when user says "daily code", "today's code",
   "今日 daily code", "code of the day", "学一段代码", "今日学点代码".
 
-  Internally chains two steps: fetch candidate teaching points from tracked repos +
-  one trending project, then write educational markdown notes. Output: 2 notes per day
-  saved to the daily-code repo (one from a tracked repo, one from a discovered project).
+  Internally chains two steps: fetch candidate teaching points (tracked-rotation repo,
+  pytorch/pytorch, a HuggingFace main library, and one trending project), then write
+  educational markdown notes. Output: **4** notes per day saved to the daily-code repo.
 ---
 
 # Daily Code
@@ -22,7 +22,7 @@ One-line entry for the daily code learning system. The user should normally just
 1. Auto-invoke `/daily-code-fetch` (Step 1: pick teaching point candidates).
 2. After Step 1, auto-invoke `/daily-code-teach` (Step 2: write educational notes).
 3. After all done, tell the user in one sentence:
-   - How many notes were generated (always 2: tracked + trending)
+   - How many notes were generated (always 4: tracked + pytorch + huggingface + trending)
    - Where they were saved
    - Whether INDEX.md was refreshed
 

@@ -1,8 +1,10 @@
 # Daily Code
 
-One curated code teaching point every day, picked from tracked open-source projects
-in **robotics**, **diffusion models**, and **ML infrastructure** — plus one freshly-discovered
-quality project from the wider community.
+Four curated code teaching points every day:
+1. one from the **tracked** repos (rotates over robotics / diffusion / infrastructure),
+2. one from **PyTorch** (`pytorch/pytorch` internals),
+3. one from a **Hugging Face** main library (`transformers` / `diffusers` / `accelerate` / `peft` / `trl` / `datasets` / `tokenizers` / `nanoVLM`),
+4. one **trending** project freshly discovered from GitHub.
 
 Each entry is short (~10 minutes to read), self-contained, and follows a fixed template:
 real code → step-by-step walkthrough → vivid analogy → minimal runnable example.
@@ -10,17 +12,19 @@ real code → step-by-step walkthrough → vivid analogy → minimal runnable ex
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-05-27** · huggingface · [PEFT's LoRA forward: one line of addition is the whole algorithm](2026/05/2026-05-27-huggingface-peft-lora-forward.md) — `huggingface/peft`
+- **2026-05-27** · pytorch · [Muon's Newton-Schulz orthogonalization in 5 bf16 matmuls](2026/05/2026-05-27-pytorch-muon-newton-schulz.md) — `pytorch/pytorch`
 - **2026-05-27** · diffusion · [MPPI's softmax update: the heart of model-based planning in 30 lines](2026/05/2026-05-27-stable-worldmodel-mppi.md) — `galilai-group/stable-worldmodel`
 - **2026-05-27** · diffusion · [SIGReg: single-GPU isotropic-Gaussian regularization via random projections](2026/05/2026-05-27-le-wm-sigreg.md) — `lucas-maes/le-wm`
 - **2026-05-26** · robotics · [ReinFlow: rectified flow refactored into PyTorch modules](2026/05/2026-05-26-reinflow-rectified-flow.md) — `ReinFlow/ReinFlow`
-- **2026-05-26** · robotics · [π₀'s flow matching loss in 25 lines](2026/05/2026-05-26-openpi-flow-matching-loss.md) — `Physical-Intelligence/openpi`
-- **2026-05-26** · infrastructure · [StreamingLLM in 30 lines](2026/05/2026-05-26-kvpress-streaming-llm.md) — `NVIDIA/kvpress`
 
 ## Topics
 
 - [Robotics](topics/robotics.md) — VLA, manipulation, locomotion
 - [Diffusion / World Model](topics/diffusion.md) — generative models, video diffusion
 - [Infrastructure](topics/infrastructure.md) — serving, kernels, training systems
+- [PyTorch](topics/pytorch.md) — framework internals (optimizers, autograd, distributed, compile)
+- [Hugging Face](topics/huggingface.md) — transformers, diffusers, accelerate, peft, trl, datasets, tokenizers
 
 ## Full archive
 
