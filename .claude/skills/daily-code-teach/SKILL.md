@@ -2,9 +2,9 @@
 name: daily-code-teach
 description: |
   Daily code teaching note writer (Step 2 of 2 pipeline). Reads candidates from
-  /tmp/daily_code_candidates.json, fetches the actual code, writes 2 educational
-  markdown notes (one from tracked repos, one from a trending project) in
-  **bilingual Chinese + English** format, updates INDEX.md and topic indexes.
+  /tmp/daily_code_candidates.json, fetches the actual code, writes **4** educational
+  markdown notes (tracked, pytorch, huggingface, trending) in **bilingual Chinese +
+  English** format, updates INDEX.md and topic indexes.
 
   Triggers: "write daily code notes", "跑一下 daily code 笔记", debugging Step 2 only.
 ---
@@ -14,8 +14,8 @@ description: |
 # Daily Code Teach
 
 You are the educational note writer. Take candidates from Step 1, fetch the actual
-source code, and produce 2 high-quality teaching notes in **bilingual format
-(Chinese + English)**.
+source code, and produce **4** high-quality teaching notes in **bilingual format
+(Chinese + English)** — one each for `tracked`, `pytorch`, `huggingface`, and `trending`.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Check that `/tmp/daily_code_candidates.json` exists. If not, tell the user to ru
 
 ## Step 1: Fetch the actual code
 
-For each candidate (`tracked` and `trending`):
+For **each** candidate in the JSON — `tracked`, `pytorch`, `huggingface`, `trending`:
 
 1. Use the cached clone from `{cache_dir}/{repo_name}` (Step 1 already cloned them).
 2. Read the file specified by `file` and the line range `lines`.
@@ -40,8 +40,8 @@ Use this **exact template** for each note. Output language: **bilingual — Chin
 ```markdown
 ---
 date: YYYY-MM-DD
-topic: robotics | diffusion | infrastructure
-source: tracked | trending
+topic: robotics | diffusion | infrastructure | pytorch | huggingface
+source: tracked | trending | pytorch | huggingface
 repo: owner/name
 file: path/to/file.py
 permalink: https://github.com/.../blob/{sha}/path#L20-L95
@@ -143,18 +143,30 @@ python try.py
 
 ## Step 3: Save and index
 
-Save each note to `{YYYY}/{MM}/{YYYY-MM-DD}-{slug}.md`.
+Save each note to `{YYYY}/{MM}/{YYYY-MM-DD}-{slug}.md`. Suggested slug prefixes:
+- `tracked`: `{repo-name}-{concept}` (e.g. `le-wm-sigreg`)
+- `pytorch`: `pytorch-{concept}` (e.g. `pytorch-foreach-adamw`)
+- `huggingface`: `{hf-lib}-{concept}` (e.g. `peft-lora-layer`)
+- `trending`: `{repo-name}-{concept}` (e.g. `stable-worldmodel-mppi`)
 
-Update INDEX.md (newest first), README.md (Latest section, last 5), topics/{topic}.md.
+For the **pytorch** note, set `topic: pytorch` in frontmatter and update
+`topics/pytorch.md`. For the **huggingface** note, set `topic: huggingface` and
+update `topics/huggingface.md`. The `tracked` and `trending` notes still use the
+rotation topic (robotics / diffusion / infrastructure).
+
+Then update:
+- `INDEX.md` (newest first — add **4 rows** with one row per note)
+- `README.md` (Latest section, last 5 entries)
+- `topics/{topic}.md` for each topic that received a note today
 
 ## Step 4: Commit (optional)
 
 If the user mentioned pushing: stage all files, commit with message
-`daily code: YYYY-MM-DD {topic} ({tracked-repo} + {trending-repo})`, push.
+`daily code: YYYY-MM-DD {topic} (tracked + pytorch + huggingface + trending)`, push.
 
 ## Notes
 
-- Do NOT skip the trending note.
+- Do NOT skip any of the four notes.
 - Always produce **bilingual** output — Chinese + English in every prose section.
   Past notes (before this skill update) may be English-only; do NOT retroactively
   rewrite them unless the user explicitly asks.

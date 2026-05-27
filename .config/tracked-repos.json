@@ -13,7 +13,6 @@
     {"url": "https://github.com/Robbyant/lingbot-va",                "topic": "robotics",        "branch": "main"},
     {"url": "https://github.com/dreamzero0/dreamzero",               "topic": "robotics",        "branch": "main"},
 
-    {"url": "https://github.com/huggingface/diffusers",              "topic": "diffusion",       "branch": "main"},
     {"url": "https://github.com/NVlabs/Cosmos",                      "topic": "diffusion",       "branch": "main"},
     {"url": "https://github.com/Wan-Video/Wan2.1",                   "topic": "diffusion",       "branch": "main"},
     {"url": "https://github.com/facebookresearch/DiT",               "topic": "diffusion",       "branch": "main"},
@@ -27,15 +26,35 @@
 
     {"url": "https://github.com/vllm-project/vllm",                  "topic": "infrastructure",  "branch": "main"},
     {"url": "https://github.com/Dao-AILab/flash-attention",          "topic": "infrastructure",  "branch": "main"},
-    {"url": "https://github.com/huggingface/transformers",           "topic": "infrastructure",  "branch": "main"},
     {"url": "https://github.com/meta-llama/llama-models",            "topic": "infrastructure",  "branch": "main"},
     {"url": "https://github.com/QwenLM/Qwen2.5",                     "topic": "infrastructure",  "branch": "main"},
     {"url": "https://github.com/deepseek-ai/DeepSeek-V3",            "topic": "infrastructure",  "branch": "main"},
     {"url": "https://github.com/microsoft/unilm",                    "topic": "infrastructure",  "branch": "master"},
     {"url": "https://github.com/pytorch/torchtune",                  "topic": "infrastructure",  "branch": "main"},
-    {"url": "https://github.com/karpathy/nanoGPT",                   "topic": "infrastructure",  "branch": "master"},
-    {"url": "https://github.com/huggingface/nanoVLM",                "topic": "infrastructure",  "branch": "main"}
+    {"url": "https://github.com/karpathy/nanoGPT",                   "topic": "infrastructure",  "branch": "master"}
   ],
+
+  "_pytorch_comment": "pytorch/pytorch is huge (~250MB+). Shallow-clone with depth=30 and restrict scanning to scan_paths.",
+  "pytorch_repo": {
+    "url": "https://github.com/pytorch/pytorch",
+    "branch": "main",
+    "clone_depth": 30,
+    "scan_paths": ["torch/nn", "torch/optim", "torch/utils", "torch/distributed", "torch/_dynamo", "torch/_inductor", "torch/cuda", "torch/autograd", "torch/func"],
+    "exclude_paths": ["torch/testing", "torch/_internal", "torch/_C"]
+  },
+
+  "_huggingface_comment": "Daily HF teaching point is picked from one of these main libraries (rotates).",
+  "huggingface_repos": [
+    {"url": "https://github.com/huggingface/transformers",  "branch": "main"},
+    {"url": "https://github.com/huggingface/diffusers",     "branch": "main"},
+    {"url": "https://github.com/huggingface/accelerate",    "branch": "main"},
+    {"url": "https://github.com/huggingface/datasets",      "branch": "main"},
+    {"url": "https://github.com/huggingface/peft",          "branch": "main"},
+    {"url": "https://github.com/huggingface/trl",           "branch": "main"},
+    {"url": "https://github.com/huggingface/tokenizers",    "branch": "main"},
+    {"url": "https://github.com/huggingface/nanoVLM",       "branch": "main"}
+  ],
+
   "trending_query": "language:python (robotics OR \"world model\" OR \"diffusion policy\" OR VLA OR \"video generation\" OR LLM) stars:>200 pushed:>2026-04-01",
   "cache_dir": "/tmp/daily_code_cache",
   "topic_rotation": ["robotics", "diffusion", "infrastructure"],

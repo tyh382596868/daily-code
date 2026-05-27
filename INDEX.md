@@ -8,6 +8,8 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-05-27 | huggingface | [PEFT's LoRA forward: one line of addition is the whole algorithm](2026/05/2026-05-27-huggingface-peft-lora-forward.md) | [huggingface/peft](https://github.com/huggingface/peft) (huggingface) |
+| 2026-05-27 | pytorch | [Muon's Newton-Schulz orthogonalization in 5 bf16 matmuls](2026/05/2026-05-27-pytorch-muon-newton-schulz.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-05-27 | diffusion | [MPPI's softmax update: the heart of model-based planning in 30 lines](2026/05/2026-05-27-stable-worldmodel-mppi.md) | [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel) (trending) |
 | 2026-05-27 | diffusion | [SIGReg: single-GPU isotropic-Gaussian regularization via random projections](2026/05/2026-05-27-le-wm-sigreg.md) | [lucas-maes/le-wm](https://github.com/lucas-maes/le-wm) (tracked) |
 | 2026-05-26 | robotics | [ReinFlow: rectified flow refactored into PyTorch modules](2026/05/2026-05-26-reinflow-rectified-flow.md) | [ReinFlow/ReinFlow](https://github.com/ReinFlow/ReinFlow) (trending) |
