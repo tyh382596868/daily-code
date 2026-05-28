@@ -16,11 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-05-28** · wam · [A complete rectified-flow scheduler in 90 lines](2026/05/2026-05-28-wam-dreamzero-flow-match-scheduler.md) — `dreamzero0/dreamzero`
+- **2026-05-28** · vla · [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](2026/05/2026-05-28-vla-openvla-training-step.md) — `openvla/openvla`
 - **2026-05-28** · infrastructure · [DyT (Dynamic Tanh): a "normalization" Triton kernel that does no reduction](2026/05/2026-05-28-liger-kernel-dyt-triton.md) — `linkedin/Liger-Kernel`
 - **2026-05-28** · huggingface · [A closure that re-ties weights after FSDP2 silently breaks them](2026/05/2026-05-28-accelerate-fsdp2-weight-retie.md) — `huggingface/accelerate`
 - **2026-05-28** · pytorch · [Composable activation checkpointing with forward hooks and a generator](2026/05/2026-05-28-pytorch-composable-activation-checkpoint.md) — `pytorch/pytorch`
 - **2026-05-28** · infrastructure · [Wrapping NCCL collectives as differentiable ops: flash-attention's 30-line sequence-parallel primitives](2026/05/2026-05-28-flash-attention-sequence-parallel-autograd.md) — `Dao-AILab/flash-attention`
-- **2026-05-27** · huggingface · [PEFT's LoRA forward: one line of addition is the whole algorithm](2026/05/2026-05-27-huggingface-peft-lora-forward.md) — `huggingface/peft`
 
 ## Topics
 
