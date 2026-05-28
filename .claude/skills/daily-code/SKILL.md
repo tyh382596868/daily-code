@@ -5,8 +5,9 @@ description: |
   "今日 daily code", "code of the day", "学一段代码", "今日学点代码".
 
   Internally chains two steps: fetch candidate teaching points (tracked-rotation repo,
-  pytorch/pytorch, a HuggingFace main library, and one trending project), then write
-  educational markdown notes. Output: **4** notes per day saved to the daily-code repo.
+  pytorch/pytorch, a HuggingFace main library, one VLA repo, one World-Action-Model repo,
+  and one trending project), then write educational markdown notes. Output: **6** notes
+  per day saved to the daily-code repo.
 ---
 
 # Daily Code
@@ -22,9 +23,16 @@ One-line entry for the daily code learning system. The user should normally just
 1. Auto-invoke `/daily-code-fetch` (Step 1: pick teaching point candidates).
 2. After Step 1, auto-invoke `/daily-code-teach` (Step 2: write educational notes).
 3. After all done, tell the user in one sentence:
-   - How many notes were generated (always 4: tracked + pytorch + huggingface + trending)
+   - How many notes were generated (always 6: tracked + pytorch + huggingface + vla + wam + trending)
    - Where they were saved
    - Whether INDEX.md was refreshed
+
+> **`vla` and `wam` tracks have a special teaching goal**: the user is building their own
+> `nanoVLA` / `nanoWAM` and a production-scale version from scratch. Picks must be
+> *components* (vision encoder, action head, scheduler, DiT block, VAE, training loop,
+> conditioning, etc.) — not configs, logging, or eval glue — and notes must explicitly
+> map each component to its role in a from-scratch build (see daily-code-teach SKILL.md
+> for the mandatory "在 nanoVLA / nanoWAM 中的位置" section).
 
 ## Important constraints
 

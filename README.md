@@ -1,13 +1,17 @@
 # Daily Code
 
-Four curated code teaching points every day:
+Six curated code teaching points every day:
 1. one from the **tracked** repos (rotates over robotics / diffusion / infrastructure),
 2. one from **PyTorch** (`pytorch/pytorch` internals),
 3. one from a **Hugging Face** main library (`transformers` / `diffusers` / `accelerate` / `peft` / `trl` / `datasets` / `tokenizers` / `nanoVLM`),
-4. one **trending** project freshly discovered from GitHub.
+4. one **VLA** component (rotates over `openvla` / `openvla-oft` / `lerobot` / `openpi` / `Isaac-GR00T` / `starVLA`) — chosen as a building block for a from-scratch `nanoVLA` / production VLA,
+5. one **World Action Model** component (rotates over `dreamzero` / `lingbot-va` / `FastWAM` / `Wan2.1` / `Open-Sora`) — chosen as a building block for a from-scratch `nanoWAM` / production WAM,
+6. one **trending** project freshly discovered from GitHub.
 
 Each entry is short (~10 minutes to read), self-contained, and follows a fixed template:
 real code → step-by-step walkthrough → vivid analogy → minimal runnable example.
+VLA and WAM entries additionally include a **"在 nanoVLA / nanoWAM 中的位置"** section
+that maps the component to its role in a from-scratch implementation.
 
 ## Latest
 
@@ -25,6 +29,8 @@ real code → step-by-step walkthrough → vivid analogy → minimal runnable ex
 - [Infrastructure](topics/infrastructure.md) — serving, kernels, training systems
 - [PyTorch](topics/pytorch.md) — framework internals (optimizers, autograd, distributed, compile)
 - [Hugging Face](topics/huggingface.md) — transformers, diffusers, accelerate, peft, trl, datasets, tokenizers
+- [VLA — build your own](topics/vla.md) — components for `nanoVLA` and production VLA
+- [WAM — build your own](topics/wam.md) — components for `nanoWAM` and production WAM
 
 ## Full archive
 
@@ -37,8 +43,11 @@ Each day the skill:
 
 1. **Scans** the repos listed in [`.config/tracked-repos.json`](.config/tracked-repos.json),
    picks one with recent activity matching today's topic in the rotation
-2. **Discovers** one trending project from GitHub matching the configured query
-3. **Writes** two teaching notes (one tracked + one trending) and indexes them
+2. **Picks** one teaching point from `pytorch/pytorch`, one from a rotating Hugging Face
+   main library, one from a rotating VLA repo, and one from a rotating WAM repo
+3. **Discovers** one trending project from GitHub matching the configured query
+4. **Writes** six teaching notes (tracked + pytorch + huggingface + vla + wam + trending)
+   and indexes them
 
 ## Customize what's tracked
 

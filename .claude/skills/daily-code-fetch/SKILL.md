@@ -2,9 +2,10 @@
 name: daily-code-fetch
 description: |
   Daily code teaching-point fetcher (Step 1 of 2 pipeline). Scans tracked GitHub repos
-  + pytorch/pytorch + a rotating HuggingFace main library + discovers one trending
-  project, picks 1 teaching point from each, outputs candidate list to
-  /tmp/daily_code_candidates.json for the teach step.
+  + pytorch/pytorch + a rotating HuggingFace main library + a rotating VLA repo + a
+  rotating World-Action-Model repo + discovers one trending project, picks 1 teaching
+  point from each, outputs candidate list to /tmp/daily_code_candidates.json for the
+  teach step.
 
   Triggers: "fetch code candidates", "跑一下 daily code 抓取", debugging Step 1 only.
 ---
@@ -13,10 +14,18 @@ description: |
 
 # Daily Code Fetch
 
-You are the daily code candidate selector. Your job: pick **4** high-quality teaching points
+You are the daily code candidate selector. Your job: pick **6** high-quality teaching points
 — one from the curated topic-rotation list, one from `pytorch/pytorch`, one from a HuggingFace
-main library, and one fresh trending project — then output a JSON candidate file. **Do not
-write the educational notes** — that's the teach step's job.
+main library, one from a VLA repo, one from a World-Action-Model (WAM) repo, and one fresh
+trending project — then output a JSON candidate file. **Do not write the educational notes**
+— that's the teach step's job.
+
+> **Core teaching goal for `vla` and `wam`**: every pick must be a building block that the
+> user could plausibly translate into their own from-scratch implementation (`nanoVLA` or
+> `nanoWAM`) or a production system. Prefer **architectural components** (model wiring,
+> tokenizer, action head, scheduler, loss, training loop, conditioning logic) over peripheral
+> utilities (logging, configs, eval harnesses). Across a full rotation cycle, the picks should
+> collectively cover the major pieces needed to build the system end-to-end.
 
 ## Step 0: Load configuration
 
@@ -125,7 +134,63 @@ Pick a 40-150 line teaching point that demonstrates a HF-specific pattern:
 
 Avoid pure boilerplate. Prefer recent commits.
 
-## Step 5: Find one trending project
+## Step 5: Pick one VLA teaching point (REQUIRED, every day)
+
+Read `vla_repos` from config. **Rotate**: pick the next VLA repo that hasn't been used in
+the last N=`len(vla_repos)` days (check `INDEX.md` `vla` topic). Shallow-clone:
+
+```bash
+git clone --depth=50 --branch main --single-branch "$VLA_URL" "$CACHE/$VLA_NAME"
+```
+
+**Bias the pick toward components needed to build a nano/production VLA.** Prefer files that
+implement one of:
+
+- **vision / observation encoder** — how images become tokens (e.g. SigLIP / DINO patch embed,
+  multi-camera fusion, proprioception encoder)
+- **action tokenizer / action head** — discrete action bins, continuous regressor, flow-matching
+  head, diffusion head (e.g. openvla `action_tokenizer.py`, openpi flow-matching head)
+- **VLM backbone wiring** — how prefix tokens, image tokens, action tokens are interleaved and
+  fed to the transformer
+- **training step** — the actual loss assembly: cross-entropy on discrete actions, flow-matching
+  loss on continuous actions, BC + RT-2 style autoregressive
+- **action chunking / horizon prediction** — how multi-step action sequences are produced and
+  unrolled (RT-style, openvla-oft style)
+- **fine-tune script / LoRA application** — the practical entry-point for adapting to a new robot
+- **inference loop** — how observations are streamed and actions are produced at runtime
+
+Avoid dataset glue, logging, configs, and pure eval harnesses unless they teach a unique idea.
+Pick something **different from yesterday's vla entry**.
+
+## Step 6: Pick one World-Action-Model (WAM) teaching point (REQUIRED, every day)
+
+Read `wam_repos` from config. **Rotate**: pick the next WAM repo that hasn't been used in
+the last N=`len(wam_repos)` days (check `INDEX.md` `wam` topic). Shallow-clone:
+
+```bash
+git clone --depth=50 --branch main --single-branch "$WAM_URL" "$CACHE/$WAM_NAME"
+```
+
+**Bias the pick toward components needed to build a nano/production World Action Model.** Prefer
+files that implement one of:
+
+- **VAE / latent encoder / decoder** — pixel ↔ latent compression, temporal 3D VAE
+- **DiT-style backbone block** — spatial / temporal attention, adaLN-Zero modulation,
+  patch embedding, rotary position
+- **noise scheduler / flow matcher** — DDPM / DDIM / rectified-flow training and sampling
+  schedules
+- **conditioning logic** — text encoder (T5 / CLIP / Qwen) attached via cross-attention,
+  action conditioning, classifier-free guidance dropout
+- **training loop** — full denoising-step loss assembly with the right preconditioning
+- **inference loop** — sampler (Euler / Heun), step counts, CFG combine, latent → pixel decode
+- **temporal compression / frame fusion** — patchifying space + time, causal video masking
+- **action-frame fusion** — how robot actions are projected into the same latent stream as
+  visual frames (this is the "A" in WAM)
+
+Avoid dataset glue, configs, and visualization scripts unless they encode a unique algorithmic
+idea. Pick something **different from yesterday's wam entry**.
+
+## Step 7: Find one trending project
 
 Use GitHub search API to find one fresh, high-quality project matching `trending_query`:
 
@@ -138,15 +203,15 @@ Filter results:
 - Stars: 200-50000 (skip mega-projects already over-covered)
 - Updated within last 14 days
 - Has a README in English
-- Not already in `tracked_repos` / `pytorch_repo` / `huggingface_repos`
+- Not already in `tracked_repos` / `pytorch_repo` / `huggingface_repos` / `vla_repos` / `wam_repos`
 - Not already covered in `INDEX.md` (last 60 days)
 
 Pick 1 project. Identify its most interesting single file (typically `main.py`, the core
 algorithm module, or whatever the README points to as "the implementation").
 
-## Step 6: Output candidates JSON
+## Step 8: Output candidates JSON
 
-Write `/tmp/daily_code_candidates.json` with **four** entries:
+Write `/tmp/daily_code_candidates.json` with **six** entries:
 
 ```json
 {
@@ -180,6 +245,26 @@ Write `/tmp/daily_code_candidates.json` with **four** entries:
     "concept_hint": "...",
     "why_interesting": "..."
   },
+  "vla": {
+    "repo": "openvla/openvla",
+    "repo_url": "https://github.com/openvla/openvla",
+    "file": "prismatic/vla/action_tokenizer.py",
+    "lines": "20-95",
+    "permalink": "https://github.com/openvla/openvla/blob/{sha}/prismatic/vla/action_tokenizer.py#L20-L95",
+    "concept_hint": "which architectural component this is (action tokenizer / vision encoder / action head / training step / ...)",
+    "why_interesting": "WHY this component matters for building a complete VLA from scratch",
+    "nano_vla_mapping": "what role this same component plays in your nanoVLA / production VLA"
+  },
+  "wam": {
+    "repo": "Wan-Video/Wan2.1",
+    "repo_url": "https://github.com/Wan-Video/Wan2.1",
+    "file": "wan/modules/dit.py",
+    "lines": "20-95",
+    "permalink": "https://github.com/Wan-Video/Wan2.1/blob/{sha}/wan/modules/dit.py#L20-L95",
+    "concept_hint": "which architectural component this is (VAE / DiT block / scheduler / conditioning / training step / sampler / ...)",
+    "why_interesting": "WHY this component matters for building a complete WAM from scratch",
+    "nano_wam_mapping": "what role this same component plays in your nanoWAM / production WAM"
+  },
   "trending": {
     "repo": "owner/name",
     "repo_url": "...",
@@ -210,7 +295,11 @@ If the repo skeleton does not exist, create:
 ├── topics/
 │   ├── robotics.md          # auto-generated topic index
 │   ├── diffusion.md
-│   └── infrastructure.md
+│   ├── infrastructure.md
+│   ├── pytorch.md
+│   ├── huggingface.md
+│   ├── vla.md               # NEW: components for building nanoVLA / production VLA
+│   └── wam.md               # NEW: components for building nanoWAM / production WAM
 └── YYYY/
     └── MM/                  # entries land here as YYYY-MM-DD-{slug}.md
 ```
@@ -222,6 +311,7 @@ Use the README template at the bottom of this file.
 Tell the user:
 - Today's topic
 - Which tracked repo + file was picked
+- Which pytorch / huggingface / vla / wam files were picked
 - Which trending project was picked
 - Prompt: ready to run `/daily-code-teach`
 
@@ -243,6 +333,10 @@ quality project.
 - [Robotics](topics/robotics.md)
 - [Diffusion / World Model](topics/diffusion.md)
 - [Infrastructure](topics/infrastructure.md)
+- [PyTorch](topics/pytorch.md)
+- [Hugging Face](topics/huggingface.md)
+- [VLA — build your own](topics/vla.md)
+- [WAM — build your own](topics/wam.md)
 
 ## Full archive
 

@@ -55,6 +55,25 @@
     {"url": "https://github.com/huggingface/nanoVLM",       "branch": "main"}
   ],
 
+  "_vla_comment": "Daily VLA teaching point — selected to teach components needed to BUILD a complete nano/production VLA from scratch (vision encoder, action tokenizer / action head, observation encoder, training loop, fine-tune scripts, action chunking, flow matching loss, etc.). Rotates daily across the listed repos.",
+  "vla_repos": [
+    {"url": "https://github.com/openvla/openvla",              "branch": "main"},
+    {"url": "https://github.com/openvla/openvla-oft",          "branch": "main"},
+    {"url": "https://github.com/huggingface/lerobot",          "branch": "main"},
+    {"url": "https://github.com/Physical-Intelligence/openpi", "branch": "main"},
+    {"url": "https://github.com/NVIDIA/Isaac-GR00T",           "branch": "main"},
+    {"url": "https://github.com/starVLA/starVLA",              "branch": "main"}
+  ],
+
+  "_wam_comment": "Daily World Action Model (WAM) teaching point — selected to teach components needed to BUILD a complete nano/production WAM from scratch (VAE / latent encoder, DiT-style backbone, noise scheduler, action/text/image conditioning, classifier-free guidance, training loop, inference loop, temporal compression, action-frame fusion, etc.). Rotates daily across the listed repos.",
+  "wam_repos": [
+    {"url": "https://github.com/dreamzero0/dreamzero",         "branch": "main"},
+    {"url": "https://github.com/Robbyant/lingbot-va",          "branch": "main"},
+    {"url": "https://github.com/yuantianyuan01/FastWAM",       "branch": "main"},
+    {"url": "https://github.com/Wan-Video/Wan2.1",             "branch": "main"},
+    {"url": "https://github.com/PKU-YuanGroup/Open-Sora",      "branch": "main"}
+  ],
+
   "trending_query": "language:python (robotics OR \"world model\" OR \"diffusion policy\" OR VLA OR \"video generation\" OR LLM) stars:>200 pushed:>2026-04-01",
   "cache_dir": "/tmp/daily_code_cache",
   "topic_rotation": ["robotics", "diffusion", "infrastructure"],
