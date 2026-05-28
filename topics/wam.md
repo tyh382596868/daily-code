@@ -16,5 +16,6 @@ action-frame fusion.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-05-28 | noise scheduler / flow matcher | [A complete rectified-flow scheduler in 90 lines](../2026/05/2026-05-28-wam-dreamzero-flow-match-scheduler.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 
 <!-- entries auto-appended by daily-code-teach, newest first -->

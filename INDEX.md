@@ -8,6 +8,8 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-05-28 | wam | [A complete rectified-flow scheduler in 90 lines](2026/05/2026-05-28-wam-dreamzero-flow-match-scheduler.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) (wam) |
+| 2026-05-28 | vla | [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](2026/05/2026-05-28-vla-openvla-training-step.md) | [openvla/openvla](https://github.com/openvla/openvla) (vla) |
 | 2026-05-28 | infrastructure | [DyT (Dynamic Tanh): a "normalization" Triton kernel that does no reduction](2026/05/2026-05-28-liger-kernel-dyt-triton.md) | [linkedin/Liger-Kernel](https://github.com/linkedin/Liger-Kernel) (trending) |
 | 2026-05-28 | huggingface | [A closure that re-ties weights after FSDP2 silently breaks them](2026/05/2026-05-28-accelerate-fsdp2-weight-retie.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |
 | 2026-05-28 | pytorch | [Composable activation checkpointing with forward hooks and a generator](2026/05/2026-05-28-pytorch-composable-activation-checkpoint.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |

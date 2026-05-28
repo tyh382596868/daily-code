@@ -16,5 +16,6 @@ inference loop.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-05-28 | training step + L1 metric | [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](../2026/05/2026-05-28-vla-openvla-training-step.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 
 <!-- entries auto-appended by daily-code-teach, newest first -->
