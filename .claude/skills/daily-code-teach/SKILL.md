@@ -2,9 +2,9 @@
 name: daily-code-teach
 description: |
   Daily code teaching note writer (Step 2 of 2 pipeline). Reads candidates from
-  /tmp/daily_code_candidates.json, fetches the actual code, writes **4** educational
-  markdown notes (tracked, pytorch, huggingface, trending) in **bilingual Chinese +
-  English** format, updates INDEX.md and topic indexes.
+  /tmp/daily_code_candidates.json, fetches the actual code, writes **6** educational
+  markdown notes (tracked, pytorch, huggingface, vla, wam, trending) in **bilingual
+  Chinese + English** format, updates INDEX.md and topic indexes.
 
   Triggers: "write daily code notes", "跑一下 daily code 笔记", debugging Step 2 only.
 ---
@@ -14,8 +14,23 @@ description: |
 # Daily Code Teach
 
 You are the educational note writer. Take candidates from Step 1, fetch the actual
-source code, and produce **4** high-quality teaching notes in **bilingual format
-(Chinese + English)** — one each for `tracked`, `pytorch`, `huggingface`, and `trending`.
+source code, and produce **6** high-quality teaching notes in **bilingual format
+(Chinese + English)** — one each for `tracked`, `pytorch`, `huggingface`, `vla`, `wam`,
+and `trending`.
+
+> **Special focus for `vla` and `wam` notes**: the user is building their own
+> `nanoVLA` / `nanoWAM` (educational) and a production-scale VLA / WAM. Every note in
+> these two tracks should answer the implicit question "**how would I write this in my
+> own from-scratch implementation?**". In addition to the standard template:
+>
+> - Use the `nano_vla_mapping` / `nano_wam_mapping` field from the candidate JSON to seed
+>   a dedicated **"在 nanoVLA / nanoWAM 中的位置 / Where this lives in your nano-{VLA,WAM}"** section.
+> - The *Try it yourself* example should be a **minimal standalone re-implementation** of
+>   the component (no `pip install openvla` shortcuts), so the user can drop it into their
+>   own codebase.
+> - The "在别处也能看到这个模式" section should connect to the sibling repos in the same
+>   rotation (e.g. when teaching openpi's flow-matching head, mention how openvla-oft's
+>   continuous head and lerobot's diffusion head solve the same problem differently).
 
 ## Prerequisites
 
@@ -24,7 +39,7 @@ Check that `/tmp/daily_code_candidates.json` exists. If not, tell the user to ru
 
 ## Step 1: Fetch the actual code
 
-For **each** candidate in the JSON — `tracked`, `pytorch`, `huggingface`, `trending`:
+For **each** candidate in the JSON — `tracked`, `pytorch`, `huggingface`, `vla`, `wam`, `trending`:
 
 1. Use the cached clone from `{cache_dir}/{repo_name}` (Step 1 already cloned them).
 2. Read the file specified by `file` and the line range `lines`.
@@ -40,14 +55,15 @@ Use this **exact template** for each note. Output language: **bilingual — Chin
 ```markdown
 ---
 date: YYYY-MM-DD
-topic: robotics | diffusion | infrastructure | pytorch | huggingface
-source: tracked | trending | pytorch | huggingface
+topic: robotics | diffusion | infrastructure | pytorch | huggingface | vla | wam
+source: tracked | trending | pytorch | huggingface | vla | wam
 repo: owner/name
 file: path/to/file.py
 permalink: https://github.com/.../blob/{sha}/path#L20-L95
 difficulty: beginner | intermediate | advanced
 read_time: ~10 min
 tags: [code-of-the-day, {topic}, {specific-technique}]
+build_role: <only for vla/wam: which component of a from-scratch nano/production system this is>
 ---
 
 # {中文标题} / {English Title}
@@ -84,6 +100,18 @@ tags: [code-of-the-day, {topic}, {specific-technique}]
 {中文段落:用一个具体的日常事物作类比。}
 
 {English paragraph: same analogy, written natively in English.}
+
+## 在 nanoVLA / nanoWAM 中的位置 / Where this lives in your nano-{VLA,WAM}
+
+> **Only include this section for `vla` and `wam` notes.** Skip entirely for tracked /
+> pytorch / huggingface / trending.
+
+{中文段落:这个组件在你自己从头搭的 nano 系统里对应哪个模块?它的输入输出是什么?上游/下游是谁?如果省掉这个组件会发生什么?生产级实现还需要补哪些细节?}
+
+{English paragraph: which module does this component map to in your from-scratch nano
+system? What are its inputs and outputs? Who feeds it upstream and who consumes its
+output downstream? What happens if you omit it? What does a production implementation
+need to add on top of this minimal version?}
 
 ## 自己跑一遍 / Try it yourself
 
@@ -147,26 +175,34 @@ Save each note to `{YYYY}/{MM}/{YYYY-MM-DD}-{slug}.md`. Suggested slug prefixes:
 - `tracked`: `{repo-name}-{concept}` (e.g. `le-wm-sigreg`)
 - `pytorch`: `pytorch-{concept}` (e.g. `pytorch-foreach-adamw`)
 - `huggingface`: `{hf-lib}-{concept}` (e.g. `peft-lora-layer`)
+- `vla`: `vla-{repo-name}-{concept}` (e.g. `vla-openvla-action-tokenizer`, `vla-openpi-flow-matching-head`)
+- `wam`: `wam-{repo-name}-{concept}` (e.g. `wam-wan21-dit-block`, `wam-open-sora-3d-vae`)
 - `trending`: `{repo-name}-{concept}` (e.g. `stable-worldmodel-mppi`)
 
 For the **pytorch** note, set `topic: pytorch` in frontmatter and update
 `topics/pytorch.md`. For the **huggingface** note, set `topic: huggingface` and
-update `topics/huggingface.md`. The `tracked` and `trending` notes still use the
-rotation topic (robotics / diffusion / infrastructure).
+update `topics/huggingface.md`. For the **vla** note, set `topic: vla` and update
+`topics/vla.md`. For the **wam** note, set `topic: wam` and update `topics/wam.md`.
+The `tracked` and `trending` notes still use the rotation topic (robotics / diffusion
+/ infrastructure).
 
 Then update:
-- `INDEX.md` (newest first — add **4 rows** with one row per note)
-- `README.md` (Latest section, last 5 entries)
-- `topics/{topic}.md` for each topic that received a note today
+- `INDEX.md` (newest first — add **6 rows** with one row per note)
+- `README.md` (Latest section, last 6-8 entries to cover a full day)
+- `topics/{topic}.md` for each topic that received a note today (today's topic +
+  `pytorch` + `huggingface` + `vla` + `wam` — five topic files updated per day, plus
+  trending if its topic differs)
 
 ## Step 4: Commit (optional)
 
 If the user mentioned pushing: stage all files, commit with message
-`daily code: YYYY-MM-DD {topic} (tracked + pytorch + huggingface + trending)`, push.
+`daily code: YYYY-MM-DD {topic} (tracked + pytorch + huggingface + vla + wam + trending)`, push.
 
 ## Notes
 
-- Do NOT skip any of the four notes.
+- Do NOT skip any of the six notes.
 - Always produce **bilingual** output — Chinese + English in every prose section.
   Past notes (before this skill update) may be English-only; do NOT retroactively
   rewrite them unless the user explicitly asks.
+- The "在 nanoVLA / nanoWAM 中的位置" section is **mandatory** for vla / wam notes
+  and **must not appear** in tracked / pytorch / huggingface / trending notes.
