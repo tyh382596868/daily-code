@@ -16,6 +16,7 @@ action-frame fusion.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-05-29 | attention masking (action-frame fusion) | [Seven mask predicates compose into one FlexAttention BlockMask for video + action](../2026/05/2026-05-29-wam-lingbot-flex-mask-compose.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) |
 | 2026-05-28 | noise scheduler / flow matcher | [A complete rectified-flow scheduler in 90 lines](../2026/05/2026-05-28-wam-dreamzero-flow-match-scheduler.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 
 <!-- entries auto-appended by daily-code-teach, newest first -->
