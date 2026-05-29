@@ -98,8 +98,8 @@
     "covered": [
       {"id": "action-tokenizer", "date": "2026-05-10", "note": "2026/05/2026-05-10-openvla-action-tokenizer-example.md", "repo": "openvla/openvla", "via": "tracked"},
       {"id": "modality-projector", "date": "2026-05-29", "note": "2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md", "repo": "huggingface/nanoVLM", "via": "huggingface"},
-      {"id": "vlm-backbone-wiring", "date": "2026-05-29", "note": "2026/05/2026-05-29-vla-smolvla-vlm-with-expert.md", "repo": "huggingface/lerobot", "via": "vla"},
-      {"id": "training-step", "date": "2026-05-28", "note": "2026/05/2026-05-28-vla-openvla-training-step.md", "repo": "openvla/openvla", "via": "vla"}
+      {"id": "vlm-backbone-wiring", "date": "2026-05-29", "note": "nano/vla/2026-05-29-smolvla-vlm-with-expert.md", "repo": "huggingface/lerobot", "via": "vla"},
+      {"id": "training-step", "date": "2026-05-28", "note": "nano/vla/2026-05-28-openvla-training-step.md", "repo": "openvla/openvla", "via": "vla"}
     ]
   },
 
@@ -204,8 +204,8 @@
     ],
     "covered": [
       {"id": "dit-block", "date": "2026-05-25", "note": "2026/05/2026-05-25-dit-adaln-zero-block.md", "repo": "facebookresearch/DiT", "via": "tracked"},
-      {"id": "noise-scheduler", "date": "2026-05-28", "note": "2026/05/2026-05-28-wam-dreamzero-flow-match-scheduler.md", "repo": "dreamzero0/dreamzero", "via": "wam"},
-      {"id": "action-conditioning", "date": "2026-05-29", "note": "2026/05/2026-05-29-wam-lingbot-flex-mask-compose.md", "repo": "Robbyant/lingbot-va", "via": "wam"}
+      {"id": "noise-scheduler", "date": "2026-05-28", "note": "nano/wam/2026-05-28-dreamzero-flow-match-scheduler.md", "repo": "dreamzero0/dreamzero", "via": "wam"},
+      {"id": "action-conditioning", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-flex-mask-compose.md", "repo": "Robbyant/lingbot-va", "via": "wam"}
     ]
   }
 }

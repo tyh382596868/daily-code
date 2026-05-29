@@ -178,12 +178,18 @@ python try.py
 
 ## Step 3: Save and index
 
-Save each note to `{YYYY}/{MM}/{YYYY-MM-DD}-{slug}.md`. Suggested slug prefixes:
+**Save paths depend on track:**
+- `tracked` / `pytorch` / `huggingface` / `trending` → `{YYYY}/{MM}/{YYYY-MM-DD}-{slug}.md`
+- `vla` → `nano/vla/{YYYY-MM-DD}-{slug}.md`  (flat, dated)
+- `wam` → `nano/wam/{YYYY-MM-DD}-{slug}.md`  (flat, dated)
+
+Suggested slug forms (the `vla-` / `wam-` prefix is **dropped** for files in `nano/`
+since the folder already names the track):
 - `tracked`: `{repo-name}-{concept}` (e.g. `le-wm-sigreg`)
 - `pytorch`: `pytorch-{concept}` (e.g. `pytorch-foreach-adamw`)
 - `huggingface`: `{hf-lib}-{concept}` (e.g. `peft-lora-layer`)
-- `vla`: `vla-{repo-name}-{concept}` (e.g. `vla-openvla-action-tokenizer`, `vla-openpi-flow-matching-head`)
-- `wam`: `wam-{repo-name}-{concept}` (e.g. `wam-wan21-dit-block`, `wam-open-sora-3d-vae`)
+- `vla`: `{repo-name}-{concept}` (e.g. `openvla-action-tokenizer`, `smolvla-vlm-with-expert`)
+- `wam`: `{repo-name}-{concept}` (e.g. `wan21-dit-block`, `open-sora-3d-vae`)
 - `trending`: `{repo-name}-{concept}` (e.g. `stable-worldmodel-mppi`)
 
 For the **pytorch** note, set `topic: pytorch` in frontmatter and update

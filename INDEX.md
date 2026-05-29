@@ -9,13 +9,13 @@ Full archive of daily code notes, newest first.
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
 | 2026-05-29 | diffusion | [Distillation gradient = subtract two score networks (DMD in 70 lines)](2026/05/2026-05-29-causal-forcing-dmd-gradient.md) | [thu-ml/Causal-Forcing](https://github.com/thu-ml/Causal-Forcing) (trending) |
-| 2026-05-29 | wam | [Seven mask predicates compose into one FlexAttention BlockMask for video + action](2026/05/2026-05-29-wam-lingbot-flex-mask-compose.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam) |
-| 2026-05-29 | vla | [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](2026/05/2026-05-29-vla-smolvla-vlm-with-expert.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla) |
+| 2026-05-29 | wam | [Seven mask predicates compose into one FlexAttention BlockMask for video + action](nano/wam/2026-05-29-lingbot-flex-mask-compose.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam) |
+| 2026-05-29 | vla | [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](nano/vla/2026-05-29-smolvla-vlm-with-expert.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla) |
 | 2026-05-29 | huggingface | [nanoVLM trades 256 image tokens for 64 fat tokens via pixel shuffle](2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (huggingface) |
 | 2026-05-29 | pytorch | [Adafactor: a row vector and a column vector replace the full second-moment matrix](2026/05/2026-05-29-pytorch-adafactor-rank1-factorization.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-05-29 | robotics | [One Linear layer for every robot body (CategorySpecificLinear)](2026/05/2026-05-29-isaac-groot-category-specific-linear.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) (tracked) |
-| 2026-05-28 | wam | [A complete rectified-flow scheduler in 90 lines](2026/05/2026-05-28-wam-dreamzero-flow-match-scheduler.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) (wam) |
-| 2026-05-28 | vla | [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](2026/05/2026-05-28-vla-openvla-training-step.md) | [openvla/openvla](https://github.com/openvla/openvla) (vla) |
+| 2026-05-28 | wam | [A complete rectified-flow scheduler in 90 lines](nano/wam/2026-05-28-dreamzero-flow-match-scheduler.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) (wam) |
+| 2026-05-28 | vla | [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](nano/vla/2026-05-28-openvla-training-step.md) | [openvla/openvla](https://github.com/openvla/openvla) (vla) |
 | 2026-05-28 | infrastructure | [DyT (Dynamic Tanh): a "normalization" Triton kernel that does no reduction](2026/05/2026-05-28-liger-kernel-dyt-triton.md) | [linkedin/Liger-Kernel](https://github.com/linkedin/Liger-Kernel) (trending) |
 | 2026-05-28 | huggingface | [A closure that re-ties weights after FSDP2 silently breaks them](2026/05/2026-05-28-accelerate-fsdp2-weight-retie.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |
 | 2026-05-28 | pytorch | [Composable activation checkpointing with forward hooks and a generator](2026/05/2026-05-28-pytorch-composable-activation-checkpoint.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |

@@ -299,17 +299,22 @@ If the repo skeleton does not exist, create:
 ├── README.md                # latest entries + how to use
 ├── INDEX.md                 # archive index, auto-updated by teach step
 ├── .config/
-│   └── tracked-repos.json   # user's curated list
+│   ├── tracked-repos.json   # user's curated list
+│   └── nano-curriculum.json # nanoVLA / nanoWAM build plan + covered state
 ├── topics/
 │   ├── robotics.md          # auto-generated topic index
 │   ├── diffusion.md
 │   ├── infrastructure.md
 │   ├── pytorch.md
 │   ├── huggingface.md
-│   ├── vla.md               # NEW: components for building nanoVLA / production VLA
-│   └── wam.md               # NEW: components for building nanoWAM / production WAM
+│   ├── vla.md               # components for building nanoVLA (curriculum-driven)
+│   └── wam.md               # components for building nanoWAM (curriculum-driven)
+├── nano/                    # nano-series curriculum notes live here
+│   ├── vla/                 # nano/vla/YYYY-MM-DD-{slug}.md  (flat, dated)
+│   └── wam/                 # nano/wam/YYYY-MM-DD-{slug}.md  (flat, dated)
 └── YYYY/
-    └── MM/                  # entries land here as YYYY-MM-DD-{slug}.md
+    └── MM/                  # tracked / pytorch / huggingface / trending notes
+                             # land here as YYYY-MM-DD-{slug}.md
 ```
 
 Use the README template at the bottom of this file.
