@@ -20,12 +20,12 @@ main library, one from a VLA repo, one from a World-Action-Model (WAM) repo, and
 trending project — then output a JSON candidate file. **Do not write the educational notes**
 — that's the teach step's job.
 
-> **Core teaching goal for `vla` and `wam`**: every pick must be a building block that the
-> user could plausibly translate into their own from-scratch implementation (`nanoVLA` or
-> `nanoWAM`) or a production system. Prefer **architectural components** (model wiring,
-> tokenizer, action head, scheduler, loss, training loop, conditioning logic) over peripheral
-> utilities (logging, configs, eval harnesses). Across a full rotation cycle, the picks should
-> collectively cover the major pieces needed to build the system end-to-end.
+> **Core teaching goal for `vla` and `wam`**: these two tracks are now **curriculum-driven**.
+> Instead of rotating across repos, each day picks the **next uncovered component** in the
+> nanoVLA / nanoWAM build plan (defined in `.config/nano-curriculum.json`), respecting
+> dependencies. The goal is that after one full curriculum cycle the user has touched every
+> building block needed to assemble a nanoVLA / nanoWAM from scratch. Broad-coverage breadth
+> across robotics repos lives in the **tracked** track, not here.
 
 ## Step 0: Load configuration
 
@@ -56,7 +56,14 @@ Read `topic_rotation` from config. Find the last entry in `INDEX.md` and pick th
 next topic in rotation. If INDEX.md is empty, use the first topic. This keeps notes balanced
 across categories.
 
-## Step 2: Scan tracked repos
+## Step 2: Scan tracked repos (breadth coverage)
+
+> **Role of this track**: `tracked` is the **broad-coverage** channel — it rotates over
+> all `tracked_repos` matching today's topic and surfaces interesting code regardless of
+> whether it slots into the nanoVLA / nanoWAM curriculum. On `robotics` days this is where
+> non-curriculum robotics work (new datasets, evaluation pipelines, sim-to-real tricks,
+> hardware interfaces, alternative architectures the curriculum did not pre-plan for) gets
+> highlighted.
 
 For each repo in `tracked_repos` matching today's topic (fallback: any repo if no match):
 
@@ -134,61 +141,60 @@ Pick a 40-150 line teaching point that demonstrates a HF-specific pattern:
 
 Avoid pure boilerplate. Prefer recent commits.
 
-## Step 5: Pick one VLA teaching point (REQUIRED, every day)
+## Step 5: Pick one VLA teaching point — CURRICULUM MODE (REQUIRED, every day)
 
-Read `vla_repos` from config. **Rotate**: pick the next VLA repo that hasn't been used in
-the last N=`len(vla_repos)` days (check `INDEX.md` `vla` topic). Shallow-clone:
+Read `.config/nano-curriculum.json`. The `nano_vla` section has:
+- `plan` — ordered list of nanoVLA components, each with `id`, `depends_on`,
+  `candidate_repos`, `search_hints`, optional `good_examples`
+- `covered` — list of `{id, date, note, repo, via}` records of components already taught
 
-```bash
-git clone --depth=50 --branch main --single-branch "$VLA_URL" "$CACHE/$VLA_NAME"
-```
+**Pick the next item to teach** as follows:
 
-**Bias the pick toward components needed to build a nano/production VLA.** Prefer files that
-implement one of:
+1. Build `covered_ids = {entry.id for entry in nano_vla.covered}`.
+2. Iterate `plan` in order. The first item where:
+   - `item.id not in covered_ids`, AND
+   - every `dep in item.depends_on` is in `covered_ids`
+   …is **today's VLA pick**.
+3. If no item is eligible (all covered, or all remaining items are blocked):
+   - **All covered case**: pick any covered item from `plan` and find a *different repo's*
+     implementation of the same component (cross-repo variant), or move to "advanced
+     variants" mode — teach a non-trivial extension (e.g. discrete vs. continuous action
+     head, LoRA vs. full fine-tune). Set `curriculum_id` to the original component id
+     anyway so the teach step can decide whether to re-cover it.
+   - **All blocked case**: report which dep is missing and pick the lowest-index uncovered
+     item *ignoring* deps — this should be rare and worth flagging to the user.
 
-- **vision / observation encoder** — how images become tokens (e.g. SigLIP / DINO patch embed,
-  multi-camera fusion, proprioception encoder)
-- **action tokenizer / action head** — discrete action bins, continuous regressor, flow-matching
-  head, diffusion head (e.g. openvla `action_tokenizer.py`, openpi flow-matching head)
-- **VLM backbone wiring** — how prefix tokens, image tokens, action tokens are interleaved and
-  fed to the transformer
-- **training step** — the actual loss assembly: cross-entropy on discrete actions, flow-matching
-  loss on continuous actions, BC + RT-2 style autoregressive
-- **action chunking / horizon prediction** — how multi-step action sequences are produced and
-  unrolled (RT-style, openvla-oft style)
-- **fine-tune script / LoRA application** — the practical entry-point for adapting to a new robot
-- **inference loop** — how observations are streamed and actions are produced at runtime
+**Find a file implementing the chosen component:**
 
-Avoid dataset glue, logging, configs, and pure eval harnesses unless they teach a unique idea.
-Pick something **different from yesterday's vla entry**.
+1. For each repo in `item.candidate_repos` (in order):
+   - Shallow-clone or pull to `{cache_dir}/{repo_name}`:
+     ```bash
+     git clone --depth=50 --branch main --single-branch "$URL" "$CACHE/$NAME"
+     ```
+   - Search for files matching `item.search_hints`:
+     ```bash
+     # find files whose names match any search_hint, restricted to *.py
+     for hint in $HINTS; do
+       find "$CACHE/$NAME" -name "*.py" -not -path "*/tests/*" | grep -i "$hint" | head -5
+     done
+     # OR grep for class/function definitions
+     git -C "$CACHE/$NAME" grep -l -E "class.*${hint}|def.*${hint}" -- '*.py'
+     ```
+   - For each candidate file: pick a 40-150 line self-contained class/function. Prefer
+     files listed in `item.good_examples` if available.
+2. **Cross-check `INDEX.md`** — the chosen file must not be the same `permalink` as an
+   existing note (same SHA + same file path).
+3. If no repo yields a good file, fall back to the next eligible curriculum item.
 
-## Step 6: Pick one World-Action-Model (WAM) teaching point (REQUIRED, every day)
+**Output**: in addition to the standard JSON fields, the `vla` entry must include
+`"curriculum_id": "<item.id>"` so the teach step knows which curriculum item to mark
+covered.
 
-Read `wam_repos` from config. **Rotate**: pick the next WAM repo that hasn't been used in
-the last N=`len(wam_repos)` days (check `INDEX.md` `wam` topic). Shallow-clone:
+## Step 6: Pick one WAM teaching point — CURRICULUM MODE (REQUIRED, every day)
 
-```bash
-git clone --depth=50 --branch main --single-branch "$WAM_URL" "$CACHE/$WAM_NAME"
-```
-
-**Bias the pick toward components needed to build a nano/production World Action Model.** Prefer
-files that implement one of:
-
-- **VAE / latent encoder / decoder** — pixel ↔ latent compression, temporal 3D VAE
-- **DiT-style backbone block** — spatial / temporal attention, adaLN-Zero modulation,
-  patch embedding, rotary position
-- **noise scheduler / flow matcher** — DDPM / DDIM / rectified-flow training and sampling
-  schedules
-- **conditioning logic** — text encoder (T5 / CLIP / Qwen) attached via cross-attention,
-  action conditioning, classifier-free guidance dropout
-- **training loop** — full denoising-step loss assembly with the right preconditioning
-- **inference loop** — sampler (Euler / Heun), step counts, CFG combine, latent → pixel decode
-- **temporal compression / frame fusion** — patchifying space + time, causal video masking
-- **action-frame fusion** — how robot actions are projected into the same latent stream as
-  visual frames (this is the "A" in WAM)
-
-Avoid dataset glue, configs, and visualization scripts unless they encode a unique algorithmic
-idea. Pick something **different from yesterday's wam entry**.
+Exactly the same logic as Step 5, but read `nano_wam` from `.config/nano-curriculum.json`
+and use `wam_repos`-aligned `candidate_repos`. The `wam` entry in candidates JSON also
+gets `"curriculum_id": "<item.id>"`.
 
 ## Step 7: Find one trending project
 
@@ -246,22 +252,24 @@ Write `/tmp/daily_code_candidates.json` with **six** entries:
     "why_interesting": "..."
   },
   "vla": {
-    "repo": "openvla/openvla",
-    "repo_url": "https://github.com/openvla/openvla",
-    "file": "prismatic/vla/action_tokenizer.py",
+    "curriculum_id": "vision-encoder",
+    "repo": "huggingface/nanoVLM",
+    "repo_url": "https://github.com/huggingface/nanoVLM",
+    "file": "models/vision_transformer.py",
     "lines": "20-95",
-    "permalink": "https://github.com/openvla/openvla/blob/{sha}/prismatic/vla/action_tokenizer.py#L20-L95",
-    "concept_hint": "which architectural component this is (action tokenizer / vision encoder / action head / training step / ...)",
+    "permalink": "https://github.com/huggingface/nanoVLM/blob/{sha}/models/vision_transformer.py#L20-L95",
+    "concept_hint": "which architectural component this is — should match the curriculum item's title",
     "why_interesting": "WHY this component matters for building a complete VLA from scratch",
     "nano_vla_mapping": "what role this same component plays in your nanoVLA / production VLA"
   },
   "wam": {
+    "curriculum_id": "vae-encoder-decoder",
     "repo": "Wan-Video/Wan2.1",
     "repo_url": "https://github.com/Wan-Video/Wan2.1",
-    "file": "wan/modules/dit.py",
+    "file": "wan/modules/vae.py",
     "lines": "20-95",
-    "permalink": "https://github.com/Wan-Video/Wan2.1/blob/{sha}/wan/modules/dit.py#L20-L95",
-    "concept_hint": "which architectural component this is (VAE / DiT block / scheduler / conditioning / training step / sampler / ...)",
+    "permalink": "https://github.com/Wan-Video/Wan2.1/blob/{sha}/wan/modules/vae.py#L20-L95",
+    "concept_hint": "which architectural component this is — should match the curriculum item's title",
     "why_interesting": "WHY this component matters for building a complete WAM from scratch",
     "nano_wam_mapping": "what role this same component plays in your nanoWAM / production WAM"
   },
@@ -291,17 +299,22 @@ If the repo skeleton does not exist, create:
 ├── README.md                # latest entries + how to use
 ├── INDEX.md                 # archive index, auto-updated by teach step
 ├── .config/
-│   └── tracked-repos.json   # user's curated list
+│   ├── tracked-repos.json   # user's curated list
+│   └── nano-curriculum.json # nanoVLA / nanoWAM build plan + covered state
 ├── topics/
 │   ├── robotics.md          # auto-generated topic index
 │   ├── diffusion.md
 │   ├── infrastructure.md
 │   ├── pytorch.md
 │   ├── huggingface.md
-│   ├── vla.md               # NEW: components for building nanoVLA / production VLA
-│   └── wam.md               # NEW: components for building nanoWAM / production WAM
+│   ├── vla.md               # components for building nanoVLA (curriculum-driven)
+│   └── wam.md               # components for building nanoWAM (curriculum-driven)
+├── nano/                    # nano-series curriculum notes live here
+│   ├── vla/                 # nano/vla/YYYY-MM-DD-{slug}.md  (flat, dated)
+│   └── wam/                 # nano/wam/YYYY-MM-DD-{slug}.md  (flat, dated)
 └── YYYY/
-    └── MM/                  # entries land here as YYYY-MM-DD-{slug}.md
+    └── MM/                  # tracked / pytorch / huggingface / trending notes
+                             # land here as YYYY-MM-DD-{slug}.md
 ```
 
 Use the README template at the bottom of this file.

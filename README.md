@@ -17,13 +17,13 @@ that maps the component to its role in a from-scratch implementation.
 
 <!-- auto-updated by daily-code-teach -->
 - **2026-05-29** · diffusion · [Distillation gradient = subtract two score networks (DMD in 70 lines)](2026/05/2026-05-29-causal-forcing-dmd-gradient.md) — `thu-ml/Causal-Forcing`
-- **2026-05-29** · wam · [Seven mask predicates compose into one FlexAttention BlockMask for video + action](2026/05/2026-05-29-wam-lingbot-flex-mask-compose.md) — `Robbyant/lingbot-va`
-- **2026-05-29** · vla · [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](2026/05/2026-05-29-vla-smolvla-vlm-with-expert.md) — `huggingface/lerobot`
+- **2026-05-29** · wam · [Seven mask predicates compose into one FlexAttention BlockMask for video + action](nano/wam/2026-05-29-lingbot-flex-mask-compose.md) — `Robbyant/lingbot-va`
+- **2026-05-29** · vla · [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](nano/vla/2026-05-29-smolvla-vlm-with-expert.md) — `huggingface/lerobot`
 - **2026-05-29** · huggingface · [nanoVLM trades 256 image tokens for 64 fat tokens via pixel shuffle](2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md) — `huggingface/nanoVLM`
 - **2026-05-29** · pytorch · [Adafactor: a row vector and a column vector replace the full second-moment matrix](2026/05/2026-05-29-pytorch-adafactor-rank1-factorization.md) — `pytorch/pytorch`
 - **2026-05-29** · robotics · [One Linear layer for every robot body (CategorySpecificLinear)](2026/05/2026-05-29-isaac-groot-category-specific-linear.md) — `NVIDIA/Isaac-GR00T`
-- **2026-05-28** · wam · [A complete rectified-flow scheduler in 90 lines](2026/05/2026-05-28-wam-dreamzero-flow-match-scheduler.md) — `dreamzero0/dreamzero`
-- **2026-05-28** · vla · [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](2026/05/2026-05-28-vla-openvla-training-step.md) — `openvla/openvla`
+- **2026-05-28** · wam · [A complete rectified-flow scheduler in 90 lines](nano/wam/2026-05-28-dreamzero-flow-match-scheduler.md) — `dreamzero0/dreamzero`
+- **2026-05-28** · vla · [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](nano/vla/2026-05-28-openvla-training-step.md) — `openvla/openvla`
 
 ## Topics
 
@@ -34,6 +34,16 @@ that maps the component to its role in a from-scratch implementation.
 - [Hugging Face](topics/huggingface.md) — transformers, diffusers, accelerate, peft, trl, datasets, tokenizers
 - [VLA — build your own](topics/vla.md) — components for `nanoVLA` and production VLA
 - [WAM — build your own](topics/wam.md) — components for `nanoWAM` and production WAM
+
+## nano/ — curriculum-driven build series
+
+The `vla` and `wam` tracks follow a dependency-ordered curriculum (see
+[`.config/nano-curriculum.json`](.config/nano-curriculum.json)) for building
+`nanoVLA` / `nanoWAM` from scratch. Each day picks the next uncovered component
+whose dependencies are satisfied.
+
+- [`nano/vla/`](nano/vla/) — nano VLA components, dated, flat
+- [`nano/wam/`](nano/wam/) — nano WAM components, dated, flat
 
 ## Full archive
 
