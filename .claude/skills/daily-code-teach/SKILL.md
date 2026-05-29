@@ -18,19 +18,26 @@ source code, and produce **6** high-quality teaching notes in **bilingual format
 (Chinese + English)** — one each for `tracked`, `pytorch`, `huggingface`, `vla`, `wam`,
 and `trending`.
 
-> **Special focus for `vla` and `wam` notes**: the user is building their own
-> `nanoVLA` / `nanoWAM` (educational) and a production-scale VLA / WAM. Every note in
-> these two tracks should answer the implicit question "**how would I write this in my
-> own from-scratch implementation?**". In addition to the standard template:
+> **Special focus for `vla` and `wam` notes — CURRICULUM MODE**: these two tracks are
+> driven by the nanoVLA / nanoWAM curriculum in `.config/nano-curriculum.json`. The
+> candidates JSON carries a `curriculum_id` field that names which build-plan component
+> this note teaches. Every note in these tracks should answer the implicit question
+> "**how would I write this in my own from-scratch implementation?**". In addition to
+> the standard template:
 >
 > - Use the `nano_vla_mapping` / `nano_wam_mapping` field from the candidate JSON to seed
 >   a dedicated **"在 nanoVLA / nanoWAM 中的位置 / Where this lives in your nano-{VLA,WAM}"** section.
+>   Be explicit about which curriculum item this is and which earlier items it depends on
+>   (the build-graph context).
 > - The *Try it yourself* example should be a **minimal standalone re-implementation** of
 >   the component (no `pip install openvla` shortcuts), so the user can drop it into their
 >   own codebase.
-> - The "在别处也能看到这个模式" section should connect to the sibling repos in the same
->   rotation (e.g. when teaching openpi's flow-matching head, mention how openvla-oft's
->   continuous head and lerobot's diffusion head solve the same problem differently).
+> - The "在别处也能看到这个模式" section should connect to sibling implementations of the
+>   **same curriculum component** in other repos (e.g. when teaching openpi's flow-matching
+>   action head, mention how lerobot/groot's diffusion head and gaussian_actor solve the
+>   same `action-head` slot differently).
+> - After saving the note, **append the curriculum-coverage record** to
+>   `.config/nano-curriculum.json` — see Step 3.
 
 ## Prerequisites
 
@@ -192,6 +199,20 @@ Then update:
 - `topics/{topic}.md` for each topic that received a note today (today's topic +
   `pytorch` + `huggingface` + `vla` + `wam` — five topic files updated per day, plus
   trending if its topic differs)
+- **`.config/nano-curriculum.json`** — for the `vla` and `wam` notes, append a record
+  to the corresponding `covered` array:
+  ```json
+  {"id": "<curriculum_id from candidates JSON>", "date": "YYYY-MM-DD",
+   "note": "YYYY/MM/YYYY-MM-DD-{slug}.md", "repo": "owner/name", "via": "vla" | "wam"}
+  ```
+  If the picked component was a cross-repo re-cover of an already-covered id (advanced
+  variants mode), still append the record — multiple entries per id are allowed and
+  encode "we've seen this component in N different implementations".
+  Additionally, if a `tracked` / `huggingface` / `trending` note happens to teach a
+  component that matches a curriculum item by topic (e.g. a HuggingFace `nanoVLM`
+  modality-projector note also satisfies `nano_vla.modality-projector`), append a
+  record there too with `via: "<source-track>"`. Use judgment — only mark covered if
+  the note really teaches that exact component.
 
 ## Step 4: Commit (optional)
 
