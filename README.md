@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-05-29** · vla · 📋 [VLA action survey: how every repo adds action (decision tree)](nano/vla/README-action-survey.md) — survey doc
+- **2026-05-29** · vla · [Async inference: split slow inference and fast control into client-server](nano/vla/2026-05-29-lerobot-async-inference.md) — `huggingface/lerobot` (inference-loop)
+- **2026-05-29** · vla · [Fine-tuning a 7B VLA to a new robot is a handful of PEFT lines](nano/vla/2026-05-29-openvla-lora-finetune.md) — `openvla/openvla` (fine-tune-lora)
+- **2026-05-29** · vla · [Action chunking: predict a chunk, drip-feed it via a queue](nano/vla/2026-05-29-act-action-chunking.md) — `huggingface/lerobot` (action-chunking)
+- **2026-05-29** · vla · [Continuous action head: flow matching emits real-valued trajectories](nano/vla/2026-05-29-groot-flow-matching-action-head.md) — `huggingface/lerobot` (action-head-continuous)
+- **2026-05-29** · vla · [One Conv2d is the entire patch embedding](nano/vla/2026-05-29-nanovlm-patch-embed.md) — `huggingface/nanoVLM` (vision-encoder)
 - **2026-05-29** · wam · [dreamzero appends action and state as register tokens inside the video sequence](nano/wam/2026-05-29-dreamzero-action-registers.md) — `dreamzero0/dreamzero` (action-register-tokens)
 - **2026-05-29** · wam · [FastWAM spins up a full second DiT just for actions](nano/wam/2026-05-29-fastwam-action-dit.md) — `yuantianyuan01/FastWAM` (parallel-action-dit)
 - **2026-05-29** · wam · [lingbot-va's action stack: two Linears and a deepcopy](nano/wam/2026-05-29-lingbot-action-embedder.md) — `Robbyant/lingbot-va` (action-encoder-projector)
