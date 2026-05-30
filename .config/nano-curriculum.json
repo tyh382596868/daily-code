@@ -200,6 +200,33 @@
         "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "THUDM/CogVideoX"],
         "search_hints": ["temporal", "causal_3d", "time_compression", "3d_vae", "wf_vae"],
         "good_examples": []
+      },
+      {
+        "id": "action-encoder-projector",
+        "title_zh": "Action encoder + projector(单流派 — Linear in / Linear out)",
+        "title_en": "Action encoder + projector (single-stream design — Linear in / Linear out)",
+        "depends_on": ["dit-block"],
+        "candidate_repos": ["Robbyant/lingbot-va", "Physical-Intelligence/openpi"],
+        "search_hints": ["action_embedder", "action_proj_out", "condition_embedder_action", "action_encoder"],
+        "good_examples": ["Robbyant/lingbot-va:wan_va/modules/model.py"]
+      },
+      {
+        "id": "parallel-action-dit",
+        "title_zh": "并行 ActionDiT(解耦派 — 与 video DiT 同结构但独立参数)",
+        "title_en": "Parallel ActionDiT (decoupled design — same DiTBlock, independent params)",
+        "depends_on": ["dit-block"],
+        "candidate_repos": ["yuantianyuan01/FastWAM"],
+        "search_hints": ["ActionDiT", "ActionHead", "action_encoder", "action_dit"],
+        "good_examples": ["yuantianyuan01/FastWAM:src/fastwam/models/wan22/action_dit.py"]
+      },
+      {
+        "id": "action-register-tokens",
+        "title_zh": "Action register tokens(集成派 — 在 video 序列尾部挂 register,各用独立 1D RoPE)",
+        "title_en": "Action register tokens (integrated design — registers appended to video sequence with independent 1-D RoPE)",
+        "depends_on": ["patchify-positional", "dit-block"],
+        "candidate_repos": ["dreamzero0/dreamzero"],
+        "search_hints": ["action_register", "freqs_action", "freqs_state", "causal_rope_action_apply"],
+        "good_examples": ["dreamzero0/dreamzero:groot/vla/model/dreamzero/modules/wan_video_dit_action_casual_chunk.py"]
       }
     ],
     "covered": [
@@ -212,7 +239,10 @@
       {"id": "classifier-free-guidance", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-classifier-free-guidance.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
       {"id": "training-loop", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-add-noise-loss.md", "repo": "Robbyant/lingbot-va", "via": "wam"},
       {"id": "sampler-inference", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-denoise-loop.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
-      {"id": "temporal-compression", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-resample-streaming-cache.md", "repo": "Wan-Video/Wan2.1", "via": "wam"}
+      {"id": "temporal-compression", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-resample-streaming-cache.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
+      {"id": "action-encoder-projector", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-action-embedder.md", "repo": "Robbyant/lingbot-va", "via": "wam"},
+      {"id": "parallel-action-dit", "date": "2026-05-29", "note": "nano/wam/2026-05-29-fastwam-action-dit.md", "repo": "yuantianyuan01/FastWAM", "via": "wam"},
+      {"id": "action-register-tokens", "date": "2026-05-29", "note": "nano/wam/2026-05-29-dreamzero-action-registers.md", "repo": "dreamzero0/dreamzero", "via": "wam"}
     ]
   }
 }

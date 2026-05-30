@@ -8,6 +8,9 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-05-29 | wam | [dreamzero appends action and state as register tokens inside the video sequence](nano/wam/2026-05-29-dreamzero-action-registers.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) (wam, action-register-tokens) |
+| 2026-05-29 | wam | [FastWAM spins up a full second DiT just for actions](nano/wam/2026-05-29-fastwam-action-dit.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) (wam, parallel-action-dit) |
+| 2026-05-29 | wam | [lingbot-va's action stack: two Linears and a deepcopy](nano/wam/2026-05-29-lingbot-action-embedder.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam, action-encoder-projector) |
 | 2026-05-29 | wam | [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, temporal-compression) |
 | 2026-05-29 | wam | [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference) |
 | 2026-05-29 | wam | [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam, training-loop) |

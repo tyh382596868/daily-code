@@ -16,6 +16,9 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-05-29** · wam · [dreamzero appends action and state as register tokens inside the video sequence](nano/wam/2026-05-29-dreamzero-action-registers.md) — `dreamzero0/dreamzero` (action-register-tokens)
+- **2026-05-29** · wam · [FastWAM spins up a full second DiT just for actions](nano/wam/2026-05-29-fastwam-action-dit.md) — `yuantianyuan01/FastWAM` (parallel-action-dit)
+- **2026-05-29** · wam · [lingbot-va's action stack: two Linears and a deepcopy](nano/wam/2026-05-29-lingbot-action-embedder.md) — `Robbyant/lingbot-va` (action-encoder-projector)
 - **2026-05-29** · wam · [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) — `Wan-Video/Wan2.1` (temporal-compression)
 - **2026-05-29** · wam · [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) — `Wan-Video/Wan2.1` (sampler-inference)
 - **2026-05-29** · wam · [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) — `Robbyant/lingbot-va` (training-loop)
