@@ -110,11 +110,11 @@
         "title_zh": "VAE / latent 编解码(像素 ↔ latent)",
         "title_en": "VAE / latent encoder-decoder (pixel ↔ latent)",
         "depends_on": [],
-        "candidate_repos": ["Wan-Video/Wan2.1", "PKU-YuanGroup/Open-Sora", "Robbyant/lingbot-va"],
+        "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "Robbyant/lingbot-va"],
         "search_hints": ["vae", "autoencoder", "encode", "decode", "wf_vae", "causalvae"],
         "good_examples": [
           "Wan-Video/Wan2.1:wan/modules/vae.py",
-          "PKU-YuanGroup/Open-Sora:opensora/models/vae"
+          "hpcaitech/Open-Sora:opensora/models/vae"
         ]
       },
       {
@@ -122,7 +122,7 @@
         "title_zh": "Patchify + 3D / RoPE 位置编码",
         "title_en": "Patchify + 3D / RoPE positional encoding",
         "depends_on": [],
-        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "facebookresearch/DiT", "PKU-YuanGroup/Open-Sora"],
+        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "facebookresearch/DiT", "hpcaitech/Open-Sora"],
         "search_hints": ["patch_embed", "patchify", "rotary", "rope", "pos_embed", "WanRotaryPosEmbed"],
         "good_examples": ["Robbyant/lingbot-va:wan_va/modules/model.py (WanRotaryPosEmbed)"]
       },
@@ -152,7 +152,7 @@
         "title_zh": "文本/图像条件(T5 / CLIP / Qwen 编码 + cross-attn 注入)",
         "title_en": "Text/image conditioning (T5/CLIP/Qwen encoder + cross-attn injection)",
         "depends_on": ["dit-block"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "PKU-YuanGroup/Open-Sora", "Robbyant/lingbot-va"],
+        "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "Robbyant/lingbot-va"],
         "search_hints": ["text_encoder", "cross_attention", "t5", "clip_text", "text_embedder", "WanTimeTextImageEmbedding"],
         "good_examples": ["Robbyant/lingbot-va:wan_va/modules/model.py (WanTimeTextImageEmbedding)"]
       },
@@ -170,7 +170,7 @@
         "title_zh": "Classifier-Free Guidance(训练 dropout + 推理 combine)",
         "title_en": "Classifier-free guidance (training dropout + inference combine)",
         "depends_on": ["text-conditioning"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "PKU-YuanGroup/Open-Sora", "thu-ml/Causal-Forcing"],
+        "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "thu-ml/Causal-Forcing"],
         "search_hints": ["classifier_free", "cfg", "guidance_scale", "uncond", "null_embedding"],
         "good_examples": []
       },
@@ -179,7 +179,7 @@
         "title_zh": "训练循环(完整去噪 loss + preconditioning)",
         "title_en": "Training loop (full denoising loss + preconditioning)",
         "depends_on": ["dit-block", "noise-scheduler"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "PKU-YuanGroup/Open-Sora"],
+        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "hpcaitech/Open-Sora"],
         "search_hints": ["train_step", "training_step", "compute_loss", "denoise_loss"],
         "good_examples": ["Robbyant/lingbot-va:wan_va/train.py"]
       },
@@ -188,7 +188,7 @@
         "title_zh": "推理 sampler(Euler / Heun / DPM, 含 CFG combine)",
         "title_en": "Inference sampler (Euler / Heun / DPM, with CFG combine)",
         "depends_on": ["noise-scheduler", "dit-block"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "PKU-YuanGroup/Open-Sora"],
+        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "hpcaitech/Open-Sora"],
         "search_hints": ["sampler", "euler", "heun", "dpm_solver", "sample_step", "inference_with_trajectory"],
         "good_examples": ["thu-ml/Causal-Forcing:pipeline/causal_inference.py"]
       },
@@ -197,7 +197,7 @@
         "title_zh": "时间压缩 / 因果视频 mask(3D VAE patchify + temporal causal)",
         "title_en": "Temporal compression / causal video mask (3D VAE patchify + temporal causal)",
         "depends_on": ["vae-encoder-decoder"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "PKU-YuanGroup/Open-Sora", "THUDM/CogVideoX"],
+        "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "THUDM/CogVideoX"],
         "search_hints": ["temporal", "causal_3d", "time_compression", "3d_vae", "wf_vae"],
         "good_examples": []
       }
@@ -205,7 +205,14 @@
     "covered": [
       {"id": "dit-block", "date": "2026-05-25", "note": "2026/05/2026-05-25-dit-adaln-zero-block.md", "repo": "facebookresearch/DiT", "via": "tracked"},
       {"id": "noise-scheduler", "date": "2026-05-28", "note": "nano/wam/2026-05-28-dreamzero-flow-match-scheduler.md", "repo": "dreamzero0/dreamzero", "via": "wam"},
-      {"id": "action-conditioning", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-flex-mask-compose.md", "repo": "Robbyant/lingbot-va", "via": "wam"}
+      {"id": "action-conditioning", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-flex-mask-compose.md", "repo": "Robbyant/lingbot-va", "via": "wam"},
+      {"id": "vae-encoder-decoder", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-vae-causal-conv3d.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
+      {"id": "patchify-positional", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-3d-rope.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
+      {"id": "text-conditioning", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-text-cross-attention.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
+      {"id": "classifier-free-guidance", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-classifier-free-guidance.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
+      {"id": "training-loop", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-add-noise-loss.md", "repo": "Robbyant/lingbot-va", "via": "wam"},
+      {"id": "sampler-inference", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-denoise-loop.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
+      {"id": "temporal-compression", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-resample-streaming-cache.md", "repo": "Wan-Video/Wan2.1", "via": "wam"}
     ]
   }
 }
