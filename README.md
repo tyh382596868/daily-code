@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-05-31** · diffusion · [Self-Forcing is 80 lines](2026/05/2026-05-31-minwm-self-forcing.md) — `shengshu-ai/minWM` (trending)
+- **2026-05-31** · wam · [MM-DiT treats text and image as two peer streams in one attention](nano/wam/2026-05-31-opensora-mmdit-double-stream.md) — `hpcaitech/Open-Sora` (dit-block, cross-repo variant)
+- **2026-05-31** · vla · [nanoVLM's entire vision tower fits in 52 lines](nano/vla/2026-05-31-nanovlm-vit-encoder.md) — `huggingface/nanoVLM` (vision-encoder)
+- **2026-05-31** · huggingface · [The heart of a flow-matching Euler step is one line](2026/05/2026-05-31-diffusers-flow-match-euler-step.md) — `huggingface/diffusers`
+- **2026-05-31** · pytorch · [PyTorch turned variable-length attention into a public op](2026/05/2026-05-31-pytorch-varlen-attn-dispatch.md) — `pytorch/pytorch`
+- **2026-05-31** · diffusion · [DINO-WM's 26-line autoregressive rollout](2026/05/2026-05-31-dino-wm-latent-rollout.md) — `gaoyuezhou/dino_wm` (tracked)
 - **2026-05-29** · wam · [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) — `Wan-Video/Wan2.1` (temporal-compression)
 - **2026-05-29** · wam · [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) — `Wan-Video/Wan2.1` (sampler-inference)
 - **2026-05-29** · wam · [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) — `Robbyant/lingbot-va` (training-loop)
