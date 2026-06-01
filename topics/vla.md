@@ -16,6 +16,7 @@ inference loop.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-01 | vision-encoder | [40-line ViTPatchEmbeddings: the smallest possible patchifier](../nano/vla/2026-06-01-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-05-29 | VLM backbone wiring + action expert head | [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](../nano/vla/2026-05-29-smolvla-vlm-with-expert.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-05-28 | training step + L1 metric | [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](../nano/vla/2026-05-28-openvla-training-step.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 

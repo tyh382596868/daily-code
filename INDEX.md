@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-06-01 | diffusion | [minWM compresses consistency distillation into three functions](2026/06/2026-06-01-minwm-consistency-distillation.md) | [shengshu-ai/minWM](https://github.com/shengshu-ai/minWM) (trending) |
+| 2026-06-01 | wam | [DoubleStreamBlock: two streams, separate norms and projections, fused by one shared attention](nano/wam/2026-06-01-open-sora-double-stream-block.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) (wam, dit-block cross-repo variant) |
+| 2026-06-01 | vla | [40-line ViTPatchEmbeddings: the smallest possible patchifier](nano/vla/2026-06-01-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (vla, vision-encoder) |
+| 2026-06-01 | huggingface | [FlowMapEulerDiscreteScheduler: any-step sampling, in one Euler step](2026/06/2026-06-01-diffusers-flow-map-euler.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |
+| 2026-06-01 | pytorch | [PagedAttention lands in core PyTorch: vLLM's "virtual memory" trick in 80 lines](2026/06/2026-06-01-pytorch-paged-attention-allocator.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-06-01 | diffusion | [V-JEPA's "tube" mask: occlude the same pixels across every frame](2026/06/2026-06-01-jepa-tube-mask.md) | [facebookresearch/jepa](https://github.com/facebookresearch/jepa) (tracked) |
 | 2026-05-29 | wam | [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, temporal-compression) |
 | 2026-05-29 | wam | [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference) |
 | 2026-05-29 | wam | [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam, training-loop) |
