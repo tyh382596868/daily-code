@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-01 | [Self-Forcing distillation = random exit step + soft gradient mask](../2026/06/2026-06-01-minwm-self-forcing.md) | shengshu-ai/minWM |
+| 2026-06-01 | [80 lines to ship an FP8 Linear: dinov3's training-grade e4m3 quantization](../2026/06/2026-06-01-dinov3-fp8-linear-autograd.md) | facebookresearch/dinov3 |
 | 2026-05-29 | [Distillation gradient = subtract two score networks (DMD in 70 lines)](../2026/05/2026-05-29-causal-forcing-dmd-gradient.md) | thu-ml/Causal-Forcing |
 | 2026-05-27 | [MPPI's softmax update: the heart of model-based planning in 30 lines](../2026/05/2026-05-27-stable-worldmodel-mppi.md) | galilai-group/stable-worldmodel |
 | 2026-05-27 | [SIGReg: single-GPU isotropic-Gaussian regularization via random projections](../2026/05/2026-05-27-le-wm-sigreg.md) | lucas-maes/le-wm |

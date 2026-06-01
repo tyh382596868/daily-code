@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-01** · diffusion · [Self-Forcing distillation = random exit step + soft gradient mask](2026/06/2026-06-01-minwm-self-forcing.md) — `shengshu-ai/minWM` (trending)
+- **2026-06-01** · wam · [Splitting DiT in two: Open-Sora's MMDiT DoubleStreamBlock](nano/wam/2026-06-01-open-sora-mmdit-double-stream.md) — `hpcaitech/Open-Sora` (dit-block cross-repo variant)
+- **2026-06-01** · vla · [nanoVLM turns an image into tokens with a single Conv2d](nano/vla/2026-06-01-nanovlm-vit-patch-embeddings.md) — `huggingface/nanoVLM` (vision-encoder)
+- **2026-06-01** · huggingface · [First Block Cache: run block 0, skip the rest of the DiT if it "looks similar enough"](2026/06/2026-06-01-diffusers-first-block-cache.md) — `huggingface/diffusers`
+- **2026-06-01** · pytorch · [PyTorch packs Blelloch parallel scan into a 100-line HOP](2026/06/2026-06-01-pytorch-associative-scan-blelloch.md) — `pytorch/pytorch`
+- **2026-06-01** · diffusion · [80 lines to ship an FP8 Linear: dinov3's training-grade e4m3 quantization](2026/06/2026-06-01-dinov3-fp8-linear-autograd.md) — `facebookresearch/dinov3` (tracked)
 - **2026-05-29** · wam · [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) — `Wan-Video/Wan2.1` (temporal-compression)
 - **2026-05-29** · wam · [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) — `Wan-Video/Wan2.1` (sampler-inference)
 - **2026-05-29** · wam · [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) — `Robbyant/lingbot-va` (training-loop)
@@ -24,13 +30,6 @@ that maps the component to its role in a from-scratch implementation.
 - **2026-05-29** · wam · [Splitting RoPE three ways: frame, height, width](nano/wam/2026-05-29-wan21-3d-rope.md) — `Wan-Video/Wan2.1` (patchify-positional)
 - **2026-05-29** · wam · [One line of padding turns nn.Conv3d into a causal 3D conv](nano/wam/2026-05-29-wan21-vae-causal-conv3d.md) — `Wan-Video/Wan2.1` (vae-encoder-decoder)
 - **2026-05-29** · diffusion · [Distillation gradient = subtract two score networks (DMD in 70 lines)](2026/05/2026-05-29-causal-forcing-dmd-gradient.md) — `thu-ml/Causal-Forcing`
-- **2026-05-29** · wam · [Seven mask predicates compose into one FlexAttention BlockMask for video + action](nano/wam/2026-05-29-lingbot-flex-mask-compose.md) — `Robbyant/lingbot-va`
-- **2026-05-29** · vla · [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](nano/vla/2026-05-29-smolvla-vlm-with-expert.md) — `huggingface/lerobot`
-- **2026-05-29** · huggingface · [nanoVLM trades 256 image tokens for 64 fat tokens via pixel shuffle](2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md) — `huggingface/nanoVLM`
-- **2026-05-29** · pytorch · [Adafactor: a row vector and a column vector replace the full second-moment matrix](2026/05/2026-05-29-pytorch-adafactor-rank1-factorization.md) — `pytorch/pytorch`
-- **2026-05-29** · robotics · [One Linear layer for every robot body (CategorySpecificLinear)](2026/05/2026-05-29-isaac-groot-category-specific-linear.md) — `NVIDIA/Isaac-GR00T`
-- **2026-05-28** · wam · [A complete rectified-flow scheduler in 90 lines](nano/wam/2026-05-28-dreamzero-flow-match-scheduler.md) — `dreamzero0/dreamzero`
-- **2026-05-28** · vla · [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](nano/vla/2026-05-28-openvla-training-step.md) — `openvla/openvla`
 
 ## Topics
 
