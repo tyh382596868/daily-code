@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-06-02 | diffusion | [Two-phase t2i: a diffusion-LM emits VQ tokens, a flow decoder renders pixels](2026/06/2026-06-02-llada-uni-two-phase-t2i.md) | [inclusionAI/LLaDA2.0-Uni](https://github.com/inclusionAI/LLaDA2.0-Uni) (trending) |
+| 2026-06-02 | wam | [MMDiT double-stream: image and text share one attention but never share weights](nano/wam/2026-06-02-open-sora-mmdit-double-stream.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) (wam, dit-block-variant) |
+| 2026-06-02 | vla | [ViTPatchEmbeddings: one Conv2d is the entire ViT entry point (37 lines)](nano/vla/2026-06-02-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (vla, vision-encoder) |
+| 2026-06-02 | huggingface | [AnyFlow's dual-timestep gate: condition on (t, Δt) for any-step diffusion](2026/06/2026-06-02-diffusers-anyflow-dual-timestep.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |
+| 2026-06-02 | pytorch | [_get_total_norm: the 70-line foreach-grouped multi-tensor template](2026/06/2026-06-02-pytorch-foreach-total-norm.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-06-02 | diffusion | [DINOv3's 90-line hot-swappable 2:4 sparse Linear](2026/06/2026-06-02-dinov3-sparse-linear-w24.md) | [facebookresearch/dinov3](https://github.com/facebookresearch/dinov3) (tracked) |
 | 2026-05-29 | wam | [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, temporal-compression) |
 | 2026-05-29 | wam | [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference) |
 | 2026-05-29 | wam | [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam, training-loop) |
