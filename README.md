@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-03** · wam · [FastWAM's action sampler skips the video expert each step — WAM-inference's answer to "prompt prefill + decode"](nano/wam/2026-06-03-fastwam-action-prefill-cache.md) — `yuantianyuan01/FastWAM` (sampler-inference, cross-repo variant)
+- **2026-06-03** · vla · [Loading SigLIP's pretrained weights into your own fused-QKV ViT](nano/vla/2026-06-03-nanovlm-vit-from-pretrained.md) — `huggingface/nanoVLM` (vision-encoder)
+- **2026-06-03** · diffusion · [Self-Forcing's three helpers: 83 lines that make autoregressive video world models trainable](2026/06/2026-06-03-minwm-self-forcing.md) — `shengshu-ai/minWM` (trending)
+- **2026-06-03** · huggingface · [First-Block Cache: use the first DiT block's residual as a weathervane, skip every block in between](2026/06/2026-06-03-diffusers-first-block-cache.md) — `huggingface/diffusers`
+- **2026-06-03** · pytorch · [PyTorch's new `varlen_attn` brings paged KV-cache, GQA and split-KV into core attention](2026/06/2026-06-03-pytorch-varlen-attn-paged.md) — `pytorch/pytorch`
+- **2026-06-03** · diffusion · [DINOv3's RoPE randomizes its own coordinates at train time — free positional-encoding augmentation](2026/06/2026-06-03-dinov3-rope-coord-augment.md) — `facebookresearch/dinov3`
 - **2026-05-29** · wam · [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) — `Wan-Video/Wan2.1` (temporal-compression)
 - **2026-05-29** · wam · [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) — `Wan-Video/Wan2.1` (sampler-inference)
 - **2026-05-29** · wam · [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) — `Robbyant/lingbot-va` (training-loop)
@@ -29,8 +35,6 @@ that maps the component to its role in a from-scratch implementation.
 - **2026-05-29** · huggingface · [nanoVLM trades 256 image tokens for 64 fat tokens via pixel shuffle](2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md) — `huggingface/nanoVLM`
 - **2026-05-29** · pytorch · [Adafactor: a row vector and a column vector replace the full second-moment matrix](2026/05/2026-05-29-pytorch-adafactor-rank1-factorization.md) — `pytorch/pytorch`
 - **2026-05-29** · robotics · [One Linear layer for every robot body (CategorySpecificLinear)](2026/05/2026-05-29-isaac-groot-category-specific-linear.md) — `NVIDIA/Isaac-GR00T`
-- **2026-05-28** · wam · [A complete rectified-flow scheduler in 90 lines](nano/wam/2026-05-28-dreamzero-flow-match-scheduler.md) — `dreamzero0/dreamzero`
-- **2026-05-28** · vla · [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](nano/vla/2026-05-28-openvla-training-step.md) — `openvla/openvla`
 
 ## Topics
 
