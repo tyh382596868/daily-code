@@ -16,6 +16,7 @@ action-frame fusion.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-05 | DiT block (cross-attention variant) | [Same DiT skeleton, two conditioning strategies: GR00T's cross-attention variant](../nano/wam/2026-06-05-isaac-groot-dit-cross-attn.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-05-29 | temporal compression | [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](../nano/wam/2026-05-29-wan21-resample-streaming-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-05-29 | sampler / inference loop | [60 lines of denoise loop is the entire WAM "generate"](../nano/wam/2026-05-29-wan21-denoise-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-05-29 | training loop | [Two main lines of a training step: add noise, then weight the loss](../nano/wam/2026-05-29-lingbot-add-noise-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) |

@@ -99,7 +99,8 @@
       {"id": "action-tokenizer", "date": "2026-05-10", "note": "2026/05/2026-05-10-openvla-action-tokenizer-example.md", "repo": "openvla/openvla", "via": "tracked"},
       {"id": "modality-projector", "date": "2026-05-29", "note": "2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md", "repo": "huggingface/nanoVLM", "via": "huggingface"},
       {"id": "vlm-backbone-wiring", "date": "2026-05-29", "note": "nano/vla/2026-05-29-smolvla-vlm-with-expert.md", "repo": "huggingface/lerobot", "via": "vla"},
-      {"id": "training-step", "date": "2026-05-28", "note": "nano/vla/2026-05-28-openvla-training-step.md", "repo": "openvla/openvla", "via": "vla"}
+      {"id": "training-step", "date": "2026-05-28", "note": "nano/vla/2026-05-28-openvla-training-step.md", "repo": "openvla/openvla", "via": "vla"},
+      {"id": "vision-encoder", "date": "2026-06-05", "note": "nano/vla/2026-06-05-nanovlm-vit-from-scratch.md", "repo": "huggingface/nanoVLM", "via": "vla"}
     ]
   },
 
@@ -212,7 +213,8 @@
       {"id": "classifier-free-guidance", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-classifier-free-guidance.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
       {"id": "training-loop", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-add-noise-loss.md", "repo": "Robbyant/lingbot-va", "via": "wam"},
       {"id": "sampler-inference", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-denoise-loop.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
-      {"id": "temporal-compression", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-resample-streaming-cache.md", "repo": "Wan-Video/Wan2.1", "via": "wam"}
+      {"id": "temporal-compression", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-resample-streaming-cache.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
+      {"id": "dit-block", "date": "2026-06-05", "note": "nano/wam/2026-06-05-isaac-groot-dit-cross-attn.md", "repo": "NVIDIA/Isaac-GR00T", "via": "wam"}
     ]
   }
 }

@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-06-05 | diffusion | [Self-Forcing: only backprop through ONE denoising step and the LAST N frames](2026/06/2026-06-05-minwm-self-forcing.md) | [shengshu-ai/minWM](https://github.com/shengshu-ai/minWM) (trending) |
+| 2026-06-05 | wam | [Same DiT skeleton, two conditioning strategies: GR00T's cross-attention variant](nano/wam/2026-06-05-isaac-groot-dit-cross-attn.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) (wam, dit-block cross-repo variant) |
+| 2026-06-05 | vla | [One Conv2d is your patch embed: a ViT from scratch ready to feed a VLA](nano/vla/2026-06-05-nanovlm-vit-from-scratch.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (vla, vision-encoder) |
+| 2026-06-05 | huggingface | [APG: split the CFG update into parallel + orthogonal, shrink only the parallel one](2026/06/2026-06-05-diffusers-apg-projected-guidance.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |
+| 2026-06-05 | pytorch | [`is_causal=True` is wrong for KV-cache decoding: upper-left vs. lower-right](2026/06/2026-06-05-pytorch-causal-bias-upper-lower.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-06-05 | diffusion | [V-JEPA's 3D block mask: multiply for intersection, complement feeds the encoder](2026/06/2026-06-05-jepa-multiblock3d-mask.md) | [facebookresearch/jepa](https://github.com/facebookresearch/jepa) (tracked) |
 | 2026-05-29 | wam | [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, temporal-compression) |
 | 2026-05-29 | wam | [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference) |
 | 2026-05-29 | wam | [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam, training-loop) |
