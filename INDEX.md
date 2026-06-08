@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-06-08 | diffusion | [BlockKVCache: [sink \| rolling window] explained as a 4-step protocol](2026/06/2026-06-08-flashdreams-block-kvcache.md) | [NVIDIA/flashdreams](https://github.com/NVIDIA/flashdreams) (trending) |
+| 2026-06-08 | wam | [Wan2.1's WanAttentionBlock: what a production-grade DiT block actually looks like](nano/wam/2026-06-08-wan21-attention-block-production.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, dit-block advanced variant) |
+| 2026-06-08 | vla | [37 lines of ViTPatchEmbeddings: one Conv2d is the entire patchify step](nano/vla/2026-06-08-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (vla, vision-encoder) |
+| 2026-06-08 | huggingface | [If the first block's residual barely moved, skip every other block](2026/06/2026-06-08-diffusers-first-block-cache.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |
+| 2026-06-08 | pytorch | [PyTorch shipped vLLM-style paged KV cache: an 80-line page-table allocator](2026/06/2026-06-08-pytorch-paged-attention-reserve.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-06-08 | diffusion | [DINOv3's fp8 Linear: a differentiable fp8 matmul in 65 lines](2026/06/2026-06-08-dinov3-fp8-linear-autograd.md) | [facebookresearch/dinov3](https://github.com/facebookresearch/dinov3) (tracked) |
 | 2026-05-29 | wam | [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, temporal-compression) |
 | 2026-05-29 | wam | [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference) |
 | 2026-05-29 | wam | [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam, training-loop) |
