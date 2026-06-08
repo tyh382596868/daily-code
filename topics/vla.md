@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-08 | action-head-continuous | [整个 GR00T 的训练步骤就 6 行干净的 flow-matching / The whole GR00T training step is six clean lines of flow matching](../nano/vla/2026-06-08-lerobot-groot-flow-matching-action-head.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-08 | vision-encoder | [用一层 Conv2d 把图片切成 token:nanoVLM 的视觉编码器 / One Conv2d turns pixels into tokens: nanoVLM's vision encoder](../nano/vla/2026-06-08-nanovlm-vit-patch-embed.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-06-08 | vision-encoder | [37 行的 ViTPatchEmbeddings:一个 Conv2d 就是整个"图像分块" / 37 lines of ViTPatchEmbeddings: one Conv2d *is* the entire "patchify" step](../nano/vla/2026-06-08-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-06-07 | vision-encoder | [一根 stride 等于 patch 的 Conv2d:VLA 视觉编码器的整个入口就这么简单 / One Conv2d with stride = patch size: the entire entry point of a VLA's vision encoder](../nano/vla/2026-06-07-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
