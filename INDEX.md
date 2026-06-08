@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-06-08 | wam | [Upsample 8× with zero learnable params: Open-Sora's 3D pixel-shuffle](nano/wam/2026-06-08-open-sora-pixel-shuffle-3d.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) (wam, vae-encoder-decoder cross-repo) |
+| 2026-06-08 | vla | [One Conv2d turns pixels into tokens: nanoVLM's vision encoder](nano/vla/2026-06-08-nanovlm-vit-patch-embed.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (vla, vision-encoder) |
+| 2026-06-08 | diffusion | [28-line MiniPointNet: cram 64 points into one token](2026/06/2026-06-08-humanego-mini-pointnet.md) | [TX-Leo/HumanEgo](https://github.com/TX-Leo/HumanEgo) (trending) |
+| 2026-06-08 | huggingface | [Two model calls per step: diffusers' Heun 2nd-order flow-match sampler](2026/06/2026-06-08-diffusers-flow-match-heun-step.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |
+| 2026-06-08 | pytorch | [Pairing head with tail: PyTorch's context-parallel load balancer for causal attention](2026/06/2026-06-08-pytorch-cp-head-tail-balance.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-06-08 | diffusion | [DINOv3's Gram Loss: distill the relationships between features](2026/06/2026-06-08-dinov3-gram-loss.md) | [facebookresearch/dinov3](https://github.com/facebookresearch/dinov3) (tracked) |
 | 2026-05-29 | wam | [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, temporal-compression) |
 | 2026-05-29 | wam | [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference) |
 | 2026-05-29 | wam | [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam, training-loop) |
