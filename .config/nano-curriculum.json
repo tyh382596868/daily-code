@@ -1,7 +1,6 @@
 {
   "_doc_zh": "nanoVLA / nanoWAM 课程式构建计划。daily-code-fetch 每天从 plan 里挑下一个未覆盖、且 depends_on 全部已覆盖的组件,在 candidate_repos 里用 search_hints 找匹配文件;daily-code-teach 写完笔记后把该 id 追加到 covered 数组。tracked (robotics) 仍然做广度轮转,不受这里影响。",
   "_doc_en": "Curriculum plan for nanoVLA / nanoWAM. daily-code-fetch picks the next uncovered item whose depends_on are all covered, then searches candidate_repos for a file matching search_hints. daily-code-teach appends the id to `covered` after writing the note. tracked (robotics) keeps its breadth rotation untouched.",
-
   "nano_vla": {
     "plan": [
       {
@@ -9,26 +8,58 @@
         "title_zh": "动作 tokenizer / 离散分箱",
         "title_en": "Action tokenizer / discrete binning",
         "depends_on": [],
-        "candidate_repos": ["openvla/openvla", "huggingface/lerobot"],
-        "search_hints": ["action_tokenizer", "discretize", "bins"],
-        "good_examples": ["openvla/openvla:prismatic/vla/action_tokenizer.py"]
+        "candidate_repos": [
+          "openvla/openvla",
+          "huggingface/lerobot"
+        ],
+        "search_hints": [
+          "action_tokenizer",
+          "discretize",
+          "bins"
+        ],
+        "good_examples": [
+          "openvla/openvla:prismatic/vla/action_tokenizer.py"
+        ]
       },
       {
         "id": "modality-projector",
         "title_zh": "视觉 token → LM 空间的投影器",
         "title_en": "Vision-to-LM modality projector",
         "depends_on": [],
-        "candidate_repos": ["huggingface/nanoVLM", "huggingface/lerobot"],
-        "search_hints": ["modality_projector", "pixel_shuffle", "q_former", "vision_projector"],
-        "good_examples": ["huggingface/nanoVLM:models/modality_projector.py"]
+        "candidate_repos": [
+          "huggingface/nanoVLM",
+          "huggingface/lerobot"
+        ],
+        "search_hints": [
+          "modality_projector",
+          "pixel_shuffle",
+          "q_former",
+          "vision_projector"
+        ],
+        "good_examples": [
+          "huggingface/nanoVLM:models/modality_projector.py"
+        ]
       },
       {
         "id": "vision-encoder",
         "title_zh": "视觉编码器 / patch embedding / 多相机融合",
         "title_en": "Vision / observation encoder (patch embed, multi-cam fusion)",
         "depends_on": [],
-        "candidate_repos": ["huggingface/nanoVLM", "huggingface/lerobot", "NVIDIA/Isaac-GR00T", "Physical-Intelligence/openpi"],
-        "search_hints": ["vision_transformer", "vision_tower", "siglip", "dino", "patch_embed", "visual_encoder", "image_encoder"],
+        "candidate_repos": [
+          "huggingface/nanoVLM",
+          "huggingface/lerobot",
+          "NVIDIA/Isaac-GR00T",
+          "Physical-Intelligence/openpi"
+        ],
+        "search_hints": [
+          "vision_transformer",
+          "vision_tower",
+          "siglip",
+          "dino",
+          "patch_embed",
+          "visual_encoder",
+          "image_encoder"
+        ],
         "good_examples": [
           "huggingface/nanoVLM:models/vision_transformer.py",
           "huggingface/lerobot:src/lerobot/policies/smolvla/smolvlm_with_expert.py (embed_image)"
@@ -38,18 +69,44 @@
         "id": "vlm-backbone-wiring",
         "title_zh": "VLM + action expert 接线",
         "title_en": "VLM backbone + action expert wiring",
-        "depends_on": ["modality-projector"],
-        "candidate_repos": ["huggingface/lerobot", "Physical-Intelligence/openpi", "NVIDIA/Isaac-GR00T"],
-        "search_hints": ["vlm_with_expert", "smolvla", "modeling_pi0", "gr00t_n1", "expert"],
-        "good_examples": ["huggingface/lerobot:src/lerobot/policies/smolvla/smolvlm_with_expert.py"]
+        "depends_on": [
+          "modality-projector"
+        ],
+        "candidate_repos": [
+          "huggingface/lerobot",
+          "Physical-Intelligence/openpi",
+          "NVIDIA/Isaac-GR00T"
+        ],
+        "search_hints": [
+          "vlm_with_expert",
+          "smolvla",
+          "modeling_pi0",
+          "gr00t_n1",
+          "expert"
+        ],
+        "good_examples": [
+          "huggingface/lerobot:src/lerobot/policies/smolvla/smolvlm_with_expert.py"
+        ]
       },
       {
         "id": "action-head-continuous",
         "title_zh": "连续动作 head(flow-matching / diffusion / Gaussian)",
         "title_en": "Continuous action head (flow-matching / diffusion / Gaussian)",
-        "depends_on": ["vlm-backbone-wiring"],
-        "candidate_repos": ["huggingface/lerobot", "Physical-Intelligence/openpi", "NVIDIA/Isaac-GR00T"],
-        "search_hints": ["flow_matching_action_head", "action_head", "action_decoder", "gaussian_actor", "diffusion_action"],
+        "depends_on": [
+          "vlm-backbone-wiring"
+        ],
+        "candidate_repos": [
+          "huggingface/lerobot",
+          "Physical-Intelligence/openpi",
+          "NVIDIA/Isaac-GR00T"
+        ],
+        "search_hints": [
+          "flow_matching_action_head",
+          "action_head",
+          "action_decoder",
+          "gaussian_actor",
+          "diffusion_action"
+        ],
         "good_examples": [
           "huggingface/lerobot:src/lerobot/policies/groot/action_head/flow_matching_action_head.py",
           "huggingface/lerobot:src/lerobot/policies/gaussian_actor/modeling_gaussian_actor.py"
@@ -59,18 +116,38 @@
         "id": "training-step",
         "title_zh": "训练 step + loss 组装",
         "title_en": "Training step + loss assembly",
-        "depends_on": ["vlm-backbone-wiring"],
-        "candidate_repos": ["openvla/openvla", "huggingface/lerobot", "Physical-Intelligence/openpi"],
-        "search_hints": ["training_step", "compute_loss", "forward_loss"],
-        "good_examples": ["openvla/openvla:vla-scripts/train.py"]
+        "depends_on": [
+          "vlm-backbone-wiring"
+        ],
+        "candidate_repos": [
+          "openvla/openvla",
+          "huggingface/lerobot",
+          "Physical-Intelligence/openpi"
+        ],
+        "search_hints": [
+          "training_step",
+          "compute_loss",
+          "forward_loss"
+        ],
+        "good_examples": [
+          "openvla/openvla:vla-scripts/train.py"
+        ]
       },
       {
         "id": "action-chunking",
         "title_zh": "Action chunking / horizon 预测与展开",
         "title_en": "Action chunking / horizon prediction & unrolling",
         "depends_on": [],
-        "candidate_repos": ["huggingface/lerobot", "NVIDIA/Isaac-GR00T"],
-        "search_hints": ["action_chunking", "chunk", "horizon", "action_queue"],
+        "candidate_repos": [
+          "huggingface/lerobot",
+          "NVIDIA/Isaac-GR00T"
+        ],
+        "search_hints": [
+          "action_chunking",
+          "chunk",
+          "horizon",
+          "action_queue"
+        ],
         "good_examples": [
           "huggingface/lerobot:src/lerobot/policies/act/modeling_act.py",
           "NVIDIA/Isaac-GR00T:gr00t/data/state_action/action_chunking.py"
@@ -80,30 +157,147 @@
         "id": "fine-tune-lora",
         "title_zh": "微调 / LoRA 入口脚本",
         "title_en": "Fine-tune / LoRA entry-point script",
-        "depends_on": ["vlm-backbone-wiring"],
-        "candidate_repos": ["openvla/openvla", "huggingface/lerobot"],
-        "search_hints": ["finetune", "lora", "adapter"],
-        "good_examples": ["openvla/openvla:vla-scripts/finetune.py"]
+        "depends_on": [
+          "vlm-backbone-wiring"
+        ],
+        "candidate_repos": [
+          "openvla/openvla",
+          "huggingface/lerobot"
+        ],
+        "search_hints": [
+          "finetune",
+          "lora",
+          "adapter"
+        ],
+        "good_examples": [
+          "openvla/openvla:vla-scripts/finetune.py"
+        ]
       },
       {
         "id": "inference-loop",
         "title_zh": "推理循环(streaming obs → action)",
         "title_en": "Streaming inference loop (obs → action)",
-        "depends_on": ["vlm-backbone-wiring", "action-head-continuous"],
-        "candidate_repos": ["Physical-Intelligence/openpi", "huggingface/lerobot"],
-        "search_hints": ["inference", "policy_server", "predict_action", "select_action", "async_inference"],
-        "good_examples": ["huggingface/lerobot:src/lerobot/async_inference/policy_server.py"]
+        "depends_on": [
+          "vlm-backbone-wiring",
+          "action-head-continuous"
+        ],
+        "candidate_repos": [
+          "Physical-Intelligence/openpi",
+          "huggingface/lerobot"
+        ],
+        "search_hints": [
+          "inference",
+          "policy_server",
+          "predict_action",
+          "select_action",
+          "async_inference"
+        ],
+        "good_examples": [
+          "huggingface/lerobot:src/lerobot/async_inference/policy_server.py"
+        ]
       }
     ],
     "covered": [
-      {"id": "action-tokenizer", "date": "2026-05-10", "note": "2026/05/2026-05-10-openvla-action-tokenizer-example.md", "repo": "openvla/openvla", "via": "tracked"},
-      {"id": "modality-projector", "date": "2026-05-29", "note": "2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md", "repo": "huggingface/nanoVLM", "via": "huggingface"},
-      {"id": "vlm-backbone-wiring", "date": "2026-05-29", "note": "nano/vla/2026-05-29-smolvla-vlm-with-expert.md", "repo": "huggingface/lerobot", "via": "vla"},
-      {"id": "training-step", "date": "2026-05-28", "note": "nano/vla/2026-05-28-openvla-training-step.md", "repo": "openvla/openvla", "via": "vla"},
-      {"id": "vision-encoder", "date": "2026-06-04", "note": "nano/vla/2026-06-04-nanovlm-vit-patch-embed.md", "repo": "huggingface/nanoVLM", "via": "vla"}
+      {
+        "id": "action-tokenizer",
+        "date": "2026-05-10",
+        "note": "2026/05/2026-05-10-openvla-action-tokenizer-example.md",
+        "repo": "openvla/openvla",
+        "via": "tracked"
+      },
+      {
+        "id": "modality-projector",
+        "date": "2026-05-29",
+        "note": "2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "huggingface"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-05-29",
+        "note": "nano/vla/2026-05-29-smolvla-vlm-with-expert.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-05-28",
+        "note": "nano/vla/2026-05-28-openvla-training-step.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-06-04",
+        "note": "nano/vla/2026-06-04-nanovlm-vit-patch-embed.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "vision",
+        "date": "2026-05-31",
+        "note": "nano/vla/2026-05-31-nanovlm-vit-encoder.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-06-01",
+        "note": "nano/vla/2026-06-01-nanovlm-vit-patch-embeddings-v1.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-06-01",
+        "note": "nano/vla/2026-06-01-nanovlm-vit-patch-embeddings-v2.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "nano",
+        "date": "2026-06-02",
+        "note": "nano/vla/2026-06-02-nanovlm-vit-patch-embeddings.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-06-03",
+        "note": "nano/vla/2026-06-03-nanovlm-vit-from-pretrained.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-06-05",
+        "note": "nano/vla/2026-06-05-nanovlm-vit-from-scratch.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-06-07",
+        "note": "nano/vla/2026-06-07-nanovlm-vit-patch-embeddings.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-06-08",
+        "note": "nano/vla/2026-06-08-nanovlm-vit-patch-embed.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-06-08",
+        "note": "nano/vla/2026-06-08-nanovlm-vit-patch-embeddings.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      }
     ]
   },
-
   "nano_wam": {
     "plan": [
       {
@@ -111,8 +305,19 @@
         "title_zh": "VAE / latent 编解码(像素 ↔ latent)",
         "title_en": "VAE / latent encoder-decoder (pixel ↔ latent)",
         "depends_on": [],
-        "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "Robbyant/lingbot-va"],
-        "search_hints": ["vae", "autoencoder", "encode", "decode", "wf_vae", "causalvae"],
+        "candidate_repos": [
+          "Wan-Video/Wan2.1",
+          "hpcaitech/Open-Sora",
+          "Robbyant/lingbot-va"
+        ],
+        "search_hints": [
+          "vae",
+          "autoencoder",
+          "encode",
+          "decode",
+          "wf_vae",
+          "causalvae"
+        ],
         "good_examples": [
           "Wan-Video/Wan2.1:wan/modules/vae.py",
           "hpcaitech/Open-Sora:opensora/models/vae"
@@ -123,17 +328,44 @@
         "title_zh": "Patchify + 3D / RoPE 位置编码",
         "title_en": "Patchify + 3D / RoPE positional encoding",
         "depends_on": [],
-        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "facebookresearch/DiT", "hpcaitech/Open-Sora"],
-        "search_hints": ["patch_embed", "patchify", "rotary", "rope", "pos_embed", "WanRotaryPosEmbed"],
-        "good_examples": ["Robbyant/lingbot-va:wan_va/modules/model.py (WanRotaryPosEmbed)"]
+        "candidate_repos": [
+          "Wan-Video/Wan2.1",
+          "Robbyant/lingbot-va",
+          "facebookresearch/DiT",
+          "hpcaitech/Open-Sora"
+        ],
+        "search_hints": [
+          "patch_embed",
+          "patchify",
+          "rotary",
+          "rope",
+          "pos_embed",
+          "WanRotaryPosEmbed"
+        ],
+        "good_examples": [
+          "Robbyant/lingbot-va:wan_va/modules/model.py (WanRotaryPosEmbed)"
+        ]
       },
       {
         "id": "dit-block",
         "title_zh": "DiT 主干块(adaLN-Zero / spatial-temporal attn)",
         "title_en": "DiT backbone block (adaLN-Zero / spatial-temporal attn)",
-        "depends_on": ["patchify-positional"],
-        "candidate_repos": ["facebookresearch/DiT", "Wan-Video/Wan2.1", "Robbyant/lingbot-va", "NVIDIA/Isaac-GR00T"],
-        "search_hints": ["dit_block", "DiTBlock", "adaLN", "modulate", "spatial_temporal"],
+        "depends_on": [
+          "patchify-positional"
+        ],
+        "candidate_repos": [
+          "facebookresearch/DiT",
+          "Wan-Video/Wan2.1",
+          "Robbyant/lingbot-va",
+          "NVIDIA/Isaac-GR00T"
+        ],
+        "search_hints": [
+          "dit_block",
+          "DiTBlock",
+          "adaLN",
+          "modulate",
+          "spatial_temporal"
+        ],
         "good_examples": [
           "facebookresearch/DiT:models.py (DiTBlock)",
           "NVIDIA/Isaac-GR00T:gr00t/model/modules/dit.py"
@@ -144,77 +376,301 @@
         "title_zh": "噪声调度器 / flow matcher(DDPM / rectified flow)",
         "title_en": "Noise scheduler / flow matcher (DDPM / rectified flow)",
         "depends_on": [],
-        "candidate_repos": ["Wan-Video/Wan2.1", "dreamzero0/dreamzero", "Robbyant/lingbot-va"],
-        "search_hints": ["scheduler", "flow_match", "rectified", "ddpm", "ddim"],
-        "good_examples": ["dreamzero0/dreamzero:scheduler"]
+        "candidate_repos": [
+          "Wan-Video/Wan2.1",
+          "dreamzero0/dreamzero",
+          "Robbyant/lingbot-va"
+        ],
+        "search_hints": [
+          "scheduler",
+          "flow_match",
+          "rectified",
+          "ddpm",
+          "ddim"
+        ],
+        "good_examples": [
+          "dreamzero0/dreamzero:scheduler"
+        ]
       },
       {
         "id": "text-conditioning",
         "title_zh": "文本/图像条件(T5 / CLIP / Qwen 编码 + cross-attn 注入)",
         "title_en": "Text/image conditioning (T5/CLIP/Qwen encoder + cross-attn injection)",
-        "depends_on": ["dit-block"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "Robbyant/lingbot-va"],
-        "search_hints": ["text_encoder", "cross_attention", "t5", "clip_text", "text_embedder", "WanTimeTextImageEmbedding"],
-        "good_examples": ["Robbyant/lingbot-va:wan_va/modules/model.py (WanTimeTextImageEmbedding)"]
+        "depends_on": [
+          "dit-block"
+        ],
+        "candidate_repos": [
+          "Wan-Video/Wan2.1",
+          "hpcaitech/Open-Sora",
+          "Robbyant/lingbot-va"
+        ],
+        "search_hints": [
+          "text_encoder",
+          "cross_attention",
+          "t5",
+          "clip_text",
+          "text_embedder",
+          "WanTimeTextImageEmbedding"
+        ],
+        "good_examples": [
+          "Robbyant/lingbot-va:wan_va/modules/model.py (WanTimeTextImageEmbedding)"
+        ]
       },
       {
         "id": "action-conditioning",
         "title_zh": "动作条件 / action-frame fusion(动作如何与视频 latent 共流)",
         "title_en": "Action conditioning / action-frame fusion (actions sharing the video latent stream)",
-        "depends_on": ["dit-block"],
-        "candidate_repos": ["Robbyant/lingbot-va", "yuantianyuan01/FastWAM", "dreamzero0/dreamzero"],
-        "search_hints": ["action_embed", "action_condition", "action_token", "action_frame", "FlexAttnFunc"],
-        "good_examples": ["Robbyant/lingbot-va:wan_va/modules/model.py (FlexAttention mask)"]
+        "depends_on": [
+          "dit-block"
+        ],
+        "candidate_repos": [
+          "Robbyant/lingbot-va",
+          "yuantianyuan01/FastWAM",
+          "dreamzero0/dreamzero"
+        ],
+        "search_hints": [
+          "action_embed",
+          "action_condition",
+          "action_token",
+          "action_frame",
+          "FlexAttnFunc"
+        ],
+        "good_examples": [
+          "Robbyant/lingbot-va:wan_va/modules/model.py (FlexAttention mask)"
+        ]
       },
       {
         "id": "classifier-free-guidance",
         "title_zh": "Classifier-Free Guidance(训练 dropout + 推理 combine)",
         "title_en": "Classifier-free guidance (training dropout + inference combine)",
-        "depends_on": ["text-conditioning"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "thu-ml/Causal-Forcing"],
-        "search_hints": ["classifier_free", "cfg", "guidance_scale", "uncond", "null_embedding"],
+        "depends_on": [
+          "text-conditioning"
+        ],
+        "candidate_repos": [
+          "Wan-Video/Wan2.1",
+          "hpcaitech/Open-Sora",
+          "thu-ml/Causal-Forcing"
+        ],
+        "search_hints": [
+          "classifier_free",
+          "cfg",
+          "guidance_scale",
+          "uncond",
+          "null_embedding"
+        ],
         "good_examples": []
       },
       {
         "id": "training-loop",
         "title_zh": "训练循环(完整去噪 loss + preconditioning)",
         "title_en": "Training loop (full denoising loss + preconditioning)",
-        "depends_on": ["dit-block", "noise-scheduler"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "hpcaitech/Open-Sora"],
-        "search_hints": ["train_step", "training_step", "compute_loss", "denoise_loss"],
-        "good_examples": ["Robbyant/lingbot-va:wan_va/train.py"]
+        "depends_on": [
+          "dit-block",
+          "noise-scheduler"
+        ],
+        "candidate_repos": [
+          "Wan-Video/Wan2.1",
+          "Robbyant/lingbot-va",
+          "hpcaitech/Open-Sora"
+        ],
+        "search_hints": [
+          "train_step",
+          "training_step",
+          "compute_loss",
+          "denoise_loss"
+        ],
+        "good_examples": [
+          "Robbyant/lingbot-va:wan_va/train.py"
+        ]
       },
       {
         "id": "sampler-inference",
         "title_zh": "推理 sampler(Euler / Heun / DPM, 含 CFG combine)",
         "title_en": "Inference sampler (Euler / Heun / DPM, with CFG combine)",
-        "depends_on": ["noise-scheduler", "dit-block"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "Robbyant/lingbot-va", "hpcaitech/Open-Sora"],
-        "search_hints": ["sampler", "euler", "heun", "dpm_solver", "sample_step", "inference_with_trajectory"],
-        "good_examples": ["thu-ml/Causal-Forcing:pipeline/causal_inference.py"]
+        "depends_on": [
+          "noise-scheduler",
+          "dit-block"
+        ],
+        "candidate_repos": [
+          "Wan-Video/Wan2.1",
+          "Robbyant/lingbot-va",
+          "hpcaitech/Open-Sora"
+        ],
+        "search_hints": [
+          "sampler",
+          "euler",
+          "heun",
+          "dpm_solver",
+          "sample_step",
+          "inference_with_trajectory"
+        ],
+        "good_examples": [
+          "thu-ml/Causal-Forcing:pipeline/causal_inference.py"
+        ]
       },
       {
         "id": "temporal-compression",
         "title_zh": "时间压缩 / 因果视频 mask(3D VAE patchify + temporal causal)",
         "title_en": "Temporal compression / causal video mask (3D VAE patchify + temporal causal)",
-        "depends_on": ["vae-encoder-decoder"],
-        "candidate_repos": ["Wan-Video/Wan2.1", "hpcaitech/Open-Sora", "THUDM/CogVideoX"],
-        "search_hints": ["temporal", "causal_3d", "time_compression", "3d_vae", "wf_vae"],
+        "depends_on": [
+          "vae-encoder-decoder"
+        ],
+        "candidate_repos": [
+          "Wan-Video/Wan2.1",
+          "hpcaitech/Open-Sora",
+          "THUDM/CogVideoX"
+        ],
+        "search_hints": [
+          "temporal",
+          "causal_3d",
+          "time_compression",
+          "3d_vae",
+          "wf_vae"
+        ],
         "good_examples": []
       }
     ],
     "covered": [
-      {"id": "dit-block", "date": "2026-05-25", "note": "2026/05/2026-05-25-dit-adaln-zero-block.md", "repo": "facebookresearch/DiT", "via": "tracked"},
-      {"id": "noise-scheduler", "date": "2026-05-28", "note": "nano/wam/2026-05-28-dreamzero-flow-match-scheduler.md", "repo": "dreamzero0/dreamzero", "via": "wam"},
-      {"id": "action-conditioning", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-flex-mask-compose.md", "repo": "Robbyant/lingbot-va", "via": "wam"},
-      {"id": "vae-encoder-decoder", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-vae-causal-conv3d.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
-      {"id": "patchify-positional", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-3d-rope.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
-      {"id": "text-conditioning", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-text-cross-attention.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
-      {"id": "classifier-free-guidance", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-classifier-free-guidance.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
-      {"id": "training-loop", "date": "2026-05-29", "note": "nano/wam/2026-05-29-lingbot-add-noise-loss.md", "repo": "Robbyant/lingbot-va", "via": "wam"},
-      {"id": "sampler-inference", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-denoise-loop.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
-      {"id": "temporal-compression", "date": "2026-05-29", "note": "nano/wam/2026-05-29-wan21-resample-streaming-cache.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
-      {"id": "action-conditioning", "date": "2026-06-04", "note": "nano/wam/2026-06-04-isaac-groot-action-encoder.md", "repo": "NVIDIA/Isaac-GR00T", "via": "wam"}
+      {
+        "id": "dit-block",
+        "date": "2026-05-25",
+        "note": "2026/05/2026-05-25-dit-adaln-zero-block.md",
+        "repo": "facebookresearch/DiT",
+        "via": "tracked"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-05-28",
+        "note": "nano/wam/2026-05-28-dreamzero-flow-match-scheduler.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-05-29",
+        "note": "nano/wam/2026-05-29-lingbot-flex-mask-compose.md",
+        "repo": "Robbyant/lingbot-va",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-05-29",
+        "note": "nano/wam/2026-05-29-wan21-vae-causal-conv3d.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "patchify-positional",
+        "date": "2026-05-29",
+        "note": "nano/wam/2026-05-29-wan21-3d-rope.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-05-29",
+        "note": "nano/wam/2026-05-29-wan21-text-cross-attention.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "classifier-free-guidance",
+        "date": "2026-05-29",
+        "note": "nano/wam/2026-05-29-wan21-classifier-free-guidance.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-05-29",
+        "note": "nano/wam/2026-05-29-lingbot-add-noise-loss.md",
+        "repo": "Robbyant/lingbot-va",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-05-29",
+        "note": "nano/wam/2026-05-29-wan21-denoise-loop.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "temporal-compression",
+        "date": "2026-05-29",
+        "note": "nano/wam/2026-05-29-wan21-resample-streaming-cache.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-06-04",
+        "note": "nano/wam/2026-06-04-isaac-groot-action-encoder.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "wam"
+      },
+      {
+        "id": "DiT-block",
+        "date": "2026-05-31",
+        "note": "nano/wam/2026-05-31-opensora-mmdit-double-stream.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-06-01",
+        "note": "nano/wam/2026-06-01-open-sora-double-stream-block.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-06-01",
+        "note": "nano/wam/2026-06-01-open-sora-mmdit-double-stream.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "nano",
+        "date": "2026-06-02",
+        "note": "nano/wam/2026-06-02-open-sora-mmdit-double-stream.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-06-03",
+        "note": "nano/wam/2026-06-03-fastwam-action-prefill-cache.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-06-05",
+        "note": "nano/wam/2026-06-05-isaac-groot-dit-cross-attn.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-06-07",
+        "note": "nano/wam/2026-06-07-open-sora-mmdit-double-stream.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-06-08",
+        "note": "nano/wam/2026-06-08-open-sora-pixel-shuffle-3d.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-06-08",
+        "note": "nano/wam/2026-06-08-wan21-attention-block-production.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      }
     ]
   }
 }
