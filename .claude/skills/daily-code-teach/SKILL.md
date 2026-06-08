@@ -220,10 +220,41 @@ Then update:
   record there too with `via: "<source-track>"`. Use judgment — only mark covered if
   the note really teaches that exact component.
 
-## Step 4: Commit (optional)
+## Step 4: Commit, push, and auto-merge to main (default behavior)
 
-If the user mentioned pushing: stage all files, commit with message
-`daily code: YYYY-MM-DD {topic} (tracked + pytorch + huggingface + vla + wam + trending)`, push.
+After saving and indexing the 6 notes, the skill **commits, pushes, opens a PR, and
+merges to main automatically** — the user does NOT have to ask. The flow:
+
+1. Stage all changed files. Commit with subject
+   `daily code: YYYY-MM-DD {topic} (tracked + pytorch + huggingface + vla + wam + trending)`.
+2. Push the current working branch to `origin` with `-u`. (The sandbox forbids
+   pushing directly to `main`; the working branch — name returned by
+   `git branch --show-current` — is the required intermediate.)
+3. Open a PR via `mcp__github__create_pull_request` with `base: "main"`,
+   `head:` the current branch name. Title = commit subject. Body = a bullet list
+   of the 6 notes with their permalinks.
+4. Immediately merge the PR via `mcp__github__merge_pull_request` with
+   `merge_method: "squash"` so `main` gains exactly one clean commit per day.
+5. Report to the user in one line: "Today's daily code is on `main` (PR #N merged,
+   commit {sha})."
+
+After this, new content reaches `main` end-to-end without manual review.
+
+### Caveats / when this falls back
+
+- **Head-branch deletion is not possible** in this environment: this git server
+  refuses `git push --delete` and the GitHub MCP server has no delete-branch tool.
+  The working branch stays on the remote until the user cleans it up from the
+  GitHub UI or their local terminal. Tell the user this in the final report line
+  only when a branch is left behind.
+- **Merge conflict on index files** (rare — notes are date-named, but `INDEX.md` /
+  `README.md` / `topics/*.md` / `.config/nano-curriculum.json` can clash with
+  another in-flight PR): if `merge_pull_request` returns a conflict, do NOT
+  force-merge. Report which files conflict, leave the PR open, and ask the user
+  to resolve.
+- **Skip the auto-merge step ONLY** if the user explicitly says "don't merge yet",
+  "leave it as a PR", "我想自己 review", or similar — otherwise it's the default
+  end-of-pipeline behavior.
 
 ## Notes
 

@@ -21,11 +21,14 @@ One-line entry for the daily code learning system. The user should normally just
 ## Execution principle
 
 1. Auto-invoke `/daily-code-fetch` (Step 1: pick teaching point candidates).
-2. After Step 1, auto-invoke `/daily-code-teach` (Step 2: write educational notes).
+2. After Step 1, auto-invoke `/daily-code-teach` (Step 2: write educational notes,
+   commit, push, open a PR, and squash-merge it into `main` — all automatic, no
+   review needed). See `/daily-code-teach` Step 4 for the exact flow and the
+   "don't merge yet" opt-out.
 3. After all done, tell the user in one sentence:
    - How many notes were generated (always 6: tracked + pytorch + huggingface + vla + wam + trending)
    - Where they were saved
-   - Whether INDEX.md was refreshed
+   - That the content is now on `main` (cite the PR number and merge commit sha)
 
 > **`vla` and `wam` tracks have a special teaching goal**: the user is building their own
 > `nanoVLA` / `nanoWAM` and a production-scale version from scratch. Picks must be
