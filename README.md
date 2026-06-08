@@ -16,24 +16,26 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
-- **2026-06-04** · robotics · [mjlab uses four boolean masks to train four locomotion modes at once](2026/06/2026-06-04-mjlab-velocity-command-resample.md) — `mujocolab/mjlab` (trending)
-- **2026-06-04** · wam · [GR00T fuses action and flow-time into one small MLP](nano/wam/2026-06-04-isaac-groot-action-encoder.md) — `NVIDIA/Isaac-GR00T` (action-conditioning)
-- **2026-06-04** · vla · [One Conv2d is the entire patch embedding (nanoVLM's ViTPatchEmbeddings)](nano/vla/2026-06-04-nanovlm-vit-patch-embed.md) — `huggingface/nanoVLM` (vision-encoder)
-- **2026-06-04** · huggingface · [diffusers ships a commit-by-confidence scheduler for masked-diffusion LMs](2026/06/2026-06-04-diffusers-block-refinement-scheduler.md) — `huggingface/diffusers`
-- **2026-06-04** · pytorch · [PyTorch's EMA is one fused lerp_ over the whole parameter list](2026/06/2026-06-04-pytorch-ema-foreach-lerp.md) — `pytorch/pytorch`
-- **2026-06-04** · diffusion · [DINOv3 distills the pairwise patch-similarity matrix, not the features](2026/06/2026-06-04-dinov3-gram-loss.md) — `facebookresearch/dinov3`
-- **2026-05-29** · wam · [Resample's feat_cache lets a 3D VAE process video of arbitrary length, one chunk at a time](nano/wam/2026-05-29-wan21-resample-streaming-cache.md) — `Wan-Video/Wan2.1` (temporal-compression)
-- **2026-05-29** · wam · [60 lines of denoise loop is the entire WAM "generate"](nano/wam/2026-05-29-wan21-denoise-loop.md) — `Wan-Video/Wan2.1` (sampler-inference)
-- **2026-05-29** · wam · [Two main lines of a training step: add noise, then weight the loss](nano/wam/2026-05-29-lingbot-add-noise-loss.md) — `Robbyant/lingbot-va` (training-loop)
-- **2026-05-29** · wam · [CFG is two forwards and one weighted sum](nano/wam/2026-05-29-wan21-classifier-free-guidance.md) — `Wan-Video/Wan2.1` (classifier-free-guidance)
-- **2026-05-29** · wam · [Text conditioning is 25 lines of cross-attention](nano/wam/2026-05-29-wan21-text-cross-attention.md) — `Wan-Video/Wan2.1` (text-conditioning)
-- **2026-05-29** · wam · [Splitting RoPE three ways: frame, height, width](nano/wam/2026-05-29-wan21-3d-rope.md) — `Wan-Video/Wan2.1` (patchify-positional)
-- **2026-05-29** · wam · [One line of padding turns nn.Conv3d into a causal 3D conv](nano/wam/2026-05-29-wan21-vae-causal-conv3d.md) — `Wan-Video/Wan2.1` (vae-encoder-decoder)
-- **2026-05-29** · diffusion · [Distillation gradient = subtract two score networks (DMD in 70 lines)](2026/05/2026-05-29-causal-forcing-dmd-gradient.md) — `thu-ml/Causal-Forcing`
-- **2026-05-29** · wam · [Seven mask predicates compose into one FlexAttention BlockMask for video + action](nano/wam/2026-05-29-lingbot-flex-mask-compose.md) — `Robbyant/lingbot-va`
-- **2026-05-29** · vla · [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](nano/vla/2026-05-29-smolvla-vlm-with-expert.md) — `huggingface/lerobot`
-- **2026-05-29** · huggingface · [nanoVLM trades 256 image tokens for 64 fat tokens via pixel shuffle](2026/05/2026-05-29-nanovlm-pixel-shuffle-projector.md) — `huggingface/nanoVLM`
-- **2026-05-29** · pytorch · [Adafactor: a row vector and a column vector replace the full second-moment matrix](2026/05/2026-05-29-pytorch-adafactor-rank1-factorization.md) — `pytorch/pytorch`
+- **2026-06-08** · wam · [没有学习参数也能 ×8 上采样:Open-Sora 的 3D pixel-shuffle / Upsample 8× with zero learnable params: Open-Sora's 3D pixel-shuffle](nano/wam/2026-06-08-open-sora-pixel-shuffle-3d.md) — `hpcaitech/Open-Sora` (vae-encoder-decoder)
+- **2026-06-08** · wam · [Wan2.1 的 WanAttentionBlock:DiT block 的生产级长相 / Wan2.1's WanAttentionBlock: what a production-grade DiT block actually looks like](nano/wam/2026-06-08-wan21-attention-block-production.md) — `Wan-Video/Wan2.1` (dit-block)
+- **2026-06-08** · vla · [用一层 Conv2d 把图片切成 token:nanoVLM 的视觉编码器 / One Conv2d turns pixels into tokens: nanoVLM's vision encoder](nano/vla/2026-06-08-nanovlm-vit-patch-embed.md) — `huggingface/nanoVLM` (vision-encoder)
+- **2026-06-08** · vla · [37 行的 ViTPatchEmbeddings:一个 Conv2d 就是整个"图像分块" / 37 lines of ViTPatchEmbeddings: one Conv2d *is* the entire "patchify" step](nano/vla/2026-06-08-nanovlm-vit-patch-embeddings.md) — `huggingface/nanoVLM` (vision-encoder)
+- **2026-06-08** · trending · [flashdreams 的 BlockKVCache:[sink | rolling window] 用 4 步协议讲清楚 / flashdreams's BlockKVCache: [sink | rolling window] explained as a 4-step protocol](2026/06/2026-06-08-flashdreams-block-kvcache.md) — `NVIDIA/flashdreams` (trending)
+- **2026-06-08** · trending · [28 行 MiniPointNet:把 64 个点塞进一个 token / 28-line MiniPointNet: cram 64 points into one token](2026/06/2026-06-08-humanego-mini-pointnet.md) — `TX-Leo/HumanEgo` (trending)
+- **2026-06-08** · huggingface · [第一个 block 的残差几乎没变?那就跳过剩下所有 block / If the first block's residual barely moved, skip every other block](2026/06/2026-06-08-diffusers-first-block-cache.md) — `huggingface/diffusers`
+- **2026-06-08** · huggingface · [一个 step 调两次模型:Diffusers 的 Heun 二阶 flow-match 采样 / Two model calls per step: diffusers' Heun 2nd-order flow-match sampler](2026/06/2026-06-08-diffusers-flow-match-heun-step.md) — `huggingface/diffusers`
+- **2026-06-08** · pytorch · [把因果三角切成头尾配对:PyTorch 的 Context-Parallel 负载均衡 / Pairing head with tail: PyTorch's context-parallel load balancer for causal attention](2026/06/2026-06-08-pytorch-cp-head-tail-balance.md) — `pytorch/pytorch`
+- **2026-06-08** · pytorch · [PyTorch 把 vLLM 的 paged KV cache 写进了官方:80 行的 page table 分配器 / PyTorch shipped vLLM-style paged KV cache: an 80-line page-table allocator](2026/06/2026-06-08-pytorch-paged-attention-reserve.md) — `pytorch/pytorch`
+- **2026-06-08** · tracked · [DINOv3 的 fp8 Linear:一个 65 行的可微分 fp8 矩阵乘法 / DINOv3's fp8 Linear: a differentiable fp8 matmul in 65 lines](2026/06/2026-06-08-dinov3-fp8-linear-autograd.md) — `facebookresearch/dinov3`
+- **2026-06-08** · tracked · [DINOv3 的 Gram Loss:不蒸特征,蒸"特征之间的关系" / DINOv3's Gram Loss: don't distill features — distill the *relationships between* features](2026/06/2026-06-08-dinov3-gram-loss.md) — `facebookresearch/dinov3`
+- **2026-06-07** · wam · [Flux / SD3 的双流 DiT 块:图像和文本各自一套 QKV,只在 attention 那一步合体 / Flux / SD3's dual-stream DiT block: image and text get their own QKV, and they only meet at attention](nano/wam/2026-06-07-open-sora-mmdit-double-stream.md) — `hpcaitech/Open-Sora` (dit-block)
+- **2026-06-07** · vla · [一根 stride 等于 patch 的 Conv2d:VLA 视觉编码器的整个入口就这么简单 / One Conv2d with stride = patch size: the entire entry point of a VLA's vision encoder](nano/vla/2026-06-07-nanovlm-vit-patch-embeddings.md) — `huggingface/nanoVLM` (vision-encoder)
+- **2026-06-07** · trending · [把交互式 world model 推理装进 CUDA graph:warmup → capture → replay,每帧延迟省下几十毫秒 / Wrapping interactive world-model inference in a CUDA graph: warmup → capture → replay shaves tens of milliseconds per frame](2026/06/2026-06-07-flashdreams-cuda-graph-wrapper.md) — `NVIDIA/flashdreams` (trending)
+- **2026-06-07** · huggingface · [diffusers 怎么用一根 CUDA stream + pinned CPU 镜像把 30 GB 模型塞进 24 GB GPU / How diffusers fits a 30 GB diffusion model on a 24 GB GPU with one CUDA stream and pinned CPU mirrors](2026/06/2026-06-07-diffusers-group-offloading.md) — `huggingface/diffusers`
+- **2026-06-07** · pytorch · [PyTorch 怎么让 FA3、FA4 这种外部后端"插进"SDPA 调度器:一个 137 行的注册表 / How PyTorch lets external backends (FA3, FA4) plug into the SDPA dispatcher: a 137-line registry](2026/06/2026-06-07-pytorch-flash-attention-registry.md) — `pytorch/pytorch`
+- **2026-06-07** · tracked · [V-JEPA 的 3D 块掩码:140 行 torch 就能逼模型学"视频物理" / V-JEPA's 3D block masking: 140 lines of plain torch that force the model to learn video physics](2026/06/2026-06-07-jepa-multiblock3d-masking.md) — `facebookresearch/jepa`
+- **2026-06-05** · wam · [同一个 DiT 骨架,两种条件注入方式:GR00T 的 cross-attn 变体 / Same DiT skeleton, two conditioning strategies: GR00T's cross-attention variant](nano/wam/2026-06-05-isaac-groot-dit-cross-attn.md) — `NVIDIA/Isaac-GR00T` (dit-block)
+- **2026-06-05** · vla · [一颗 Conv2d 就是 patch embed:从零搭一个能给 VLA 用的 ViT / One Conv2d is your patch embed: a ViT from scratch ready to feed a VLA](nano/vla/2026-06-05-nanovlm-vit-from-scratch.md) — `huggingface/nanoVLM` (vision-encoder)
 
 ## Topics
 

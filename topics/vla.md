@@ -10,14 +10,18 @@ and [starVLA](https://github.com/starVLA/starVLA).
 
 Each entry teaches **one component** of a Vision-Language-Action model and
 maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA build.
-Components covered include: vision / observation encoder, action tokenizer & head,
-VLM backbone wiring, training loop & loss, action chunking, fine-tune scripts,
-inference loop.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
-| 2026-06-04 | vision encoder front-end (patch embed) | [One Conv2d is the entire patch embedding](../nano/vla/2026-06-04-nanovlm-vit-patch-embed.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
-| 2026-05-29 | VLM backbone wiring + action expert head | [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](../nano/vla/2026-05-29-smolvla-vlm-with-expert.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
-| 2026-05-28 | training step + L1 metric | [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](../nano/vla/2026-05-28-openvla-training-step.md) | [openvla/openvla](https://github.com/openvla/openvla) |
-
-<!-- entries auto-appended by daily-code-teach, newest first -->
+| 2026-06-08 | vision-encoder | [用一层 Conv2d 把图片切成 token:nanoVLM 的视觉编码器 / One Conv2d turns pixels into tokens: nanoVLM's vision encoder](../nano/vla/2026-06-08-nanovlm-vit-patch-embed.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-06-08 | vision-encoder | [37 行的 ViTPatchEmbeddings:一个 Conv2d 就是整个"图像分块" / 37 lines of ViTPatchEmbeddings: one Conv2d *is* the entire "patchify" step](../nano/vla/2026-06-08-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-06-07 | vision-encoder | [一根 stride 等于 patch 的 Conv2d:VLA 视觉编码器的整个入口就这么简单 / One Conv2d with stride = patch size: the entire entry point of a VLA's vision encoder](../nano/vla/2026-06-07-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-06-05 | vision-encoder | [一颗 Conv2d 就是 patch embed:从零搭一个能给 VLA 用的 ViT / One Conv2d is your patch embed: a ViT from scratch ready to feed a VLA](../nano/vla/2026-06-05-nanovlm-vit-from-scratch.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-06-04 | vision-encoder | [One Conv2d is the entire patch embedding (nanoVLM's ViTPatchEmbeddings)](../nano/vla/2026-06-04-nanovlm-vit-patch-embed.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-06-03 | vision-encoder | [把 SigLIP 的预训练权重灌进自己的"fused-QKV" ViT / Loading SigLIP's pretrained weights into your own fused-QKV ViT](../nano/vla/2026-06-03-nanovlm-vit-from-pretrained.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-06-02 | nano | [一个 Conv2d 等于整个 ViT 的入口 / One Conv2d *is* the entire ViT entry point](../nano/vla/2026-06-02-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-06-01 | vision-encoder | [40 行 ViTPatchEmbeddings:把像素切成 token 的最小实现 / 40-line ViTPatchEmbeddings: the smallest possible patchifier](../nano/vla/2026-06-01-nanovlm-vit-patch-embeddings-v1.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-06-01 | vision-encoder | [nanoVLM 用一个 Conv2d 把图片变成 token / nanoVLM turns an image into tokens with a single Conv2d](../nano/vla/2026-06-01-nanovlm-vit-patch-embeddings-v2.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-05-31 | vision | [nanoVLM 把整个视觉塔写成 52 行 / nanoVLM's entire vision tower fits in 52 lines](../nano/vla/2026-05-31-nanovlm-vit-encoder.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
+| 2026-05-29 | — | [SmolVLA's VLM + slim action expert: deep-copy the config, shrink it, rewire cross-attention](../nano/vla/2026-05-29-smolvla-vlm-with-expert.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
+| 2026-05-28 | — | [OpenVLA's training step: 40 lines that supervise a robot policy as if it were an LLM](../nano/vla/2026-05-28-openvla-training-step.md) | [openvla/openvla](https://github.com/openvla/openvla) |
