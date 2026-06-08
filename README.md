@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-08** · infrastructure · [把 DC 电机的扭矩-速度曲线压成 45 行 Warp kernel / Squeezing a DC motor's torque-speed curve into 45 lines of NVIDIA Warp](2026/06/2026-06-08-newton-dc-motor-warp-kernel.md) — `newton-physics/newton` (trending)
+- **2026-06-08** · wam · [一份 14 行的 EmbedND:文本 / 图像 / 视频共用一个 RoPE 模块 / 14 lines of EmbedND: text, image, and video share one RoPE module](nano/wam/2026-06-08-open-sora-embed-nd-generalized-rope.md) — `hpcaitech/Open-Sora` (patchify-positional)
+- **2026-06-08** · vla · [整个 GR00T 的训练步骤就 6 行干净的 flow-matching / The whole GR00T training step is six clean lines of flow matching](nano/vla/2026-06-08-lerobot-groot-flow-matching-action-head.md) — `huggingface/lerobot` (action-head-continuous)
+- **2026-06-08** · huggingface · [把困扰 Llama 移植半年的 RoPE 重排压成两行 view + transpose / The two-line `view` + `transpose` that fixes Llama's RoPE port nightmare](2026/06/2026-06-08-transformers-permute-for-rope.md) — `huggingface/transformers`
+- **2026-06-08** · pytorch · [PyTorch 把 FP8 attention 写进了官方:一个 154 行的 SDPA 量化 wrapper / PyTorch shipped FP8 attention to core: a 154-line quantized SDPA wrapper](2026/06/2026-06-08-pytorch-fp8-sdpa-experimental.md) — `pytorch/pytorch`
+- **2026-06-08** · infrastructure · [DoRA 的 forward 就是一句话:用 (magnitude / \|\|W + BA\|\|) 重新归一化每一列 / DoRA's whole forward is "renormalize each column by magnitude / \|\|W + BA\|\|"](2026/06/2026-06-08-torchtune-dora-magnitude-direction.md) — `pytorch/torchtune` (tracked)
 - **2026-06-08** · wam · [没有学习参数也能 ×8 上采样:Open-Sora 的 3D pixel-shuffle / Upsample 8× with zero learnable params: Open-Sora's 3D pixel-shuffle](nano/wam/2026-06-08-open-sora-pixel-shuffle-3d.md) — `hpcaitech/Open-Sora` (vae-encoder-decoder)
 - **2026-06-08** · wam · [Wan2.1 的 WanAttentionBlock:DiT block 的生产级长相 / Wan2.1's WanAttentionBlock: what a production-grade DiT block actually looks like](nano/wam/2026-06-08-wan21-attention-block-production.md) — `Wan-Video/Wan2.1` (dit-block)
 - **2026-06-08** · vla · [用一层 Conv2d 把图片切成 token:nanoVLM 的视觉编码器 / One Conv2d turns pixels into tokens: nanoVLM's vision encoder](nano/vla/2026-06-08-nanovlm-vit-patch-embed.md) — `huggingface/nanoVLM` (vision-encoder)

@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-06-08 | [PyTorch 把 FP8 attention 写进了官方:一个 154 行的 SDPA 量化 wrapper / PyTorch shipped FP8 attention to core: a 154-line quantized SDPA wrapper](../2026/06/2026-06-08-pytorch-fp8-sdpa-experimental.md) | `torch/nn/attention/experimental/_scaled_dot_product_attention_quantized.py` |
 | 2026-06-08 | [把因果三角切成头尾配对:PyTorch 的 Context-Parallel 负载均衡 / Pairing head with tail: PyTorch's context-parallel load balancer for causal attention](../2026/06/2026-06-08-pytorch-cp-head-tail-balance.md) | `torch/distributed/tensor/experimental/_context_parallel/_load_balancer.py` |
 | 2026-06-08 | [PyTorch 把 vLLM 的 paged KV cache 写进了官方:80 行的 page table 分配器 / PyTorch shipped vLLM-style paged KV cache: an 80-line page-table allocator](../2026/06/2026-06-08-pytorch-paged-attention-reserve.md) | `torch/nn/attention/experimental/_paged_attention.py` |
 | 2026-06-07 | [PyTorch 怎么让 FA3、FA4 这种外部后端"插进"SDPA 调度器:一个 137 行的注册表 / How PyTorch lets external backends (FA3, FA4) plug into the SDPA dispatcher: a 137-line registry](../2026/06/2026-06-07-pytorch-flash-attention-registry.md) | `torch/nn/attention/_registry.py` |
