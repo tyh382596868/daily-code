@@ -330,6 +330,20 @@
         "note": "nano/vla/2026-06-08-openvla-oft-placeholder-attention-lineage.md",
         "repo": "openvla/openvla-oft",
         "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-06-08",
+        "note": "nano/vla/2026-06-08-pi0fast-multimodal-prefix-lm-fusion.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-06-08",
+        "note": "nano/vla/2026-06-08-pi0fast-stop-signals-decode-loop.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
