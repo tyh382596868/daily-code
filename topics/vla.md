@@ -13,6 +13,8 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-08 | vlm-backbone-wiring | [OpenVLA 没有"融合模块":vision 钉前缀,action 钉后缀,32 层 causal attention 自己融 / OpenVLA has no "fusion module": vision pinned at prefix, action pinned at suffix, 32 layers of causal attention do the rest](../nano/vla/2026-06-08-openvla-multimodal-fusion-causal-mask.md) | [openvla/openvla](https://github.com/openvla/openvla) |
+| 2026-06-08 | training-step | [OpenVLA 的训练目标就是标准 LM 的 next-token prediction,只是 labels 多了一行 mask / OpenVLA's training target is just standard LM next-token prediction — only one line of label masking restricts the loss to the 7 action positions](../nano/vla/2026-06-08-openvla-next-token-prediction-target.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-06-08 | action-head-continuous | [整个 GR00T 的训练步骤就 6 行干净的 flow-matching / The whole GR00T training step is six clean lines of flow matching](../nano/vla/2026-06-08-lerobot-groot-flow-matching-action-head.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-08 | vision-encoder | [用一层 Conv2d 把图片切成 token:nanoVLM 的视觉编码器 / One Conv2d turns pixels into tokens: nanoVLM's vision encoder](../nano/vla/2026-06-08-nanovlm-vit-patch-embed.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-06-08 | vision-encoder | [37 行的 ViTPatchEmbeddings:一个 Conv2d 就是整个"图像分块" / 37 lines of ViTPatchEmbeddings: one Conv2d *is* the entire "patchify" step](../nano/vla/2026-06-08-nanovlm-vit-patch-embeddings.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
