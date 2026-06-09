@@ -316,6 +316,20 @@
         "note": "nano/vla/2026-06-08-openvla-next-token-prediction-target.md",
         "repo": "openvla/openvla",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-06-08",
+        "note": "nano/vla/2026-06-08-openvla-oft-zero-action-l1-head.md",
+        "repo": "openvla/openvla-oft",
+        "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-06-08",
+        "note": "nano/vla/2026-06-08-openvla-oft-placeholder-attention-lineage.md",
+        "repo": "openvla/openvla-oft",
+        "via": "vla"
       }
     ]
   },
