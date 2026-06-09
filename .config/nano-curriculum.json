@@ -302,6 +302,20 @@
         "note": "nano/vla/2026-06-08-lerobot-groot-flow-matching-action-head.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-06-08",
+        "note": "nano/vla/2026-06-08-openvla-multimodal-fusion-causal-mask.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-06-08",
+        "note": "nano/vla/2026-06-08-openvla-next-token-prediction-target.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
       }
     ]
   },

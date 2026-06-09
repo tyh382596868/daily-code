@@ -8,6 +8,8 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-06-08 | vla | [OpenVLA 没有"融合模块":vision 钉前缀,action 钉后缀,32 层 causal attention 自己融 / OpenVLA has no "fusion module": vision pinned at prefix, action pinned at suffix, 32 layers of causal attention do the rest](nano/vla/2026-06-08-openvla-multimodal-fusion-causal-mask.md) | [openvla/openvla](https://github.com/openvla/openvla) (vla, vlm-backbone-wiring) |
+| 2026-06-08 | vla | [OpenVLA 的训练目标就是标准 LM 的 next-token prediction,只是 labels 多了一行 mask / OpenVLA's training target is just standard LM next-token prediction — only one line of label masking restricts the loss to the 7 action positions](nano/vla/2026-06-08-openvla-next-token-prediction-target.md) | [openvla/openvla](https://github.com/openvla/openvla) (vla, training-step) |
 | 2026-06-08 | infrastructure | [把 DC 电机的扭矩-速度曲线压成 45 行 Warp kernel / Squeezing a DC motor's torque-speed curve into 45 lines of NVIDIA Warp](2026/06/2026-06-08-newton-dc-motor-warp-kernel.md) | [newton-physics/newton](https://github.com/newton-physics/newton) (trending) |
 | 2026-06-08 | wam | [一份 14 行的 EmbedND:文本 / 图像 / 视频共用一个 RoPE 模块 / 14 lines of EmbedND: text, image, and video share one RoPE module](nano/wam/2026-06-08-open-sora-embed-nd-generalized-rope.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) (wam, patchify-positional) |
 | 2026-06-08 | vla | [整个 GR00T 的训练步骤就 6 行干净的 flow-matching / The whole GR00T training step is six clean lines of flow matching](nano/vla/2026-06-08-lerobot-groot-flow-matching-action-head.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, action-head-continuous) |
