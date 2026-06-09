@@ -11,15 +11,19 @@ tags: [code-of-the-day, vla, openvla-oft, action-head, zero-embedding, rope, par
 build_role: action-head-continuous (deep-dive variant) — how OpenVLA-OFT turns LLaMA into a position-only condition encoder by zeroing action embeddings + L1 regression head
 ---
 
-# OpenVLA-OFT 把 LLaMA 退化成"位置查询编码器":action 位置全塞零,L1 head 一次出 8 步 / OpenVLA-OFT turns LLaMA into a "position-only query encoder": zero the action embeddings, let the L1 head emit 8 steps at once
+# OpenVLA-OFT 把 LLaMA 退化成"位置查询编码器":action 位置全塞零 + fork transformers 改 bidirectional mask,L1 head 一次出 8 步 / OpenVLA-OFT turns LLaMA into a "position-only query encoder": zero the action embeddings + fork transformers to swap causal mask for bidirectional, then let the L1 head emit 8 steps at once
 
-> **一句话 / In one line**: 把 56 个 action token 位置的 input embedding 全部乘零,LLaMA 第一层 `softmax(q=0) = uniform` 自动让 action 位置先吸 `mean(V_prefix)`,第二层 RoPE 才用位置编码区分 56 个槽位,32 层精炼后 MLPResNet 一次性把它们解码成 8 步连续动作。 / Multiply the 56 action-token-position input embeddings by zero. LLaMA's layer-1 attention turns `softmax(q=0) = uniform`, so every action position absorbs `mean(V_prefix)`; layer 2's RoPE finally differentiates the 56 slots by relative position; after 32 layers of refinement, an MLPResNet decodes them in one shot into 8 continuous action steps.
+> **📌 订正 (2026-06-08) / Correction**: 本笔记初版说 "OFT 完全不改 attention mask",**这是错的**。OFT 同时做了两件事:(1) 在 `modeling_prismatic.py` 里把 56 个 action 位置的 input embedding 乘零;(2) **在 fork 过的 `transformers` 库**([`moojink/transformers-openvla-oft` commit `bc339d9`](https://github.com/moojink/transformers-openvla-oft/commit/bc339d9))里把 `LlamaSdpaAttention.forward` 的 causal mask 改成全序列 bidirectional mask + `is_causal=False`。两个机制叠加才解释了 OFT 的 parallel decoding。下面 "为什么重要"段落和"逐行讲解"已按此修正。
+>
+> **📌 Correction (2026-06-08)**: An earlier version of this note said "OFT does not change the attention mask at all" — **this was wrong**. OFT actually does two things: (1) zero out the 56 action-position input embeddings in `modeling_prismatic.py`; (2) **in a forked `transformers` library** ([`moojink/transformers-openvla-oft` commit `bc339d9`](https://github.com/moojink/transformers-openvla-oft/commit/bc339d9)), replace the causal mask in `LlamaSdpaAttention.forward` with a full-sequence bidirectional mask + `is_causal=False`. Both mechanisms together explain OFT's parallel decoding. The "Why this matters" and "What's happening" sections below are corrected accordingly.
+
+> **一句话 / In one line**: OFT 同时做两件事:(1) 把 56 个 action token 位置的 input embedding 全部乘零;(2) 通过 fork transformers 把 LLaMA 的 causal mask 换成全序列 bidirectional mask。前者消除 exposure bias,后者让 56 个 action 位置可以一次 forward 互相交流,叠加后 MLPResNet 把 56 个 hidden state 解码成 8 步连续动作。 / OFT does two things together: (1) multiply the 56 action-token-position input embeddings by zero; (2) via a forked transformers, swap LLaMA's causal mask for a full-sequence bidirectional mask. The first eliminates exposure bias; the second lets the 56 action positions exchange information in a single forward pass; together the MLPResNet decodes the 56 hidden states into 8 continuous action steps.
 
 ## 为什么重要 / Why this matters
 
-原版 OpenVLA 把动作"伪装成文字"让 LLaMA 自回归 7 次出 1 步动作 — 训练用真值 teacher forcing,测试用自己上一步的预测,典型的 exposure bias。**OpenVLA-OFT 反过来:不让 LLaMA 生成动作,而是把它变成一个"条件编码器"** — action 位置的 input embedding 强制乘零,信息全部从 vision/proprio/language 的 prefix 通过 attention 单向流过来,最后一个 MLPResNet 把 56 个 hidden state 一次性解码成 8 步连续动作。**没有自回归、没有 exposure bias、推理速度 7-8 倍**,精度反而略升。理解这个"零输入 + 位置编码 + 单一 forward"的范式,你就理解了为什么后续 π₀、GR00T、SmolVLA 全都抛弃了"action as text"路线 — 强行让 LM 生成动作是不必要的复杂。
+原版 OpenVLA 把动作"伪装成文字"让 LLaMA 自回归 7 次出 1 步动作 — 训练用真值 teacher forcing,测试用自己上一步的预测,典型的 exposure bias。**OpenVLA-OFT 反过来:不让 LLaMA 生成动作,而是把它变成一个"条件编码器"** — 通过两个相互配合的 trick 实现:**(1) action 位置的 input embedding 在 `modeling_prismatic.py` 里被强制乘零**(消除 exposure bias 来源 — 训练测试看到的都是零);**(2) 在 fork 过的 `transformers` 库里把 LLaMA 的 causal mask 换成全序列 bidirectional**(让 56 个 action 位置可以一次 forward 互相交流,而不是 causal 串行)。最后一个 MLPResNet 把 56 个 hidden state 解码成 8 步连续动作。**没有自回归、没有 exposure bias、推理速度 7-8 倍**,精度反而略升。理解这个"零输入 + bidirectional mask + 单一 forward"的组合,你就理解了为什么后续 π₀、GR00T、SmolVLA 全都抛弃了"action as text"路线。
 
-OpenVLA disguises actions as text and lets LLaMA autoregressively decode 7 tokens to get 1 action step — teacher forcing in training, self-prediction in test, textbook exposure bias. **OpenVLA-OFT flips this**: don't let LLaMA generate actions; turn it into a "condition encoder" instead. Force the action-position input embeddings to zero, let information flow from the vision/proprio/language prefix through attention only, and have an MLPResNet decode the 56 action-position hidden states into 8 continuous action steps in one pass. **No autoregression, no exposure bias, 7-8× faster inference**, and accuracy stays the same or slightly better. Understanding this "zero input + positional encoding + single forward" paradigm explains why π₀, GR00T, and SmolVLA all dropped the "action-as-text" route — forcing an LM to *generate* actions was unnecessary complexity.
+OpenVLA disguises actions as text and lets LLaMA autoregressively decode 7 tokens to get 1 action step — teacher forcing in training, self-prediction in test, textbook exposure bias. **OpenVLA-OFT flips this**: don't let LLaMA generate actions; turn it into a "condition encoder" instead. Two cooperating tricks: **(1) action-position input embeddings are forced to zero in `modeling_prismatic.py`** (removes the source of exposure bias — both train and test see zeros); **(2) a forked `transformers` library replaces LLaMA's causal mask with a full-sequence bidirectional mask** (lets the 56 action positions communicate in a single forward pass rather than causal-serial). An MLPResNet then decodes 56 hidden states into 8 continuous action steps. **No autoregression, no exposure bias, 7-8× faster inference**, with accuracy maintained or slightly improved. Understanding this "zero input + bidirectional mask + single forward" combo explains why π₀, GR00T, and SmolVLA all dropped the "action-as-text" route.
 
 ## 代码 / The code
 
@@ -32,6 +36,34 @@ OpenVLA disguises actions as text and lets LLaMA autoregressively decode 7 token
 all_actions_mask = all_actions_mask.unsqueeze(-1)        # (B, seq_len, 1)
 input_embeddings = input_embeddings * ~all_actions_mask  # ← 56 个 action 位置的 input embedding → 0
 ```
+
+### 2. 隐藏在 fork 里的 mask 改造 — 让 LLaMA 变 bidirectional
+
+[`moojink/transformers-openvla-oft` commit `bc339d9`](https://github.com/moojink/transformers-openvla-oft/commit/bc339d9) 改了 `src/transformers/models/llama/modeling_llama.py` 里的 `LlamaSdpaAttention.forward`,把默认 causal mask 替换成全序列 bidirectional mask:
+
+```python
+# 改动前(原版 transformers v4.40.1):
+attn_output = F.scaled_dot_product_attention(
+    query_states, key_states, value_states,
+    attn_mask=causal_mask,                          # 下三角(causal)
+    is_causal=causal_mask is None and q_len > 1,    # 默认 causal
+)
+
+# 改动后(OFT fork):
+if causal_mask is not None:
+    D = causal_mask.shape[-1]
+    last_row = causal_mask[:, :, -1, :].clone()     # ← 取原 causal mask 的最后一行
+    new_mask = last_row.unsqueeze(2).expand(-1, -1, D, -1)  # ← 复制 D 遍
+    causal_mask = new_mask                          # ← 覆盖
+
+attn_output = F.scaled_dot_product_attention(
+    query_states, key_states, value_states,
+    attn_mask=causal_mask,                          # 现在是 bidirectional + pad 屏蔽
+    is_causal=False,                                 # ← 关掉 causal
+)
+```
+
+**这 4 行的几何含义**:HF 默认生成的 causal mask 是下三角(0 = 可见,-inf = 不可见),且**最后一行**因为对应"看得最远的 query",`-inf` 只可能出现在 pad 列。所以把最后一行复制 D 遍 → 得到"全 0(双向)+ pad 列 -inf"的 bidirectional mask。**一个 broadcast 同时完成"从 causal 变 bidirectional"和"保留 pad 屏蔽"两件事**。
 
 [`vla-scripts/finetune.py:373-390`](https://github.com/moojink/openvla-oft/blob/main/vla-scripts/finetune.py#L373-L390)
 
@@ -89,9 +121,13 @@ def _process_proprio_features(self, projected_patch_embeddings, proprio, proprio
 - 中文: `all_actions_mask` 在 56 个 action 位置是 True,其他位置是 False。乘 `~mask`(取反)把 56 个位置乘零,其他位置原样。action token id 仍在 `input_ids` 里(用于位置识别),但它们的 embedding 内容被抹掉。
 - English: `all_actions_mask` is True at the 56 action positions, False elsewhere. Multiplying by `~mask` zeros those 56 positions and leaves the rest intact. The action token ids stay in `input_ids` (used for position lookup), but their embedding content is wiped.
 
-### 2. **`softmax(q=0) = uniform`** — 第一层魔法
-- 中文: action 位置 input 是零 → q_proj(零) = 零(LLaMA 的 q_proj 无 bias)→ RoPE(零) = 零 → attention scores = 零 @ K.T = 零向量 → **softmax(零向量) = uniform 分布**(每个可见位置概率 1/N)→ uniform @ V = `mean(V_prefix)`,一个非零向量。**所有 56 个 action 位置第一层后得到完全相同的 hidden state**。
-- English: action position input is 0 → q_proj(0) = 0 (LLaMA's q_proj has no bias) → RoPE(0) = 0 → attention scores = 0 @ K.T = zero vector → **softmax(zero) = uniform** (each visible position gets prob 1/N) → uniform @ V = `mean(V_prefix)`, non-zero. **All 56 action positions get the exact same hidden state after layer 1**.
+### 2. **`softmax(q=0) = uniform`** — 第一层魔法(与 bidirectional mask 配合)
+- 中文: action 位置 input 是零 → q_proj(零) = 零(LLaMA 的 q_proj 无 bias)→ RoPE(零) = 零 → attention scores = 零 @ K.T = 零向量 → **softmax(零向量) = uniform 分布**。注意"可见位置"由 mask 决定 — **OFT 的 bidirectional mask 让 action 位置的"可见集"扩展为全序列(prefix + 所有其他 action 位置),而原 causal mask 下只能看 prefix + 前 k-1 个 action**。第一层 V_action = 0,所以 uniform @ V 实际上 ≈ `(N_prefix / N_total) × mean(V_prefix)`,一个非零向量。**所有 56 个 action 位置第一层后得到完全相同的 hidden state**。
+- English: action position input is 0 → q_proj(0) = 0 (no bias) → RoPE(0) = 0 → attention scores = 0 @ K.T = zero vector → **softmax(zero) = uniform**. The "visible set" depends on the mask — **OFT's bidirectional mask makes each action position's visible set the full sequence (prefix + all other action positions), whereas the original causal mask only allowed prefix + the previous k-1 action positions**. Since V_action = 0 at layer 1, uniform @ V ≈ `(N_prefix / N_total) × mean(V_prefix)`, non-zero. **All 56 action positions get the exact same hidden state after layer 1**.
+
+### 2.5 **bidirectional mask 在后续层才真正发力** — 56 个位置互相 attend
+- 中文: 第一层 V_action 是零,bidirectional 让 action 互相看也只是看到零,与 causal 表现接近。**但从第二层起 V_action 变成非零的 prefix mean 派生**,bidirectional mask 让位置 T_k 能 attend 它后面的 T_{k+1}..T_{56},于是 56 个位置可以**双向交换信息**(causal mask 下只能后看前)。这就是 OFT 论文里 "lets the decoder predict all actions simultaneously" 的物理实现 — 不只是 zero embedding 让 emerge,而是 mask 真的允许全方位交流。
+- English: at layer 1, V_action is zero, so bidirectional adds nothing over causal. **But from layer 2 onward, V_action becomes derived prefix-mean, non-zero**, and the bidirectional mask lets position T_k attend T_{k+1}..T_{56} — 56 positions now **exchange information in both directions** (causal would only allow backward). This is the physical realization of the OFT paper's "let the decoder predict all actions simultaneously" — not merely emergent from zero embedding, but actively enabled by the bidirectional mask.
 
 ### 3. **RoPE 在第二层才开始区分位置** — 隐藏的细节
 - 中文: 第二层进 attention 时 h^(1)_a 不再是零,q_proj 出来非零的 q_a^(1)。RoPE 旋转 q_a^(1) 时,**不同位置 a 用不同旋转角**(RoPE 的数学:`<RoPE(q,m), RoPE(k,n)> = f(q·k, m-n)`,只取决于相对位置)。所以 56 个位置的 attention pattern 从第二层开始分化。
