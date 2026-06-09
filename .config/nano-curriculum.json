@@ -344,6 +344,13 @@
         "note": "nano/vla/2026-06-08-pi0fast-stop-signals-decode-loop.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-06-09",
+        "note": "nano/vla/2026-06-09-lerobot-rtc-action-chunking.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -725,6 +732,13 @@
         "date": "2026-06-08",
         "note": "nano/wam/2026-06-08-open-sora-embed-nd-generalized-rope.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-06-09",
+        "note": "nano/wam/2026-06-09-wan21-flow-match-dynamic-shift.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

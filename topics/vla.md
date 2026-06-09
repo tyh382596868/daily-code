@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-09 | action-chunking | [Real-Time Chunking:让动作 chunk 之间的接缝消失的 130 行 / Real-Time Chunking: 130 lines that make the seams between action chunks disappear](../nano/vla/2026-06-09-lerobot-rtc-action-chunking.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-08 | vlm-backbone-wiring | [pi0-FAST 把 state / action / language 全塞进同一条 token 流,靠 PaliGemma 的 prefix-LM mask 完成融合 / pi0-FAST stuffs state / action / language into one token stream and lets PaliGemma's prefix-LM mask do the fusion](../nano/vla/2026-06-08-pi0fast-multimodal-prefix-lm-fusion.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-08 | inference-loop | [pi0-FAST 怎么知道 action 该停了:训练埋两个 stop signal,JAX 和 PyTorch 各用一个 / How pi0-FAST knows when actions should stop: training plants two stop signals, JAX and PyTorch each pick a different one](../nano/vla/2026-06-08-pi0fast-stop-signals-decode-loop.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-08 | action-head-continuous | [OpenVLA-OFT 把 LLaMA 退化成"位置查询编码器":action 位置全塞零,L1 head 一次出 8 步 / OpenVLA-OFT turns LLaMA into a "position-only query encoder": zero the action embeddings, let the L1 head emit 8 steps at once](../nano/vla/2026-06-08-openvla-oft-zero-action-l1-head.md) | [openvla/openvla-oft](https://github.com/openvla/openvla-oft) |
