@@ -11,9 +11,13 @@ tags: [code-of-the-day, vla, design-pattern, mask-token, parallel-decode, openvl
 build_role: vlm-backbone-wiring (deep-dive variant) — the "placeholder + positional encoding + attention fills in" design pattern, traced from BERT (2018) to OpenVLA-OFT (2025)
 ---
 
-# 把要预测的位置塞 placeholder,让 attention 从 context 单向"填空" — 这条设计线从 BERT 走到了 OFT / Put placeholders at positions to be predicted, let attention "fill in" from context — a design lineage from BERT (2018) to OpenVLA-OFT (2025)
+# 把要预测的位置塞 placeholder + 让 attention bidirectional 填空 — 这条设计线从 BERT 走到了 OFT / Place placeholders at to-be-predicted positions + let bidirectional attention fill in — a design lineage from BERT (2018) to OpenVLA-OFT (2025)
 
-> **一句话 / In one line**: OpenVLA-OFT 的"action 位置塞零让 LLaMA 通过 attention 填空"**不是新发明**,它是 NAT (2017) → BERT (2018) → DETR (2020) → Perceiver (2021) → MAE (2021) → Q-Former (2023) → ACT (2023) 这条 8 年学术谱系的最新一环 — 同一个 idea 的不同变体,OFT 选了最朴素的零向量版本。 / OFT's "zero the action positions and let LLaMA fill them in via attention" **isn't a new invention** — it's the latest variant of an 8-year academic lineage: NAT (2017) → BERT (2018) → DETR (2020) → Perceiver (2021) → MAE (2021) → Q-Former (2023) → ACT (2023). Same idea, different incarnations; OFT picked the bare-bones "literally zero" version.
+> **📌 订正 (2026-06-08) / Correction**: 本笔记初版把 OFT 归类为 "causal self-attention + zero placeholder",**这是错的**。OFT 实际通过 fork 过的 `transformers` 库([commit `bc339d9`](https://github.com/moojink/transformers-openvla-oft/commit/bc339d9))把 LLaMA 的 causal mask 替换成 **全序列 bidirectional**,然后再叠加 zero placeholder。所以 OFT 在 4D 设计空间里的位置是 "**zero + RoPE + bidirectional self + MLP**",不是 "causal self"。下面所有"4D 表"和"attention 类型"已修正。
+>
+> **📌 Correction (2026-06-08)**: An earlier version of this note classified OFT as "causal self-attention + zero placeholder" — **this was wrong**. OFT actually forks the `transformers` library ([commit `bc339d9`](https://github.com/moojink/transformers-openvla-oft/commit/bc339d9)) to replace LLaMA's causal mask with **full-sequence bidirectional attention**, then stacks zero placeholders on top. So OFT's position in the 4D design space is "**zero + RoPE + bidirectional self + MLP**", not "causal self". All "4D tables" and "attention type" sections below are corrected accordingly.
+
+> **一句话 / In one line**: OpenVLA-OFT 的"action 位置塞零 + 全序列 bidirectional 填空"**不是新发明**,它是 NAT (2017) → BERT (2018) → DETR (2020) → Perceiver (2021) → MAE (2021) → Q-Former (2023) → ACT (2023) 这条 8 年学术谱系的最新一环 — 同一个 idea 的不同变体,OFT 选了"零 placeholder + bidirectional mask"这个组合。 / OFT's "zero action positions + full-sequence bidirectional fill-in" **isn't a new invention** — it's the latest variant of an 8-year academic lineage: NAT (2017) → BERT (2018) → DETR (2020) → Perceiver (2021) → MAE (2021) → Q-Former (2023) → ACT (2023). Same idea, different incarnations; OFT picked the "zero placeholder + bidirectional mask" combination.
 
 ## 为什么重要 / Why this matters
 
@@ -146,13 +150,13 @@ loss = F.l1_loss(actions, ground_truth)  # ← 沿用 ACT 的 L1
 中文: 8 个工作都在同一 4D 空间里:
    - **placeholder 形式**: 0 (OFT) / learned shared (MAE [MASK]) / learned per-slot (ACT, DETR queries) / random init (Perceiver)
    - **位置编码**: RoPE (OFT) / additive positional embedding (MAE, ACT) / implicit by query identity (DETR, Perceiver)
-   - **attention 类型**: causal self-attn (OFT, BERT) / cross-attn (DETR, Perceiver, ACT) / bidirectional self-attn (MAE, NAT)
+   - **attention 类型**: bidirectional self-attn (**OFT**, MAE, NAT) / cross-attn (DETR, Perceiver, ACT) / causal self-attn (BERT MLM 时段除外、原版 OpenVLA、π0-FAST 的 action 段)
    - **解码方式**: lm_head (BERT) / detection head (DETR) / action head (ACT, OFT) / linear (MAE)
 
 English: All 8 works live in the same 4D design space:
    - **Placeholder form**: 0 (OFT) / learned shared (MAE [MASK]) / learned per-slot (ACT, DETR queries) / random init (Perceiver)
    - **Positional encoding**: RoPE (OFT) / additive positional embedding (MAE, ACT) / implicit query identity (DETR, Perceiver)
-   - **Attention type**: causal self-attn (OFT, BERT) / cross-attn (DETR, Perceiver, ACT) / bidirectional self-attn (MAE, NAT)
+   - **Attention type**: bidirectional self-attn (**OFT**, MAE, NAT) / cross-attn (DETR, Perceiver, ACT) / causal self-attn (OpenVLA original, π0-FAST action segment)
    - **Decode head**: lm_head (BERT) / detection head (DETR) / action head (ACT, OFT) / linear (MAE)
 
 ### 2. **为什么 OFT 选"字面零"** — 与 MAE 选"learned mask token"的对比
@@ -165,10 +169,10 @@ English: MAE picks a learned mask token because ViT trains from scratch — addi
 
 English: MAE uses additive positional embedding `decoder_input = input + pos_emb` — even if input is the mask token, adding pos_emb makes it non-zero, and layer 1 already differentiates positions. OFT uses RoPE, which is **multiplicative rotation applied to Q and K**. If input is zero, Q is zero, RoPE(0) = 0, so layer 1 cannot differentiate. But LLaMA-2 was pretrained with RoPE — switching to additive pos_emb would betray the pretrained weights. So OFT picked RoPE and accepts a 1-layer delay in position differentiation (starts at layer 2).
 
-### 4. **causal vs cross-attention 的选择**
-中文: DETR / Perceiver / ACT 都用 cross-attention,query 独立于 condition prefix。**这种设计的好处**:query 数量和 condition 长度解耦,可以处理可变长度 input。**坏处**:增加了 cross-attention 模块,训练参数多。OFT 选 causal self-attention,query 直接坐在序列里 — **完全不加模块,完全复用 LLaMA 32 层** — 但代价是 query 必须放在 condition 之后(suffix 位置),否则它就 attend 不到 condition 了。
+### 4. **bidirectional self vs cross-attention 的选择**
+中文: DETR / Perceiver / ACT 都用 cross-attention,query 独立于 condition prefix。**这种设计的好处**:query 数量和 condition 长度解耦,可以处理可变长度 input。**坏处**:增加了 cross-attention 模块,训练参数多。OFT 选了"复用 LLaMA self-attention 模块,但通过 fork transformers 把 causal mask 改成 bidirectional",query 直接坐在序列里 — **完全不加模块,完全复用 LLaMA 32 层的 attention 权重** — 但代价是 (1) 要 fork transformers 改 mask 几何(参数全 0、不破坏 LLaMA 预训练 attention 模式),(2) action positions 必须坐在 condition 之后才能利用 RoPE 的相对位置信息。
 
-English: DETR / Perceiver / ACT all use cross-attention; queries are independent of the condition prefix. **Pros**: query count and condition length are decoupled, can handle variable-length inputs. **Cons**: adds cross-attention modules, more training params. OFT picked causal self-attention; queries sit directly in the sequence — **zero added modules, full reuse of LLaMA's 32 layers** — but the queries must sit after the condition (suffix), otherwise they can't attend to it.
+English: DETR / Perceiver / ACT all use cross-attention; queries are independent of the condition prefix. **Pros**: query count and condition length are decoupled, can handle variable-length inputs. **Cons**: adds cross-attention modules, more training params. OFT picked "reuse LLaMA self-attention modules, but fork transformers to swap causal mask for bidirectional"; queries sit directly in the sequence — **zero added modules, full reuse of LLaMA's 32 layers of attention weights** — but the costs are (1) needing a transformers fork to modify mask geometry (parameters all zero, so it doesn't break LLaMA's pretrained attention patterns), and (2) action positions must sit after the condition to leverage RoPE relative positions.
 
 ### 5. **从 BERT 到 OFT — 真正"被发明"的部分只有 chunking + L1 + zero**
 中文: 8 年 8 个工作,大部分都在重复一个 idea。**真正属于 OFT 的"新东西"**有 3 项:(1) action chunking — 借自 ACT;(2) L1 regression head — 借自 ACT;(3) **literally zero embedding** — 这是 OFT 的工程美学贡献,因为它是为"复用 7B LLaMA"才有意义。如果换成 100M 小模型,选 learned mask 反而更稳。
@@ -211,16 +215,17 @@ nanoVLA action 解码空间:
 └─────────────────────────────────────────────────────────┘
 
 某些组合 = 历史名作:
-   零        + RoPE     + causal self + MLP     → OpenVLA-OFT (L1)
-   learned   + additive + bidirectional + MLP   → MAE (但 image, not action)
-   learned   + identity + cross + DiT            → DETR / ACT / GR00T
-   noisy GT  + RoPE     + causal self + DiT     → OpenVLA-OFT (Diffusion)
-   learned   + cross    + self + cross         → BLIP-2 Q-Former
+   零        + RoPE     + bidirectional self + MLP   → OpenVLA-OFT (L1)        ← fork transformers 改 mask
+   learned   + additive + bidirectional        + MLP → MAE (image, not action)
+   learned   + identity + cross                + DiT → DETR / ACT / GR00T
+   noisy GT  + RoPE     + bidirectional self   + DiT → OpenVLA-OFT (Diffusion) ← 同样的 fork
+   learned   + cross    + self                 + cross → BLIP-2 Q-Former
+   token id  + RoPE     + causal self          + lm_head → 原版 OpenVLA / π0-FAST action 段
 ```
 
 **对 nanoVLA 的具体建议**:
 
-1. **如果复用预训练 LLaMA-2 / Qwen / Mistral**:走 OFT 路线(零 + RoPE + causal),最不破坏预训练 ;
+1. **如果复用预训练 LLaMA-2 / Qwen / Mistral 且追求极致 parallel decode**:走 OFT 路线(零 + RoPE + bidirectional + MLP),代价是要 fork transformers 改 mask(参数全 0,不破坏 LLaMA 预训练 attention 模式);
 2. **如果从头训小模型(<1B)**:走 ACT 路线(learned query + cross-attn),收敛更稳;
 3. **如果要 multi-mode action 分布**:走 OFT-Diffusion 路线(noisy continuous + DiT),flow matching 头也行;
 4. **如果只想极简快速 prototype**:用 BERT-style learned mask + bidirectional attention + linear head,代码 100 行内写完。
@@ -241,16 +246,17 @@ nanoVLA action-decoding design space:
 └─────────────────────────────────────────────────────────────┘
 
 Specific combinations = famous works:
-   zero      + RoPE     + causal self + MLP     → OpenVLA-OFT (L1)
-   learned   + additive + bidirectional + MLP   → MAE (image, not action)
-   learned   + identity + cross + DiT            → DETR / ACT / GR00T
-   noisy GT  + RoPE     + causal self + DiT     → OpenVLA-OFT (Diffusion)
-   learned   + cross    + self + cross         → BLIP-2 Q-Former
+   zero      + RoPE     + bidirectional self + MLP   → OpenVLA-OFT (L1)        ← forks transformers to flip mask
+   learned   + additive + bidirectional       + MLP  → MAE (image, not action)
+   learned   + identity + cross               + DiT  → DETR / ACT / GR00T
+   noisy GT  + RoPE     + bidirectional self  + DiT  → OpenVLA-OFT (Diffusion) ← same fork
+   learned   + cross    + self                + cross → BLIP-2 Q-Former
+   token id  + RoPE     + causal self         + lm_head → OpenVLA original / π0-FAST action segment
 ```
 
 **Concrete recommendations for nanoVLA**:
 
-1. **Reusing pretrained LLaMA-2 / Qwen / Mistral**: take the OFT route (zero + RoPE + causal), least invasive to pretraining;
+1. **Reusing pretrained LLaMA-2 / Qwen / Mistral and want maximum parallel decode**: take the OFT route (zero + RoPE + bidirectional + MLP); the cost is forking `transformers` to modify the mask geometry (params all zero, so it doesn't damage LLaMA's pretrained attention patterns);
 2. **Training a small model from scratch (<1B)**: take the ACT route (learned query + cross-attn), more stable convergence;
 3. **Need multi-mode action distribution**: take the OFT-Diffusion route (noisy continuous + DiT), flow matching head also works;
 4. **Just want a fast minimal prototype**: BERT-style learned mask + bidirectional + linear head, under 100 lines.
