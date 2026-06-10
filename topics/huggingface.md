@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-10 | [训练完才动手:PEFT 把"切除 LoRA 入侵维度"做成了一个 140 行的后处理 / After training, then surgery: PEFT ships "remove LoRA intruder dimensions" as a 140-line post-hoc step](../2026/06/2026-06-10-peft-intruder-dimension.md) | huggingface/peft |
 | 2026-06-09 | [TRL 的 GOLD trainer:用"字节偏移"对齐两种不同的 tokenizer / TRL's GOLD trainer aligns two different tokenizers via byte offsets](../2026/06/2026-06-09-trl-byte-offset-cross-tokenizer.md) | huggingface/trl |
 | 2026-06-08 | [把困扰 Llama 移植半年的 RoPE 重排压成两行 view + transpose / The two-line `view` + `transpose` that fixes Llama's RoPE port nightmare](../2026/06/2026-06-08-transformers-permute-for-rope.md) | huggingface/transformers |
 | 2026-06-08 | [第一个 block 的残差几乎没变?那就跳过剩下所有 block / If the first block's residual barely moved, skip every other block](../2026/06/2026-06-08-diffusers-first-block-cache.md) | huggingface/diffusers |
