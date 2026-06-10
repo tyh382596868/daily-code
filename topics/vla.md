@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-09 | vlm-backbone-wiring | [GR00T-N1.7 数据流完整拆解:image / language / state / action 如何经 cross-attention DiT 变成 action / GR00T-N1.7 end-to-end data flow: image / language / state / action turning into action via cross-attention DiT](../nano/vla/2026-06-09-groot-cross-attention-multimodal-fusion.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-06-09 | action-head-continuous | [pi0 完整数据流:image / language / state / action 四模态如何流到最终 action / pi0 end-to-end data flow: how image / language / state / action turn into final action](../nano/vla/2026-06-09-pi0-flow-matching-multimodal-fusion.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-06-09 | action-chunking | [Real-Time Chunking:让动作 chunk 之间的接缝消失的 130 行 / Real-Time Chunking: 130 lines that make the seams between action chunks disappear](../nano/vla/2026-06-09-lerobot-rtc-action-chunking.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-08 | vlm-backbone-wiring | [pi0-FAST 把 state / action / language 全塞进同一条 token 流,靠 PaliGemma 的 prefix-LM mask 完成融合 / pi0-FAST stuffs state / action / language into one token stream and lets PaliGemma's prefix-LM mask do the fusion](../nano/vla/2026-06-08-pi0fast-multimodal-prefix-lm-fusion.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

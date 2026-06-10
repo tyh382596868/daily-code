@@ -8,6 +8,7 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-06-09 | vla | [GR00T-N1.7 数据流完整拆解:image / language / state / action 如何经 cross-attention DiT 变成 action / GR00T-N1.7 end-to-end data flow: image / language / state / action turning into action via cross-attention DiT](nano/vla/2026-06-09-groot-cross-attention-multimodal-fusion.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) (vla, vlm-backbone-wiring) |
 | 2026-06-09 | vla | [pi0 完整数据流:image / language / state / action 四模态如何流到最终 action / pi0 end-to-end data flow: how image / language / state / action turn into final action](nano/vla/2026-06-09-pi0-flow-matching-multimodal-fusion.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (vla, action-head-continuous) |
 | 2026-06-09 | vla | [Real-Time Chunking:让动作 chunk 之间的接缝消失的 130 行 / Real-Time Chunking: 130 lines that make the seams between action chunks disappear](nano/vla/2026-06-09-lerobot-rtc-action-chunking.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, action-chunking) |
 | 2026-06-09 | wam | [Wan2.1 的 noise scheduler:同一根 flow-matching 时间轴,被 `time_shift` 重塑成"分辨率自适应" / Wan2.1's noise scheduler: one flow-matching time axis, reshaped by `time_shift` into a resolution-aware schedule](nano/wam/2026-06-09-wan21-flow-match-dynamic-shift.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, noise-scheduler) |
