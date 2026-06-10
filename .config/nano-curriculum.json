@@ -358,6 +358,13 @@
         "note": "nano/vla/2026-06-09-pi0-flow-matching-multimodal-fusion.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-06-09",
+        "note": "nano/vla/2026-06-09-groot-cross-attention-multimodal-fusion.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
       }
     ]
   },
