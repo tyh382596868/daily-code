@@ -39,6 +39,8 @@ Over the past days we dissected five representative VLAs line by line. Each alon
 
 ## 模型 1:OpenVLA — "动作就是 7 个冷门字" / OpenVLA — "actions are 7 rare words"
 
+![OpenVLA 数据流全景图 / OpenVLA end-to-end data flow](assets/2026-06-09-openvla.png)
+
 **backbone**: LLaMA-2 7B + SigLIP+DINOv2 双塔融合(channel 维 concat,2304 → projector → 4096)
 
 ```
@@ -88,6 +90,8 @@ torch.cat → multimodal_embeddings (≈540, 4096)
 ```
 
 ## 模型 2:OpenVLA-OFT — "把 LLaMA 改造成位置查询编码器" / OFT — "LLaMA as a position-only query encoder"
+
+![OpenVLA-OFT 数据流全景图 / OpenVLA-OFT end-to-end data flow](assets/2026-06-09-openvla-oft.png)
 
 **backbone**: 同 OpenVLA,但**通过 fork 的 transformers(commit `bc339d9`)把 causal mask 换成全序列 bidirectional**(取原 mask 最后一行 broadcast D 遍,保留 pad 屏蔽 + `is_causal=False`)
 
@@ -144,6 +148,8 @@ torch.cat → (≈588, 4096)
 
 ## 模型 3:pi0-FAST — "action as text 的成熟形态" / pi0-FAST — "action-as-text, matured"
 
+![pi0-FAST 数据流全景图 / pi0-FAST end-to-end data flow](assets/2026-06-09-pi0-fast.png)
+
 **backbone**: PaliGemma 2B(原生 prefix-LM,无需改 mask)+ SigLIP
 
 ```
@@ -198,6 +204,8 @@ cat → (≈308, 2048)
 ```
 
 ## 模型 4:pi0 — "VLM + 并行 action expert + flow matching" / pi0 — "VLM + parallel action expert + flow matching"
+
+![pi0 数据流全景图 / pi0 end-to-end data flow](assets/2026-06-09-pi0.png)
 
 **backbone**: PaliGemma 2B(prefix)+ **独立 300M action expert**(suffix),dual transformer
 
@@ -268,6 +276,8 @@ suffix_out[-50:] (50, 1024) → action_out_proj Linear(1024→14) → v_t (50, 1
 ```
 
 ## 模型 5:GR00T-N1.7 — "frozen backbone + cross-attention DiT + 多 embodiment" / GR00T — "frozen backbone + cross-attention DiT + multi-embodiment"
+
+![GR00T-N1.7 数据流全景图 / GR00T-N1.7 end-to-end data flow](assets/2026-06-09-groot.png)
 
 **backbone**: Qwen3VL 2B(Cosmos-Reason2)→ vl_embeds 作为**静态 condition**
 
