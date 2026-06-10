@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-10 | fine-tune-lora | [OpenVLA 的 LoRA 微调入口:把"教 VLA 干新活"压成了 8 行 PEFT 调用 / OpenVLA's LoRA fine-tune entry point: teaching a VLA a new skill in 8 lines of PEFT](../nano/vla/2026-06-10-openvla-lora-finetune.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-06-09 | vlm-backbone-wiring (synthesis) | [五种 VLA 的同一道题:image / language / state / action 怎么变成 action — OpenVLA、OFT、pi0-FAST、pi0、GR00T 全对照 / Five VLAs, one problem: turning image / language / state / action into actions — OpenVLA, OFT, pi0-FAST, pi0, GR00T side by side](../nano/vla/2026-06-09-vla-five-models-multimodal-synthesis.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-06-09 | vlm-backbone-wiring | [GR00T-N1.7 数据流完整拆解:image / language / state / action 如何经 cross-attention DiT 变成 action / GR00T-N1.7 end-to-end data flow: image / language / state / action turning into action via cross-attention DiT](../nano/vla/2026-06-09-groot-cross-attention-multimodal-fusion.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-06-09 | action-head-continuous | [pi0 完整数据流:image / language / state / action 四模态如何流到最终 action / pi0 end-to-end data flow: how image / language / state / action turn into final action](../nano/vla/2026-06-09-pi0-flow-matching-multimodal-fusion.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |

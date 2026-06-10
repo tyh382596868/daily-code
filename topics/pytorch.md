@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-06-10 | [PyTorch 把"一张 GPU 切成多张"写进了官方:92 行的 Green Context wrapper / PyTorch shipped "slice one GPU into many" to core — a 92-line Green Context wrapper](../2026/06/2026-06-10-pytorch-cuda-green-contexts.md) | `torch/cuda/green_contexts.py` |
 | 2026-06-09 | [PyTorch 把"分块 Linear+CE"塞进了官方,16 行就是整套算法 / PyTorch shipped chunked Linear + Cross-Entropy to core — the whole algorithm is 16 lines](../2026/06/2026-06-09-pytorch-chunked-linear-cross-entropy.md) | `torch/nn/modules/linear_cross_entropy.py` |
 | 2026-06-08 | [PyTorch 把 FP8 attention 写进了官方:一个 154 行的 SDPA 量化 wrapper / PyTorch shipped FP8 attention to core: a 154-line quantized SDPA wrapper](../2026/06/2026-06-08-pytorch-fp8-sdpa-experimental.md) | `torch/nn/attention/experimental/_scaled_dot_product_attention_quantized.py` |
 | 2026-06-08 | [把因果三角切成头尾配对:PyTorch 的 Context-Parallel 负载均衡 / Pairing head with tail: PyTorch's context-parallel load balancer for causal attention](../2026/06/2026-06-08-pytorch-cp-head-tail-balance.md) | `torch/distributed/tensor/experimental/_context_parallel/_load_balancer.py` |

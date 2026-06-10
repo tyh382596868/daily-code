@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-10 | [用世界模型当"想象器":dino_wm 的 71 行 CEM planner / Using the world model as an imagination engine: dino_wm's 71-line CEM planner](../2026/06/2026-06-10-dino-wm-cem-planner.md) | gaoyuezhou/dino_wm |
+| 2026-06-10 | [Helios 的 attention 派发器:在 GPU 动物园里活下来的 167 行 / Helios's attention dispatcher: 167 lines that survive the GPU zoo](../2026/06/2026-06-10-helios-attention-dispatch.md) | PKU-YuanGroup/Helios |
 | 2026-06-08 | [flashdreams 的 BlockKVCache:[sink | rolling window] 用 4 步协议讲清楚 / flashdreams's BlockKVCache: [sink | rolling window] explained as a 4-step protocol](../2026/06/2026-06-08-flashdreams-block-kvcache.md) | NVIDIA/flashdreams |
 | 2026-06-08 | [28 行 MiniPointNet:把 64 个点塞进一个 token / 28-line MiniPointNet: cram 64 points into one token](../2026/06/2026-06-08-humanego-mini-pointnet.md) | TX-Leo/HumanEgo |
 | 2026-06-08 | [DINOv3 的 fp8 Linear:一个 65 行的可微分 fp8 矩阵乘法 / DINOv3's fp8 Linear: a differentiable fp8 matmul in 65 lines](../2026/06/2026-06-08-dinov3-fp8-linear-autograd.md) | facebookresearch/dinov3 |

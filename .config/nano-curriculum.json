@@ -372,6 +372,13 @@
         "note": "nano/vla/2026-06-09-vla-five-models-multimodal-synthesis.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "fine-tune-lora",
+        "date": "2026-06-10",
+        "note": "nano/vla/2026-06-10-openvla-lora-finetune.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
       }
     ]
   },
@@ -760,6 +767,13 @@
         "date": "2026-06-09",
         "note": "nano/wam/2026-06-09-wan21-flow-match-dynamic-shift.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "classifier-free-guidance",
+        "date": "2026-06-10",
+        "note": "nano/wam/2026-06-10-dit-label-embedder-cfg.md",
+        "repo": "facebookresearch/DiT",
         "via": "wam"
       }
     ]
