@@ -351,6 +351,13 @@
         "note": "nano/vla/2026-06-09-lerobot-rtc-action-chunking.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-06-09",
+        "note": "nano/vla/2026-06-09-pi0-flow-matching-multimodal-fusion.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
