@@ -379,6 +379,13 @@
         "note": "nano/vla/2026-06-10-openvla-lora-finetune.md",
         "repo": "openvla/openvla",
         "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-06-11",
+        "note": "nano/vla/2026-06-11-lerobot-fast-action-tokenizer-paligemma.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -774,6 +781,13 @@
         "date": "2026-06-10",
         "note": "nano/wam/2026-06-10-dit-label-embedder-cfg.md",
         "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "temporal-compression",
+        "date": "2026-06-11",
+        "note": "nano/wam/2026-06-11-open-sora-causal-3d-vae.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]

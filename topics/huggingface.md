@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-11 | [Accelerate 把"动态 batch size"塞进了多卡 sharding:一招"循环填回初始 batch"让所有进程同步收尾 / Accelerate retrofits dynamic batch sizes into multi-process sharding via the classic "ring back to initial batches" trick](../2026/06/2026-06-11-accelerate-dynamic-batch-sampler.md) | huggingface/accelerate |
 | 2026-06-10 | [训练完才动手:PEFT 把"切除 LoRA 入侵维度"做成了一个 140 行的后处理 / After training, then surgery: PEFT ships "remove LoRA intruder dimensions" as a 140-line post-hoc step](../2026/06/2026-06-10-peft-intruder-dimension.md) | huggingface/peft |
 | 2026-06-09 | [TRL 的 GOLD trainer:用"字节偏移"对齐两种不同的 tokenizer / TRL's GOLD trainer aligns two different tokenizers via byte offsets](../2026/06/2026-06-09-trl-byte-offset-cross-tokenizer.md) | huggingface/trl |
 | 2026-06-08 | [把困扰 Llama 移植半年的 RoPE 重排压成两行 view + transpose / The two-line `view` + `transpose` that fixes Llama's RoPE port nightmare](../2026/06/2026-06-08-transformers-permute-for-rope.md) | huggingface/transformers |
