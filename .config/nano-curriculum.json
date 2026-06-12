@@ -414,6 +414,13 @@
         "note": "nano/vla/2026-06-10-mem-short-term-video-memory.md",
         "repo": "physical-intelligence/mem",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-06-12",
+        "note": "nano/vla/2026-06-12-openpi-policy-unified-jax-pytorch-infer.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -816,6 +823,13 @@
         "date": "2026-06-11",
         "note": "nano/wam/2026-06-11-open-sora-causal-3d-vae.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-06-12",
+        "note": "nano/wam/2026-06-12-lingbot-flow-match-scheduler-with-training-weight.md",
+        "repo": "Robbyant/lingbot-va",
         "via": "wam"
       }
     ]

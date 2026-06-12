@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-12 | [HF datasets 接 Apache Iceberg:一场"提取可序列化视图"的精彩外科手术 / HF datasets meets Apache Iceberg: a clean "extract a picklable view" surgical operation](../2026/06/2026-06-12-hf-datasets-iceberg-picklability.md) | huggingface/datasets |
 | 2026-06-11 | [Accelerate 把"动态 batch size"塞进了多卡 sharding:一招"循环填回初始 batch"让所有进程同步收尾 / Accelerate retrofits dynamic batch sizes into multi-process sharding via the classic "ring back to initial batches" trick](../2026/06/2026-06-11-accelerate-dynamic-batch-sampler.md) | huggingface/accelerate |
 | 2026-06-10 | [训练完才动手:PEFT 把"切除 LoRA 入侵维度"做成了一个 140 行的后处理 / After training, then surgery: PEFT ships "remove LoRA intruder dimensions" as a 140-line post-hoc step](../2026/06/2026-06-10-peft-intruder-dimension.md) | huggingface/peft |
 | 2026-06-09 | [TRL 的 GOLD trainer:用"字节偏移"对齐两种不同的 tokenizer / TRL's GOLD trainer aligns two different tokenizers via byte offsets](../2026/06/2026-06-09-trl-byte-offset-cross-tokenizer.md) | huggingface/trl |

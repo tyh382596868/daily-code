@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-12 | noise-scheduler (cross-repo) | [一份 130 行的完整 FlowMatchScheduler:把"训练时哪些 timestep 更重要"也包进去了 / A complete 130-line FlowMatchScheduler that also bundles "which timesteps matter more at training time"](../nano/wam/2026-06-12-lingbot-flow-match-scheduler-with-training-weight.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) |
 | 2026-06-11 | temporal-compression (cross-repo) | [让 3D VAE "听不到未来":Open-Sora 的三个因果原语 / Making a 3D VAE deaf to the future: Open-Sora's three causal primitives](../nano/wam/2026-06-11-open-sora-causal-3d-vae.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-06-10 | classifier-free-guidance (cross-repo) | [28 行 DiT LabelEmbedder:CFG 的"教学版"实现 / DiT's 28-line LabelEmbedder: the textbook implementation of classifier-free guidance](../nano/wam/2026-06-10-dit-label-embedder-cfg.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |
 | 2026-06-09 | noise-scheduler | [Wan2.1 的 noise scheduler:同一根 flow-matching 时间轴,被 `time_shift` 重塑成"分辨率自适应" / Wan2.1's noise scheduler: one flow-matching time axis, reshaped by `time_shift` into a resolution-aware schedule](../nano/wam/2026-06-09-wan21-flow-match-dynamic-shift.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
