@@ -195,6 +195,27 @@
         "good_examples": [
           "huggingface/lerobot:src/lerobot/async_inference/policy_server.py"
         ]
+      },
+      {
+        "id": "short-term-observation-memory",
+        "title_zh": "短期视觉观测记忆(秒级稠密多帧 → 单帧 token)",
+        "title_en": "Short-term visual observation memory (seconds-scale multi-frame → single-frame tokens)",
+        "depends_on": [
+          "vision-encoder"
+        ],
+        "candidate_repos": [
+          "physical-intelligence/mem",
+          "Physical-Intelligence/openpi",
+          "huggingface/lerobot"
+        ],
+        "search_hints": [
+          "video_encoder",
+          "space_time",
+          "temporal_attention",
+          "memory",
+          "history"
+        ],
+        "good_examples": []
       }
     ],
     "covered": [
@@ -385,6 +406,13 @@
         "date": "2026-06-11",
         "note": "nano/vla/2026-06-11-lerobot-fast-action-tokenizer-paligemma.md",
         "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "short-term-observation-memory",
+        "date": "2026-06-10",
+        "note": "nano/vla/2026-06-10-mem-short-term-video-memory.md",
+        "repo": "physical-intelligence/mem",
         "via": "vla"
       }
     ]
