@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-13 | training-loop (cross-repo, accelerate variant) | [FastWAM 的 50 行训练 while-loop:HF accelerate 让"梯度累积 + 多卡同步"在零分支语句下完成 / FastWAM's 50-line training while-loop: HF accelerate makes gradient accumulation + multi-process sync work without a single if-branch](../nano/wam/2026-06-13-fastwam-accelerate-training-loop.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-06-12 | noise-scheduler (cross-repo) | [一份 130 行的完整 FlowMatchScheduler:把"训练时哪些 timestep 更重要"也包进去了 / A complete 130-line FlowMatchScheduler that also bundles "which timesteps matter more at training time"](../nano/wam/2026-06-12-lingbot-flow-match-scheduler-with-training-weight.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) |
 | 2026-06-11 | temporal-compression (cross-repo) | [让 3D VAE "听不到未来":Open-Sora 的三个因果原语 / Making a 3D VAE deaf to the future: Open-Sora's three causal primitives](../nano/wam/2026-06-11-open-sora-causal-3d-vae.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-06-10 | classifier-free-guidance (cross-repo) | [28 行 DiT LabelEmbedder:CFG 的"教学版"实现 / DiT's 28-line LabelEmbedder: the textbook implementation of classifier-free guidance](../nano/wam/2026-06-10-dit-label-embedder-cfg.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |

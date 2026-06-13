@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-13 | [100 行写完一个 JEPA 世界模型 —— 完整的 encode → predict → rollout 合约 / 100 lines for a complete JEPA world model — the full encode → predict → rollout contract](../2026/06/2026-06-13-le-wm-jepa-rollout.md) | lucas-maes/le-wm |
+| 2026-06-13 | [NVIDIA flashdreams 的 `initialize_cache`:一次性 encode + 流式 VAE,这是交互式 AR 视频生成的设计核心 / NVIDIA flashdreams' `initialize_cache`: one-shot encode + streaming VAE — the design core of interactive AR video generation](../2026/06/2026-06-13-flashdreams-interactive-ar-cache.md) | NVIDIA/flashdreams |
 | 2026-06-10 | [用世界模型当"想象器":dino_wm 的 71 行 CEM planner / Using the world model as an imagination engine: dino_wm's 71-line CEM planner](../2026/06/2026-06-10-dino-wm-cem-planner.md) | gaoyuezhou/dino_wm |
 | 2026-06-10 | [Helios 的 attention 派发器:在 GPU 动物园里活下来的 167 行 / Helios's attention dispatcher: 167 lines that survive the GPU zoo](../2026/06/2026-06-10-helios-attention-dispatch.md) | PKU-YuanGroup/Helios |
 | 2026-06-08 | [flashdreams 的 BlockKVCache:[sink | rolling window] 用 4 步协议讲清楚 / flashdreams's BlockKVCache: [sink | rolling window] explained as a 4-step protocol](../2026/06/2026-06-08-flashdreams-block-kvcache.md) | NVIDIA/flashdreams |

@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-13 | training-step (cross-repo, pi0 flow-matching) | [pi0 PyTorch 的 6 行 flow-matching loss + 整个训练 step / pi0 PyTorch's 6-line flow-matching loss + complete training step](../nano/vla/2026-06-13-openpi-pi0-pytorch-flow-matching-loss.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-06-12 | inference-loop (cross-repo) | [同一份 `infer()` 跑 JAX 和 PyTorch 两套 VLA:openpi 的 80 行统一推理器 / One `infer()` for both JAX and PyTorch VLAs: openpi's 80-line unified rollout wrapper](../nano/vla/2026-06-12-openpi-policy-unified-jax-pytorch-infer.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-06-11 | action-tokenizer (cross-repo) | [pi0-FAST 的 action tokenizer:把"连续动作"装进 PaliGemma 词表的尾部空槽 / pi0-FAST's action tokenizer: stuffing continuous actions into PaliGemma's reserved vocab tail](../nano/vla/2026-06-11-lerobot-fast-action-tokenizer-paligemma.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-10 | short-term-observation-memory | [MEM 短期视觉记忆完整实现:用 4 招把"多帧观测压成单帧 token" / Implementing MEM's short-term visual memory: four moves that compress multi-frame observations into single-frame tokens](../nano/vla/2026-06-10-mem-short-term-video-memory.md) | [physical-intelligence/mem](https://pi.website/research/memory) |
