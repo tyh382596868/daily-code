@@ -428,6 +428,13 @@
         "note": "nano/vla/2026-06-13-openpi-pi0-pytorch-flow-matching-loss.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "modality-projector",
+        "date": "2026-06-14",
+        "note": "nano/vla/2026-06-14-groot-eagle25-pixel-shuffle-projector.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -844,6 +851,13 @@
         "date": "2026-06-13",
         "note": "nano/wam/2026-06-13-fastwam-accelerate-training-loop.md",
         "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-06-14",
+        "note": "nano/wam/2026-06-14-open-sora-hf-embedder-text-conditioning.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]

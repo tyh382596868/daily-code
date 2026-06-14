@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-14 | [TRL 把 RLHF 的"训练权重 → vLLM 推理"压成 56 行,FSDP1 和 FSDP2 各走一条路 / TRL squeezes RLHF's "shipping training weights into vLLM" into 56 lines — FSDP1 and FSDP2 take different routes](../2026/06/2026-06-14-trl-fsdp-vllm-weight-sync.md) | huggingface/trl |
 | 2026-06-13 | [一句数学恒等式 = 加载期外科手术:Transformers 把 Conv3d patch-embed 在 load 时换成 Linear / A math identity becomes a load-time surgery: Transformers swaps Conv3d patch-embed for Linear at checkpoint load](../2026/06/2026-06-13-transformers-conv3d-linear-fusion.md) | huggingface/transformers |
 | 2026-06-12 | [HF datasets 接 Apache Iceberg:一场"提取可序列化视图"的精彩外科手术 / HF datasets meets Apache Iceberg: a clean "extract a picklable view" surgical operation](../2026/06/2026-06-12-hf-datasets-iceberg-picklability.md) | huggingface/datasets |
 | 2026-06-11 | [Accelerate 把"动态 batch size"塞进了多卡 sharding:一招"循环填回初始 batch"让所有进程同步收尾 / Accelerate retrofits dynamic batch sizes into multi-process sharding via the classic "ring back to initial batches" trick](../2026/06/2026-06-11-accelerate-dynamic-batch-sampler.md) | huggingface/accelerate |

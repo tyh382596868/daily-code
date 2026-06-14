@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-06-14 | [PyTorch 把 Muon 写进官方了:40 行 Newton-Schulz 把梯度矩阵正交化 / PyTorch officially ships Muon — 40 lines of Newton-Schulz that orthogonalises the gradient matrix](../2026/06/2026-06-14-pytorch-muon-newton-schulz.md) | `torch/optim/_muon.py` |
 | 2026-06-13 | [PyTorch 终于把"自带 FA + FA3 + FA4 + 你家自定义 attention"做成了插件 / PyTorch ships a real plugin system for "built-in FA + FA3 + FA4 + your custom attention"](../2026/06/2026-06-13-pytorch-flash-attention-registry.md) | `torch/nn/attention/_registry.py` |
 | 2026-06-12 | [数学恒等式当编译器优化:PyTorch Inductor 让 ConvTranspose2d 直接借用 backward-input 的 Triton kernel / Math identity as a compiler optimization: PyTorch Inductor lets ConvTranspose2d reuse the backward-input Triton kernel](../2026/06/2026-06-12-pytorch-convtranspose-reuses-bwd-template.md) | `torch/_inductor/kernel/conv.py` |
 | 2026-06-11 | [PyTorch Inductor 把"全图拓扑排序"换成了"局部 BFS 搬运" — 18000 个节点中只动几十个 / PyTorch Inductor replaces a whole-graph topo sort with two tiny BFS helpers — out of 18 000 nodes it now moves only a few dozen](../2026/06/2026-06-11-pytorch-surgical-fx-move.md) | `torch/_inductor/fx_passes/overlap_manual_scheduling.py` |
