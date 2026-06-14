@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-14** · infrastructure · [DeepSeek-V3 的 ue8m0 act_quant:一句 ceil(log2(s)) 就把 FP8 scale 变成 Blackwell 原生 / DeepSeek-V3's ue8m0 act_quant: one ceil(log2(s)) makes the FP8 scale Blackwell-native](2026/06/2026-06-14-deepseek-v3-ue8m0-act-quant.md) — `deepseek-ai/DeepSeek-V3` (tracked)
+- **2026-06-14** · pytorch · [PyTorch 把 Muon 写进官方了:40 行 Newton-Schulz 把梯度矩阵正交化 / PyTorch officially ships Muon — 40 lines of Newton-Schulz that orthogonalises the gradient matrix](2026/06/2026-06-14-pytorch-muon-newton-schulz.md) — `pytorch/pytorch`
+- **2026-06-14** · huggingface · [TRL 把 RLHF 的"训练权重 → vLLM 推理"压成 56 行,FSDP1 和 FSDP2 各走一条路 / TRL squeezes RLHF's "shipping training weights into vLLM" into 56 lines — FSDP1 and FSDP2 take different routes](2026/06/2026-06-14-trl-fsdp-vllm-weight-sync.md) — `huggingface/trl`
+- **2026-06-14** · vla · [GR00T 用的 Eagle2.5 投影器:NHWC 三步乱舞把视觉 token 砍掉四分之三 / GR00T's Eagle2.5 projector: three NHWC permutations chop 75 % of the vision tokens](nano/vla/2026-06-14-groot-eagle25-pixel-shuffle-projector.md) — `huggingface/lerobot` (modality-projector)
+- **2026-06-14** · wam · [Open-Sora 把"T5 文本编码"做成 46 行,顺手解决了 TP 的对齐难题 / Open-Sora's 46-line "T5 text encoder" sneaks in a tensor-parallel-friendly alignment trick](nano/wam/2026-06-14-open-sora-hf-embedder-text-conditioning.md) — `hpcaitech/Open-Sora` (text-conditioning)
+- **2026-06-14** · infrastructure · [Astra(ICLR 2026)的"动作专家混合":80 行让一个 DiT 同时驱动游戏、车、机械臂 / Astra's (ICLR 2026) Mixture of Action Experts: 80 lines let one DiT drive games, cars, and manipulators](2026/06/2026-06-14-astra-multimodal-action-moe.md) — `EternalEvan/Astra` (trending)
 - **2026-06-13** · diffusion · [100 行写完一个 JEPA 世界模型 —— 完整的 encode → predict → rollout 合约 / 100 lines for a complete JEPA world model — the full encode → predict → rollout contract](2026/06/2026-06-13-le-wm-jepa-rollout.md) — `lucas-maes/le-wm` (tracked)
 - **2026-06-13** · pytorch · [PyTorch 终于把"自带 FA + FA3 + FA4 + 你家自定义 attention"做成了插件 / PyTorch ships a real plugin system for "built-in FA + FA3 + FA4 + your custom attention"](2026/06/2026-06-13-pytorch-flash-attention-registry.md) — `pytorch/pytorch`
 - **2026-06-13** · huggingface · [一句数学恒等式 = 加载期外科手术:Transformers 把 Conv3d patch-embed 在 load 时换成 Linear / A math identity becomes a load-time surgery: Transformers swaps Conv3d patch-embed for Linear at checkpoint load](2026/06/2026-06-13-transformers-conv3d-linear-fusion.md) — `huggingface/transformers`

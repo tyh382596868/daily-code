@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-14 | [DeepSeek-V3 的 ue8m0 act_quant:一句 ceil(log2(s)) 就把 FP8 scale 变成 Blackwell 原生 / DeepSeek-V3's ue8m0 act_quant: one ceil(log2(s)) makes the FP8 scale Blackwell-native](../2026/06/2026-06-14-deepseek-v3-ue8m0-act-quant.md) | [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) |
+| 2026-06-14 | [Astra(ICLR 2026)的"动作专家混合":80 行让一个 DiT 同时驱动游戏、车、机械臂 / Astra's (ICLR 2026) Mixture of Action Experts: 80 lines let one DiT drive games, cars, and manipulators](../2026/06/2026-06-14-astra-multimodal-action-moe.md) | [EternalEvan/Astra](https://github.com/EternalEvan/Astra) |
 | 2026-06-11 | [vLLM 的 KV-cache "高水位线":只对新进队的请求收一笔押金,治好抢占抖动 / vLLM's KV-cache "watermark": charge admission rent only on newly-admitted requests to stop preemption thrash](../2026/06/2026-06-11-vllm-kv-cache-watermark.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-06-11 | [LightX2V 把 Wan 视频模型的 FFN 从 7 次 kernel 启动压到 3 次:MXFP8 融合的完整教学版 / LightX2V fuses Wan video model FFN from 7 kernel launches down to 3: a textbook walk-through of MXFP8 fusion](../2026/06/2026-06-11-lightx2v-mxfp8-ffn-fuse.md) | [ModelTC/LightX2V](https://github.com/ModelTC/LightX2V) |
 | 2026-06-08 | [把 DC 电机的扭矩-速度曲线压成 45 行 Warp kernel / Squeezing a DC motor's torque-speed curve into 45 lines of NVIDIA Warp](../2026/06/2026-06-08-newton-dc-motor-warp-kernel.md) | [newton-physics/newton](https://github.com/newton-physics/newton) |
