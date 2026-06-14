@@ -5,14 +5,19 @@ description: |
   three-step learning workflow: (1) inputs/outputs with shapes, (2) operations and
   shape transitions as arrows, (3) the actual code line by line.
 
-  Use ONLY when the user explicitly invokes this skill (e.g. `/teaching-code`,
-  "teaching code", "teaching_code", "讲解这段代码", "教我这段代码") and provides
-  a code target (file path, function/class name, pasted snippet, or external
-  reference like "SmolVLA's eager_attention_forward"). Do NOT auto-invoke for
-  generic code-explanation questions — the user wants explicit activation.
+  STRICT INVOCATION RULE: Invoke this skill ONLY when the user literally types the
+  slash command `/teaching-code` (case-insensitive, with or without arguments).
+  Do NOT auto-invoke for any natural-language phrasing — not "讲解这段代码",
+  not "教我这段代码", not "teach me this code", not "explain X", not "walk me
+  through Y", not anything else. Natural-language code-explanation requests must
+  be answered in the normal conversational style, NOT through this skill.
 
-  Output: an explanation in the exact three-step structure, code-grounded with
-  file:line citations, ending with a short "go write your own version" hook.
+  When `/teaching-code` is typed without a code target, ask the user for one
+  before producing any explanation.
+
+  Output (only when triggered by `/teaching-code`): an explanation in the exact
+  three-step structure, code-grounded with file:line citations, ending with a
+  short "go write your own version" hook.
 ---
 
 # Teaching Code
@@ -24,15 +29,22 @@ passively absorb.
 
 ## When to invoke
 
-User explicitly invokes this skill **and** provides a code target. Examples:
+ONLY when the user literally types the slash command `/teaching-code` in their
+message. The presence of words like "讲解", "教我", "teach", "explain",
+"walk me through" in normal prose is NOT a trigger — those are just regular
+code-explanation questions and should be answered conversationally, without
+invoking this skill.
+
+Valid invocations (each must start with the literal `/teaching-code` token):
 
 - `/teaching-code src/foo.py:42`
 - `/teaching-code MyModel.forward`
 - `/teaching-code SmolVLA 的 eager_attention_forward`
 - `/teaching-code` followed by a pasted code block
 
-If the user invokes the skill without a target, ask: "想讲哪段代码?给我一个
-文件路径、函数名、或者粘贴一段。"
+If the user types `/teaching-code` without a target, ask: "想讲哪段代码?给我一个
+文件路径、函数名、或者粘贴一段。" Do not start the three-step walkthrough until
+they reply with a target.
 
 ## Execution: strict three steps, no shortcuts
 
