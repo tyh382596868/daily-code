@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-15 | [一个 meta device 怎么悄悄毁掉了 VLA 的 flow-matching 时间采样器 / How `torch.device("meta")` silently destroyed a VLA's flow-matching time sampler](../2026/06/2026-06-15-isaac-groot-n1d7-meta-device-beta-fix.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
+| 2026-06-15 | [NVIDIA Lyra 的 Gumbel-Softmax 直通 top-k:200 行代码搞定"训练时可微、推理时硬 top-k" / NVIDIA Lyra's Gumbel-Softmax straight-through top-k: 200 lines that switch between differentiable training and hard inference](../2026/06/2026-06-15-lyra-gumbel-softmax-token-pruning.md) | [nv-tlabs/lyra](https://github.com/nv-tlabs/lyra) |
 | 2026-06-12 | [53 行的 FiLM 残差块 —— Diffusion Policy 的"条件注入"全在这 / 53 lines of FiLM residual block — the whole "conditional injection" of Diffusion Policy lives here](../2026/06/2026-06-12-diffusion-policy-film-residual-block.md) | [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy) |
 | 2026-06-12 | [把"人手当机器人末端执行器"那篇 VITRA:50 行代码搞定异构动作的 masked diffusion loss / VITRA — the "human hand as a robot end-effector" paper: 50 lines handle masked diffusion loss for a heterogeneous action vector](../2026/06/2026-06-12-vitra-masked-multi-component-diffusion-loss.md) | [microsoft/VITRA](https://github.com/microsoft/VITRA) |
 | 2026-06-09 | [ROBOMETER 用 11 行就把"离散桶 logits"变成连续进度信号 / ROBOMETER turns "discrete-bin logits" into a continuous progress signal in 11 lines](../2026/06/2026-06-09-robometer-bins-to-continuous.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
