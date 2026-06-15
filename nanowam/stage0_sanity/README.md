@@ -6,14 +6,29 @@
 
 | 脚本 | 做什么 | 通过标准 |
 |---|---|---|
+| **`00_env_check.py`** | **先跑这个**,探明环境里有没有 `diffusers.WanPipeline` 或 `wan.WanT2V` | 至少一条路径(A diffusers / B 官方 wan)能走通 |
 | `01_load_check.py` | 分别 load DiT、VAE、T5,打印每个的显存占用 | 三个都能 load 上,加在一起 < user GPU 显存 |
 | `02_vae_roundtrip.py` | 拿一段 8 帧视频,VAE encode → decode,算 PSNR | PSNR > 30 dB(否则 VAE 配错) |
 | `03_t2v_inference.py` | 给一个 prompt,跑官方 T2V 流程出 16 帧视频 | 输出视频画面合理(不是全黑/纯噪声) |
 
-跑法:
+### 加载方式两条路
+
+01/02/03 当前默认基于 **diffusers** API(`AutoencoderKLWan` / `WanTransformer3DModel` / `WanPipeline`),理由是 lingbot/fastwam 都走这条(`lingbot_va/wan_va/train.py:82` 是 `from_pretrained(subfolder='transformer')` 这种 HF 标准布局)。
+
+但 **diffusers 哪个版本起官方 merge 了 Wan 类我没亲手核实**,所以 `00_env_check.py` 会探测两条路:
+
+- **路径 A — diffusers**(首选):lingbot/fastwam 同款,后续 stage 复用代码方便
+- **路径 B — 官方 wan 包**(`/tmp/daily_code_cache/wan2_1`,或 `pip install -e https://github.com/Wan-Video/Wan2.1`):`wan.WanT2V(WAN_CONFIGS["t2v-1.3B"], checkpoint_dir)`,跟权重 100% 兼容但 stage 2+ 要写适配层
+
+如果 00 检测到只有路径 B 能走,user 把输出贴回 chat,Claude 把 01/02/03 改成走 wan 官方接口。
+
+### 跑法
 
 ```bash
 cd nanowam/stage0_sanity
+python 00_env_check.py            # ← 先跑这个!根据输出决定 01/02/03 走哪条路径
+# 把 00 的输出贴回 chat,等 Claude 确认 / 调整后再跑下面
+
 # 先填好 ../configs/wan21_1_3B.yaml 里的 model_path
 python 01_load_check.py
 python 02_vae_roundtrip.py
