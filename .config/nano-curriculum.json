@@ -435,6 +435,13 @@
         "note": "nano/vla/2026-06-14-groot-eagle25-pixel-shuffle-projector.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-06-15",
+        "note": "nano/vla/2026-06-15-vla-jepa-flow-matching-action-head.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -858,6 +865,13 @@
         "date": "2026-06-14",
         "note": "nano/wam/2026-06-14-open-sora-hf-embedder-text-conditioning.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-06-15",
+        "note": "nano/wam/2026-06-15-vla-jepa-action-block-causal-mask.md",
+        "repo": "huggingface/lerobot",
         "via": "wam"
       }
     ]
