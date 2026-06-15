@@ -1,0 +1,58 @@
+# Wan2.1-T2V-1.3B 主配置
+# 这份是所有 stage 共享的底座配置。各 stage 可以在自己目录下放 stage 专属 yaml override 这里的字段。
+
+# ============ 模型路径 ============
+# user 在本地 HF 缓存或自定义路径,填本地绝对路径
+# 例: ~/.cache/huggingface/hub/models--Wan-AI--Wan2.1-T2V-1.3B/snapshots/<sha>
+model_path: "/PATH/TO/Wan2.1-T2V-1.3B"        # ⚠ user 必须填
+model_repo: "Wan-AI/Wan2.1-T2V-1.3B"          # HF repo id,用于自动下载
+
+# ============ 子模块加载选项 ============
+dtype: bf16                # 模型权重 dtype:bf16 / fp16 / fp32
+device: cuda:0             # 训练 / 推理设备
+
+# T5 (umt5-xxl) 配置
+t5:
+  dtype: bf16              # T5 永远不训,bf16 足够
+  freeze: true             # 训练时是否冻结(永远 true)
+
+# VAE 配置
+vae:
+  dtype: bf16
+  freeze: true             # VAE 永远冻
+  z_dim: 16                # ⚠ Wan2.1 是 16(Wan2.2 是 48),决策 002
+  temporal_compression: 4  # VAE 时间维下采倍数
+  spatial_compression: 8   # VAE 空间维下采倍数(每边)
+
+# DiT 配置(从 Wan2.1-T2V-1.3B 实际架构填,stage 0 跑完 user 把数字填进来)
+dit:
+  in_channels: 16          # = vae.z_dim
+  out_channels: 16
+  patch_size: [1, 2, 2]    # (f_patch, h_patch, w_patch)
+  num_attention_heads: null    # TODO stage 0 后填
+  attention_head_dim: null     # TODO stage 0 后填
+  num_layers: null             # TODO stage 0 后填
+  ffn_dim: null                # TODO stage 0 后填
+  text_dim: 4096               # T5 hidden size
+  freq_dim: 256
+  cross_attn_norm: true
+  rope_max_seq_len: 1024
+
+# ============ 显存优化(stage 1+ 用)============
+training:
+  gradient_checkpointing: true
+  use_fp16_grad_scaler: false  # bf16 不需要 scaler
+  flash_attention: true         # 用 PyTorch SDPA flash backend
+
+# ============ 数据维度(各 stage 可以 override)============
+data:
+  num_frames: 8            # F:训练时每个 sample 的视频帧数(原始,VAE 前)
+  height: 256              # 训练分辨率
+  width: 320
+  fps: 16
+  # latent 维度由上面自动算:F' = (F - 1) / 4 + 1, H' = H/8, W' = W/8
+
+# ============ 运行时 ============
+seed: 42
+log_dir: "./runs"
+checkpoint_dir: "./checkpoints"

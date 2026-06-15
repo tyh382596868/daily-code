@@ -1,0 +1,37 @@
+# nanoWAM 子项目 gitignore — 自包含,不依赖外层仓库的 gitignore
+
+# 训练产物
+runs/
+checkpoints/
+*.ckpt
+*.safetensors
+*.pth
+*.bin
+
+# 推理输出
+stage0_sanity/out_*.mp4
+stage0_sanity/out_*.gif
+stage0_sanity/out_*.png
+out/
+*.mp4
+*.gif
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 本地配置(不要把 user 本地路径 commit 上去)
+configs/local.yaml
+configs/*.local.yaml
+
+# wandb
+wandb/
