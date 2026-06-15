@@ -23,15 +23,22 @@
 conda create -n nanowam python=3.11 -y
 conda activate nanowam
 
-# 2. 先确认机器 CUDA(torch wheel 必须对得上)
+# 2. (中国网络) 把阿里 pypi 镜像设成全局默认,加速 ~10x
+pip config set global.index-url https://mirrors.cloud.aliyuncs.com/pypi/simple
+pip config set global.trusted-host mirrors.cloud.aliyuncs.com
+# 不在中国网络的环境跳过这步
+
+# 3. 先确认机器 CUDA(torch wheel 必须对得上)
 nvidia-smi | head -4     # 找 "CUDA Version: X.Y"
 # 如果是 12.6+ 走下面;12.4 把 cu126 换 cu124;12.1 整体降到 torch 2.5
 
-# 3. PyTorch (CUDA 12.6 wheel,lingbot 同款)
+# 4. PyTorch (CUDA 12.6 wheel,lingbot 同款)
+#    ⚠ --index-url 会覆盖步骤 2 的全局默认,torch 必须从 PyTorch 官方 index 拿 cu126 wheel,
+#    阿里 pypi 镜像没有 CUDA 专版 wheel
 pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 \
     --index-url https://download.pytorch.org/whl/cu126
 
-# 4. ML 栈
+# 5. ML 栈(自动走阿里源,因为步骤 2 设了全局默认)
 pip install \
     diffusers==0.36.0 \
     transformers==4.55.2 \
@@ -42,13 +49,26 @@ pip install \
     "huggingface_hub[cli]" \
     ftfy safetensors
 
-# 5. flash_attn(可能源码编译,几十分钟)
+# 6. flash_attn(可能源码编译,几十分钟)
 pip install flash-attn --no-build-isolation
 
-# 6. 验证
+# 7. 验证
 cd nanowam/stage0_sanity
 python 00_env_check.py
 ```
+
+## 不想改全局?单条命令带阿里源
+
+```bash
+pip install -i https://mirrors.cloud.aliyuncs.com/pypi/simple \
+    --trusted-host mirrors.cloud.aliyuncs.com \
+    diffusers==0.36.0 transformers==4.55.2 accelerate \
+    "numpy==1.26.4" einops easydict pyyaml \
+    opencv-python pillow imageio "imageio[ffmpeg]" \
+    "huggingface_hub[cli]" ftfy safetensors
+```
+
+torch 仍然不能这样写 —— `pip install -i 阿里 torch==2.9.0` 会拿到 PyPI 默认 wheel,CUDA 版本可能不是 12.6。**torch 必须保留 `--index-url https://download.pytorch.org/whl/cu126`**。
 
 ## 下载 Wan2.1-T2V-1.3B 权重(跟环境安装并行)
 
