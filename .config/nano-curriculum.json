@@ -449,6 +449,13 @@
         "note": "nano/vla/2026-06-21-starvla-layerwise-flow-matching-action-head.md",
         "repo": "starVLA/starVLA",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-06-21",
+        "note": "nano/vla/2026-06-21-lerobot-gaussian-actor-sac.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -886,6 +893,13 @@
         "date": "2026-06-21",
         "note": "nano/wam/2026-06-21-wan21-clip-spatial-tokens-i2v.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-06-21",
+        "note": "nano/wam/2026-06-21-fastwam-mot-mixed-attention.md",
+        "repo": "yuantianyuan01/FastWAM",
         "via": "wam"
       }
     ]
