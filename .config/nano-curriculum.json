@@ -442,6 +442,13 @@
         "note": "nano/vla/2026-06-15-vla-jepa-flow-matching-action-head.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-06-21",
+        "note": "nano/vla/2026-06-21-starvla-layerwise-flow-matching-action-head.md",
+        "repo": "starVLA/starVLA",
+        "via": "vla"
       }
     ]
   },
@@ -872,6 +879,13 @@
         "date": "2026-06-15",
         "note": "nano/wam/2026-06-15-vla-jepa-action-block-causal-mask.md",
         "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-06-21",
+        "note": "nano/wam/2026-06-21-wan21-clip-spatial-tokens-i2v.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]
