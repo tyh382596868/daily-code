@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-21 | action-conditioning (cross-repo, FastWAM MoT joint attention) | [Mixture of Transformers：动作 expert 和视频 expert 在每一层共享注意力池 / Mixture of Transformers: Action Expert and Video Expert Share One Attention Pool at Every Layer](../nano/wam/2026-06-21-fastwam-mot-mixed-attention.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-06-21 | text-conditioning (cross-repo, Wan2.1 CLIP I2V spatial tokens) | [Wan2.1 的 I2V 秘密:CLIP 的第 31 层特征,而不是 CLS pooling / Wan2.1's I2V secret: CLIP's block-31 features, not CLS pooling](../nano/wam/2026-06-21-wan21-clip-spatial-tokens-i2v.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-06-15 | action-conditioning (cross-repo, VLA-JEPA inline interleave) | [Action 不在 cross-attn 里,直接和帧 token 并排坐:VLA-JEPA 的 ActionConditionedVideoPredictor / Actions don't go into cross-attn — they sit alongside frame tokens: VLA-JEPA's `ActionConditionedVideoPredictor`](../nano/wam/2026-06-15-vla-jepa-action-block-causal-mask.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-14 | text-conditioning (cross-repo, T5 encoder producer-side) | [Open-Sora 把"T5 文本编码"做成 46 行,顺手解决了 TP 的对齐难题 / Open-Sora's 46-line "T5 text encoder" sneaks in a tensor-parallel-friendly alignment trick](../nano/wam/2026-06-14-open-sora-hf-embedder-text-conditioning.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |

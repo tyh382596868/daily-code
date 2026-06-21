@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-21** · infrastructure · [nanoGPT 的优化器配置：一行判断分出"要衰减"和"不衰减" / nanoGPT's Optimizer Setup: One-Line Rule to Split Decay vs. No-Decay](2026/06/2026-06-21-nanogpt-configure-optimizers.md) — `karpathy/nanoGPT` (tracked)
+- **2026-06-21** · pytorch · [`torch.func.grad`：把函数变成它自己的梯度函数 / `torch.func.grad`: Turn Any Function Into Its Own Gradient Function](2026/06/2026-06-21-pytorch-func-grad-transform.md) — `pytorch/pytorch`
+- **2026-06-21** · huggingface · [VeRA：全模型共享一对冻结随机矩阵，每层只训练两个缩放向量 / VeRA: One Frozen Random Matrix Pair for the Whole Model, Two Scale Vectors Per Layer](2026/06/2026-06-21-peft-vera-shared-random-matrices.md) — `huggingface/peft`
+- **2026-06-21** · vla · [SAC 高斯动作头：预测 (μ, σ)、重参数化采样、Tanh 压缩到 [-1,1] / SAC Gaussian Action Head: Predict (μ, σ), Reparameterize-Sample, Tanh-Squash to [-1,1]](nano/vla/2026-06-21-lerobot-gaussian-actor-sac.md) — `huggingface/lerobot` (action-head-continuous)
+- **2026-06-21** · wam · [Mixture of Transformers：动作 expert 和视频 expert 在每一层共享注意力池 / Mixture of Transformers: Action Expert and Video Expert Share One Attention Pool at Every Layer](nano/wam/2026-06-21-fastwam-mot-mixed-attention.md) — `yuantianyuan01/FastWAM` (action-conditioning)
+- **2026-06-21** · robotics · [NeRF 风格的 3D 位置嵌入：让 VLM 真正知道每个视觉 patch 在空间中的位置 / NeRF-Style 3D Position Embeddings: Giving the VLM Actual Spatial Awareness](2026/06/2026-06-21-spatialvla-ego3d-position-embedding.md) — `SpatialVLA/SpatialVLA` (trending)
 - **2026-06-21** · diffusion · [VEnhancer 的 SDEdit 内核:60 行把"加噪→去噪"全讲完 / VEnhancer's SDEdit core: forward + reverse diffusion in 60 lines](2026/06/2026-06-21-venhancer-sdedit-gaussian-diffusion.md) — `Vchitect/VEnhancer` (tracked)
 - **2026-06-21** · pytorch · [PyTorch 终于有 JAX 风格的无状态随机数了:Philox key / split / fold_in / normal_ / PyTorch ships JAX-style stateless PRNG: Philox key / split / fold_in / normal_](2026/06/2026-06-21-pytorch-stateless-philox-prng.md) — `pytorch/pytorch`
 - **2026-06-21** · huggingface · [30 行 multimodal fusion:一个布尔 mask 把图像 embedding 缝进 token 流 / 30 lines of multimodal fusion: one boolean mask splices image embeddings into the token stream](2026/06/2026-06-21-nanovlm-mask-indexed-image-token-splice.md) — `huggingface/nanoVLM`

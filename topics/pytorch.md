@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-06-21 | [`torch.func.grad`：把函数变成它自己的梯度函数 / `torch.func.grad`: Turn Any Function Into Its Own Gradient Function](../2026/06/2026-06-21-pytorch-func-grad-transform.md) | `torch/_functorch/apis.py` |
 | 2026-06-21 | [PyTorch 终于有 JAX 风格的无状态随机数了:Philox key / split / fold_in / normal_ / PyTorch ships JAX-style stateless PRNG: Philox key / split / fold_in / normal_](../2026/06/2026-06-21-pytorch-stateless-philox-prng.md) | `torch/func/_random.py` |
 | 2026-06-15 | [PyTorch Inductor 现在会检查"地址表达式里的常数项"是否会溢出 int32 / PyTorch Inductor now inspects the *constant term* of fused address expressions for int32 overflow](../2026/06/2026-06-15-pytorch-inductor-int32-const-overflow.md) | `torch/_inductor/codegen/simd_kernel_features.py` |
 | 2026-06-14 | [PyTorch 把 Muon 写进官方了:40 行 Newton-Schulz 把梯度矩阵正交化 / PyTorch officially ships Muon — 40 lines of Newton-Schulz that orthogonalises the gradient matrix](../2026/06/2026-06-14-pytorch-muon-newton-schulz.md) | `torch/optim/_muon.py` |
