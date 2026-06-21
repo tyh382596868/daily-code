@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-21 | action-head-continuous (cross-repo, starVLA layer-wise FM) | [层级特征 × DiT 动作头:starVLA 怎么让 early DiT 看底层像素、late DiT 看高层语义 / Layer-wise features × DiT action head: how starVLA lets early DiT layers read low-level pixels while late layers read high-level semantics](../nano/vla/2026-06-21-starvla-layerwise-flow-matching-action-head.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
 | 2026-06-15 | action-head-continuous (cross-repo, VLA-JEPA flow-matching) | [一份 80 行的 flow-matching action head:训练 + 推理一次讲完 / 80 lines of flow-matching action head: train and infer end-to-end](../nano/vla/2026-06-15-vla-jepa-flow-matching-action-head.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-14 | modality-projector (cross-repo, Eagle2.5 pixel-shuffle) | [GR00T 用的 Eagle2.5 投影器:NHWC 三步乱舞把视觉 token 砍掉四分之三 / GR00T's Eagle2.5 projector: three NHWC permutations chop 75 % of the vision tokens](../nano/vla/2026-06-14-groot-eagle25-pixel-shuffle-projector.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-13 | training-step (cross-repo, pi0 flow-matching) | [pi0 PyTorch 的 6 行 flow-matching loss + 整个训练 step / pi0 PyTorch's 6-line flow-matching loss + complete training step](../nano/vla/2026-06-13-openpi-pi0-pytorch-flow-matching-loss.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |

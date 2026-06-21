@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-21 | [VEnhancer 的 SDEdit 内核:60 行把"加噪→去噪"全讲完 / VEnhancer's SDEdit core: forward + reverse diffusion in 60 lines](../2026/06/2026-06-21-venhancer-sdedit-gaussian-diffusion.md) | Vchitect/VEnhancer |
+| 2026-06-21 | [IC-LoRA 40 行:把参考视频 token 原封不动地拼进去,让 DiT 自己学对齐 / IC-LoRA in 40 lines: append clean reference tokens and let the DiT learn alignment on its own](../2026/06/2026-06-21-ltx2-ic-lora-reference-conditioning.md) | Lightricks/LTX-2 |
 | 2026-06-13 | [100 行写完一个 JEPA 世界模型 —— 完整的 encode → predict → rollout 合约 / 100 lines for a complete JEPA world model — the full encode → predict → rollout contract](../2026/06/2026-06-13-le-wm-jepa-rollout.md) | lucas-maes/le-wm |
 | 2026-06-13 | [NVIDIA flashdreams 的 `initialize_cache`:一次性 encode + 流式 VAE,这是交互式 AR 视频生成的设计核心 / NVIDIA flashdreams' `initialize_cache`: one-shot encode + streaming VAE — the design core of interactive AR video generation](../2026/06/2026-06-13-flashdreams-interactive-ar-cache.md) | NVIDIA/flashdreams |
 | 2026-06-10 | [用世界模型当"想象器":dino_wm 的 71 行 CEM planner / Using the world model as an imagination engine: dino_wm's 71-line CEM planner](../2026/06/2026-06-10-dino-wm-cem-planner.md) | gaoyuezhou/dino_wm |
