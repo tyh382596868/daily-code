@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-22** · infrastructure · [Tensor 并行的两块积木：ColumnParallelLinear + RowParallelLinear / Tensor Parallelism's Two Building Blocks: ColumnParallelLinear + RowParallelLinear](2026/06/2026-06-22-flash-attn-tensor-parallel-linear.md) — `Dao-AILab/flash-attention` (tracked)
+- **2026-06-22** · pytorch · [优化器藏进反向传播：`_apply_optimizer_in_backward` / The Optimizer Hidden Inside Backward: `_apply_optimizer_in_backward`](2026/06/2026-06-22-pytorch-optimizer-in-backward.md) — `pytorch/pytorch`
+- **2026-06-22** · huggingface · [Transformers 的连续批处理三步核心：前缀缓存 + token 预算分割 + paged-attention 块分配 / Transformers Continuous Batching Core: Prefix Cache + Token-Budget Split + Paged-Attention Block Allocation](2026/06/2026-06-22-transformers-continuous-batching-scheduler.md) — `huggingface/transformers`
+- **2026-06-22** · vla · [生产级 VLA 推理流水线：gRPC 策略服务器的 5 步内核 / Production VLA Inference Pipeline: the 5-Step Core of the gRPC Policy Server](nano/vla/2026-06-22-lerobot-policy-server-inference-pipeline.md) — `huggingface/lerobot` (inference-loop cross-repo)
+- **2026-06-22** · wam · [时序 Tile VAE：无限长视频的 O(1) 显存编码 / Temporal-Tiled VAE: O(1) Memory Encoding for Arbitrarily Long Videos](nano/wam/2026-06-22-open-sora-hunyuanvae-temporal-tiling.md) — `hpcaitech/Open-Sora` (vae-encoder-decoder cross-repo)
+- **2026-06-22** · infrastructure · [VLA 专属 Triton 注意力：前缀 + 后缀双区域 Softmax / VLA-Specific Triton Attention: Prefix + Suffix Two-Region Softmax](2026/06/2026-06-22-fluxvla-triton-prefix-suffix-softmax.md) — `FluxVLA/FluxVLA` (trending)
 - **2026-06-21** · infrastructure · [nanoGPT 的优化器配置：一行判断分出"要衰减"和"不衰减" / nanoGPT's Optimizer Setup: One-Line Rule to Split Decay vs. No-Decay](2026/06/2026-06-21-nanogpt-configure-optimizers.md) — `karpathy/nanoGPT` (tracked)
 - **2026-06-21** · pytorch · [`torch.func.grad`：把函数变成它自己的梯度函数 / `torch.func.grad`: Turn Any Function Into Its Own Gradient Function](2026/06/2026-06-21-pytorch-func-grad-transform.md) — `pytorch/pytorch`
 - **2026-06-21** · huggingface · [VeRA：全模型共享一对冻结随机矩阵，每层只训练两个缩放向量 / VeRA: One Frozen Random Matrix Pair for the Whole Model, Two Scale Vectors Per Layer](2026/06/2026-06-21-peft-vera-shared-random-matrices.md) — `huggingface/peft`

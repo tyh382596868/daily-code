@@ -456,6 +456,13 @@
         "note": "nano/vla/2026-06-21-lerobot-gaussian-actor-sac.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-06-22",
+        "note": "nano/vla/2026-06-22-lerobot-policy-server-inference-pipeline.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -900,6 +907,13 @@
         "date": "2026-06-21",
         "note": "nano/wam/2026-06-21-fastwam-mot-mixed-attention.md",
         "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-06-22",
+        "note": "nano/wam/2026-06-22-open-sora-hunyuanvae-temporal-tiling.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]
