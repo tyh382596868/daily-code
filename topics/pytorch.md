@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-06-22 | [优化器藏进反向传播：`_apply_optimizer_in_backward` / The Optimizer Hidden Inside Backward: `_apply_optimizer_in_backward`](../2026/06/2026-06-22-pytorch-optimizer-in-backward.md) | `torch/distributed/optim/apply_optimizer_in_backward.py` |
 | 2026-06-21 | [`torch.func.grad`：把函数变成它自己的梯度函数 / `torch.func.grad`: Turn Any Function Into Its Own Gradient Function](../2026/06/2026-06-21-pytorch-func-grad-transform.md) | `torch/_functorch/apis.py` |
 | 2026-06-21 | [PyTorch 终于有 JAX 风格的无状态随机数了:Philox key / split / fold_in / normal_ / PyTorch ships JAX-style stateless PRNG: Philox key / split / fold_in / normal_](../2026/06/2026-06-21-pytorch-stateless-philox-prng.md) | `torch/func/_random.py` |
 | 2026-06-15 | [PyTorch Inductor 现在会检查"地址表达式里的常数项"是否会溢出 int32 / PyTorch Inductor now inspects the *constant term* of fused address expressions for int32 overflow](../2026/06/2026-06-15-pytorch-inductor-int32-const-overflow.md) | `torch/_inductor/codegen/simd_kernel_features.py` |

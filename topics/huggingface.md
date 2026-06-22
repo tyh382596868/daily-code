@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-22 | [Transformers 的连续批处理三步核心：前缀缓存 + token 预算分割 + paged-attention 块分配 / Transformers Continuous Batching Core: Prefix Cache + Token-Budget Split + Paged-Attention Block Allocation](../2026/06/2026-06-22-transformers-continuous-batching-scheduler.md) | huggingface/transformers |
 | 2026-06-21 | [VeRA：全模型共享一对冻结随机矩阵，每层只训练两个缩放向量 / VeRA: One Frozen Random Matrix Pair for the Whole Model, Two Scale Vectors Per Layer](../2026/06/2026-06-21-peft-vera-shared-random-matrices.md) | huggingface/peft |
 | 2026-06-21 | [30 行 multimodal fusion:一个布尔 mask 把图像 embedding 缝进 token 流 / 30 lines of multimodal fusion: one boolean mask splices image embeddings into the token stream](../2026/06/2026-06-21-nanovlm-mask-indexed-image-token-splice.md) | huggingface/nanoVLM |
 | 2026-06-15 | [把 RwLock::read() 从"每个 pre-token 一次"降到"每次 encode 一次": tokenizers 在 88 核机器上跑赢 158% / Amortizing `RwLock::read()` from per-pre-token to per-call: +158% throughput on 88-thread aarch64](../2026/06/2026-06-15-tokenizers-rwlock-tokenize-in-pretokenized.md) | huggingface/tokenizers |

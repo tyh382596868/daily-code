@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-22 | [Tensor 并行的两块积木：ColumnParallelLinear + RowParallelLinear / Tensor Parallelism's Two Building Blocks: ColumnParallelLinear + RowParallelLinear](../2026/06/2026-06-22-flash-attn-tensor-parallel-linear.md) | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) |
+| 2026-06-22 | [VLA 专属 Triton 注意力：前缀 + 后缀双区域 Softmax / VLA-Specific Triton Attention: Prefix + Suffix Two-Region Softmax](../2026/06/2026-06-22-fluxvla-triton-prefix-suffix-softmax.md) | [FluxVLA/FluxVLA](https://github.com/FluxVLA/FluxVLA) |
 | 2026-06-21 | [nanoGPT 的优化器配置：一行判断分出"要衰减"和"不衰减" / nanoGPT's Optimizer Setup: One-Line Rule to Split Decay vs. No-Decay](../2026/06/2026-06-21-nanogpt-configure-optimizers.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
 | 2026-06-14 | [DeepSeek-V3 的 ue8m0 act_quant:一句 ceil(log2(s)) 就把 FP8 scale 变成 Blackwell 原生 / DeepSeek-V3's ue8m0 act_quant: one ceil(log2(s)) makes the FP8 scale Blackwell-native](../2026/06/2026-06-14-deepseek-v3-ue8m0-act-quant.md) | [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) |
 | 2026-06-14 | [Astra(ICLR 2026)的"动作专家混合":80 行让一个 DiT 同时驱动游戏、车、机械臂 / Astra's (ICLR 2026) Mixture of Action Experts: 80 lines let one DiT drive games, cars, and manipulators](../2026/06/2026-06-14-astra-multimodal-action-moe.md) | [EternalEvan/Astra](https://github.com/EternalEvan/Astra) |
