@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-23 | [可组合 VLA 数据变换管道：冻结 dataclass + z-score / 分位数归一化 / Composable VLA Data-Transform Pipeline: Frozen Dataclass + Z-score / Quantile Normalization](../2026/06/2026-06-23-openpi-normalize-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
+| 2026-06-23 | [MemoryVLA CogMemBank：ICLR 2026 认知记忆库 — 跨时间 Transformer 检索 + Gate 融合 + ToMe 整合 / MemoryVLA CogMemBank: ICLR 2026 Cognitive Memory Bank — Cross-Transformer Retrieval + GateFusion + ToMe Consolidation](../2026/06/2026-06-23-memoryvla-cogmembank.md) | [shihao1895/MemoryVLA](https://github.com/shihao1895/MemoryVLA) |
 | 2026-06-15 | [一个 meta device 怎么悄悄毁掉了 VLA 的 flow-matching 时间采样器 / How `torch.device("meta")` silently destroyed a VLA's flow-matching time sampler](../2026/06/2026-06-15-isaac-groot-n1d7-meta-device-beta-fix.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-06-15 | [NVIDIA Lyra 的 Gumbel-Softmax 直通 top-k:200 行代码搞定"训练时可微、推理时硬 top-k" / NVIDIA Lyra's Gumbel-Softmax straight-through top-k: 200 lines that switch between differentiable training and hard inference](../2026/06/2026-06-15-lyra-gumbel-softmax-token-pruning.md) | [nv-tlabs/lyra](https://github.com/nv-tlabs/lyra) |
 | 2026-06-12 | [53 行的 FiLM 残差块 —— Diffusion Policy 的"条件注入"全在这 / 53 lines of FiLM residual block — the whole "conditional injection" of Diffusion Policy lives here](../2026/06/2026-06-12-diffusion-policy-film-residual-block.md) | [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy) |

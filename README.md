@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-23** · robotics · [可组合 VLA 数据变换管道：冻结 dataclass + z-score / 分位数归一化 / Composable VLA Data-Transform Pipeline: Frozen Dataclass + Z-score / Quantile Normalization](2026/06/2026-06-23-openpi-normalize-transform.md) — `Physical-Intelligence/openpi` (tracked)
+- **2026-06-23** · pytorch · [Python `@overload` 精确类型收窄：`model[2]` → `Module`，`model[1:3]` → `Sequential` / Python `@overload` for Precise Type Narrowing: `model[2]` → `Module`, `model[1:3]` → `Sequential`](2026/06/2026-06-23-pytorch-sequential-overload-typing.md) — `pytorch/pytorch`
+- **2026-06-23** · huggingface · [Krea2TextFusion：融合文本编码器所有隐藏层输出的跨层注意力 / Krea2TextFusion: Fusing All Text-Encoder Hidden-Layer Outputs via Cross-Attention](2026/06/2026-06-23-diffusers-krea2-text-fusion.md) — `huggingface/diffusers`
+- **2026-06-23** · vla · [Wall-X ActionHead：DOF 掩码 + Beta 分布流匹配，跨机器人泛化的动作头 / Wall-X ActionHead: DOF Masking + Beta-Distribution Flow Matching for Cross-Embodiment VLA](nano/vla/2026-06-23-wall-x-dof-masked-flow-matching.md) — `huggingface/lerobot` (action-head-continuous cross-repo)
+- **2026-06-23** · wam · [8 行广播构建视频帧分组因果注意力掩码 / Build Video-Frame-Grouped Causal Attention Masks in 8 Lines of Broadcasting](nano/wam/2026-06-23-fastwam-group-causal-attn-mask.md) — `yuantianyuan01/FastWAM` (dit-block cross-repo)
+- **2026-06-23** · robotics · [MemoryVLA CogMemBank：ICLR 2026 认知记忆库 — 跨时间 Transformer 检索 + Gate 融合 + ToMe 整合 / MemoryVLA CogMemBank: ICLR 2026 Cognitive Memory Bank — Cross-Transformer Retrieval + GateFusion + ToMe Consolidation](2026/06/2026-06-23-memoryvla-cogmembank.md) — `shihao1895/MemoryVLA` (trending)
 - **2026-06-22** · infrastructure · [Tensor 并行的两块积木：ColumnParallelLinear + RowParallelLinear / Tensor Parallelism's Two Building Blocks: ColumnParallelLinear + RowParallelLinear](2026/06/2026-06-22-flash-attn-tensor-parallel-linear.md) — `Dao-AILab/flash-attention` (tracked)
 - **2026-06-22** · pytorch · [优化器藏进反向传播：`_apply_optimizer_in_backward` / The Optimizer Hidden Inside Backward: `_apply_optimizer_in_backward`](2026/06/2026-06-22-pytorch-optimizer-in-backward.md) — `pytorch/pytorch`
 - **2026-06-22** · huggingface · [Transformers 的连续批处理三步核心：前缀缓存 + token 预算分割 + paged-attention 块分配 / Transformers Continuous Batching Core: Prefix Cache + Token-Budget Split + Paged-Attention Block Allocation](2026/06/2026-06-22-transformers-continuous-batching-scheduler.md) — `huggingface/transformers`

@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-06-23 | [Python `@overload` 精确类型收窄：`model[2]` → `Module`，`model[1:3]` → `Sequential` / Python `@overload` for Precise Type Narrowing: `model[2]` → `Module`, `model[1:3]` → `Sequential`](../2026/06/2026-06-23-pytorch-sequential-overload-typing.md) | `torch/nn/modules/container.py` |
 | 2026-06-22 | [优化器藏进反向传播：`_apply_optimizer_in_backward` / The Optimizer Hidden Inside Backward: `_apply_optimizer_in_backward`](../2026/06/2026-06-22-pytorch-optimizer-in-backward.md) | `torch/distributed/optim/apply_optimizer_in_backward.py` |
 | 2026-06-21 | [`torch.func.grad`：把函数变成它自己的梯度函数 / `torch.func.grad`: Turn Any Function Into Its Own Gradient Function](../2026/06/2026-06-21-pytorch-func-grad-transform.md) | `torch/_functorch/apis.py` |
 | 2026-06-21 | [PyTorch 终于有 JAX 风格的无状态随机数了:Philox key / split / fold_in / normal_ / PyTorch ships JAX-style stateless PRNG: Philox key / split / fold_in / normal_](../2026/06/2026-06-21-pytorch-stateless-philox-prng.md) | `torch/func/_random.py` |

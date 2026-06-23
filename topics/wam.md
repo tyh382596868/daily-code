@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-23 | dit-block (cross-repo, FastWAM group-causal attention mask) | [8 行广播构建视频帧分组因果注意力掩码 / Build Video-Frame-Grouped Causal Attention Masks in 8 Lines of Broadcasting](../nano/wam/2026-06-23-fastwam-group-causal-attn-mask.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-06-22 | vae-encoder-decoder (cross-repo, HunyuanVideo temporal tiling) | [时序 Tile VAE：无限长视频的 O(1) 显存编码 / Temporal-Tiled VAE: O(1) Memory Encoding for Arbitrarily Long Videos](../nano/wam/2026-06-22-open-sora-hunyuanvae-temporal-tiling.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-06-21 | action-conditioning (cross-repo, FastWAM MoT joint attention) | [Mixture of Transformers：动作 expert 和视频 expert 在每一层共享注意力池 / Mixture of Transformers: Action Expert and Video Expert Share One Attention Pool at Every Layer](../nano/wam/2026-06-21-fastwam-mot-mixed-attention.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-06-21 | text-conditioning (cross-repo, Wan2.1 CLIP I2V spatial tokens) | [Wan2.1 的 I2V 秘密:CLIP 的第 31 层特征,而不是 CLS pooling / Wan2.1's I2V secret: CLIP's block-31 features, not CLS pooling](../nano/wam/2026-06-21-wan21-clip-spatial-tokens-i2v.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
