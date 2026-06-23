@@ -463,6 +463,13 @@
         "note": "nano/vla/2026-06-22-lerobot-policy-server-inference-pipeline.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-06-23",
+        "note": "nano/vla/2026-06-23-wall-x-dof-masked-flow-matching.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -914,6 +921,13 @@
         "date": "2026-06-22",
         "note": "nano/wam/2026-06-22-open-sora-hunyuanvae-temporal-tiling.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-06-23",
+        "note": "nano/wam/2026-06-23-fastwam-group-causal-attn-mask.md",
+        "repo": "yuantianyuan01/FastWAM",
         "via": "wam"
       }
     ]

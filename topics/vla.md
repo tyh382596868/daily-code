@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-23 | action-head-continuous (cross-repo, Wall-X DOF masking + Beta flow matching) | [Wall-X ActionHead：DOF 掩码 + Beta 分布流匹配，跨机器人泛化的动作头 / Wall-X ActionHead: DOF Masking + Beta-Distribution Flow Matching for Cross-Embodiment VLA](../nano/vla/2026-06-23-wall-x-dof-masked-flow-matching.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-22 | inference-loop (cross-repo, lerobot gRPC policy server) | [生产级 VLA 推理流水线：gRPC 策略服务器的 5 步内核 / Production VLA Inference Pipeline: the 5-Step Core of the gRPC Policy Server](../nano/vla/2026-06-22-lerobot-policy-server-inference-pipeline.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-21 | action-head-continuous (cross-repo, SAC Gaussian actor) | [SAC 高斯动作头：预测 (μ, σ)、重参数化采样、Tanh 压缩到 [-1,1] / SAC Gaussian Action Head: Predict (μ, σ), Reparameterize-Sample, Tanh-Squash to [-1,1]](../nano/vla/2026-06-21-lerobot-gaussian-actor-sac.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-21 | action-head-continuous (cross-repo, starVLA layer-wise FM) | [层级特征 × DiT 动作头:starVLA 怎么让 early DiT 看底层像素、late DiT 看高层语义 / Layer-wise features × DiT action head: how starVLA lets early DiT layers read low-level pixels while late layers read high-level semantics](../nano/vla/2026-06-21-starvla-layerwise-flow-matching-action-head.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
