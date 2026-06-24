@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-24 | [DPM-Solver++(2M)：用历史预测做二阶修正的视频扩散采样器 / DPM-Solver++(2M): 2nd-Order Multistep Correction via History Tracking in Video Diffusion](../2026/06/2026-06-24-cogvideo-dpmpp2m-sampler.md) | THUDM/CogVideo |
+| 2026-06-24 | [ActionIDConstraintLogitsProcessor：一个 mask 把 LLM 的输出空间限制到动作词表 / ActionIDConstraintLogitsProcessor: One Mask That Constrains an LLM's Output Space to the Action Vocabulary](../2026/06/2026-06-24-ud-vla-action-constraint-logits.md) | OpenHelix-Team/Unified-Diffusion-VLA |
 | 2026-06-21 | [VEnhancer 的 SDEdit 内核:60 行把"加噪→去噪"全讲完 / VEnhancer's SDEdit core: forward + reverse diffusion in 60 lines](../2026/06/2026-06-21-venhancer-sdedit-gaussian-diffusion.md) | Vchitect/VEnhancer |
 | 2026-06-21 | [IC-LoRA 40 行:把参考视频 token 原封不动地拼进去,让 DiT 自己学对齐 / IC-LoRA in 40 lines: append clean reference tokens and let the DiT learn alignment on its own](../2026/06/2026-06-21-ltx2-ic-lora-reference-conditioning.md) | Lightricks/LTX-2 |
 | 2026-06-13 | [100 行写完一个 JEPA 世界模型 —— 完整的 encode → predict → rollout 合约 / 100 lines for a complete JEPA world model — the full encode → predict → rollout contract](../2026/06/2026-06-13-le-wm-jepa-rollout.md) | lucas-maes/le-wm |

@@ -470,6 +470,13 @@
         "note": "nano/vla/2026-06-23-wall-x-dof-masked-flow-matching.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-06-24",
+        "note": "nano/vla/2026-06-24-groot-action-chunk-delta-relative.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
       }
     ]
   },
@@ -928,6 +935,13 @@
         "date": "2026-06-23",
         "note": "nano/wam/2026-06-23-fastwam-group-causal-attn-mask.md",
         "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-06-24",
+        "note": "nano/wam/2026-06-24-wan21-flow-dpm-solver.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

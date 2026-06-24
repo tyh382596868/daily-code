@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-24 | action-chunking (cross-repo, Isaac-GR00T relative/delta + SLERP) | [Isaac-GR00T ActionChunk：relative vs delta 归一化 + SLERP 旋转插值 / Isaac-GR00T ActionChunk: Relative vs Delta Normalization + SLERP Rotation Interpolation](../nano/vla/2026-06-24-groot-action-chunk-delta-relative.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-06-23 | action-head-continuous (cross-repo, Wall-X DOF masking + Beta flow matching) | [Wall-X ActionHead：DOF 掩码 + Beta 分布流匹配，跨机器人泛化的动作头 / Wall-X ActionHead: DOF Masking + Beta-Distribution Flow Matching for Cross-Embodiment VLA](../nano/vla/2026-06-23-wall-x-dof-masked-flow-matching.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-22 | inference-loop (cross-repo, lerobot gRPC policy server) | [生产级 VLA 推理流水线：gRPC 策略服务器的 5 步内核 / Production VLA Inference Pipeline: the 5-Step Core of the gRPC Policy Server](../nano/vla/2026-06-22-lerobot-policy-server-inference-pipeline.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-21 | action-head-continuous (cross-repo, SAC Gaussian actor) | [SAC 高斯动作头：预测 (μ, σ)、重参数化采样、Tanh 压缩到 [-1,1] / SAC Gaussian Action Head: Predict (μ, σ), Reparameterize-Sample, Tanh-Squash to [-1,1]](../nano/vla/2026-06-21-lerobot-gaussian-actor-sac.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
