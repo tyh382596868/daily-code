@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-24 | [AlignDevicesHook：70B 模型如何用 meta device 实现零显存加载 / AlignDevicesHook: How 70B Models Load with Zero GPU Memory via the Meta Device](../2026/06/2026-06-24-accelerate-align-devices-hook.md) | huggingface/accelerate |
 | 2026-06-23 | [Krea2TextFusion：融合文本编码器所有隐藏层输出的跨层注意力 / Krea2TextFusion: Fusing All Text-Encoder Hidden-Layer Outputs via Cross-Attention](../2026/06/2026-06-23-diffusers-krea2-text-fusion.md) | huggingface/diffusers |
 | 2026-06-22 | [Transformers 的连续批处理三步核心：前缀缓存 + token 预算分割 + paged-attention 块分配 / Transformers Continuous Batching Core: Prefix Cache + Token-Budget Split + Paged-Attention Block Allocation](../2026/06/2026-06-22-transformers-continuous-batching-scheduler.md) | huggingface/transformers |
 | 2026-06-21 | [VeRA：全模型共享一对冻结随机矩阵，每层只训练两个缩放向量 / VeRA: One Frozen Random Matrix Pair for the Whole Model, Two Scale Vectors Per Layer](../2026/06/2026-06-21-peft-vera-shared-random-matrices.md) | huggingface/peft |
