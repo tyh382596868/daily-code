@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-06-25 | [Pipeline 并行的微批次拆分：pytree-aware 的 split_args_kwargs_into_chunks / Pipeline-Parallel Microbatch Splitting: pytree-aware split_args_kwargs_into_chunks](../2026/06/2026-06-25-pytorch-pipeline-microbatch.md) | `torch/distributed/pipelining/microbatch.py` |
 | 2026-06-24 | [ColwiseParallel / RowwiseParallel：DTensor 张量并行里的 Shard(0) / Shard(1) 命名之谜 / ColwiseParallel / RowwiseParallel: The Shard(0) / Shard(1) Naming Puzzle in DTensor Tensor Parallelism](../2026/06/2026-06-24-pytorch-colwise-rowwise-tensor-parallel.md) | `torch/distributed/tensor/parallel/style.py` |
 | 2026-06-23 | [Python `@overload` 精确类型收窄：`model[2]` → `Module`，`model[1:3]` → `Sequential` / Python `@overload` for Precise Type Narrowing: `model[2]` → `Module`, `model[1:3]` → `Sequential`](../2026/06/2026-06-23-pytorch-sequential-overload-typing.md) | `torch/nn/modules/container.py` |
 | 2026-06-22 | [优化器藏进反向传播：`_apply_optimizer_in_backward` / The Optimizer Hidden Inside Backward: `_apply_optimizer_in_backward`](../2026/06/2026-06-22-pytorch-optimizer-in-backward.md) | `torch/distributed/optim/apply_optimizer_in_backward.py` |

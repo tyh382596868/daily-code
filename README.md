@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-25** · infrastructure · [DeepSeek-V3 MLA 的 absorb 技巧：KV 缓存压缩 70× / DeepSeek-V3 MLA's absorb Trick: 70× KV-Cache Compression](2026/06/2026-06-25-deepseek-v3-mla-absorb.md) — `deepseek-ai/DeepSeek-V3` (tracked)
+- **2026-06-25** · pytorch · [Pipeline 并行的微批次拆分：pytree-aware 的 split_args_kwargs_into_chunks / Pipeline-Parallel Microbatch Splitting: pytree-aware split_args_kwargs_into_chunks](2026/06/2026-06-25-pytorch-pipeline-microbatch.md) — `pytorch/pytorch`
+- **2026-06-25** · huggingface · [nanoVLM GQA：prefill/decode 统一路径 + `is_causal` 精确谓词 / nanoVLM GQA: Unified Prefill/Decode Path + Precise `is_causal` Predicate](2026/06/2026-06-25-nanovlm-gqa-kvcache.md) — `huggingface/nanoVLM`
+- **2026-06-25** · vla · [SmolVLA 的流匹配训练步：Beta 分布时间采样 + VLM 骨干输出 MSE 损失 / SmolVLA's Flow-Matching Training Step: Beta-Distributed Time Sampling + VLM Backbone MSE Loss](nano/vla/2026-06-25-smolvla-flow-matching-step.md) — `huggingface/lerobot` (training-step cross-repo)
+- **2026-06-25** · wam · [Wan2.1 WanModel：一个 Linear 产生 6 个 adaLN 调制向量 + 逐视频变长 patchify / Wan2.1 WanModel: One Linear Produces 6 adaLN Modulation Vectors + Per-Video Variable-Length Patchify](nano/wam/2026-06-25-wan21-adaln-modulation.md) — `Wan-Video/Wan2.1` (dit-block cross-repo)
+- **2026-06-25** · infrastructure · [Psi0 的 SD3 风格联合自注意力：动作 token 和 VLA token 共享一个注意力块 / Psi0's SD3-Style Joint Self-Attention: Action Tokens and VLA Tokens Share One Attention Block](2026/06/2026-06-25-psi0-joint-vla-attention.md) — `physical-superintelligence-lab/Psi0` (trending)
 - **2026-06-24** · diffusion · [DPM-Solver++(2M)：用历史预测做二阶修正的视频扩散采样器 / DPM-Solver++(2M): 2nd-Order Multistep Correction via History Tracking in Video Diffusion](2026/06/2026-06-24-cogvideo-dpmpp2m-sampler.md) — `THUDM/CogVideo` (tracked)
 - **2026-06-24** · pytorch · [ColwiseParallel / RowwiseParallel：DTensor 张量并行里的 Shard(0) / Shard(1) 命名之谜 / ColwiseParallel / RowwiseParallel: The Shard(0) / Shard(1) Naming Puzzle in DTensor Tensor Parallelism](2026/06/2026-06-24-pytorch-colwise-rowwise-tensor-parallel.md) — `pytorch/pytorch`
 - **2026-06-24** · huggingface · [AlignDevicesHook：70B 模型如何用 meta device 实现零显存加载 / AlignDevicesHook: How 70B Models Load with Zero GPU Memory via the Meta Device](2026/06/2026-06-24-accelerate-align-devices-hook.md) — `huggingface/accelerate`
