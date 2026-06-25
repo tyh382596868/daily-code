@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-25 | [DeepSeek-V3 MLA 的 absorb 技巧：KV 缓存压缩 70× / DeepSeek-V3 MLA's absorb Trick: 70× KV-Cache Compression](../2026/06/2026-06-25-deepseek-v3-mla-absorb.md) | [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) |
+| 2026-06-25 | [Psi0 的 SD3 风格联合自注意力：动作 token 和 VLA token 共享一个注意力块 / Psi0's SD3-Style Joint Self-Attention: Action Tokens and VLA Tokens Share One Attention Block](../2026/06/2026-06-25-psi0-joint-vla-attention.md) | [physical-superintelligence-lab/Psi0](https://github.com/physical-superintelligence-lab/Psi0) |
 | 2026-06-22 | [Tensor 并行的两块积木：ColumnParallelLinear + RowParallelLinear / Tensor Parallelism's Two Building Blocks: ColumnParallelLinear + RowParallelLinear](../2026/06/2026-06-22-flash-attn-tensor-parallel-linear.md) | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) |
 | 2026-06-22 | [VLA 专属 Triton 注意力：前缀 + 后缀双区域 Softmax / VLA-Specific Triton Attention: Prefix + Suffix Two-Region Softmax](../2026/06/2026-06-22-fluxvla-triton-prefix-suffix-softmax.md) | [FluxVLA/FluxVLA](https://github.com/FluxVLA/FluxVLA) |
 | 2026-06-21 | [nanoGPT 的优化器配置：一行判断分出"要衰减"和"不衰减" / nanoGPT's Optimizer Setup: One-Line Rule to Split Decay vs. No-Decay](../2026/06/2026-06-21-nanogpt-configure-optimizers.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |

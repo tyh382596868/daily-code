@@ -477,6 +477,13 @@
         "note": "nano/vla/2026-06-24-groot-action-chunk-delta-relative.md",
         "repo": "NVIDIA/Isaac-GR00T",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-06-25",
+        "note": "nano/vla/2026-06-25-smolvla-flow-matching-step.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -941,6 +948,13 @@
         "id": "sampler-inference",
         "date": "2026-06-24",
         "note": "nano/wam/2026-06-24-wan21-flow-dpm-solver.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-06-25",
+        "note": "nano/wam/2026-06-25-wan21-adaln-modulation.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
