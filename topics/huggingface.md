@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-26 | [`split_dataset_by_node`：一个 API 背后藏着两种完全不同的分布式数据切分策略 / `split_dataset_by_node`: One API, Two Fundamentally Different Distribution Strategies Hidden Inside](../2026/06/2026-06-26-datasets-split-by-node.md) | huggingface/datasets |
 | 2026-06-25 | [nanoVLM GQA：prefill/decode 统一路径 + `is_causal` 精确谓词 / nanoVLM GQA: Unified Prefill/Decode Path + Precise `is_causal` Predicate](../2026/06/2026-06-25-nanovlm-gqa-kvcache.md) | huggingface/nanoVLM |
 | 2026-06-24 | [AlignDevicesHook：70B 模型如何用 meta device 实现零显存加载 / AlignDevicesHook: How 70B Models Load with Zero GPU Memory via the Meta Device](../2026/06/2026-06-24-accelerate-align-devices-hook.md) | huggingface/accelerate |
 | 2026-06-23 | [Krea2TextFusion：融合文本编码器所有隐藏层输出的跨层注意力 / Krea2TextFusion: Fusing All Text-Encoder Hidden-Layer Outputs via Cross-Attention](../2026/06/2026-06-23-diffusers-krea2-text-fusion.md) | huggingface/diffusers |
