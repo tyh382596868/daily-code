@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-06-26 | [StarVLA 双流协同训练：一个 step 里两条 backward / StarVLA Dual-Stream Cotrain: Two Backward Passes in One Step](../2026/06/2026-06-26-starvla-cotrain.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
+| 2026-06-26 | [FastVideo 的视频稀疏注意力序列并行：把 gate_compress 打包进 all-to-all，省掉一次通信 / FastVideo VSA Sequence Parallelism: Bundle gate_compress into the all-to-all and Save One Communication Round](../2026/06/2026-06-26-fastvideo-distributed-vsa.md) | [hao-ai-lab/FastVideo](https://github.com/hao-ai-lab/FastVideo) |
 | 2026-06-23 | [可组合 VLA 数据变换管道：冻结 dataclass + z-score / 分位数归一化 / Composable VLA Data-Transform Pipeline: Frozen Dataclass + Z-score / Quantile Normalization](../2026/06/2026-06-23-openpi-normalize-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-06-23 | [MemoryVLA CogMemBank：ICLR 2026 认知记忆库 — 跨时间 Transformer 检索 + Gate 融合 + ToMe 整合 / MemoryVLA CogMemBank: ICLR 2026 Cognitive Memory Bank — Cross-Transformer Retrieval + GateFusion + ToMe Consolidation](../2026/06/2026-06-23-memoryvla-cogmembank.md) | [shihao1895/MemoryVLA](https://github.com/shihao1895/MemoryVLA) |
 | 2026-06-15 | [一个 meta device 怎么悄悄毁掉了 VLA 的 flow-matching 时间采样器 / How `torch.device("meta")` silently destroyed a VLA's flow-matching time sampler](../2026/06/2026-06-15-isaac-groot-n1d7-meta-device-beta-fix.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |

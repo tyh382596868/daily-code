@@ -484,6 +484,13 @@
         "note": "nano/vla/2026-06-25-smolvla-flow-matching-step.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-06-26",
+        "note": "nano/vla/2026-06-26-lerobot-act-cvae.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -956,6 +963,13 @@
         "date": "2026-06-25",
         "note": "nano/wam/2026-06-25-wan21-adaln-modulation.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-06-26",
+        "note": "nano/wam/2026-06-26-dit-training-loop.md",
+        "repo": "facebookresearch/DiT",
         "via": "wam"
       }
     ]

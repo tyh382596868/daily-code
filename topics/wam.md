@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-26 | training-loop (cross-repo, DiT train.py VAE encode + EMA) | [DiT 训练循环五步法：VAE 编码 → 随机时间步 → 扩散损失 → backward → EMA 更新 / DiT's 5-Step Training Loop: VAE Encode → Random Timestep → Diffusion Loss → Backward → EMA Update](../nano/wam/2026-06-26-dit-training-loop.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |
 | 2026-06-25 | dit-block (cross-repo, Wan2.1 WanModel 6-vector adaLN + per-video patchify) | [Wan2.1 WanModel：一个 Linear 产生 6 个 adaLN 调制向量 + 逐视频变长 patchify / Wan2.1 WanModel: One Linear Produces 6 adaLN Modulation Vectors + Per-Video Variable-Length Patchify](../nano/wam/2026-06-25-wan21-adaln-modulation.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-06-24 | sampler-inference (cross-repo, Wan2.1 FlowDPMSolverMultistepScheduler 3rd-order ODE) | [FlowDPMSolverMultistepScheduler：阶数自动升级的 ODE 求解器 / FlowDPMSolverMultistepScheduler: An Auto-Order-Escalating ODE Solver for Flow Matching](../nano/wam/2026-06-24-wan21-flow-dpm-solver.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-06-23 | dit-block (cross-repo, FastWAM group-causal attention mask) | [8 行广播构建视频帧分组因果注意力掩码 / Build Video-Frame-Grouped Causal Attention Masks in 8 Lines of Broadcasting](../nano/wam/2026-06-23-fastwam-group-causal-attn-mask.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
