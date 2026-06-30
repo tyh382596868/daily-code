@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-06-30** · robotics · [OpenPI Transforms：用 dataclass 组织可组合数据变换 / OpenPI Transforms: Composable Data Transforms with Dataclasses](2026/06/2026-06-30-openpi-transforms-dataclass.md) — `Physical-Intelligence/openpi` (tracked)
+- **2026-06-30** · pytorch · [`nn.Module.compile`：把 torch.compile 挂到模块实例上 / `nn.Module.compile`: Attach `torch.compile` to a Module Instance](2026/06/2026-06-30-pytorch-module-compile.md) — `pytorch/pytorch`
+- **2026-06-30** · huggingface · [Transformers CacheLayerMixin：KV cache 的统一增量接口 / Transformers `CacheLayerMixin`: A Unified Incremental KV-Cache Interface](2026/06/2026-06-30-transformers-cache-position.md) — `huggingface/transformers`
+- **2026-06-30** · vla · [LeRobot Normalize / Unnormalize：把机器人数据变成策略友好的张量 / LeRobot Normalize / Unnormalize: Turn Robot Data into Policy-Friendly Tensors](nano/vla/2026-06-30-lerobot-policy-normalize-unnormalize.md) — `huggingface/lerobot`
+- **2026-06-30** · wam · [Diffusers ModelMixin：模型权重保存/加载的共同底座 / Diffusers `ModelMixin`: The Common Base for Saving and Loading Model Weights](nano/wam/2026-06-30-diffusers-model-mixin-save-load.md) — `huggingface/diffusers`
+- **2026-06-30** · infrastructure · [vLLM LogitsProcessor：采样前最后一公里的 logits 改写 / vLLM `LogitsProcessor`: The Last-Mile Logit Rewrite Before Sampling](2026/06/2026-06-30-trending-vllm-logits-processor.md) — `vllm-project/vllm` (trending)
 - **2026-06-26** · robotics · [StarVLA 双流协同训练：一个 step 里两条 backward / StarVLA Dual-Stream Cotrain: Two Backward Passes in One Step](2026/06/2026-06-26-starvla-cotrain.md) — `starVLA/starVLA` (tracked)
 - **2026-06-26** · pytorch · [`torch.func.vmap`：把任意函数向量化，批量维度随心所欲 / `torch.func.vmap`: Vectorize Any Function, Put the Batch Dimension Anywhere](2026/06/2026-06-26-pytorch-vmap.md) — `pytorch/pytorch`
 - **2026-06-26** · huggingface · [`split_dataset_by_node`：一个 API 背后藏着两种完全不同的分布式数据切分策略 / `split_dataset_by_node`: One API, Two Fundamentally Different Distribution Strategies Hidden Inside](2026/06/2026-06-26-datasets-split-by-node.md) — `huggingface/datasets`
