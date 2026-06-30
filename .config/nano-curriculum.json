@@ -491,6 +491,13 @@
         "note": "nano/vla/2026-06-26-lerobot-act-cvae.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-06-30",
+        "note": "nano/vla/2026-06-30-lerobot-diffusion-action-sampler.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -970,6 +977,13 @@
         "date": "2026-06-26",
         "note": "nano/wam/2026-06-26-dit-training-loop.md",
         "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "patchify-positional",
+        "date": "2026-06-30",
+        "note": "nano/wam/2026-06-30-wan21-rope-grid-apply.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

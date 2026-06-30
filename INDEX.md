@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-06-30 | diffusion | [Wan2.1 的 3D RoPE 自注意力：把时间、高度、宽度拆成三把尺 / Wan2.1 3D RoPE Self-Attention: Three Rulers for Time, Height, and Width](2026/06/2026-06-30-wan21-rope-self-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (tracked) |
+| 2026-06-30 | pytorch | [PyTorch 梯度裁剪的第二步：只缩小，不放大 / PyTorch Gradient Clipping Step Two: Scale Down, Never Up](2026/06/2026-06-30-pytorch-clip-grads-with-norm.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-06-30 | huggingface | [LoRA-GA 初始化：用一次梯度 SVD 给 adapter 指方向 / LoRA-GA Init: Use One Gradient SVD to Aim the Adapter](2026/06/2026-06-30-peft-loraga-svd-init.md) | [huggingface/peft](https://github.com/huggingface/peft) (huggingface) |
+| 2026-06-30 | vla | [LeRobot Diffusion Policy：从噪声动作轨迹反推可执行 chunk / LeRobot Diffusion Policy: Denoise a Noisy Action Trajectory into an Executable Chunk](nano/vla/2026-06-30-lerobot-diffusion-action-sampler.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, action-head-continuous cross-repo) |
+| 2026-06-30 | wam | [nanoWAM 的 3D 坐标层：RoPE 不只是一维位置 / nanoWAM's 3D Coordinate Layer: RoPE Is Not Just One-Dimensional Position](nano/wam/2026-06-30-wan21-rope-grid-apply.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, patchify-positional cross-repo) |
+| 2026-06-30 | diffusion | [DiffSynth 的 WanVideoPipeline：把视频生成拆成可插拔单元 / DiffSynth's WanVideoPipeline: Video Generation as Pluggable Units](2026/06/2026-06-30-diffsynth-wan-video-pipeline-units.md) | [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) (trending) |
 | 2026-06-26 | robotics | [StarVLA 双流协同训练：一个 step 里两条 backward / StarVLA Dual-Stream Cotrain: Two Backward Passes in One Step](2026/06/2026-06-26-starvla-cotrain.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) (tracked) |
 | 2026-06-26 | pytorch | [`torch.func.vmap`：把任意函数向量化，批量维度随心所欲 / `torch.func.vmap`: Vectorize Any Function, Put the Batch Dimension Anywhere](2026/06/2026-06-26-pytorch-vmap.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-06-26 | huggingface | [`split_dataset_by_node`：一个 API 背后藏着两种完全不同的分布式数据切分策略 / `split_dataset_by_node`: One API, Two Fundamentally Different Distribution Strategies Hidden Inside](2026/06/2026-06-26-datasets-split-by-node.md) | [huggingface/datasets](https://github.com/huggingface/datasets) (huggingface) |

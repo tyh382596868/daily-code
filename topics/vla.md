@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-06-30 | action-head-continuous (cross-repo, LeRobot diffusion policy sampler) | [LeRobot Diffusion Policy：从噪声动作轨迹反推可执行 chunk / LeRobot Diffusion Policy: Denoise a Noisy Action Trajectory into an Executable Chunk](../nano/vla/2026-06-30-lerobot-diffusion-action-sampler.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-26 | action-chunking (cross-repo, lerobot ACT CVAE reparameterization) | [ACT 的 CVAE 动作编码器：用重参数化技巧压缩动作序列，推理时 latent 直接置零 / ACT's CVAE Action Encoder: Compress Action Chunks via Reparameterization, Set Latent to Zero at Inference](../nano/vla/2026-06-26-lerobot-act-cvae.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-25 | training-step (cross-repo, SmolVLA Beta flow matching + VLM backbone MSE) | [SmolVLA 的流匹配训练步：Beta 分布时间采样 + VLM 骨干输出 MSE 损失 / SmolVLA's Flow-Matching Training Step: Beta-Distributed Time Sampling + VLM Backbone MSE Loss](../nano/vla/2026-06-25-smolvla-flow-matching-step.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-06-24 | action-chunking (cross-repo, Isaac-GR00T relative/delta + SLERP) | [Isaac-GR00T ActionChunk：relative vs delta 归一化 + SLERP 旋转插值 / Isaac-GR00T ActionChunk: Relative vs Delta Normalization + SLERP Rotation Interpolation](../nano/vla/2026-06-24-groot-action-chunk-delta-relative.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
