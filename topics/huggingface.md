@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-01 | [TRL 的 PEFT adapter EMA teacher：不用复制整模型的自蒸馏 / TRL PEFT Adapter EMA Teacher: Self-Distillation Without Copying the Whole Model](../2026/07/2026-07-01-trl-peft-adapter-ema-teacher.md) | huggingface/trl |
 | 2026-06-30 | [LoRA-GA 初始化：用一次梯度 SVD 给 adapter 指方向 / LoRA-GA Init: Use One Gradient SVD to Aim the Adapter](../2026/06/2026-06-30-peft-loraga-svd-init.md) | huggingface/peft |
 | 2026-06-26 | [`split_dataset_by_node`：一个 API 背后藏着两种完全不同的分布式数据切分策略 / `split_dataset_by_node`: One API, Two Fundamentally Different Distribution Strategies Hidden Inside](../2026/06/2026-06-26-datasets-split-by-node.md) | huggingface/datasets |
 | 2026-06-25 | [nanoVLM GQA：prefill/decode 统一路径 + `is_causal` 精确谓词 / nanoVLM GQA: Unified Prefill/Decode Path + Precise `is_causal` Predicate](../2026/06/2026-06-25-nanovlm-gqa-kvcache.md) | huggingface/nanoVLM |

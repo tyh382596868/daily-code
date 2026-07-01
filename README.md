@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-01** · infrastructure · [nanoGPT 推理优化：只给最后一个 token 做 lm_head / nanoGPT Inference Optimization: Run lm_head Only on the Last Token](2026/07/2026-07-01-nanogpt-last-token-logits.md) — `karpathy/nanoGPT` (tracked)
+- **2026-07-01** · pytorch · [PyTorch 子模块手术：用点路径精准替换一层 / PyTorch Submodule Surgery: Replace a Layer by Dotted Path](2026/07/2026-07-01-pytorch-submodule-surgery.md) — `pytorch/pytorch`
+- **2026-07-01** · huggingface · [TRL 的 PEFT adapter EMA teacher：不用复制整模型的自蒸馏 / TRL PEFT Adapter EMA Teacher: Self-Distillation Without Copying the Whole Model](2026/07/2026-07-01-trl-peft-adapter-ema-teacher.md) — `huggingface/trl`
+- **2026-07-01** · vla · [LeRobot action queue：把重叠 action chunk 合成连续控制流 / LeRobot Action Queue: Merge Overlapping Action Chunks into a Continuous Control Stream](nano/vla/2026-07-01-lerobot-action-queue-merge.md) — `huggingface/lerobot` (inference-loop cross-repo)
+- **2026-07-01** · wam · [DreamZero action/state RoPE：把控制 token 接进视频坐标系 / DreamZero Action/State RoPE: Splice Control Tokens into the Video Coordinate System](nano/wam/2026-07-01-dreamzero-action-state-rope.md) — `dreamzero0/dreamzero` (action-conditioning cross-repo)
+- **2026-07-01** · infrastructure · [LMCache 的 CacheEngineKey：KV chunk 的分布式门牌号 / LMCache CacheEngineKey: A Distributed Address for KV Chunks](2026/07/2026-07-01-lmcache-cache-engine-key.md) — `LMCache/LMCache` (trending)
 - **2026-06-30** · diffusion · [Wan2.1 的 3D RoPE 自注意力：把时间、高度、宽度拆成三把尺 / Wan2.1 3D RoPE Self-Attention: Three Rulers for Time, Height, and Width](2026/06/2026-06-30-wan21-rope-self-attention.md) — `Wan-Video/Wan2.1` (tracked)
 - **2026-06-30** · pytorch · [PyTorch 梯度裁剪的第二步：只缩小，不放大 / PyTorch Gradient Clipping Step Two: Scale Down, Never Up](2026/06/2026-06-30-pytorch-clip-grads-with-norm.md) — `pytorch/pytorch`
 - **2026-06-30** · huggingface · [LoRA-GA 初始化：用一次梯度 SVD 给 adapter 指方向 / LoRA-GA Init: Use One Gradient SVD to Aim the Adapter](2026/06/2026-06-30-peft-loraga-svd-init.md) — `huggingface/peft`

@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-01 | [PyTorch 子模块手术：用点路径精准替换一层 / PyTorch Submodule Surgery: Replace a Layer by Dotted Path](../2026/07/2026-07-01-pytorch-submodule-surgery.md) | `torch/nn/modules/module.py` |
 | 2026-06-30 | [PyTorch 梯度裁剪的第二步：只缩小，不放大 / PyTorch Gradient Clipping Step Two: Scale Down, Never Up](../2026/06/2026-06-30-pytorch-clip-grads-with-norm.md) | `torch/nn/utils/clip_grad.py` |
 | 2026-06-26 | [`torch.func.vmap`：把任意函数向量化，批量维度随心所欲 / `torch.func.vmap`: Vectorize Any Function, Put the Batch Dimension Anywhere](../2026/06/2026-06-26-pytorch-vmap.md) | `torch/_functorch/apis.py` |
 | 2026-06-25 | [Pipeline 并行的微批次拆分：pytree-aware 的 split_args_kwargs_into_chunks / Pipeline-Parallel Microbatch Splitting: pytree-aware split_args_kwargs_into_chunks](../2026/06/2026-06-25-pytorch-pipeline-microbatch.md) | `torch/distributed/pipelining/microbatch.py` |
