@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-02 | action-conditioning (cross-repo, DreamZero decoupled video/action noise) | [DreamZero 解耦噪声：视频和动作不必同一个 timestep / DreamZero Decoupled Noise: Video and Action Need Not Share a Timestep](../nano/wam/2026-07-02-dreamzero-decoupled-video-action-noise.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-07-01 | action-conditioning (cross-repo, DreamZero action/state RoPE) | [DreamZero action/state RoPE：把控制 token 接进视频坐标系 / DreamZero Action/State RoPE: Splice Control Tokens into the Video Coordinate System](../nano/wam/2026-07-01-dreamzero-action-state-rope.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-06-30 | patchify-positional (cross-repo, Wan2.1 3D RoPE grid apply) | [nanoWAM 的 3D 坐标层：RoPE 不只是一维位置 / nanoWAM's 3D Coordinate Layer: RoPE Is Not Just One-Dimensional Position](../nano/wam/2026-06-30-wan21-rope-grid-apply.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-06-26 | training-loop (cross-repo, DiT train.py VAE encode + EMA) | [DiT 训练循环五步法：VAE 编码 → 随机时间步 → 扩散损失 → backward → EMA 更新 / DiT's 5-Step Training Loop: VAE Encode → Random Timestep → Diffusion Loss → Backward → EMA Update](../nano/wam/2026-06-26-dit-training-loop.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |

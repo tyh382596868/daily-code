@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-02 | [openpi DeltaActions：把绝对动作改写成相对控制 / openpi DeltaActions: Rewrite Absolute Actions into Relative Control](../2026/07/2026-07-02-openpi-delta-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
+| 2026-07-02 | [Gamma-World DMD 训练相位：学生和 fake score 轮流更新 / Gamma-World DMD Training Phases: Alternate Student and Fake Score Updates](../2026/07/2026-07-02-gamma-world-dmd-phase-switch.md) | [nv-tlabs/Gamma-World](https://github.com/nv-tlabs/Gamma-World) |
 | 2026-06-26 | [StarVLA 双流协同训练：一个 step 里两条 backward / StarVLA Dual-Stream Cotrain: Two Backward Passes in One Step](../2026/06/2026-06-26-starvla-cotrain.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
 | 2026-06-26 | [FastVideo 的视频稀疏注意力序列并行：把 gate_compress 打包进 all-to-all，省掉一次通信 / FastVideo VSA Sequence Parallelism: Bundle gate_compress into the all-to-all and Save One Communication Round](../2026/06/2026-06-26-fastvideo-distributed-vsa.md) | [hao-ai-lab/FastVideo](https://github.com/hao-ai-lab/FastVideo) |
 | 2026-06-23 | [可组合 VLA 数据变换管道：冻结 dataclass + z-score / 分位数归一化 / Composable VLA Data-Transform Pipeline: Frozen Dataclass + Z-score / Quantile Normalization](../2026/06/2026-06-23-openpi-normalize-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |

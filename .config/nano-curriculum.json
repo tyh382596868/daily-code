@@ -505,6 +505,13 @@
         "note": "nano/vla/2026-07-01-lerobot-action-queue-merge.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-02",
+        "note": "nano/vla/2026-07-02-gamma-world-action-normalizer.md",
+        "repo": "nv-tlabs/Gamma-World",
+        "via": "vla"
       }
     ]
   },
@@ -997,6 +1004,13 @@
         "id": "action-conditioning",
         "date": "2026-07-01",
         "note": "nano/wam/2026-07-01-dreamzero-action-state-rope.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-07-02",
+        "note": "nano/wam/2026-07-02-dreamzero-decoupled-video-action-noise.md",
         "repo": "dreamzero0/dreamzero",
         "via": "wam"
       }

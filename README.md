@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-02** · robotics · [openpi DeltaActions：把绝对动作改写成相对控制 / openpi DeltaActions: Rewrite Absolute Actions into Relative Control](2026/07/2026-07-02-openpi-delta-actions.md) — `Physical-Intelligence/openpi` (tracked)
+- **2026-07-02** · pytorch · [PyTorch TreeSpec：按模板拆 pytree / PyTorch TreeSpec: Flatten a PyTree Against a Template](2026/07/2026-07-02-pytorch-treespec-flatten-up-to.md) — `pytorch/pytorch`
+- **2026-07-02** · huggingface · [tokenizers 并行开关：同一个 iterator 可串行也可并行 / tokenizers Parallelism Switch: One Iterator, Serial or Parallel](2026/07/2026-07-02-tokenizers-maybe-parallel-iterator.md) — `huggingface/tokenizers`
+- **2026-07-02** · vla · [Gamma-World 动作归一化：零方差维度也要可训练 / Gamma-World Action Normalization: Keep Zero-Variance Dimensions Trainable](nano/vla/2026-07-02-gamma-world-action-normalizer.md) — `nv-tlabs/Gamma-World` (training-step cross-repo)
+- **2026-07-02** · wam · [DreamZero 解耦噪声：视频和动作不必同一个 timestep / DreamZero Decoupled Noise: Video and Action Need Not Share a Timestep](nano/wam/2026-07-02-dreamzero-decoupled-video-action-noise.md) — `dreamzero0/dreamzero` (action-conditioning cross-repo)
+- **2026-07-02** · robotics · [Gamma-World DMD 训练相位：学生和 fake score 轮流更新 / Gamma-World DMD Training Phases: Alternate Student and Fake Score Updates](2026/07/2026-07-02-gamma-world-dmd-phase-switch.md) — `nv-tlabs/Gamma-World` (trending)
 - **2026-07-01** · infrastructure · [nanoGPT 推理优化：只给最后一个 token 做 lm_head / nanoGPT Inference Optimization: Run lm_head Only on the Last Token](2026/07/2026-07-01-nanogpt-last-token-logits.md) — `karpathy/nanoGPT` (tracked)
 - **2026-07-01** · pytorch · [PyTorch 子模块手术：用点路径精准替换一层 / PyTorch Submodule Surgery: Replace a Layer by Dotted Path](2026/07/2026-07-01-pytorch-submodule-surgery.md) — `pytorch/pytorch`
 - **2026-07-01** · huggingface · [TRL 的 PEFT adapter EMA teacher：不用复制整模型的自蒸馏 / TRL PEFT Adapter EMA Teacher: Self-Distillation Without Copying the Whole Model](2026/07/2026-07-01-trl-peft-adapter-ema-teacher.md) — `huggingface/trl`
