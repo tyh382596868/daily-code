@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-03 | [nanoVLM projector：用 pixel shuffle 少传视觉 token / nanoVLM Projector: Use Pixel Shuffle to Send Fewer Vision Tokens](../2026/07/2026-07-03-nanovlm-modality-projector.md) | huggingface/nanoVLM |
 | 2026-07-02 | [tokenizers 并行开关：同一个 iterator 可串行也可并行 / tokenizers Parallelism Switch: One Iterator, Serial or Parallel](../2026/07/2026-07-02-tokenizers-maybe-parallel-iterator.md) | huggingface/tokenizers |
 | 2026-07-01 | [TRL 的 PEFT adapter EMA teacher：不用复制整模型的自蒸馏 / TRL PEFT Adapter EMA Teacher: Self-Distillation Without Copying the Whole Model](../2026/07/2026-07-01-trl-peft-adapter-ema-teacher.md) | huggingface/trl |
 | 2026-06-30 | [LoRA-GA 初始化：用一次梯度 SVD 给 adapter 指方向 / LoRA-GA Init: Use One Gradient SVD to Aim the Adapter](../2026/06/2026-06-30-peft-loraga-svd-init.md) | huggingface/peft |

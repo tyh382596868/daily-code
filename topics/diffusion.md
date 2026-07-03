@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-03 | [DiT adaLN-Zero：条件不是加进去，而是调制整层 / DiT adaLN-Zero: Conditioning by Modulating the Whole Layer](../2026/07/2026-07-03-dit-adaln-zero-block.md) | facebookresearch/DiT |
+| 2026-07-03 | [BitVLA BitLinear：把权重压成 {-1,0,1} / BitVLA BitLinear: Compress Weights into {-1, 0, 1}](../2026/07/2026-07-03-bitvla-bitlinear-quantization.md) | ustcwhy/BitVLA |
 | 2026-06-30 | [Wan2.1 的 3D RoPE 自注意力：把时间、高度、宽度拆成三把尺 / Wan2.1 3D RoPE Self-Attention: Three Rulers for Time, Height, and Width](../2026/06/2026-06-30-wan21-rope-self-attention.md) | Wan-Video/Wan2.1 |
 | 2026-06-30 | [DiffSynth 的 WanVideoPipeline：把视频生成拆成可插拔单元 / DiffSynth's WanVideoPipeline: Video Generation as Pluggable Units](../2026/06/2026-06-30-diffsynth-wan-video-pipeline-units.md) | modelscope/DiffSynth-Studio |
 | 2026-06-24 | [DPM-Solver++(2M)：用历史预测做二阶修正的视频扩散采样器 / DPM-Solver++(2M): 2nd-Order Multistep Correction via History Tracking in Video Diffusion](../2026/06/2026-06-24-cogvideo-dpmpp2m-sampler.md) | THUDM/CogVideo |

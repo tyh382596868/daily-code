@@ -512,6 +512,13 @@
         "note": "nano/vla/2026-07-02-gamma-world-action-normalizer.md",
         "repo": "nv-tlabs/Gamma-World",
         "via": "vla"
+      },
+      {
+        "id": "fine-tune-lora",
+        "date": "2026-07-03",
+        "note": "nano/vla/2026-07-03-openvla-lora-finetune-stack.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
       }
     ]
   },
@@ -1012,6 +1019,13 @@
         "date": "2026-07-02",
         "note": "nano/wam/2026-07-02-dreamzero-decoupled-video-action-noise.md",
         "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-07-03",
+        "note": "nano/wam/2026-07-03-dit-final-layer-output-head.md",
+        "repo": "facebookresearch/DiT",
         "via": "wam"
       }
     ]

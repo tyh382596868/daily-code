@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-03** · diffusion · [DiT adaLN-Zero：条件不是加进去，而是调制整层 / DiT adaLN-Zero: Conditioning by Modulating the Whole Layer](2026/07/2026-07-03-dit-adaln-zero-block.md) — `facebookresearch/DiT` (tracked)
+- **2026-07-03** · pytorch · [PyTorch parametrization cache：一次 forward 里别重复算同一个权重 / PyTorch Parametrization Cache: Do Not Recompute the Same Weight in One Forward](2026/07/2026-07-03-pytorch-parametrize-cache.md) — `pytorch/pytorch`
+- **2026-07-03** · huggingface · [nanoVLM projector：用 pixel shuffle 少传视觉 token / nanoVLM Projector: Use Pixel Shuffle to Send Fewer Vision Tokens](2026/07/2026-07-03-nanovlm-modality-projector.md) — `huggingface/nanoVLM`
+- **2026-07-03** · vla · [OpenVLA LoRA 微调栈：先注册 AutoClass，再包 PEFT / OpenVLA LoRA Fine-Tune Stack: Register AutoClasses, Then Wrap with PEFT](nano/vla/2026-07-03-openvla-lora-finetune-stack.md) — `openvla/openvla` (fine-tune-lora cross-repo)
+- **2026-07-03** · wam · [DiT FinalLayer：最后一步也要吃条件 / DiT FinalLayer: The Output Head Is Conditioned Too](nano/wam/2026-07-03-dit-final-layer-output-head.md) — `facebookresearch/DiT` (output-head cross-repo)
+- **2026-07-03** · diffusion · [BitVLA BitLinear：把权重压成 {-1,0,1} / BitVLA BitLinear: Compress Weights into {-1, 0, 1}](2026/07/2026-07-03-bitvla-bitlinear-quantization.md) — `ustcwhy/BitVLA` (trending)
 - **2026-07-02** · robotics · [openpi DeltaActions：把绝对动作改写成相对控制 / openpi DeltaActions: Rewrite Absolute Actions into Relative Control](2026/07/2026-07-02-openpi-delta-actions.md) — `Physical-Intelligence/openpi` (tracked)
 - **2026-07-02** · pytorch · [PyTorch TreeSpec：按模板拆 pytree / PyTorch TreeSpec: Flatten a PyTree Against a Template](2026/07/2026-07-02-pytorch-treespec-flatten-up-to.md) — `pytorch/pytorch`
 - **2026-07-02** · huggingface · [tokenizers 并行开关：同一个 iterator 可串行也可并行 / tokenizers Parallelism Switch: One Iterator, Serial or Parallel](2026/07/2026-07-02-tokenizers-maybe-parallel-iterator.md) — `huggingface/tokenizers`
