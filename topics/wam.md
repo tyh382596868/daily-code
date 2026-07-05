@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-05 | noise-scheduler (advanced variant, timestep embedding) | [Wan2.1 timestep embedding：把一个噪声时间步变成一排频率尺 / Wan2.1 Timestep Embedding: Turn One Noise Step into a Row of Frequency Rulers](../nano/wam/2026-07-05-wan21-timestep-embedding.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-03 | output-head (cross-repo, DiT conditioned FinalLayer) | [DiT FinalLayer：最后一步也要吃条件 / DiT FinalLayer: The Output Head Is Conditioned Too](../nano/wam/2026-07-03-dit-final-layer-output-head.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |
 | 2026-07-02 | action-conditioning (cross-repo, DreamZero decoupled video/action noise) | [DreamZero 解耦噪声：视频和动作不必同一个 timestep / DreamZero Decoupled Noise: Video and Action Need Not Share a Timestep](../nano/wam/2026-07-02-dreamzero-decoupled-video-action-noise.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-07-01 | action-conditioning (cross-repo, DreamZero action/state RoPE) | [DreamZero action/state RoPE：把控制 token 接进视频坐标系 / DreamZero Action/State RoPE: Splice Control Tokens into the Video Coordinate System](../nano/wam/2026-07-01-dreamzero-action-state-rope.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |

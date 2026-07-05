@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-05 | [vLLM partial prefill cache：没填满的 block 也值得记住 / vLLM Partial Prefill Cache: Even an Unfilled Block Can Be Worth Remembering](../2026/07/2026-07-05-vllm-partial-prefill-cache.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-05 | [SGLang radix cache：用前缀树找最长可复用 KV / SGLang Radix Cache: Use a Prefix Tree to Find the Longest Reusable KV](../2026/07/2026-07-05-sglang-radix-prefix-cache.md) | [sgl-project/sglang](https://github.com/sgl-project/sglang) |
 | 2026-07-01 | [nanoGPT 推理优化：只给最后一个 token 做 lm_head / nanoGPT Inference Optimization: Run lm_head Only on the Last Token](../2026/07/2026-07-01-nanogpt-last-token-logits.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
 | 2026-07-01 | [LMCache 的 CacheEngineKey：KV chunk 的分布式门牌号 / LMCache CacheEngineKey: A Distributed Address for KV Chunks](../2026/07/2026-07-01-lmcache-cache-engine-key.md) | [LMCache/LMCache](https://github.com/LMCache/LMCache) |
 | 2026-06-25 | [DeepSeek-V3 MLA 的 absorb 技巧：KV 缓存压缩 70× / DeepSeek-V3 MLA's absorb Trick: 70× KV-Cache Compression](../2026/06/2026-06-25-deepseek-v3-mla-absorb.md) | [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) |

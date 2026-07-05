@@ -519,6 +519,13 @@
         "note": "nano/vla/2026-07-03-openvla-lora-finetune-stack.md",
         "repo": "openvla/openvla",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-05",
+        "note": "nano/vla/2026-07-05-openpi-transform-group.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1026,6 +1033,13 @@
         "date": "2026-07-03",
         "note": "nano/wam/2026-07-03-dit-final-layer-output-head.md",
         "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-07-05",
+        "note": "nano/wam/2026-07-05-wan21-timestep-embedding.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

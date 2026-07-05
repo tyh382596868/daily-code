@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-05 | [PyTorch AdamW：用一个标志把 weight decay 从 Adam 里拆出来 / PyTorch AdamW: One Flag Decouples Weight Decay from Adam](../2026/07/2026-07-05-pytorch-adamw-decoupled-wrapper.md) | `torch/optim/adamw.py` |
 | 2026-07-03 | [PyTorch parametrization cache：一次 forward 里别重复算同一个权重 / PyTorch Parametrization Cache: Do Not Recompute the Same Weight in One Forward](../2026/07/2026-07-03-pytorch-parametrize-cache.md) | `torch/nn/utils/parametrize.py` |
 | 2026-07-02 | [PyTorch TreeSpec：按模板拆 pytree / PyTorch TreeSpec: Flatten a PyTree Against a Template](../2026/07/2026-07-02-pytorch-treespec-flatten-up-to.md) | `torch/utils/_pytree.py` |
 | 2026-07-01 | [PyTorch 子模块手术：用点路径精准替换一层 / PyTorch Submodule Surgery: Replace a Layer by Dotted Path](../2026/07/2026-07-01-pytorch-submodule-surgery.md) | `torch/nn/modules/module.py` |

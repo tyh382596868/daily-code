@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-05 | training-step (advanced variant, openpi transform group) | [openpi Transform Group：把输入和输出变换分成两段流水线 / openpi Transform Group: Split Input and Output Transforms into Two Pipelines](../nano/vla/2026-07-05-openpi-transform-group.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-03 | fine-tune-lora (cross-repo, OpenVLA AutoClass + PEFT stack) | [OpenVLA LoRA 微调栈：先注册 AutoClass，再包 PEFT / OpenVLA LoRA Fine-Tune Stack: Register AutoClasses, Then Wrap with PEFT](../nano/vla/2026-07-03-openvla-lora-finetune-stack.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-07-02 | training-step (cross-repo, Gamma-World action normalizer) | [Gamma-World 动作归一化：零方差维度也要可训练 / Gamma-World Action Normalization: Keep Zero-Variance Dimensions Trainable](../nano/vla/2026-07-02-gamma-world-action-normalizer.md) | [nv-tlabs/Gamma-World](https://github.com/nv-tlabs/Gamma-World) |
 | 2026-07-01 | inference-loop (cross-repo, LeRobot action queue merge) | [LeRobot action queue：把重叠 action chunk 合成连续控制流 / LeRobot Action Queue: Merge Overlapping Action Chunks into a Continuous Control Stream](../nano/vla/2026-07-01-lerobot-action-queue-merge.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
