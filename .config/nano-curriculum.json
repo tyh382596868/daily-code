@@ -526,6 +526,13 @@
         "note": "nano/vla/2026-07-05-openpi-transform-group.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-07-06",
+        "note": "nano/vla/2026-07-06-lerobot-diffusion-policy-action-queue.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1039,6 +1046,13 @@
         "id": "noise-scheduler",
         "date": "2026-07-05",
         "note": "nano/wam/2026-07-05-wan21-timestep-embedding.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-07-06",
+        "note": "nano/wam/2026-07-06-wan21-variable-length-flash-attention.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

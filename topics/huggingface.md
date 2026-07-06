@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-06 | [Diffusers zero-terminal SNR：把最后一步真的推到纯噪声 / Diffusers Zero-Terminal SNR: Make the Last Step Truly Pure Noise](../2026/07/2026-07-06-diffusers-zero-terminal-snr.md) | huggingface/diffusers |
 | 2026-07-05 | [Transformers DynamicLayer：KV cache 就是沿时间维拼接 / Transformers DynamicLayer: A KV Cache Is Concatenation Along Time](../2026/07/2026-07-05-transformers-dynamic-kv-layer.md) | huggingface/transformers |
 | 2026-07-03 | [nanoVLM projector：用 pixel shuffle 少传视觉 token / nanoVLM Projector: Use Pixel Shuffle to Send Fewer Vision Tokens](../2026/07/2026-07-03-nanovlm-modality-projector.md) | huggingface/nanoVLM |
 | 2026-07-02 | [tokenizers 并行开关：同一个 iterator 可串行也可并行 / tokenizers Parallelism Switch: One Iterator, Serial or Parallel](../2026/07/2026-07-02-tokenizers-maybe-parallel-iterator.md) | huggingface/tokenizers |

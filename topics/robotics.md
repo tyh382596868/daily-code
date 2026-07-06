@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-06 | [Diffusion Policy LinearNormalizer：一套参数管住多路观测 / Diffusion Policy LinearNormalizer: One Parameter Store for Many Observation Streams](../2026/07/2026-07-06-diffusion-policy-linear-normalizer.md) | [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy) |
+| 2026-07-06 | [Forge robotics quality metrics：先筛掉坏轨迹，再训练策略 / Forge Robotics Quality Metrics: Filter Bad Episodes Before Training Policies](../2026/07/2026-07-06-forge-robot-quality-metrics.md) | [arpitg1304/forge](https://github.com/arpitg1304/forge) |
 | 2026-07-02 | [openpi DeltaActions：把绝对动作改写成相对控制 / openpi DeltaActions: Rewrite Absolute Actions into Relative Control](../2026/07/2026-07-02-openpi-delta-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-02 | [Gamma-World DMD 训练相位：学生和 fake score 轮流更新 / Gamma-World DMD Training Phases: Alternate Student and Fake Score Updates](../2026/07/2026-07-02-gamma-world-dmd-phase-switch.md) | [nv-tlabs/Gamma-World](https://github.com/nv-tlabs/Gamma-World) |
 | 2026-06-26 | [StarVLA 双流协同训练：一个 step 里两条 backward / StarVLA Dual-Stream Cotrain: Two Backward Passes in One Step](../2026/06/2026-06-26-starvla-cotrain.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
