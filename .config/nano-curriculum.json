@@ -533,6 +533,13 @@
         "note": "nano/vla/2026-07-06-lerobot-diffusion-policy-action-queue.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-07-07",
+        "note": "nano/vla/2026-07-07-openpi-fast-action-tokenizer.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1054,6 +1061,13 @@
         "date": "2026-07-06",
         "note": "nano/wam/2026-07-06-wan21-variable-length-flash-attention.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-07",
+        "note": "nano/wam/2026-07-07-fastwam-video-kv-cache.md",
+        "repo": "yuantianyuan01/FastWAM",
         "via": "wam"
       }
     ]

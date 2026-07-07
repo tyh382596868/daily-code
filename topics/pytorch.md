@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-07 | [PyTorch ReduceLROnPlateau：学习率调度器也会看验证集脸色 / PyTorch ReduceLROnPlateau: An LR Scheduler That Watches Validation Metrics](../2026/07/2026-07-07-pytorch-reduce-lr-on-plateau.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-06 | [PyTorch PolynomialLR：递推和闭式公式要对齐 / PyTorch PolynomialLR: Keep the Recursive and Closed-Form Schedules Aligned](../2026/07/2026-07-06-pytorch-polynomial-lr.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-05 | [PyTorch AdamW：用一个标志把 weight decay 从 Adam 里拆出来 / PyTorch AdamW: One Flag Decouples Weight Decay from Adam](../2026/07/2026-07-05-pytorch-adamw-decoupled-wrapper.md) | `torch/optim/adamw.py` |
 | 2026-07-03 | [PyTorch parametrization cache：一次 forward 里别重复算同一个权重 / PyTorch Parametrization Cache: Do Not Recompute the Same Weight in One Forward](../2026/07/2026-07-03-pytorch-parametrize-cache.md) | `torch/nn/utils/parametrize.py` |

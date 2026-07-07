@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-07 | action-tokenizer (advanced variant, openpi FAST action tokenizer) | [openpi FASTTokenizer：把连续动作塞进语言模型词表尾部 / openpi FASTTokenizer: Put Continuous Actions into the Tail of a Language-Model Vocabulary](../nano/vla/2026-07-07-openpi-fast-action-tokenizer.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-06 | action-chunking (advanced variant, LeRobot diffusion policy queue) | [LeRobot DiffusionPolicy：一次生成一段，只执行一个 / LeRobot DiffusionPolicy: Generate a Chunk, Execute One Action](../nano/vla/2026-07-06-lerobot-diffusion-policy-action-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-05 | training-step (advanced variant, openpi transform group) | [openpi Transform Group：把输入和输出变换分成两段流水线 / openpi Transform Group: Split Input and Output Transforms into Two Pipelines](../nano/vla/2026-07-05-openpi-transform-group.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-03 | fine-tune-lora (cross-repo, OpenVLA AutoClass + PEFT stack) | [OpenVLA LoRA 微调栈：先注册 AutoClass，再包 PEFT / OpenVLA LoRA Fine-Tune Stack: Register AutoClasses, Then Wrap with PEFT](../nano/vla/2026-07-03-openvla-lora-finetune-stack.md) | [openvla/openvla](https://github.com/openvla/openvla) |

@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-07 | [Open-Sora DoubleStreamBlockProcessor：两条流，一次注意力 / Open-Sora DoubleStreamBlockProcessor: Two Streams, One Attention Call](../2026/07/2026-07-07-open-sora-double-stream-processor.md) | hpcaitech/Open-Sora |
+| 2026-07-07 | [Cosmos action-conditioned video：把机器人状态改成相对动作 / Cosmos Action-Conditioned Video: Convert Robot States into Relative Actions](../2026/07/2026-07-07-cosmos-action-conditioned-relative-actions.md) | nvidia-cosmos/cosmos-predict2.5 |
 | 2026-07-03 | [DiT adaLN-Zero：条件不是加进去，而是调制整层 / DiT adaLN-Zero: Conditioning by Modulating the Whole Layer](../2026/07/2026-07-03-dit-adaln-zero-block.md) | facebookresearch/DiT |
 | 2026-07-03 | [BitVLA BitLinear：把权重压成 {-1,0,1} / BitVLA BitLinear: Compress Weights into {-1, 0, 1}](../2026/07/2026-07-03-bitvla-bitlinear-quantization.md) | ustcwhy/BitVLA |
 | 2026-06-30 | [Wan2.1 的 3D RoPE 自注意力：把时间、高度、宽度拆成三把尺 / Wan2.1 3D RoPE Self-Attention: Three Rulers for Time, Height, and Width](../2026/06/2026-06-30-wan21-rope-self-attention.md) | Wan-Video/Wan2.1 |

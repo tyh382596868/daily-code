@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-07 | [Accelerate tied parameters：先找共享权重，再把断掉的引用接回去 / Accelerate Tied Parameters: Find Shared Weights, Then Retie Broken References](../2026/07/2026-07-07-accelerate-find-retie-tied-parameters.md) | huggingface/accelerate |
 | 2026-07-06 | [Diffusers zero-terminal SNR：把最后一步真的推到纯噪声 / Diffusers Zero-Terminal SNR: Make the Last Step Truly Pure Noise](../2026/07/2026-07-06-diffusers-zero-terminal-snr.md) | huggingface/diffusers |
 | 2026-07-05 | [Transformers DynamicLayer：KV cache 就是沿时间维拼接 / Transformers DynamicLayer: A KV Cache Is Concatenation Along Time](../2026/07/2026-07-05-transformers-dynamic-kv-layer.md) | huggingface/transformers |
 | 2026-07-03 | [nanoVLM projector：用 pixel shuffle 少传视觉 token / nanoVLM Projector: Use Pixel Shuffle to Send Fewer Vision Tokens](../2026/07/2026-07-03-nanovlm-modality-projector.md) | huggingface/nanoVLM |
