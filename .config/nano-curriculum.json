@@ -540,6 +540,13 @@
         "note": "nano/vla/2026-07-07-openpi-fast-action-tokenizer.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-07-08",
+        "note": "nano/vla/2026-07-08-smolvla-resize-with-pad.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1068,6 +1075,13 @@
         "date": "2026-07-07",
         "note": "nano/wam/2026-07-07-fastwam-video-kv-cache.md",
         "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-07-08",
+        "note": "nano/wam/2026-07-08-wan21-vae-temporal-chunk-cache.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

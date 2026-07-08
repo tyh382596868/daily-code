@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-08 | vae-encoder-decoder (advanced variant, Wan2.1 temporal chunk cache) | [Wan2.1 VAE：按时间块编码，靠 cache 保持连续 / Wan2.1 VAE: Encode Time Chunks While Keeping Continuity with Cache](../nano/wam/2026-07-08-wan21-vae-temporal-chunk-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-07 | sampler-inference (advanced variant, video KV cache) | [FastWAM video KV cache：视频先预填，动作逐步解码 / FastWAM Video KV Cache: Prefill Video Once, Decode Actions Step by Step](../nano/wam/2026-07-07-fastwam-video-kv-cache.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-07-06 | dit-block (advanced variant, variable-length FlashAttention backend) | [Wan2.1 variable-length FlashAttention：先压平有效 token，再交给 kernel / Wan2.1 Variable-Length FlashAttention: Flatten Valid Tokens Before Calling the Kernel](../nano/wam/2026-07-06-wan21-variable-length-flash-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-05 | noise-scheduler (advanced variant, timestep embedding) | [Wan2.1 timestep embedding：把一个噪声时间步变成一排频率尺 / Wan2.1 Timestep Embedding: Turn One Noise Step into a Row of Frequency Rulers](../nano/wam/2026-07-05-wan21-timestep-embedding.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

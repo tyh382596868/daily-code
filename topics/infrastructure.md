@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-08 | [vLLM KV offloading：先按注意力组算对齐边界 / vLLM KV Offloading: Compute Alignment Per Attention Group First](../2026/07/2026-07-08-vllm-offloading-alignment-groups.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-08 | [mini-infer PrefixCacheManager：链式 hash 让前缀缓存不串台 / mini-infer PrefixCacheManager: Chained Hashes Keep Prefix Cache Honest](../2026/07/2026-07-08-mini-infer-prefix-cache-manager.md) | [psmarter/mini-infer](https://github.com/psmarter/mini-infer) |
 | 2026-07-05 | [vLLM partial prefill cache：没填满的 block 也值得记住 / vLLM Partial Prefill Cache: Even an Unfilled Block Can Be Worth Remembering](../2026/07/2026-07-05-vllm-partial-prefill-cache.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-07-05 | [SGLang radix cache：用前缀树找最长可复用 KV / SGLang Radix Cache: Use a Prefix Tree to Find the Longest Reusable KV](../2026/07/2026-07-05-sglang-radix-prefix-cache.md) | [sgl-project/sglang](https://github.com/sgl-project/sglang) |
 | 2026-07-01 | [nanoGPT 推理优化：只给最后一个 token 做 lm_head / nanoGPT Inference Optimization: Run lm_head Only on the Last Token](../2026/07/2026-07-01-nanogpt-last-token-logits.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |

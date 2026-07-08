@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-08 | [PyTorch LinearLR：递推更新也要等价闭式公式 / PyTorch LinearLR: Recursive Updates Must Match the Closed Form](../2026/07/2026-07-08-pytorch-linear-lr-recursive-closed-form.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-07 | [PyTorch ReduceLROnPlateau：学习率调度器也会看验证集脸色 / PyTorch ReduceLROnPlateau: An LR Scheduler That Watches Validation Metrics](../2026/07/2026-07-07-pytorch-reduce-lr-on-plateau.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-06 | [PyTorch PolynomialLR：递推和闭式公式要对齐 / PyTorch PolynomialLR: Keep the Recursive and Closed-Form Schedules Aligned](../2026/07/2026-07-06-pytorch-polynomial-lr.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-05 | [PyTorch AdamW：用一个标志把 weight decay 从 Adam 里拆出来 / PyTorch AdamW: One Flag Decouples Weight Decay from Adam](../2026/07/2026-07-05-pytorch-adamw-decoupled-wrapper.md) | `torch/optim/adamw.py` |

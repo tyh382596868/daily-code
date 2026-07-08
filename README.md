@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-08** · infrastructure · [vLLM KV offloading：先按注意力组算对齐边界 / vLLM KV Offloading: Compute Alignment Per Attention Group First](2026/07/2026-07-08-vllm-offloading-alignment-groups.md) — `vllm-project/vllm` (tracked)
+- **2026-07-08** · pytorch · [PyTorch LinearLR：递推更新也要等价闭式公式 / PyTorch LinearLR: Recursive Updates Must Match the Closed Form](2026/07/2026-07-08-pytorch-linear-lr-recursive-closed-form.md) — `pytorch/pytorch`
+- **2026-07-08** · huggingface · [Datasets 随机轮转数据源：流式混合也要可恢复 / Datasets Random Source Cycling: Streaming Mixtures Must Be Resumable](2026/07/2026-07-08-datasets-randomly-cycling-sources.md) — `huggingface/datasets`
+- **2026-07-08** · vla · [SmolVLA resize_with_pad：相机图像先等比缩放再补齐 / SmolVLA resize_with_pad: Resize Camera Frames, Then Pad](nano/vla/2026-07-08-smolvla-resize-with-pad.md) — `huggingface/lerobot` (vision-encoder advanced variant)
+- **2026-07-08** · wam · [Wan2.1 VAE：按时间块编码，靠 cache 保持连续 / Wan2.1 VAE: Encode Time Chunks While Keeping Continuity with Cache](nano/wam/2026-07-08-wan21-vae-temporal-chunk-cache.md) — `Wan-Video/Wan2.1` (vae-encoder-decoder advanced variant)
+- **2026-07-08** · infrastructure · [mini-infer PrefixCacheManager：链式 hash 让前缀缓存不串台 / mini-infer PrefixCacheManager: Chained Hashes Keep Prefix Cache Honest](2026/07/2026-07-08-mini-infer-prefix-cache-manager.md) — `psmarter/mini-infer` (trending)
 - **2026-07-07** · diffusion · [Open-Sora DoubleStreamBlockProcessor：两条流，一次注意力 / Open-Sora DoubleStreamBlockProcessor: Two Streams, One Attention Call](2026/07/2026-07-07-open-sora-double-stream-processor.md) — `hpcaitech/Open-Sora` (tracked)
 - **2026-07-07** · pytorch · [PyTorch ReduceLROnPlateau：学习率调度器也会看验证集脸色 / PyTorch ReduceLROnPlateau: An LR Scheduler That Watches Validation Metrics](2026/07/2026-07-07-pytorch-reduce-lr-on-plateau.md) — `pytorch/pytorch`
 - **2026-07-07** · huggingface · [Accelerate tied parameters：先找共享权重，再把断掉的引用接回去 / Accelerate Tied Parameters: Find Shared Weights, Then Retie Broken References](2026/07/2026-07-07-accelerate-find-retie-tied-parameters.md) — `huggingface/accelerate`
