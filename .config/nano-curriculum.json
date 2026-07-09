@@ -547,6 +547,13 @@
         "note": "nano/vla/2026-07-08-smolvla-resize-with-pad.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-07-09",
+        "note": "nano/vla/2026-07-09-lerobot-pi0-attention-mask.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1081,6 +1088,13 @@
         "id": "vae-encoder-decoder",
         "date": "2026-07-08",
         "note": "nano/wam/2026-07-08-wan21-vae-temporal-chunk-cache.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-07-09",
+        "note": "nano/wam/2026-07-09-wan21-i2v-cross-attention.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

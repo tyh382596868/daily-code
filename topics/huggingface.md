@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-09 | [PEFT PSOFT OrthLayer：用 skew 矩阵生成可训练正交旋转 / PEFT PSOFT OrthLayer: Train an Orthogonal Rotation from a Skew Matrix](../2026/07/2026-07-09-peft-psoft-orth-layer.md) | huggingface/peft |
 | 2026-07-08 | [Datasets 随机轮转数据源：流式混合也要可恢复 / Datasets Random Source Cycling: Streaming Mixtures Must Be Resumable](../2026/07/2026-07-08-datasets-randomly-cycling-sources.md) | huggingface/datasets |
 | 2026-07-07 | [Accelerate tied parameters：先找共享权重，再把断掉的引用接回去 / Accelerate Tied Parameters: Find Shared Weights, Then Retie Broken References](../2026/07/2026-07-07-accelerate-find-retie-tied-parameters.md) | huggingface/accelerate |
 | 2026-07-06 | [Diffusers zero-terminal SNR：把最后一步真的推到纯噪声 / Diffusers Zero-Terminal SNR: Make the Last Step Truly Pure Noise](../2026/07/2026-07-06-diffusers-zero-terminal-snr.md) | huggingface/diffusers |

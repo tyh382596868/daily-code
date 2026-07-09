@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-09** · robotics · [openpi Normalize：同一个 transform 同时支持 z-score 和分位数归一化 / openpi Normalize: One Transform for Z-Score and Quantile Scaling](2026/07/2026-07-09-openpi-normalize-transform.md) — `Physical-Intelligence/openpi` (tracked)
+- **2026-07-09** · pytorch · [PyTorch AveragedModel：第一次复制，之后才平均 / PyTorch AveragedModel: Copy First, Average Later](2026/07/2026-07-09-pytorch-averaged-model.md) — `pytorch/pytorch`
+- **2026-07-09** · huggingface · [PEFT PSOFT OrthLayer：用 skew 矩阵生成可训练正交旋转 / PEFT PSOFT OrthLayer: Train an Orthogonal Rotation from a Skew Matrix](2026/07/2026-07-09-peft-psoft-orth-layer.md) — `huggingface/peft`
+- **2026-07-09** · vla · [LeRobot pi0 attention mask：用 cumulative mask 表达 prefix-LM / LeRobot pi0 Attention Mask: Prefix-LM from a Cumulative Mask](nano/vla/2026-07-09-lerobot-pi0-attention-mask.md) — `huggingface/lerobot` (vlm-backbone-wiring advanced variant)
+- **2026-07-09** · wam · [Wan2.1 I2V cross-attention：图像和文本分两路看，再相加 / Wan2.1 I2V Cross-Attention: Attend to Image and Text Separately, Then Add](nano/wam/2026-07-09-wan21-i2v-cross-attention.md) — `Wan-Video/Wan2.1` (text-conditioning advanced variant)
+- **2026-07-09** · robotics · [Light-WAM StateFusionActionExpert：从多层视频状态直接预测动作 chunk / Light-WAM StateFusionActionExpert: Predict Action Chunks from Multi-Layer Video States](2026/07/2026-07-09-lightwam-state-fusion-action-expert.md) — `L1ziang/Light-WAM` (trending)
 - **2026-07-08** · infrastructure · [vLLM KV offloading：先按注意力组算对齐边界 / vLLM KV Offloading: Compute Alignment Per Attention Group First](2026/07/2026-07-08-vllm-offloading-alignment-groups.md) — `vllm-project/vllm` (tracked)
 - **2026-07-08** · pytorch · [PyTorch LinearLR：递推更新也要等价闭式公式 / PyTorch LinearLR: Recursive Updates Must Match the Closed Form](2026/07/2026-07-08-pytorch-linear-lr-recursive-closed-form.md) — `pytorch/pytorch`
 - **2026-07-08** · huggingface · [Datasets 随机轮转数据源：流式混合也要可恢复 / Datasets Random Source Cycling: Streaming Mixtures Must Be Resumable](2026/07/2026-07-08-datasets-randomly-cycling-sources.md) — `huggingface/datasets`

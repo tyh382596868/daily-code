@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-09 | [openpi Normalize：同一个 transform 同时支持 z-score 和分位数归一化 / openpi Normalize: One Transform for Z-Score and Quantile Scaling](../2026/07/2026-07-09-openpi-normalize-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
+| 2026-07-09 | [Light-WAM StateFusionActionExpert：从多层视频状态直接预测动作 chunk / Light-WAM StateFusionActionExpert: Predict Action Chunks from Multi-Layer Video States](../2026/07/2026-07-09-lightwam-state-fusion-action-expert.md) | [L1ziang/Light-WAM](https://github.com/L1ziang/Light-WAM) |
 | 2026-07-06 | [Diffusion Policy LinearNormalizer：一套参数管住多路观测 / Diffusion Policy LinearNormalizer: One Parameter Store for Many Observation Streams](../2026/07/2026-07-06-diffusion-policy-linear-normalizer.md) | [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy) |
 | 2026-07-06 | [Forge robotics quality metrics：先筛掉坏轨迹，再训练策略 / Forge Robotics Quality Metrics: Filter Bad Episodes Before Training Policies](../2026/07/2026-07-06-forge-robot-quality-metrics.md) | [arpitg1304/forge](https://github.com/arpitg1304/forge) |
 | 2026-07-02 | [openpi DeltaActions：把绝对动作改写成相对控制 / openpi DeltaActions: Rewrite Absolute Actions into Relative Control](../2026/07/2026-07-02-openpi-delta-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
