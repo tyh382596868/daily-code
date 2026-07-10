@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-10 | sampler-inference (advanced variant, T2V CFG sampling loop) | [Wan2.1 T2V sampler：正负 prompt 各跑一次，再做 CFG / Wan2.1 T2V Sampler: Run Positive and Negative Prompts, Then Apply CFG](../nano/wam/2026-07-10-wan21-t2v-cfg-sampling-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-09 | text-conditioning (advanced variant, I2V image/text cross-attention split) | [Wan2.1 I2V cross-attention：图像和文本分两路看，再相加 / Wan2.1 I2V Cross-Attention: Attend to Image and Text Separately, Then Add](../nano/wam/2026-07-09-wan21-i2v-cross-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-08 | vae-encoder-decoder (advanced variant, Wan2.1 temporal chunk cache) | [Wan2.1 VAE：按时间块编码，靠 cache 保持连续 / Wan2.1 VAE: Encode Time Chunks While Keeping Continuity with Cache](../nano/wam/2026-07-08-wan21-vae-temporal-chunk-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-07 | sampler-inference (advanced variant, video KV cache) | [FastWAM video KV cache：视频先预填，动作逐步解码 / FastWAM Video KV Cache: Prefill Video Once, Decode Actions Step by Step](../nano/wam/2026-07-07-fastwam-video-kv-cache.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |

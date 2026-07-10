@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-10 | [dino_wm VWorldModel：在 embedding 空间预测未来 / dino_wm VWorldModel: Predict the Future in Embedding Space](../2026/07/2026-07-10-dino-wm-embedding-prediction-loss.md) | gaoyuezhou/dino_wm |
+| 2026-07-10 | [MIRA schedule：动作先 symlog，采样步先慢后快 / MIRA Schedule: Symlog Actions, Then Use a Slow-to-Fast Sampling Grid](../2026/07/2026-07-10-mira-symlog-schedule.md) | mira-wm/mira |
 | 2026-07-07 | [Open-Sora DoubleStreamBlockProcessor：两条流，一次注意力 / Open-Sora DoubleStreamBlockProcessor: Two Streams, One Attention Call](../2026/07/2026-07-07-open-sora-double-stream-processor.md) | hpcaitech/Open-Sora |
 | 2026-07-07 | [Cosmos action-conditioned video：把机器人状态改成相对动作 / Cosmos Action-Conditioned Video: Convert Robot States into Relative Actions](../2026/07/2026-07-07-cosmos-action-conditioned-relative-actions.md) | nvidia-cosmos/cosmos-predict2.5 |
 | 2026-07-03 | [DiT adaLN-Zero：条件不是加进去，而是调制整层 / DiT adaLN-Zero: Conditioning by Modulating the Whole Layer](../2026/07/2026-07-03-dit-adaln-zero-block.md) | facebookresearch/DiT |
