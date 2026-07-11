@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-12 | inference-loop (advanced variant, pi0 cache isolation) | [LeRobot pi0 cache clone：预填前缀可以复用，但不能共享可变状态 / LeRobot pi0 Cache Clone: Reuse Prefix Prefill Without Sharing Mutable State](../nano/vla/2026-07-12-lerobot-pi0-cache-clone.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-10 | action-head-continuous (advanced variant, pi0 flow-matching suffix) | [openpi pi0 suffix：把 noisy action 和时间步接进同一次 forward / openpi pi0 Suffix: Feed Noisy Actions and Time into One Forward Pass](../nano/vla/2026-07-10-openpi-pi0-flow-matching-suffix.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-09 | vlm-backbone-wiring (advanced variant, pi0 cumulative attention mask) | [LeRobot pi0 attention mask：用 cumulative mask 表达 prefix-LM / LeRobot pi0 Attention Mask: Prefix-LM from a Cumulative Mask](../nano/vla/2026-07-09-lerobot-pi0-attention-mask.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-08 | vision-encoder (advanced variant, SmolVLA resize with pad) | [SmolVLA resize_with_pad：相机图像先等比缩放再补齐 / SmolVLA resize_with_pad: Resize Camera Frames, Then Pad](../nano/vla/2026-07-08-smolvla-resize-with-pad.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

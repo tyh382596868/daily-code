@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-12** · infrastructure · [nanoGPT attention：一层里同时投影 QKV / nanoGPT Attention: Project QKV in One Layer](2026/07/2026-07-12-nanogpt-causal-self-attention.md) — `karpathy/nanoGPT` (tracked)
+- **2026-07-12** · pytorch · [PyTorch DistributedSampler：先补齐，再按 rank 切片 / PyTorch DistributedSampler: Pad First, Then Slice by Rank](2026/07/2026-07-12-pytorch-distributed-sampler.md) — `pytorch/pytorch`
+- **2026-07-12** · huggingface · [TRL preference collator：把 chosen/rejected 拼成同一个 batch / TRL Preference Collator: Put Chosen and Rejected in One Batch](2026/07/2026-07-12-trl-preference-collator.md) — `huggingface/trl`
+- **2026-07-12** · vla · [LeRobot pi0 cache clone：预填前缀可以复用，但不能共享可变状态 / LeRobot pi0 Cache Clone: Reuse Prefix Prefill Without Sharing Mutable State](nano/vla/2026-07-12-lerobot-pi0-cache-clone.md) — `huggingface/lerobot` (inference-loop advanced variant)
+- **2026-07-12** · wam · [Wan2.1 T2V cross-attention：视频 token 查询文本 token / Wan2.1 T2V Cross-Attention: Video Tokens Query Text Tokens](nano/wam/2026-07-12-wan21-t2v-cross-attention.md) — `Wan-Video/Wan2.1` (text-conditioning advanced variant)
+- **2026-07-12** · infrastructure · [oMLX BoundarySnapshotSSDStore：先写内存队列，再让后台线程落盘 / oMLX BoundarySnapshotSSDStore: Buffer First, Flush on a Writer Thread](2026/07/2026-07-12-omlx-boundary-snapshot-ssd-store.md) — `jundot/omlx` (trending)
 - **2026-07-10** · diffusion · [dino_wm VWorldModel：在 embedding 空间预测未来 / dino_wm VWorldModel: Predict the Future in Embedding Space](2026/07/2026-07-10-dino-wm-embedding-prediction-loss.md) — `gaoyuezhou/dino_wm` (tracked)
 - **2026-07-10** · pytorch · [PyTorch selective checkpoint：给每个 op 一张保存或重算的票 / PyTorch Selective Checkpoint: Give Each Op a Save-or-Recompute Ticket](2026/07/2026-07-10-pytorch-selective-checkpoint-policy.md) — `pytorch/pytorch`
 - **2026-07-10** · huggingface · [Transformers no-repeat ngram：把历史短语变成下一 token 禁止表 / Transformers No-Repeat N-Gram: Turn History into a Next-Token Ban List](2026/07/2026-07-10-transformers-no-repeat-ngram.md) — `huggingface/transformers`

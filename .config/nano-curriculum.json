@@ -561,6 +561,13 @@
         "note": "nano/vla/2026-07-10-openpi-pi0-flow-matching-suffix.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-07-12",
+        "note": "nano/vla/2026-07-12-lerobot-pi0-cache-clone.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1109,6 +1116,13 @@
         "id": "sampler-inference",
         "date": "2026-07-10",
         "note": "nano/wam/2026-07-10-wan21-t2v-cfg-sampling-loop.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-07-12",
+        "note": "nano/wam/2026-07-12-wan21-t2v-cross-attention.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

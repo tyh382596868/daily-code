@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-12 | [nanoGPT attention：一层里同时投影 QKV / nanoGPT Attention: Project QKV in One Layer](../2026/07/2026-07-12-nanogpt-causal-self-attention.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
+| 2026-07-12 | [oMLX BoundarySnapshotSSDStore：先写内存队列，再让后台线程落盘 / oMLX BoundarySnapshotSSDStore: Buffer First, Flush on a Writer Thread](../2026/07/2026-07-12-omlx-boundary-snapshot-ssd-store.md) | [jundot/omlx](https://github.com/jundot/omlx) |
 | 2026-07-08 | [vLLM KV offloading：先按注意力组算对齐边界 / vLLM KV Offloading: Compute Alignment Per Attention Group First](../2026/07/2026-07-08-vllm-offloading-alignment-groups.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-07-08 | [mini-infer PrefixCacheManager：链式 hash 让前缀缓存不串台 / mini-infer PrefixCacheManager: Chained Hashes Keep Prefix Cache Honest](../2026/07/2026-07-08-mini-infer-prefix-cache-manager.md) | [psmarter/mini-infer](https://github.com/psmarter/mini-infer) |
 | 2026-07-05 | [vLLM partial prefill cache：没填满的 block 也值得记住 / vLLM Partial Prefill Cache: Even an Unfilled Block Can Be Worth Remembering](../2026/07/2026-07-05-vllm-partial-prefill-cache.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

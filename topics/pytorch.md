@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-12 | [PyTorch DistributedSampler：先补齐，再按 rank 切片 / PyTorch DistributedSampler: Pad First, Then Slice by Rank](../2026/07/2026-07-12-pytorch-distributed-sampler.md) | `torch/utils/data/distributed.py` |
 | 2026-07-10 | [PyTorch selective checkpoint：给每个 op 一张保存或重算的票 / PyTorch Selective Checkpoint: Give Each Op a Save-or-Recompute Ticket](../2026/07/2026-07-10-pytorch-selective-checkpoint-policy.md) | `torch/utils/checkpoint.py` |
 | 2026-07-09 | [PyTorch AveragedModel：第一次复制，之后才平均 / PyTorch AveragedModel: Copy First, Average Later](../2026/07/2026-07-09-pytorch-averaged-model.md) | `torch/optim/swa_utils.py` |
 | 2026-07-08 | [PyTorch LinearLR：递推更新也要等价闭式公式 / PyTorch LinearLR: Recursive Updates Must Match the Closed Form](../2026/07/2026-07-08-pytorch-linear-lr-recursive-closed-form.md) | `torch/optim/lr_scheduler.py` |
