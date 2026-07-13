@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-13 | patchify-positional (advanced variant, variable video patchify) | [Wan2.1 forward：逐视频 patchify，再补齐到同一长度 / Wan2.1 forward: Patchify Each Video, Then Pad to One Length](../nano/wam/2026-07-13-wan21-video-patchify-forward.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-12 | text-conditioning (advanced variant, T2V cross-attention) | [Wan2.1 T2V cross-attention：视频 token 查询文本 token / Wan2.1 T2V Cross-Attention: Video Tokens Query Text Tokens](../nano/wam/2026-07-12-wan21-t2v-cross-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-10 | sampler-inference (advanced variant, T2V CFG sampling loop) | [Wan2.1 T2V sampler：正负 prompt 各跑一次，再做 CFG / Wan2.1 T2V Sampler: Run Positive and Negative Prompts, Then Apply CFG](../nano/wam/2026-07-10-wan21-t2v-cfg-sampling-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-09 | text-conditioning (advanced variant, I2V image/text cross-attention split) | [Wan2.1 I2V cross-attention：图像和文本分两路看，再相加 / Wan2.1 I2V Cross-Attention: Attend to Image and Text Separately, Then Add](../nano/wam/2026-07-09-wan21-i2v-cross-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

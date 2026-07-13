@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-13 | [openpi Policy：同一个 infer 包住 JAX 和 PyTorch / openpi Policy: One infer Wrapper for JAX and PyTorch](../2026/07/2026-07-13-openpi-policy-infer-wrapper.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
+| 2026-07-13 | [ProtoMotions MotionManager：给并行环境分配参考动作 / ProtoMotions MotionManager: Assign Reference Motions to Parallel Environments](../2026/07/2026-07-13-protomotions-motion-manager.md) | [NVlabs/ProtoMotions](https://github.com/NVlabs/ProtoMotions) |
 | 2026-07-09 | [openpi Normalize：同一个 transform 同时支持 z-score 和分位数归一化 / openpi Normalize: One Transform for Z-Score and Quantile Scaling](../2026/07/2026-07-09-openpi-normalize-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-09 | [Light-WAM StateFusionActionExpert：从多层视频状态直接预测动作 chunk / Light-WAM StateFusionActionExpert: Predict Action Chunks from Multi-Layer Video States](../2026/07/2026-07-09-lightwam-state-fusion-action-expert.md) | [L1ziang/Light-WAM](https://github.com/L1ziang/Light-WAM) |
 | 2026-07-06 | [Diffusion Policy LinearNormalizer：一套参数管住多路观测 / Diffusion Policy LinearNormalizer: One Parameter Store for Many Observation Streams](../2026/07/2026-07-06-diffusion-policy-linear-normalizer.md) | [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy) |

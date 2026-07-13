@@ -568,6 +568,13 @@
         "note": "nano/vla/2026-07-12-lerobot-pi0-cache-clone.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-07-13",
+        "note": "nano/vla/2026-07-13-lerobot-act-temporal-ensembler.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1123,6 +1130,13 @@
         "id": "text-conditioning",
         "date": "2026-07-12",
         "note": "nano/wam/2026-07-12-wan21-t2v-cross-attention.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "patchify-positional",
+        "date": "2026-07-13",
+        "note": "nano/wam/2026-07-13-wan21-video-patchify-forward.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

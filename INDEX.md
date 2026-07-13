@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-07-13 | robotics | [openpi Policy：同一个 infer 包住 JAX 和 PyTorch / openpi Policy: One infer Wrapper for JAX and PyTorch](2026/07/2026-07-13-openpi-policy-infer-wrapper.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (tracked) |
+| 2026-07-13 | pytorch | [PyTorch RandomSampler：可变长度数据集也能延迟求长度 / PyTorch RandomSampler: Delay Dataset Length Until Iteration](2026/07/2026-07-13-pytorch-random-sampler.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-07-13 | huggingface | [tokenizers BPE trainer：用堆维护下一次最值得合并的 pair / tokenizers BPE Trainer: Use a Heap for the Next Best Pair](2026/07/2026-07-13-tokenizers-bpe-trainer-heap.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) (huggingface) |
+| 2026-07-13 | vla | [LeRobot ACT temporal ensemble：重叠动作 chunk 在线加权平均 / LeRobot ACT Temporal Ensemble: Online Averaging for Overlapping Action Chunks](nano/vla/2026-07-13-lerobot-act-temporal-ensembler.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, action-chunking advanced variant) |
+| 2026-07-13 | wam | [Wan2.1 forward：逐视频 patchify，再补齐到同一长度 / Wan2.1 forward: Patchify Each Video, Then Pad to One Length](nano/wam/2026-07-13-wan21-video-patchify-forward.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, patchify-positional advanced variant) |
+| 2026-07-13 | robotics | [ProtoMotions MotionManager：给并行环境分配参考动作 / ProtoMotions MotionManager: Assign Reference Motions to Parallel Environments](2026/07/2026-07-13-protomotions-motion-manager.md) | [NVlabs/ProtoMotions](https://github.com/NVlabs/ProtoMotions) (trending) |
 | 2026-07-12 | infrastructure | [nanoGPT attention：一层里同时投影 QKV / nanoGPT Attention: Project QKV in One Layer](2026/07/2026-07-12-nanogpt-causal-self-attention.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) (tracked) |
 | 2026-07-12 | pytorch | [PyTorch DistributedSampler：先补齐，再按 rank 切片 / PyTorch DistributedSampler: Pad First, Then Slice by Rank](2026/07/2026-07-12-pytorch-distributed-sampler.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-07-12 | huggingface | [TRL preference collator：把 chosen/rejected 拼成同一个 batch / TRL Preference Collator: Put Chosen and Rejected in One Batch](2026/07/2026-07-12-trl-preference-collator.md) | [huggingface/trl](https://github.com/huggingface/trl) (huggingface) |

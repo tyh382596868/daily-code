@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-13 | [tokenizers BPE trainer：用堆维护下一次最值得合并的 pair / tokenizers BPE Trainer: Use a Heap for the Next Best Pair](../2026/07/2026-07-13-tokenizers-bpe-trainer-heap.md) | huggingface/tokenizers |
 | 2026-07-12 | [TRL preference collator：把 chosen/rejected 拼成同一个 batch / TRL Preference Collator: Put Chosen and Rejected in One Batch](../2026/07/2026-07-12-trl-preference-collator.md) | huggingface/trl |
 | 2026-07-10 | [Transformers no-repeat ngram：把历史短语变成下一 token 禁止表 / Transformers No-Repeat N-Gram: Turn History into a Next-Token Ban List](../2026/07/2026-07-10-transformers-no-repeat-ngram.md) | huggingface/transformers |
 | 2026-07-09 | [PEFT PSOFT OrthLayer：用 skew 矩阵生成可训练正交旋转 / PEFT PSOFT OrthLayer: Train an Orthogonal Rotation from a Skew Matrix](../2026/07/2026-07-09-peft-psoft-orth-layer.md) | huggingface/peft |
