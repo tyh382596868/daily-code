@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-14 | [nanoVLM generate：多模态预填一次，后面只解码新 token / nanoVLM generate: Multimodal Prefill Once, Then Decode New Tokens](../2026/07/2026-07-14-nanovlm-multimodal-prefill-decode.md) | huggingface/nanoVLM |
 | 2026-07-13 | [tokenizers BPE trainer：用堆维护下一次最值得合并的 pair / tokenizers BPE Trainer: Use a Heap for the Next Best Pair](../2026/07/2026-07-13-tokenizers-bpe-trainer-heap.md) | huggingface/tokenizers |
 | 2026-07-12 | [TRL preference collator：把 chosen/rejected 拼成同一个 batch / TRL Preference Collator: Put Chosen and Rejected in One Batch](../2026/07/2026-07-12-trl-preference-collator.md) | huggingface/trl |
 | 2026-07-10 | [Transformers no-repeat ngram：把历史短语变成下一 token 禁止表 / Transformers No-Repeat N-Gram: Turn History into a Next-Token Ban List](../2026/07/2026-07-10-transformers-no-repeat-ngram.md) | huggingface/transformers |

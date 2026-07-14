@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-14 | [CogVideoX 推理入口：一个函数分发 T2V/I2V/V2V / CogVideoX Inference Entry: One Function Dispatches T2V/I2V/V2V](../2026/07/2026-07-14-cogvideo-trimodal-inference-entry.md) | zai-org/CogVideo |
+| 2026-07-14 | [LTX-Video retrieve_timesteps：自定义采样步也要重设 scheduler / LTX-Video retrieve_timesteps: Custom Steps Still Reset the Scheduler](../2026/07/2026-07-14-ltx-video-retrieve-timesteps.md) | Lightricks/LTX-Video |
 | 2026-07-10 | [dino_wm VWorldModel：在 embedding 空间预测未来 / dino_wm VWorldModel: Predict the Future in Embedding Space](../2026/07/2026-07-10-dino-wm-embedding-prediction-loss.md) | gaoyuezhou/dino_wm |
 | 2026-07-10 | [MIRA schedule：动作先 symlog，采样步先慢后快 / MIRA Schedule: Symlog Actions, Then Use a Slow-to-Fast Sampling Grid](../2026/07/2026-07-10-mira-symlog-schedule.md) | mira-wm/mira |
 | 2026-07-07 | [Open-Sora DoubleStreamBlockProcessor：两条流，一次注意力 / Open-Sora DoubleStreamBlockProcessor: Two Streams, One Attention Call](../2026/07/2026-07-07-open-sora-double-stream-processor.md) | hpcaitech/Open-Sora |

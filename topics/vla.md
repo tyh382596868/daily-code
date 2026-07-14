@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-14 | fine-tune-lora (advanced variant, AutoClass + LoRA + RLDS) | [OpenVLA fine-tune：AutoClass、LoRA、DDP、RLDS 接成一条训练线 / OpenVLA fine-tune: AutoClass, LoRA, DDP, and RLDS as One Training Line](../nano/vla/2026-07-14-openvla-lora-ddp-rlds-loop.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-07-13 | action-chunking (advanced variant, ACT temporal ensemble) | [LeRobot ACT temporal ensemble：重叠动作 chunk 在线加权平均 / LeRobot ACT Temporal Ensemble: Online Averaging for Overlapping Action Chunks](../nano/vla/2026-07-13-lerobot-act-temporal-ensembler.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-12 | inference-loop (advanced variant, pi0 cache isolation) | [LeRobot pi0 cache clone：预填前缀可以复用，但不能共享可变状态 / LeRobot pi0 Cache Clone: Reuse Prefix Prefill Without Sharing Mutable State](../nano/vla/2026-07-12-lerobot-pi0-cache-clone.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-10 | action-head-continuous (advanced variant, pi0 flow-matching suffix) | [openpi pi0 suffix：把 noisy action 和时间步接进同一次 forward / openpi pi0 Suffix: Feed Noisy Actions and Time into One Forward Pass](../nano/vla/2026-07-10-openpi-pi0-flow-matching-suffix.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |

@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-07-14 | diffusion | [CogVideoX 推理入口：一个函数分发 T2V/I2V/V2V / CogVideoX Inference Entry: One Function Dispatches T2V/I2V/V2V](2026/07/2026-07-14-cogvideo-trimodal-inference-entry.md) | [zai-org/CogVideo](https://github.com/zai-org/CogVideo) (tracked) |
+| 2026-07-14 | pytorch | [PyTorch SequentialLR：按里程碑接力学习率调度器 / PyTorch SequentialLR: Relay LR Schedulers at Milestones](2026/07/2026-07-14-pytorch-sequential-lr.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-07-14 | huggingface | [nanoVLM generate：多模态预填一次，后面只解码新 token / nanoVLM generate: Multimodal Prefill Once, Then Decode New Tokens](2026/07/2026-07-14-nanovlm-multimodal-prefill-decode.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (huggingface) |
+| 2026-07-14 | vla | [OpenVLA fine-tune：AutoClass、LoRA、DDP、RLDS 接成一条训练线 / OpenVLA fine-tune: AutoClass, LoRA, DDP, and RLDS as One Training Line](nano/vla/2026-07-14-openvla-lora-ddp-rlds-loop.md) | [openvla/openvla](https://github.com/openvla/openvla) (vla, fine-tune-lora advanced variant) |
+| 2026-07-14 | wam | [DiT TimestepEmbedder：把噪声步数变成条件向量 / DiT TimestepEmbedder: Turn a Noise Step into a Conditioning Vector](nano/wam/2026-07-14-dit-timestep-embedder.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) (wam, noise-scheduler advanced variant) |
+| 2026-07-14 | diffusion | [LTX-Video retrieve_timesteps：自定义采样步也要重设 scheduler / LTX-Video retrieve_timesteps: Custom Steps Still Reset the Scheduler](2026/07/2026-07-14-ltx-video-retrieve-timesteps.md) | [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) (trending) |
 | 2026-07-13 | robotics | [openpi Policy：同一个 infer 包住 JAX 和 PyTorch / openpi Policy: One infer Wrapper for JAX and PyTorch](2026/07/2026-07-13-openpi-policy-infer-wrapper.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (tracked) |
 | 2026-07-13 | pytorch | [PyTorch RandomSampler：可变长度数据集也能延迟求长度 / PyTorch RandomSampler: Delay Dataset Length Until Iteration](2026/07/2026-07-13-pytorch-random-sampler.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-07-13 | huggingface | [tokenizers BPE trainer：用堆维护下一次最值得合并的 pair / tokenizers BPE Trainer: Use a Heap for the Next Best Pair](2026/07/2026-07-13-tokenizers-bpe-trainer-heap.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) (huggingface) |

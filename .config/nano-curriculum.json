@@ -575,6 +575,13 @@
         "note": "nano/vla/2026-07-13-lerobot-act-temporal-ensembler.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "fine-tune-lora",
+        "date": "2026-07-14",
+        "note": "nano/vla/2026-07-14-openvla-lora-ddp-rlds-loop.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
       }
     ]
   },
@@ -1138,6 +1145,13 @@
         "date": "2026-07-13",
         "note": "nano/wam/2026-07-13-wan21-video-patchify-forward.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-07-14",
+        "note": "nano/wam/2026-07-14-dit-timestep-embedder.md",
+        "repo": "facebookresearch/DiT",
         "via": "wam"
       }
     ]
