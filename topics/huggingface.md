@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-15 | [Transformers DETR：无 mask 时用 arange 保住 dtype / Transformers DETR: Use arange Without a Mask to Preserve dtype](../2026/07/2026-07-15-transformers-detr-sine-position-embedding.md) | huggingface/transformers |
 | 2026-07-14 | [nanoVLM generate：多模态预填一次，后面只解码新 token / nanoVLM generate: Multimodal Prefill Once, Then Decode New Tokens](../2026/07/2026-07-14-nanovlm-multimodal-prefill-decode.md) | huggingface/nanoVLM |
 | 2026-07-13 | [tokenizers BPE trainer：用堆维护下一次最值得合并的 pair / tokenizers BPE Trainer: Use a Heap for the Next Best Pair](../2026/07/2026-07-13-tokenizers-bpe-trainer-heap.md) | huggingface/tokenizers |
 | 2026-07-12 | [TRL preference collator：把 chosen/rejected 拼成同一个 batch / TRL Preference Collator: Put Chosen and Rejected in One Batch](../2026/07/2026-07-12-trl-preference-collator.md) | huggingface/trl |

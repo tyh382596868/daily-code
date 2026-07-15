@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-15 | [PyTorch Inductor：先探测 tensor subclass，再合并 Linear / PyTorch Inductor: Probe Tensor Subclasses Before Fusing Linear](../2026/07/2026-07-15-pytorch-batch-linear-lhs-fusion.md) | `torch/_inductor/fx_passes/group_batch_fusion.py` |
 | 2026-07-14 | [PyTorch SequentialLR：按里程碑接力学习率调度器 / PyTorch SequentialLR: Relay LR Schedulers at Milestones](../2026/07/2026-07-14-pytorch-sequential-lr.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-13 | [PyTorch RandomSampler：可变长度数据集也能延迟求长度 / PyTorch RandomSampler: Delay Dataset Length Until Iteration](../2026/07/2026-07-13-pytorch-random-sampler.md) | `torch/utils/data/sampler.py` |
 | 2026-07-12 | [PyTorch DistributedSampler：先补齐，再按 rank 切片 / PyTorch DistributedSampler: Pad First, Then Slice by Rank](../2026/07/2026-07-12-pytorch-distributed-sampler.md) | `torch/utils/data/distributed.py` |

@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-15 | [vLLM LoRA MoE：W13 融进 kernel，W2 在外面补差量 / vLLM LoRA MoE: Fuse W13 into the Kernel, Add W2 Outside](../2026/07/2026-07-15-vllm-trtllm-lora-moe.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-15 | [RISE OpenPI RL：给 pi0 接上 value、dynamics、reward 和探索噪声 / RISE OpenPI RL: Add Value, Dynamics, Reward, and Exploration Noise to pi0](../2026/07/2026-07-15-rise-openpi-rl-action-model.md) | [OpenDriveLab/RISE](https://github.com/OpenDriveLab/RISE) |
 | 2026-07-12 | [nanoGPT attention：一层里同时投影 QKV / nanoGPT Attention: Project QKV in One Layer](../2026/07/2026-07-12-nanogpt-causal-self-attention.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
 | 2026-07-12 | [oMLX BoundarySnapshotSSDStore：先写内存队列，再让后台线程落盘 / oMLX BoundarySnapshotSSDStore: Buffer First, Flush on a Writer Thread](../2026/07/2026-07-12-omlx-boundary-snapshot-ssd-store.md) | [jundot/omlx](https://github.com/jundot/omlx) |
 | 2026-07-08 | [vLLM KV offloading：先按注意力组算对齐边界 / vLLM KV Offloading: Compute Alignment Per Attention Group First](../2026/07/2026-07-08-vllm-offloading-alignment-groups.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

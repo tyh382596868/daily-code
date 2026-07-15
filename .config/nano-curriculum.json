@@ -582,6 +582,13 @@
         "note": "nano/vla/2026-07-14-openvla-lora-ddp-rlds-loop.md",
         "repo": "openvla/openvla",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-15",
+        "note": "nano/vla/2026-07-15-lerobot-groot-state-dropout-pack-inputs.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1152,6 +1159,13 @@
         "date": "2026-07-14",
         "note": "nano/wam/2026-07-14-dit-timestep-embedder.md",
         "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-15",
+        "note": "nano/wam/2026-07-15-wan21-frame-num-target-shape.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

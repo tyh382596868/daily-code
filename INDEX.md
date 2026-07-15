@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-07-15 | infrastructure | [vLLM LoRA MoE：W13 融进 kernel，W2 在外面补差量 / vLLM LoRA MoE: Fuse W13 into the Kernel, Add W2 Outside](2026/07/2026-07-15-vllm-trtllm-lora-moe.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
+| 2026-07-15 | pytorch | [PyTorch Inductor：先探测 tensor subclass，再合并 Linear / PyTorch Inductor: Probe Tensor Subclasses Before Fusing Linear](2026/07/2026-07-15-pytorch-batch-linear-lhs-fusion.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-07-15 | huggingface | [Transformers DETR：无 mask 时用 arange 保住 dtype / Transformers DETR: Use arange Without a Mask to Preserve dtype](2026/07/2026-07-15-transformers-detr-sine-position-embedding.md) | [huggingface/transformers](https://github.com/huggingface/transformers) (huggingface) |
+| 2026-07-15 | vla | [GR00T N1.7 PackInputs：训练时打包 state、action 和 mask / GR00T N1.7 PackInputs: Pack State, Action, and Masks for Training](nano/vla/2026-07-15-lerobot-groot-state-dropout-pack-inputs.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, training-step advanced variant) |
+| 2026-07-15 | wam | [Wan2.1 frame_num：先从帧数推 latent 形状 / Wan2.1 frame_num: Derive Latent Shape from Frame Count First](nano/wam/2026-07-15-wan21-frame-num-target-shape.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference advanced variant) |
+| 2026-07-15 | infrastructure | [RISE OpenPI RL：给 pi0 接上 value、dynamics、reward 和探索噪声 / RISE OpenPI RL: Add Value, Dynamics, Reward, and Exploration Noise to pi0](2026/07/2026-07-15-rise-openpi-rl-action-model.md) | [OpenDriveLab/RISE](https://github.com/OpenDriveLab/RISE) (trending) |
 | 2026-07-14 | diffusion | [CogVideoX 推理入口：一个函数分发 T2V/I2V/V2V / CogVideoX Inference Entry: One Function Dispatches T2V/I2V/V2V](2026/07/2026-07-14-cogvideo-trimodal-inference-entry.md) | [zai-org/CogVideo](https://github.com/zai-org/CogVideo) (tracked) |
 | 2026-07-14 | pytorch | [PyTorch SequentialLR：按里程碑接力学习率调度器 / PyTorch SequentialLR: Relay LR Schedulers at Milestones](2026/07/2026-07-14-pytorch-sequential-lr.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-07-14 | huggingface | [nanoVLM generate：多模态预填一次，后面只解码新 token / nanoVLM generate: Multimodal Prefill Once, Then Decode New Tokens](2026/07/2026-07-14-nanovlm-multimodal-prefill-decode.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (huggingface) |
