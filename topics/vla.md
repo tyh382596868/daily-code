@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-16 | action-tokenizer (advanced variant, FAST tokenize/extract transforms) | [openpi FAST transform：训练时 token 化，推理后还原动作 / openpi FAST Transform: Tokenize for Training, Extract Actions After Inference](../nano/vla/2026-07-16-openpi-fast-tokenize-extract-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-15 | training-step (advanced variant, GR00T PackInputs state/action mask) | [GR00T N1.7 PackInputs：训练时打包 state、action 和 mask / GR00T N1.7 PackInputs: Pack State, Action, and Masks for Training](../nano/vla/2026-07-15-lerobot-groot-state-dropout-pack-inputs.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-14 | fine-tune-lora (advanced variant, AutoClass + LoRA + RLDS) | [OpenVLA fine-tune：AutoClass、LoRA、DDP、RLDS 接成一条训练线 / OpenVLA fine-tune: AutoClass, LoRA, DDP, and RLDS as One Training Line](../nano/vla/2026-07-14-openvla-lora-ddp-rlds-loop.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-07-13 | action-chunking (advanced variant, ACT temporal ensemble) | [LeRobot ACT temporal ensemble：重叠动作 chunk 在线加权平均 / LeRobot ACT Temporal Ensemble: Online Averaging for Overlapping Action Chunks](../nano/vla/2026-07-13-lerobot-act-temporal-ensembler.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-16** · robotics · [DROID TimestepProcesser：把一帧机器人数据整理成稳定契约 / DROID TimestepProcesser: Turn One Robot Step into a Stable Contract](2026/07/2026-07-16-droid-timestep-processor.md) — `droid-dataset/droid` (tracked)
+- **2026-07-16** · pytorch · [PyTorch swap_tensors：只放行内部 TensorWeakRef / PyTorch swap_tensors: Allow Only Internal TensorWeakRef](2026/07/2026-07-16-pytorch-swap-tensors-weakref.md) — `pytorch/pytorch`
+- **2026-07-16** · huggingface · [Accelerate GradientAccumulationPlugin：累积梯度也要定义同步合同 / Accelerate GradientAccumulationPlugin: Gradient Accumulation Needs a Sync Contract](2026/07/2026-07-16-accelerate-gradient-accumulation-plugin.md) — `huggingface/accelerate`
+- **2026-07-16** · vla · [openpi FAST transform：训练时 token 化，推理后还原动作 / openpi FAST Transform: Tokenize for Training, Extract Actions After Inference](nano/vla/2026-07-16-openpi-fast-tokenize-extract-actions.md) — `Physical-Intelligence/openpi` (action-tokenizer advanced variant)
+- **2026-07-16** · wam · [DreamZero blockwise attention：每个视频块只看对应动作和状态 / DreamZero Blockwise Attention: Each Video Block Sees Its Matching Action and State](nano/wam/2026-07-16-dreamzero-blockwise-action-state-attention.md) — `dreamzero0/dreamzero` (action-conditioning advanced variant)
+- **2026-07-16** · robotics · [Reactive Diffusion Policy mask：观测可见，动作待去噪 / Reactive Diffusion Policy Mask: Observations Visible, Actions Denoised](2026/07/2026-07-16-reactive-diffusion-policy-conditioning-mask.md) — `xiaoxiaoxh/reactive_diffusion_policy` (trending)
 - **2026-07-15** · infrastructure · [vLLM LoRA MoE：W13 融进 kernel，W2 在外面补差量 / vLLM LoRA MoE: Fuse W13 into the Kernel, Add W2 Outside](2026/07/2026-07-15-vllm-trtllm-lora-moe.md) — `vllm-project/vllm` (tracked)
 - **2026-07-15** · pytorch · [PyTorch Inductor：先探测 tensor subclass，再合并 Linear / PyTorch Inductor: Probe Tensor Subclasses Before Fusing Linear](2026/07/2026-07-15-pytorch-batch-linear-lhs-fusion.md) — `pytorch/pytorch`
 - **2026-07-15** · huggingface · [Transformers DETR：无 mask 时用 arange 保住 dtype / Transformers DETR: Use arange Without a Mask to Preserve dtype](2026/07/2026-07-15-transformers-detr-sine-position-embedding.md) — `huggingface/transformers`

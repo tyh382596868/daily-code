@@ -589,6 +589,13 @@
         "note": "nano/vla/2026-07-15-lerobot-groot-state-dropout-pack-inputs.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-07-16",
+        "note": "nano/vla/2026-07-16-openpi-fast-tokenize-extract-actions.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1166,6 +1173,13 @@
         "date": "2026-07-15",
         "note": "nano/wam/2026-07-15-wan21-frame-num-target-shape.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-07-16",
+        "note": "nano/wam/2026-07-16-dreamzero-blockwise-action-state-attention.md",
+        "repo": "dreamzero0/dreamzero",
         "via": "wam"
       }
     ]

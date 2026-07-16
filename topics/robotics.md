@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-16 | [DROID TimestepProcesser：把一帧机器人数据整理成稳定契约 / DROID TimestepProcesser: Turn One Robot Step into a Stable Contract](../2026/07/2026-07-16-droid-timestep-processor.md) | [droid-dataset/droid](https://github.com/droid-dataset/droid) |
+| 2026-07-16 | [Reactive Diffusion Policy mask：观测可见，动作待去噪 / Reactive Diffusion Policy Mask: Observations Visible, Actions Denoised](../2026/07/2026-07-16-reactive-diffusion-policy-conditioning-mask.md) | [xiaoxiaoxh/reactive_diffusion_policy](https://github.com/xiaoxiaoxh/reactive_diffusion_policy) |
 | 2026-07-13 | [openpi Policy：同一个 infer 包住 JAX 和 PyTorch / openpi Policy: One infer Wrapper for JAX and PyTorch](../2026/07/2026-07-13-openpi-policy-infer-wrapper.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-13 | [ProtoMotions MotionManager：给并行环境分配参考动作 / ProtoMotions MotionManager: Assign Reference Motions to Parallel Environments](../2026/07/2026-07-13-protomotions-motion-manager.md) | [NVlabs/ProtoMotions](https://github.com/NVlabs/ProtoMotions) |
 | 2026-07-09 | [openpi Normalize：同一个 transform 同时支持 z-score 和分位数归一化 / openpi Normalize: One Transform for Z-Score and Quantile Scaling](../2026/07/2026-07-09-openpi-normalize-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
