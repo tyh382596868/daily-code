@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-17 | output-head (advanced variant, latent unpatchify) | [DiT latent 输出：预测 patch，再还原成 VAE latent / DiT Latent Output: Predict Patches, Then Restore a VAE Latent](../nano/wam/2026-07-17-dit-unpatchify-latent-output.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |
 | 2026-07-16 | action-conditioning (advanced variant, blockwise image/action/state attention) | [DreamZero blockwise attention：每个视频块只看对应动作和状态 / DreamZero Blockwise Attention: Each Video Block Sees Its Matching Action and State](../nano/wam/2026-07-16-dreamzero-blockwise-action-state-attention.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-07-15 | sampler-inference (advanced variant, frame_num target-shape contract) | [Wan2.1 frame_num：先从帧数推 latent 形状 / Wan2.1 frame_num: Derive Latent Shape from Frame Count First](../nano/wam/2026-07-15-wan21-frame-num-target-shape.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-14 | noise-scheduler (advanced variant, DiT timestep embedding) | [DiT TimestepEmbedder：把噪声步数变成条件向量 / DiT TimestepEmbedder: Turn a Noise Step into a Conditioning Vector](../nano/wam/2026-07-14-dit-timestep-embedder.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |

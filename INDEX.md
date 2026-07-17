@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-07-17 | diffusion | [DiT unpatchify：把 token 棋盘折回 latent 图 / DiT unpatchify: Fold the Token Board Back into a Latent Image](2026/07/2026-07-17-dit-unpatchify.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) (tracked) |
+| 2026-07-17 | pytorch | [PyTorch CosineAnnealingWarmRestarts：余弦下降后重启周期 / PyTorch CosineAnnealingWarmRestarts: Cosine Decay, Then Restart the Cycle](2026/07/2026-07-17-pytorch-cosine-warm-restarts.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-07-17 | huggingface | [Diffusers FlowMatch：每个 token 可以有自己的 timestep / Diffusers FlowMatch: Each Token Can Carry Its Own Timestep](2026/07/2026-07-17-diffusers-flowmatch-per-token-timestep.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |
+| 2026-07-17 | vla | [openpi RepackTransform：用路径表重排机器人 batch / openpi RepackTransform: Repack Robot Batches with a Path Table](nano/vla/2026-07-17-openpi-repack-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (vla, training-step advanced variant) |
+| 2026-07-17 | wam | [DiT latent 输出：预测 patch，再还原成 VAE latent / DiT Latent Output: Predict Patches, Then Restore a VAE Latent](nano/wam/2026-07-17-dit-unpatchify-latent-output.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) (wam, output-head advanced variant) |
+| 2026-07-17 | diffusion | [Astra relative pose：把相机轨迹变成局部动作 / Astra Relative Pose: Turn Camera Trajectory into Local Actions](2026/07/2026-07-17-astra-relative-pose.md) | [EternalEvan/Astra](https://github.com/EternalEvan/Astra) (trending) |
 | 2026-07-16 | robotics | [DROID TimestepProcesser：把一帧机器人数据整理成稳定契约 / DROID TimestepProcesser: Turn One Robot Step into a Stable Contract](2026/07/2026-07-16-droid-timestep-processor.md) | [droid-dataset/droid](https://github.com/droid-dataset/droid) (tracked) |
 | 2026-07-16 | pytorch | [PyTorch swap_tensors：只放行内部 TensorWeakRef / PyTorch swap_tensors: Allow Only Internal TensorWeakRef](2026/07/2026-07-16-pytorch-swap-tensors-weakref.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-07-16 | huggingface | [Accelerate GradientAccumulationPlugin：累积梯度也要定义同步合同 / Accelerate GradientAccumulationPlugin: Gradient Accumulation Needs a Sync Contract](2026/07/2026-07-16-accelerate-gradient-accumulation-plugin.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |

@@ -596,6 +596,13 @@
         "note": "nano/vla/2026-07-16-openpi-fast-tokenize-extract-actions.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-17",
+        "note": "nano/vla/2026-07-17-openpi-repack-transform.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1180,6 +1187,13 @@
         "date": "2026-07-16",
         "note": "nano/wam/2026-07-16-dreamzero-blockwise-action-state-attention.md",
         "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "output-head",
+        "date": "2026-07-17",
+        "note": "nano/wam/2026-07-17-dit-unpatchify-latent-output.md",
+        "repo": "facebookresearch/DiT",
         "via": "wam"
       }
     ]

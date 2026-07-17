@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-17 | [DiT unpatchify：把 token 棋盘折回 latent 图 / DiT unpatchify: Fold the Token Board Back into a Latent Image](../2026/07/2026-07-17-dit-unpatchify.md) | facebookresearch/DiT |
+| 2026-07-17 | [Astra relative pose：把相机轨迹变成局部动作 / Astra Relative Pose: Turn Camera Trajectory into Local Actions](../2026/07/2026-07-17-astra-relative-pose.md) | EternalEvan/Astra |
 | 2026-07-14 | [CogVideoX 推理入口：一个函数分发 T2V/I2V/V2V / CogVideoX Inference Entry: One Function Dispatches T2V/I2V/V2V](../2026/07/2026-07-14-cogvideo-trimodal-inference-entry.md) | zai-org/CogVideo |
 | 2026-07-14 | [LTX-Video retrieve_timesteps：自定义采样步也要重设 scheduler / LTX-Video retrieve_timesteps: Custom Steps Still Reset the Scheduler](../2026/07/2026-07-14-ltx-video-retrieve-timesteps.md) | Lightricks/LTX-Video |
 | 2026-07-10 | [dino_wm VWorldModel：在 embedding 空间预测未来 / dino_wm VWorldModel: Predict the Future in Embedding Space](../2026/07/2026-07-10-dino-wm-embedding-prediction-loss.md) | gaoyuezhou/dino_wm |
