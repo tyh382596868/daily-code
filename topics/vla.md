@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-19 | short-term-observation-memory (advanced variant, delta timestamp windows) | [LeRobot delta_timestamps：用相对时间窗取历史观测和未来动作 / LeRobot delta_timestamps: Use Relative Time Windows for History and Future Actions](../nano/vla/2026-07-19-lerobot-delta-timestamps-window.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-17 | training-step (advanced variant, explicit schema repack) | [openpi RepackTransform：用路径表重排机器人 batch / openpi RepackTransform: Repack Robot Batches with a Path Table](../nano/vla/2026-07-17-openpi-repack-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-16 | action-tokenizer (advanced variant, FAST tokenize/extract transforms) | [openpi FAST transform：训练时 token 化，推理后还原动作 / openpi FAST Transform: Tokenize for Training, Extract Actions After Inference](../nano/vla/2026-07-16-openpi-fast-tokenize-extract-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-15 | training-step (advanced variant, GR00T PackInputs state/action mask) | [GR00T N1.7 PackInputs：训练时打包 state、action 和 mask / GR00T N1.7 PackInputs: Pack State, Action, and Masks for Training](../nano/vla/2026-07-15-lerobot-groot-state-dropout-pack-inputs.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

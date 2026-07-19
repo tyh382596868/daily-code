@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-19 | [Datasets map：流式样本也能攒成 batch 再变换 / Datasets map: Streamed Examples Can Still Be Batched Before Transform](../2026/07/2026-07-19-datasets-mapped-examples-iterable.md) | huggingface/datasets |
 | 2026-07-17 | [Diffusers FlowMatch：每个 token 可以有自己的 timestep / Diffusers FlowMatch: Each Token Can Carry Its Own Timestep](../2026/07/2026-07-17-diffusers-flowmatch-per-token-timestep.md) | huggingface/diffusers |
 | 2026-07-16 | [Accelerate GradientAccumulationPlugin：累积梯度也要定义同步合同 / Accelerate GradientAccumulationPlugin: Gradient Accumulation Needs a Sync Contract](../2026/07/2026-07-16-accelerate-gradient-accumulation-plugin.md) | huggingface/accelerate |
 | 2026-07-15 | [Transformers DETR：无 mask 时用 arange 保住 dtype / Transformers DETR: Use arange Without a Mask to Preserve dtype](../2026/07/2026-07-15-transformers-detr-sine-position-embedding.md) | huggingface/transformers |

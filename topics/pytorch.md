@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-19 | [PyTorch DataLoader：IterableDataset 不能自定义 sampler / PyTorch DataLoader: IterableDataset Cannot Use a Custom Sampler](../2026/07/2026-07-19-pytorch-dataloader-iterable-sampler.md) | `torch/utils/data/dataloader.py` |
 | 2026-07-17 | [PyTorch CosineAnnealingWarmRestarts：余弦下降后重启周期 / PyTorch CosineAnnealingWarmRestarts: Cosine Decay, Then Restart the Cycle](../2026/07/2026-07-17-pytorch-cosine-warm-restarts.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-16 | [PyTorch swap_tensors：只放行内部 TensorWeakRef / PyTorch swap_tensors: Allow Only Internal TensorWeakRef](../2026/07/2026-07-16-pytorch-swap-tensors-weakref.md) | `torch/utils/__init__.py` |
 | 2026-07-15 | [PyTorch Inductor：先探测 tensor subclass，再合并 Linear / PyTorch Inductor: Probe Tensor Subclasses Before Fusing Linear](../2026/07/2026-07-15-pytorch-batch-linear-lhs-fusion.md) | `torch/_inductor/fx_passes/group_batch_fusion.py` |

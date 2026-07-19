@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-19 | [LeRobot eval rollout：把环境、policy 和处理器接成闭环 / LeRobot eval rollout: Close the Loop Between Env, Policy, and Processors](../2026/07/2026-07-19-lerobot-eval-rollout-processors.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
+| 2026-07-19 | [Robotic World Model：把状态、动作和接触拆成预测组 / Robotic World Model: Split State, Action, and Contacts into Prediction Groups](../2026/07/2026-07-19-robotic-world-model-observation-groups.md) | [leggedrobotics/robotic_world_model](https://github.com/leggedrobotics/robotic_world_model) |
 | 2026-07-16 | [DROID TimestepProcesser：把一帧机器人数据整理成稳定契约 / DROID TimestepProcesser: Turn One Robot Step into a Stable Contract](../2026/07/2026-07-16-droid-timestep-processor.md) | [droid-dataset/droid](https://github.com/droid-dataset/droid) |
 | 2026-07-16 | [Reactive Diffusion Policy mask：观测可见，动作待去噪 / Reactive Diffusion Policy Mask: Observations Visible, Actions Denoised](../2026/07/2026-07-16-reactive-diffusion-policy-conditioning-mask.md) | [xiaoxiaoxh/reactive_diffusion_policy](https://github.com/xiaoxiaoxh/reactive_diffusion_policy) |
 | 2026-07-13 | [openpi Policy：同一个 infer 包住 JAX 和 PyTorch / openpi Policy: One infer Wrapper for JAX and PyTorch](../2026/07/2026-07-13-openpi-policy-infer-wrapper.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |

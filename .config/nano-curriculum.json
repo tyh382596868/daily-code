@@ -603,6 +603,13 @@
         "note": "nano/vla/2026-07-17-openpi-repack-transform.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "short-term-observation-memory",
+        "date": "2026-07-19",
+        "note": "nano/vla/2026-07-19-lerobot-delta-timestamps-window.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1193,6 +1200,13 @@
         "id": "output-head",
         "date": "2026-07-17",
         "note": "nano/wam/2026-07-17-dit-unpatchify-latent-output.md",
+        "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "classifier-free-guidance",
+        "date": "2026-07-19",
+        "note": "nano/wam/2026-07-19-dit-label-dropout-cfg.md",
         "repo": "facebookresearch/DiT",
         "via": "wam"
       }
