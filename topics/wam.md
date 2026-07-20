@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-20 | dit-block (advanced variant, six-way adaLN modulation) | [Wan2.1 block 调制：一个条件向量拆成 6 个门控 / Wan2.1 Block Modulation: Split One Condition into Six Gates](../nano/wam/2026-07-20-wan21-adaln-block-modulation.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-19 | classifier-free-guidance (advanced variant, label dropout token) | [DiT LabelEmbedder：训练时随机丢条件，采样时做 CFG / DiT LabelEmbedder: Drop Conditions During Training, Use CFG at Sampling](../nano/wam/2026-07-19-dit-label-dropout-cfg.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |
 | 2026-07-17 | output-head (advanced variant, latent unpatchify) | [DiT latent 输出：预测 patch，再还原成 VAE latent / DiT Latent Output: Predict Patches, Then Restore a VAE Latent](../nano/wam/2026-07-17-dit-unpatchify-latent-output.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |
 | 2026-07-16 | action-conditioning (advanced variant, blockwise image/action/state attention) | [DreamZero blockwise attention：每个视频块只看对应动作和状态 / DreamZero Blockwise Attention: Each Video Block Sees Its Matching Action and State](../nano/wam/2026-07-16-dreamzero-blockwise-action-state-attention.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |

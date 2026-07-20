@@ -610,6 +610,13 @@
         "note": "nano/vla/2026-07-19-lerobot-delta-timestamps-window.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-07-20",
+        "note": "nano/vla/2026-07-20-openpi-flow-suffix-attention-mask.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1208,6 +1215,13 @@
         "date": "2026-07-19",
         "note": "nano/wam/2026-07-19-dit-label-dropout-cfg.md",
         "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-07-20",
+        "note": "nano/wam/2026-07-20-wan21-adaln-block-modulation.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-20 | [PEFT INC LoRA：只给支持的量化 Linear 换适配层 / PEFT INC LoRA: Dispatch Only Supported Quantized Linear Layers](../2026/07/2026-07-20-peft-inc-lora-dispatch.md) | huggingface/peft |
 | 2026-07-19 | [Datasets map：流式样本也能攒成 batch 再变换 / Datasets map: Streamed Examples Can Still Be Batched Before Transform](../2026/07/2026-07-19-datasets-mapped-examples-iterable.md) | huggingface/datasets |
 | 2026-07-17 | [Diffusers FlowMatch：每个 token 可以有自己的 timestep / Diffusers FlowMatch: Each Token Can Carry Its Own Timestep](../2026/07/2026-07-17-diffusers-flowmatch-per-token-timestep.md) | huggingface/diffusers |
 | 2026-07-16 | [Accelerate GradientAccumulationPlugin：累积梯度也要定义同步合同 / Accelerate GradientAccumulationPlugin: Gradient Accumulation Needs a Sync Contract](../2026/07/2026-07-16-accelerate-gradient-accumulation-plugin.md) | huggingface/accelerate |

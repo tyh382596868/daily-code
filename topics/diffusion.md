@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-20 | [DINOv3 RoPE attention：只旋转图像 token，保留 prefix / DINOv3 RoPE Attention: Rotate Image Tokens, Keep the Prefix](../2026/07/2026-07-20-dinov3-rope-attention.md) | facebookresearch/dinov3 |
+| 2026-07-20 | [World-R1 reward：不生成文字，直接读 0-9 的 logits / World-R1 Reward: Read 0-9 Logits Instead of Generating Text](../2026/07/2026-07-20-world-r1-logit-reward.md) | microsoft/World-R1 |
 | 2026-07-17 | [DiT unpatchify：把 token 棋盘折回 latent 图 / DiT unpatchify: Fold the Token Board Back into a Latent Image](../2026/07/2026-07-17-dit-unpatchify.md) | facebookresearch/DiT |
 | 2026-07-17 | [Astra relative pose：把相机轨迹变成局部动作 / Astra Relative Pose: Turn Camera Trajectory into Local Actions](../2026/07/2026-07-17-astra-relative-pose.md) | EternalEvan/Astra |
 | 2026-07-14 | [CogVideoX 推理入口：一个函数分发 T2V/I2V/V2V / CogVideoX Inference Entry: One Function Dispatches T2V/I2V/V2V](../2026/07/2026-07-14-cogvideo-trimodal-inference-entry.md) | zai-org/CogVideo |

@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-20** · diffusion · [DINOv3 RoPE attention：只旋转图像 token，保留 prefix / DINOv3 RoPE Attention: Rotate Image Tokens, Keep the Prefix](2026/07/2026-07-20-dinov3-rope-attention.md) — `facebookresearch/dinov3` (tracked)
+- **2026-07-20** · pytorch · [PyTorch LazyModule：第一次 forward 后把自己变成真模块 / PyTorch LazyModule: Become a Real Module After the First Forward](2026/07/2026-07-20-pytorch-lazy-module-materialize.md) — `pytorch/pytorch`
+- **2026-07-20** · huggingface · [PEFT INC LoRA：只给支持的量化 Linear 换适配层 / PEFT INC LoRA: Dispatch Only Supported Quantized Linear Layers](2026/07/2026-07-20-peft-inc-lora-dispatch.md) — `huggingface/peft`
+- **2026-07-20** · vla · [openpi pi0：prefix 进缓存，suffix 带噪动作迭代去噪 / openpi pi0: Cache the Prefix, Denoise Noisy Action Suffixes](nano/vla/2026-07-20-openpi-flow-suffix-attention-mask.md) — `Physical-Intelligence/openpi` (action-head-continuous advanced variant)
+- **2026-07-20** · wam · [Wan2.1 block 调制：一个条件向量拆成 6 个门控 / Wan2.1 Block Modulation: Split One Condition into Six Gates](nano/wam/2026-07-20-wan21-adaln-block-modulation.md) — `Wan-Video/Wan2.1` (dit-block advanced variant)
+- **2026-07-20** · diffusion · [World-R1 reward：不生成文字，直接读 0-9 的 logits / World-R1 Reward: Read 0-9 Logits Instead of Generating Text](2026/07/2026-07-20-world-r1-logit-reward.md) — `microsoft/World-R1` (trending)
 - **2026-07-19** · robotics · [LeRobot eval rollout：把环境、policy 和处理器接成闭环 / LeRobot eval rollout: Close the Loop Between Env, Policy, and Processors](2026/07/2026-07-19-lerobot-eval-rollout-processors.md) — `huggingface/lerobot` (tracked)
 - **2026-07-19** · pytorch · [PyTorch DataLoader：IterableDataset 不能自定义 sampler / PyTorch DataLoader: IterableDataset Cannot Use a Custom Sampler](2026/07/2026-07-19-pytorch-dataloader-iterable-sampler.md) — `pytorch/pytorch`
 - **2026-07-19** · huggingface · [Datasets map：流式样本也能攒成 batch 再变换 / Datasets map: Streamed Examples Can Still Be Batched Before Transform](2026/07/2026-07-19-datasets-mapped-examples-iterable.md) — `huggingface/datasets`
