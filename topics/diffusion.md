@@ -4,6 +4,18 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-20 | [DINOv3 RoPE attention：只旋转图像 token，保留 prefix / DINOv3 RoPE Attention: Rotate Image Tokens, Keep the Prefix](../2026/07/2026-07-20-dinov3-rope-attention.md) | facebookresearch/dinov3 |
+| 2026-07-20 | [World-R1 reward：不生成文字，直接读 0-9 的 logits / World-R1 Reward: Read 0-9 Logits Instead of Generating Text](../2026/07/2026-07-20-world-r1-logit-reward.md) | microsoft/World-R1 |
+| 2026-07-17 | [DiT unpatchify：把 token 棋盘折回 latent 图 / DiT unpatchify: Fold the Token Board Back into a Latent Image](../2026/07/2026-07-17-dit-unpatchify.md) | facebookresearch/DiT |
+| 2026-07-17 | [Astra relative pose：把相机轨迹变成局部动作 / Astra Relative Pose: Turn Camera Trajectory into Local Actions](../2026/07/2026-07-17-astra-relative-pose.md) | EternalEvan/Astra |
+| 2026-07-14 | [CogVideoX 推理入口：一个函数分发 T2V/I2V/V2V / CogVideoX Inference Entry: One Function Dispatches T2V/I2V/V2V](../2026/07/2026-07-14-cogvideo-trimodal-inference-entry.md) | zai-org/CogVideo |
+| 2026-07-14 | [LTX-Video retrieve_timesteps：自定义采样步也要重设 scheduler / LTX-Video retrieve_timesteps: Custom Steps Still Reset the Scheduler](../2026/07/2026-07-14-ltx-video-retrieve-timesteps.md) | Lightricks/LTX-Video |
+| 2026-07-10 | [dino_wm VWorldModel：在 embedding 空间预测未来 / dino_wm VWorldModel: Predict the Future in Embedding Space](../2026/07/2026-07-10-dino-wm-embedding-prediction-loss.md) | gaoyuezhou/dino_wm |
+| 2026-07-10 | [MIRA schedule：动作先 symlog，采样步先慢后快 / MIRA Schedule: Symlog Actions, Then Use a Slow-to-Fast Sampling Grid](../2026/07/2026-07-10-mira-symlog-schedule.md) | mira-wm/mira |
+| 2026-07-07 | [Open-Sora DoubleStreamBlockProcessor：两条流，一次注意力 / Open-Sora DoubleStreamBlockProcessor: Two Streams, One Attention Call](../2026/07/2026-07-07-open-sora-double-stream-processor.md) | hpcaitech/Open-Sora |
+| 2026-07-07 | [Cosmos action-conditioned video：把机器人状态改成相对动作 / Cosmos Action-Conditioned Video: Convert Robot States into Relative Actions](../2026/07/2026-07-07-cosmos-action-conditioned-relative-actions.md) | nvidia-cosmos/cosmos-predict2.5 |
+| 2026-07-03 | [DiT adaLN-Zero：条件不是加进去，而是调制整层 / DiT adaLN-Zero: Conditioning by Modulating the Whole Layer](../2026/07/2026-07-03-dit-adaln-zero-block.md) | facebookresearch/DiT |
+| 2026-07-03 | [BitVLA BitLinear：把权重压成 {-1,0,1} / BitVLA BitLinear: Compress Weights into {-1, 0, 1}](../2026/07/2026-07-03-bitvla-bitlinear-quantization.md) | ustcwhy/BitVLA |
 | 2026-06-30 | [Wan2.1 的 3D RoPE 自注意力：把时间、高度、宽度拆成三把尺 / Wan2.1 3D RoPE Self-Attention: Three Rulers for Time, Height, and Width](../2026/06/2026-06-30-wan21-rope-self-attention.md) | Wan-Video/Wan2.1 |
 | 2026-06-30 | [DiffSynth 的 WanVideoPipeline：把视频生成拆成可插拔单元 / DiffSynth's WanVideoPipeline: Video Generation as Pluggable Units](../2026/06/2026-06-30-diffsynth-wan-video-pipeline-units.md) | modelscope/DiffSynth-Studio |
 | 2026-06-24 | [DPM-Solver++(2M)：用历史预测做二阶修正的视频扩散采样器 / DPM-Solver++(2M): 2nd-Order Multistep Correction via History Tracking in Video Diffusion](../2026/06/2026-06-24-cogvideo-dpmpp2m-sampler.md) | THUDM/CogVideo |

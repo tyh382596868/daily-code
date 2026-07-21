@@ -6,6 +6,23 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-21 | [PyTorch ConstantLR：先打折，到了步数再还原 / PyTorch ConstantLR: Discount First, Restore at the Milestone](../2026/07/2026-07-21-pytorch-constant-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-20 | [PyTorch LazyModule：第一次 forward 后把自己变成真模块 / PyTorch LazyModule: Become a Real Module After the First Forward](../2026/07/2026-07-20-pytorch-lazy-module-materialize.md) | `torch/nn/modules/lazy.py` |
+| 2026-07-19 | [PyTorch DataLoader：IterableDataset 不能自定义 sampler / PyTorch DataLoader: IterableDataset Cannot Use a Custom Sampler](../2026/07/2026-07-19-pytorch-dataloader-iterable-sampler.md) | `torch/utils/data/dataloader.py` |
+| 2026-07-17 | [PyTorch CosineAnnealingWarmRestarts：余弦下降后重启周期 / PyTorch CosineAnnealingWarmRestarts: Cosine Decay, Then Restart the Cycle](../2026/07/2026-07-17-pytorch-cosine-warm-restarts.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-16 | [PyTorch swap_tensors：只放行内部 TensorWeakRef / PyTorch swap_tensors: Allow Only Internal TensorWeakRef](../2026/07/2026-07-16-pytorch-swap-tensors-weakref.md) | `torch/utils/__init__.py` |
+| 2026-07-15 | [PyTorch Inductor：先探测 tensor subclass，再合并 Linear / PyTorch Inductor: Probe Tensor Subclasses Before Fusing Linear](../2026/07/2026-07-15-pytorch-batch-linear-lhs-fusion.md) | `torch/_inductor/fx_passes/group_batch_fusion.py` |
+| 2026-07-14 | [PyTorch SequentialLR：按里程碑接力学习率调度器 / PyTorch SequentialLR: Relay LR Schedulers at Milestones](../2026/07/2026-07-14-pytorch-sequential-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-13 | [PyTorch RandomSampler：可变长度数据集也能延迟求长度 / PyTorch RandomSampler: Delay Dataset Length Until Iteration](../2026/07/2026-07-13-pytorch-random-sampler.md) | `torch/utils/data/sampler.py` |
+| 2026-07-12 | [PyTorch DistributedSampler：先补齐，再按 rank 切片 / PyTorch DistributedSampler: Pad First, Then Slice by Rank](../2026/07/2026-07-12-pytorch-distributed-sampler.md) | `torch/utils/data/distributed.py` |
+| 2026-07-10 | [PyTorch selective checkpoint：给每个 op 一张保存或重算的票 / PyTorch Selective Checkpoint: Give Each Op a Save-or-Recompute Ticket](../2026/07/2026-07-10-pytorch-selective-checkpoint-policy.md) | `torch/utils/checkpoint.py` |
+| 2026-07-09 | [PyTorch AveragedModel：第一次复制，之后才平均 / PyTorch AveragedModel: Copy First, Average Later](../2026/07/2026-07-09-pytorch-averaged-model.md) | `torch/optim/swa_utils.py` |
+| 2026-07-08 | [PyTorch LinearLR：递推更新也要等价闭式公式 / PyTorch LinearLR: Recursive Updates Must Match the Closed Form](../2026/07/2026-07-08-pytorch-linear-lr-recursive-closed-form.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-07 | [PyTorch ReduceLROnPlateau：学习率调度器也会看验证集脸色 / PyTorch ReduceLROnPlateau: An LR Scheduler That Watches Validation Metrics](../2026/07/2026-07-07-pytorch-reduce-lr-on-plateau.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-06 | [PyTorch PolynomialLR：递推和闭式公式要对齐 / PyTorch PolynomialLR: Keep the Recursive and Closed-Form Schedules Aligned](../2026/07/2026-07-06-pytorch-polynomial-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-05 | [PyTorch AdamW：用一个标志把 weight decay 从 Adam 里拆出来 / PyTorch AdamW: One Flag Decouples Weight Decay from Adam](../2026/07/2026-07-05-pytorch-adamw-decoupled-wrapper.md) | `torch/optim/adamw.py` |
+| 2026-07-03 | [PyTorch parametrization cache：一次 forward 里别重复算同一个权重 / PyTorch Parametrization Cache: Do Not Recompute the Same Weight in One Forward](../2026/07/2026-07-03-pytorch-parametrize-cache.md) | `torch/nn/utils/parametrize.py` |
+| 2026-07-02 | [PyTorch TreeSpec：按模板拆 pytree / PyTorch TreeSpec: Flatten a PyTree Against a Template](../2026/07/2026-07-02-pytorch-treespec-flatten-up-to.md) | `torch/utils/_pytree.py` |
 | 2026-07-01 | [PyTorch 子模块手术：用点路径精准替换一层 / PyTorch Submodule Surgery: Replace a Layer by Dotted Path](../2026/07/2026-07-01-pytorch-submodule-surgery.md) | `torch/nn/modules/module.py` |
 | 2026-06-30 | [PyTorch 梯度裁剪的第二步：只缩小，不放大 / PyTorch Gradient Clipping Step Two: Scale Down, Never Up](../2026/06/2026-06-30-pytorch-clip-grads-with-norm.md) | `torch/nn/utils/clip_grad.py` |
 | 2026-06-26 | [`torch.func.vmap`：把任意函数向量化，批量维度随心所欲 / `torch.func.vmap`: Vectorize Any Function, Put the Batch Dimension Anywhere](../2026/06/2026-06-26-pytorch-vmap.md) | `torch/_functorch/apis.py` |

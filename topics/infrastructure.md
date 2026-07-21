@@ -4,6 +4,16 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-21 | [FlashAttention custom op：真实 kernel 和 fake shape 分开注册 / FlashAttention Custom Op: Register the Real Kernel and the Fake Shape Path Separately](../2026/07/2026-07-21-flash-attn-custom-op-fake.md) | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) |
+| 2026-07-21 | [vLLM allocate_slots：一次分配同时考虑命中、外部 KV 和 speculative lookahead / vLLM allocate_slots: Allocate for Hits, External KV, and Speculative Lookahead Together](../2026/07/2026-07-21-vllm-allocate-slots-contract.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-15 | [vLLM LoRA MoE：W13 融进 kernel，W2 在外面补差量 / vLLM LoRA MoE: Fuse W13 into the Kernel, Add W2 Outside](../2026/07/2026-07-15-vllm-trtllm-lora-moe.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-15 | [RISE OpenPI RL：给 pi0 接上 value、dynamics、reward 和探索噪声 / RISE OpenPI RL: Add Value, Dynamics, Reward, and Exploration Noise to pi0](../2026/07/2026-07-15-rise-openpi-rl-action-model.md) | [OpenDriveLab/RISE](https://github.com/OpenDriveLab/RISE) |
+| 2026-07-12 | [nanoGPT attention：一层里同时投影 QKV / nanoGPT Attention: Project QKV in One Layer](../2026/07/2026-07-12-nanogpt-causal-self-attention.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
+| 2026-07-12 | [oMLX BoundarySnapshotSSDStore：先写内存队列，再让后台线程落盘 / oMLX BoundarySnapshotSSDStore: Buffer First, Flush on a Writer Thread](../2026/07/2026-07-12-omlx-boundary-snapshot-ssd-store.md) | [jundot/omlx](https://github.com/jundot/omlx) |
+| 2026-07-08 | [vLLM KV offloading：先按注意力组算对齐边界 / vLLM KV Offloading: Compute Alignment Per Attention Group First](../2026/07/2026-07-08-vllm-offloading-alignment-groups.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-08 | [mini-infer PrefixCacheManager：链式 hash 让前缀缓存不串台 / mini-infer PrefixCacheManager: Chained Hashes Keep Prefix Cache Honest](../2026/07/2026-07-08-mini-infer-prefix-cache-manager.md) | [psmarter/mini-infer](https://github.com/psmarter/mini-infer) |
+| 2026-07-05 | [vLLM partial prefill cache：没填满的 block 也值得记住 / vLLM Partial Prefill Cache: Even an Unfilled Block Can Be Worth Remembering](../2026/07/2026-07-05-vllm-partial-prefill-cache.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-05 | [SGLang radix cache：用前缀树找最长可复用 KV / SGLang Radix Cache: Use a Prefix Tree to Find the Longest Reusable KV](../2026/07/2026-07-05-sglang-radix-prefix-cache.md) | [sgl-project/sglang](https://github.com/sgl-project/sglang) |
 | 2026-07-01 | [nanoGPT 推理优化：只给最后一个 token 做 lm_head / nanoGPT Inference Optimization: Run lm_head Only on the Last Token](../2026/07/2026-07-01-nanogpt-last-token-logits.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
 | 2026-07-01 | [LMCache 的 CacheEngineKey：KV chunk 的分布式门牌号 / LMCache CacheEngineKey: A Distributed Address for KV Chunks](../2026/07/2026-07-01-lmcache-cache-engine-key.md) | [LMCache/LMCache](https://github.com/LMCache/LMCache) |
 | 2026-06-25 | [DeepSeek-V3 MLA 的 absorb 技巧：KV 缓存压缩 70× / DeepSeek-V3 MLA's absorb Trick: 70× KV-Cache Compression](../2026/06/2026-06-25-deepseek-v3-mla-absorb.md) | [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) |
