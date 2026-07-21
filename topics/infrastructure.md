@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-21 | [FlashAttention custom op：真实 kernel 和 fake shape 分开注册 / FlashAttention Custom Op: Register the Real Kernel and the Fake Shape Path Separately](../2026/07/2026-07-21-flash-attn-custom-op-fake.md) | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) |
+| 2026-07-21 | [vLLM allocate_slots：一次分配同时考虑命中、外部 KV 和 speculative lookahead / vLLM allocate_slots: Allocate for Hits, External KV, and Speculative Lookahead Together](../2026/07/2026-07-21-vllm-allocate-slots-contract.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-07-15 | [vLLM LoRA MoE：W13 融进 kernel，W2 在外面补差量 / vLLM LoRA MoE: Fuse W13 into the Kernel, Add W2 Outside](../2026/07/2026-07-15-vllm-trtllm-lora-moe.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-07-15 | [RISE OpenPI RL：给 pi0 接上 value、dynamics、reward 和探索噪声 / RISE OpenPI RL: Add Value, Dynamics, Reward, and Exploration Noise to pi0](../2026/07/2026-07-15-rise-openpi-rl-action-model.md) | [OpenDriveLab/RISE](https://github.com/OpenDriveLab/RISE) |
 | 2026-07-12 | [nanoGPT attention：一层里同时投影 QKV / nanoGPT Attention: Project QKV in One Layer](../2026/07/2026-07-12-nanogpt-causal-self-attention.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |

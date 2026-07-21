@@ -617,6 +617,13 @@
         "note": "nano/vla/2026-07-20-openpi-flow-suffix-attention-mask.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-07-21",
+        "note": "nano/vla/2026-07-21-lerobot-groot-rtc-leftover.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1221,6 +1228,13 @@
         "id": "dit-block",
         "date": "2026-07-20",
         "note": "nano/wam/2026-07-20-wan21-adaln-block-modulation.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-07-21",
+        "note": "nano/wam/2026-07-21-wan21-clip-context-concat.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

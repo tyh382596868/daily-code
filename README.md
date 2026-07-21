@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-21** · infrastructure · [FlashAttention custom op：真实 kernel 和 fake shape 分开注册 / FlashAttention Custom Op: Register the Real Kernel and the Fake Shape Path Separately](2026/07/2026-07-21-flash-attn-custom-op-fake.md) — `Dao-AILab/flash-attention` (tracked)
+- **2026-07-21** · pytorch · [PyTorch ConstantLR：先打折，到了步数再还原 / PyTorch ConstantLR: Discount First, Restore at the Milestone](2026/07/2026-07-21-pytorch-constant-lr.md) — `pytorch/pytorch`
+- **2026-07-21** · huggingface · [Transformers DynamicLayer：KV cache 默认就是沿时间维追加 / Transformers DynamicLayer: The Default KV Cache Appends Along Time](2026/07/2026-07-21-transformers-dynamic-cache-layer.md) — `huggingface/transformers`
+- **2026-07-21** · vla · [LeRobot GR00T RTC：先裁掉 padding，再把旧动作变成约束 / LeRobot GR00T RTC: Strip Padding, Then Turn Old Actions into Constraints](nano/vla/2026-07-21-lerobot-groot-rtc-leftover.md) — `huggingface/lerobot` (action-chunking advanced variant)
+- **2026-07-21** · wam · [Wan2.1 I2V context：把 CLIP 图像 token 接到文本前面 / Wan2.1 I2V Context: Prepend CLIP Image Tokens Before Text](nano/wam/2026-07-21-wan21-clip-context-concat.md) — `Wan-Video/Wan2.1` (text-conditioning advanced variant)
+- **2026-07-21** · infrastructure · [vLLM allocate_slots：一次分配同时考虑命中、外部 KV 和 speculative lookahead / vLLM allocate_slots: Allocate for Hits, External KV, and Speculative Lookahead Together](2026/07/2026-07-21-vllm-allocate-slots-contract.md) — `vllm-project/vllm` (trending)
 - **2026-07-20** · diffusion · [DINOv3 RoPE attention：只旋转图像 token，保留 prefix / DINOv3 RoPE Attention: Rotate Image Tokens, Keep the Prefix](2026/07/2026-07-20-dinov3-rope-attention.md) — `facebookresearch/dinov3` (tracked)
 - **2026-07-20** · pytorch · [PyTorch LazyModule：第一次 forward 后把自己变成真模块 / PyTorch LazyModule: Become a Real Module After the First Forward](2026/07/2026-07-20-pytorch-lazy-module-materialize.md) — `pytorch/pytorch`
 - **2026-07-20** · huggingface · [PEFT INC LoRA：只给支持的量化 Linear 换适配层 / PEFT INC LoRA: Dispatch Only Supported Quantized Linear Layers](2026/07/2026-07-20-peft-inc-lora-dispatch.md) — `huggingface/peft`
