@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-22 | [TRL GRPO：训练器里把生成后端也变成可插拔模块 / TRL GRPO: Make the Generation Backend Pluggable Inside the Trainer](../2026/07/2026-07-22-trl-grpo-vllm-generation.md) | huggingface/trl |
 | 2026-07-21 | [Transformers DynamicLayer：KV cache 默认就是沿时间维追加 / Transformers DynamicLayer: The Default KV Cache Appends Along Time](../2026/07/2026-07-21-transformers-dynamic-cache-layer.md) | huggingface/transformers |
 | 2026-07-20 | [PEFT INC LoRA：只给支持的量化 Linear 换适配层 / PEFT INC LoRA: Dispatch Only Supported Quantized Linear Layers](../2026/07/2026-07-20-peft-inc-lora-dispatch.md) | huggingface/peft |
 | 2026-07-19 | [Datasets map：流式样本也能攒成 batch 再变换 / Datasets map: Streamed Examples Can Still Be Batched Before Transform](../2026/07/2026-07-19-datasets-mapped-examples-iterable.md) | huggingface/datasets |

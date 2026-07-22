@@ -624,6 +624,13 @@
         "note": "nano/vla/2026-07-21-lerobot-groot-rtc-leftover.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-07-22",
+        "note": "nano/vla/2026-07-22-openpi-paligemma-expert-wiring.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1236,6 +1243,13 @@
         "date": "2026-07-21",
         "note": "nano/wam/2026-07-21-wan21-clip-context-concat.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "temporal-compression",
+        "date": "2026-07-22",
+        "note": "nano/wam/2026-07-22-open-sora-causal-3d-compression.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]

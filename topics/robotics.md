@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-22 | [Isaac-GR00T ActionChunk：同一段动作可以变成相对量或逐步增量 / Isaac-GR00T ActionChunk: One Action Chunk Can Become Relative Poses or Step Deltas](../2026/07/2026-07-22-groot-actionchunk-relative-delta.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
+| 2026-07-22 | [FluxVLA SmolVLA：先检查维度，再让 VLM 和 expert 互相注意 / FluxVLA SmolVLA: Validate Dimensions Before the VLM and Expert Attend to Each Other](../2026/07/2026-07-22-fluxvla-smolvla-dimension-contract.md) | [FluxVLA/FluxVLA](https://github.com/FluxVLA/FluxVLA) |
 | 2026-07-19 | [LeRobot eval rollout：把环境、policy 和处理器接成闭环 / LeRobot eval rollout: Close the Loop Between Env, Policy, and Processors](../2026/07/2026-07-19-lerobot-eval-rollout-processors.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-19 | [Robotic World Model：把状态、动作和接触拆成预测组 / Robotic World Model: Split State, Action, and Contacts into Prediction Groups](../2026/07/2026-07-19-robotic-world-model-observation-groups.md) | [leggedrobotics/robotic_world_model](https://github.com/leggedrobotics/robotic_world_model) |
 | 2026-07-16 | [DROID TimestepProcesser：把一帧机器人数据整理成稳定契约 / DROID TimestepProcesser: Turn One Robot Step into a Stable Contract](../2026/07/2026-07-16-droid-timestep-processor.md) | [droid-dataset/droid](https://github.com/droid-dataset/droid) |

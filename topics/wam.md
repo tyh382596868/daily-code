@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-22 | temporal-compression (causal 3D convolution) | [Open-Sora CausalConv3d：时间维只向过去补 padding / Open-Sora CausalConv3d: Pad Time Only Toward the Past](../nano/wam/2026-07-22-open-sora-causal-3d-compression.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-07-21 | text-conditioning (advanced variant, CLIP context prefix) | [Wan2.1 I2V context：把 CLIP 图像 token 接到文本前面 / Wan2.1 I2V Context: Prepend CLIP Image Tokens Before Text](../nano/wam/2026-07-21-wan21-clip-context-concat.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-20 | dit-block (advanced variant, six-way adaLN modulation) | [Wan2.1 block 调制：一个条件向量拆成 6 个门控 / Wan2.1 Block Modulation: Split One Condition into Six Gates](../nano/wam/2026-07-20-wan21-adaln-block-modulation.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-19 | classifier-free-guidance (advanced variant, label dropout token) | [DiT LabelEmbedder：训练时随机丢条件，采样时做 CFG / DiT LabelEmbedder: Drop Conditions During Training, Use CFG at Sampling](../nano/wam/2026-07-19-dit-label-dropout-cfg.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) |

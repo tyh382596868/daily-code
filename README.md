@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-22** · robotics · [Isaac-GR00T ActionChunk：同一段动作可以变成相对量或逐步增量 / Isaac-GR00T ActionChunk: One Action Chunk Can Become Relative Poses or Step Deltas](2026/07/2026-07-22-groot-actionchunk-relative-delta.md) — `NVIDIA/Isaac-GR00T` (tracked)
+- **2026-07-22** · pytorch · [PyTorch saved_tensors_hooks：反向传播保存什么，由你接管 / PyTorch saved_tensors_hooks: Take Control of What Backward Saves](2026/07/2026-07-22-pytorch-saved-tensors-hooks.md) — `pytorch/pytorch`
+- **2026-07-22** · huggingface · [TRL GRPO：训练器里把生成后端也变成可插拔模块 / TRL GRPO: Make the Generation Backend Pluggable Inside the Trainer](2026/07/2026-07-22-trl-grpo-vllm-generation.md) — `huggingface/trl`
+- **2026-07-22** · vla · [openpi PaliGemmaWithExpert：VLM 负责前缀，Gemma expert 负责动作后缀 / openpi PaliGemmaWithExpert: The VLM Owns the Prefix, the Gemma Expert Owns the Action Suffix](nano/vla/2026-07-22-openpi-paligemma-expert-wiring.md) — `Physical-Intelligence/openpi` (vlm-backbone-wiring advanced variant)
+- **2026-07-22** · wam · [Open-Sora CausalConv3d：时间维只向过去补 padding / Open-Sora CausalConv3d: Pad Time Only Toward the Past](nano/wam/2026-07-22-open-sora-causal-3d-compression.md) — `hpcaitech/Open-Sora` (temporal-compression)
+- **2026-07-22** · robotics · [FluxVLA SmolVLA：先检查维度，再让 VLM 和 expert 互相注意 / FluxVLA SmolVLA: Validate Dimensions Before the VLM and Expert Attend to Each Other](2026/07/2026-07-22-fluxvla-smolvla-dimension-contract.md) — `FluxVLA/FluxVLA` (trending)
 - **2026-07-21** · infrastructure · [FlashAttention custom op：真实 kernel 和 fake shape 分开注册 / FlashAttention Custom Op: Register the Real Kernel and the Fake Shape Path Separately](2026/07/2026-07-21-flash-attn-custom-op-fake.md) — `Dao-AILab/flash-attention` (tracked)
 - **2026-07-21** · pytorch · [PyTorch ConstantLR：先打折，到了步数再还原 / PyTorch ConstantLR: Discount First, Restore at the Milestone](2026/07/2026-07-21-pytorch-constant-lr.md) — `pytorch/pytorch`
 - **2026-07-21** · huggingface · [Transformers DynamicLayer：KV cache 默认就是沿时间维追加 / Transformers DynamicLayer: The Default KV Cache Appends Along Time](2026/07/2026-07-21-transformers-dynamic-cache-layer.md) — `huggingface/transformers`
