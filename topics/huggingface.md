@@ -6,6 +6,24 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-22 | [TRL GRPO：训练器里把生成后端也变成可插拔模块 / TRL GRPO: Make the Generation Backend Pluggable Inside the Trainer](../2026/07/2026-07-22-trl-grpo-vllm-generation.md) | huggingface/trl |
+| 2026-07-21 | [Transformers DynamicLayer：KV cache 默认就是沿时间维追加 / Transformers DynamicLayer: The Default KV Cache Appends Along Time](../2026/07/2026-07-21-transformers-dynamic-cache-layer.md) | huggingface/transformers |
+| 2026-07-20 | [PEFT INC LoRA：只给支持的量化 Linear 换适配层 / PEFT INC LoRA: Dispatch Only Supported Quantized Linear Layers](../2026/07/2026-07-20-peft-inc-lora-dispatch.md) | huggingface/peft |
+| 2026-07-19 | [Datasets map：流式样本也能攒成 batch 再变换 / Datasets map: Streamed Examples Can Still Be Batched Before Transform](../2026/07/2026-07-19-datasets-mapped-examples-iterable.md) | huggingface/datasets |
+| 2026-07-17 | [Diffusers FlowMatch：每个 token 可以有自己的 timestep / Diffusers FlowMatch: Each Token Can Carry Its Own Timestep](../2026/07/2026-07-17-diffusers-flowmatch-per-token-timestep.md) | huggingface/diffusers |
+| 2026-07-16 | [Accelerate GradientAccumulationPlugin：累积梯度也要定义同步合同 / Accelerate GradientAccumulationPlugin: Gradient Accumulation Needs a Sync Contract](../2026/07/2026-07-16-accelerate-gradient-accumulation-plugin.md) | huggingface/accelerate |
+| 2026-07-15 | [Transformers DETR：无 mask 时用 arange 保住 dtype / Transformers DETR: Use arange Without a Mask to Preserve dtype](../2026/07/2026-07-15-transformers-detr-sine-position-embedding.md) | huggingface/transformers |
+| 2026-07-14 | [nanoVLM generate：多模态预填一次，后面只解码新 token / nanoVLM generate: Multimodal Prefill Once, Then Decode New Tokens](../2026/07/2026-07-14-nanovlm-multimodal-prefill-decode.md) | huggingface/nanoVLM |
+| 2026-07-13 | [tokenizers BPE trainer：用堆维护下一次最值得合并的 pair / tokenizers BPE Trainer: Use a Heap for the Next Best Pair](../2026/07/2026-07-13-tokenizers-bpe-trainer-heap.md) | huggingface/tokenizers |
+| 2026-07-12 | [TRL preference collator：把 chosen/rejected 拼成同一个 batch / TRL Preference Collator: Put Chosen and Rejected in One Batch](../2026/07/2026-07-12-trl-preference-collator.md) | huggingface/trl |
+| 2026-07-10 | [Transformers no-repeat ngram：把历史短语变成下一 token 禁止表 / Transformers No-Repeat N-Gram: Turn History into a Next-Token Ban List](../2026/07/2026-07-10-transformers-no-repeat-ngram.md) | huggingface/transformers |
+| 2026-07-09 | [PEFT PSOFT OrthLayer：用 skew 矩阵生成可训练正交旋转 / PEFT PSOFT OrthLayer: Train an Orthogonal Rotation from a Skew Matrix](../2026/07/2026-07-09-peft-psoft-orth-layer.md) | huggingface/peft |
+| 2026-07-08 | [Datasets 随机轮转数据源：流式混合也要可恢复 / Datasets Random Source Cycling: Streaming Mixtures Must Be Resumable](../2026/07/2026-07-08-datasets-randomly-cycling-sources.md) | huggingface/datasets |
+| 2026-07-07 | [Accelerate tied parameters：先找共享权重，再把断掉的引用接回去 / Accelerate Tied Parameters: Find Shared Weights, Then Retie Broken References](../2026/07/2026-07-07-accelerate-find-retie-tied-parameters.md) | huggingface/accelerate |
+| 2026-07-06 | [Diffusers zero-terminal SNR：把最后一步真的推到纯噪声 / Diffusers Zero-Terminal SNR: Make the Last Step Truly Pure Noise](../2026/07/2026-07-06-diffusers-zero-terminal-snr.md) | huggingface/diffusers |
+| 2026-07-05 | [Transformers DynamicLayer：KV cache 就是沿时间维拼接 / Transformers DynamicLayer: A KV Cache Is Concatenation Along Time](../2026/07/2026-07-05-transformers-dynamic-kv-layer.md) | huggingface/transformers |
+| 2026-07-03 | [nanoVLM projector：用 pixel shuffle 少传视觉 token / nanoVLM Projector: Use Pixel Shuffle to Send Fewer Vision Tokens](../2026/07/2026-07-03-nanovlm-modality-projector.md) | huggingface/nanoVLM |
+| 2026-07-02 | [tokenizers 并行开关：同一个 iterator 可串行也可并行 / tokenizers Parallelism Switch: One Iterator, Serial or Parallel](../2026/07/2026-07-02-tokenizers-maybe-parallel-iterator.md) | huggingface/tokenizers |
 | 2026-07-01 | [TRL 的 PEFT adapter EMA teacher：不用复制整模型的自蒸馏 / TRL PEFT Adapter EMA Teacher: Self-Distillation Without Copying the Whole Model](../2026/07/2026-07-01-trl-peft-adapter-ema-teacher.md) | huggingface/trl |
 | 2026-06-30 | [LoRA-GA 初始化：用一次梯度 SVD 给 adapter 指方向 / LoRA-GA Init: Use One Gradient SVD to Aim the Adapter](../2026/06/2026-06-30-peft-loraga-svd-init.md) | huggingface/peft |
 | 2026-06-26 | [`split_dataset_by_node`：一个 API 背后藏着两种完全不同的分布式数据切分策略 / `split_dataset_by_node`: One API, Two Fundamentally Different Distribution Strategies Hidden Inside](../2026/06/2026-06-26-datasets-split-by-node.md) | huggingface/datasets |
