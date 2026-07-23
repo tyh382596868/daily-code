@@ -631,6 +631,13 @@
         "note": "nano/vla/2026-07-22-openpi-paligemma-expert-wiring.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-23",
+        "note": "nano/vla/2026-07-23-openpi-prompt-from-task.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1250,6 +1257,13 @@
         "date": "2026-07-22",
         "note": "nano/wam/2026-07-22-open-sora-causal-3d-compression.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "patchify-positional",
+        "date": "2026-07-23",
+        "note": "nano/wam/2026-07-23-opensora-patch-embed3d.md",
+        "repo": "PKU-YuanGroup/Open-Sora",
         "via": "wam"
       }
     ]

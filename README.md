@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-23** · diffusion · [JEPA predictor：先给目标 token 加噪，再让上下文去修复 / JEPA Predictor: Noise the Target Tokens, Then Let Context Repair Them](2026/07/2026-07-23-jepa-predictor-diffusion-target.md) — `facebookresearch/jepa` (tracked)
+- **2026-07-23** · pytorch · [PyTorch LRScheduler：用 wrapper 抓住 step 调用顺序 / PyTorch LRScheduler: Catch Step Order with a Wrapper](2026/07/2026-07-23-pytorch-lr-scheduler-step-guard.md) — `pytorch/pytorch`
+- **2026-07-23** · huggingface · [Transformers Top-H：用熵决定保留多少候选 token / Transformers Top-H: Use Entropy to Decide How Many Tokens Survive](2026/07/2026-07-23-transformers-toph-logits-warper.md) — `huggingface/transformers`
+- **2026-07-23** · vla · [openpi PromptFromTask：把 task 字段变成语言条件 / openpi PromptFromTask: Turn the Task Field into Language Conditioning](nano/vla/2026-07-23-openpi-prompt-from-task.md) — `Physical-Intelligence/openpi` (training-step advanced variant)
+- **2026-07-23** · wam · [Open-Sora PatchEmbed3D：一次卷积把视频切成时空 token / Open-Sora PatchEmbed3D: One Convolution Turns Video into Spacetime Tokens](nano/wam/2026-07-23-opensora-patch-embed3d.md) — `PKU-YuanGroup/Open-Sora` (patchify-positional advanced variant)
+- **2026-07-23** · diffusion · [Ctrl-World：把机器人控制变成视频生成条件 / Ctrl-World: Turn Robot Control into Video-Generation Conditioning](2026/07/2026-07-23-ctrl-world-action-mask-conditioning.md) — `Robert-gyj/Ctrl-World` (trending)
 - **2026-07-22** · robotics · [Isaac-GR00T ActionChunk：同一段动作可以变成相对量或逐步增量 / Isaac-GR00T ActionChunk: One Action Chunk Can Become Relative Poses or Step Deltas](2026/07/2026-07-22-groot-actionchunk-relative-delta.md) — `NVIDIA/Isaac-GR00T` (tracked)
 - **2026-07-22** · pytorch · [PyTorch saved_tensors_hooks：反向传播保存什么，由你接管 / PyTorch saved_tensors_hooks: Take Control of What Backward Saves](2026/07/2026-07-22-pytorch-saved-tensors-hooks.md) — `pytorch/pytorch`
 - **2026-07-22** · huggingface · [TRL GRPO：训练器里把生成后端也变成可插拔模块 / TRL GRPO: Make the Generation Backend Pluggable Inside the Trainer](2026/07/2026-07-22-trl-grpo-vllm-generation.md) — `huggingface/trl`

@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-23 | [JEPA predictor：先给目标 token 加噪，再让上下文去修复 / JEPA Predictor: Noise the Target Tokens, Then Let Context Repair Them](../2026/07/2026-07-23-jepa-predictor-diffusion-target.md) | facebookresearch/jepa |
+| 2026-07-23 | [Ctrl-World：把机器人控制变成视频生成条件 / Ctrl-World: Turn Robot Control into Video-Generation Conditioning](../2026/07/2026-07-23-ctrl-world-action-mask-conditioning.md) | Robert-gyj/Ctrl-World |
 | 2026-07-20 | [DINOv3 RoPE attention：只旋转图像 token，保留 prefix / DINOv3 RoPE Attention: Rotate Image Tokens, Keep the Prefix](../2026/07/2026-07-20-dinov3-rope-attention.md) | facebookresearch/dinov3 |
 | 2026-07-20 | [World-R1 reward：不生成文字，直接读 0-9 的 logits / World-R1 Reward: Read 0-9 Logits Instead of Generating Text](../2026/07/2026-07-20-world-r1-logit-reward.md) | microsoft/World-R1 |
 | 2026-07-17 | [DiT unpatchify：把 token 棋盘折回 latent 图 / DiT unpatchify: Fold the Token Board Back into a Latent Image](../2026/07/2026-07-17-dit-unpatchify.md) | facebookresearch/DiT |
