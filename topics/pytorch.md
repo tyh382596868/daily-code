@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-24 | [PyTorch SpectralNorm：用 power iteration 管住权重尺度 / PyTorch SpectralNorm: Keep Weight Scale in Check with Power Iteration](../2026/07/2026-07-24-pytorch-spectral-norm-parametrization.md) | `torch/nn/utils/parametrizations.py` |
 | 2026-07-23 | [PyTorch LRScheduler：用 wrapper 抓住 step 调用顺序 / PyTorch LRScheduler: Catch Step Order with a Wrapper](../2026/07/2026-07-23-pytorch-lr-scheduler-step-guard.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-22 | [PyTorch saved_tensors_hooks：反向传播保存什么，由你接管 / PyTorch saved_tensors_hooks: Take Control of What Backward Saves](../2026/07/2026-07-22-pytorch-saved-tensors-hooks.md) | `torch/autograd/graph.py` |
 | 2026-07-21 | [PyTorch ConstantLR：先打折，到了步数再还原 / PyTorch ConstantLR: Discount First, Restore at the Milestone](../2026/07/2026-07-21-pytorch-constant-lr.md) | `torch/optim/lr_scheduler.py` |

@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-24** · infrastructure · [torchtune RoPE cache：把旋转角提前烤好 / torchtune RoPE Cache: Bake Rotation Angles Ahead of Time](2026/07/2026-07-24-torchtune-rope-cache.md) — `meta-pytorch/torchtune` (tracked)
+- **2026-07-24** · pytorch · [PyTorch SpectralNorm：用 power iteration 管住权重尺度 / PyTorch SpectralNorm: Keep Weight Scale in Check with Power Iteration](2026/07/2026-07-24-pytorch-spectral-norm-parametrization.md) — `pytorch/pytorch`
+- **2026-07-24** · huggingface · [tokenizers AddedToken：原文匹配和规范化匹配分两棵树 / tokenizers AddedToken: Split Raw and Normalized Matching into Two Tries](2026/07/2026-07-24-tokenizers-added-token-matcher.md) — `huggingface/tokenizers`
+- **2026-07-24** · vla · [LeRobot Dataset slice：窗口读取复用单帧路径 / LeRobot Dataset Slice: Window Reads Reuse the Single-Frame Path](nano/vla/2026-07-24-lerobot-dataset-slice-window.md) — `huggingface/lerobot` (short-term-observation-memory advanced variant)
+- **2026-07-24** · wam · [Wan2.1 Head：最后一层也吃条件向量 / Wan2.1 Head: The Last Layer Is Conditioned Too](nano/wam/2026-07-24-wan21-conditioned-output-head.md) — `Wan-Video/Wan2.1` (output-head advanced variant)
+- **2026-07-24** · infrastructure · [WorldFoundry Cosmos3：把动作推理写成任务契约 / WorldFoundry Cosmos3: Turn Action Inference into a Task Contract](2026/07/2026-07-24-worldfoundry-cosmos3-action-profile.md) — `OpenEnvision/WorldFoundry` (trending)
 - **2026-07-23** · diffusion · [JEPA predictor：先给目标 token 加噪，再让上下文去修复 / JEPA Predictor: Noise the Target Tokens, Then Let Context Repair Them](2026/07/2026-07-23-jepa-predictor-diffusion-target.md) — `facebookresearch/jepa` (tracked)
 - **2026-07-23** · pytorch · [PyTorch LRScheduler：用 wrapper 抓住 step 调用顺序 / PyTorch LRScheduler: Catch Step Order with a Wrapper](2026/07/2026-07-23-pytorch-lr-scheduler-step-guard.md) — `pytorch/pytorch`
 - **2026-07-23** · huggingface · [Transformers Top-H：用熵决定保留多少候选 token / Transformers Top-H: Use Entropy to Decide How Many Tokens Survive](2026/07/2026-07-23-transformers-toph-logits-warper.md) — `huggingface/transformers`

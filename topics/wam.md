@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-24 | output-head (advanced variant, conditioned final projection) | [Wan2.1 Head：最后一层也吃条件向量 / Wan2.1 Head: The Last Layer Is Conditioned Too](../nano/wam/2026-07-24-wan21-conditioned-output-head.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-23 | patchify-positional (advanced variant, 3D tubelet patch embedding) | [Open-Sora PatchEmbed3D：一次卷积把视频切成时空 token / Open-Sora PatchEmbed3D: One Convolution Turns Video into Spacetime Tokens](../nano/wam/2026-07-23-opensora-patch-embed3d.md) | [PKU-YuanGroup/Open-Sora](https://github.com/PKU-YuanGroup/Open-Sora) |
 | 2026-07-22 | temporal-compression (causal 3D convolution) | [Open-Sora CausalConv3d：时间维只向过去补 padding / Open-Sora CausalConv3d: Pad Time Only Toward the Past](../nano/wam/2026-07-22-open-sora-causal-3d-compression.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-07-21 | text-conditioning (advanced variant, CLIP context prefix) | [Wan2.1 I2V context：把 CLIP 图像 token 接到文本前面 / Wan2.1 I2V Context: Prepend CLIP Image Tokens Before Text](../nano/wam/2026-07-21-wan21-clip-context-concat.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

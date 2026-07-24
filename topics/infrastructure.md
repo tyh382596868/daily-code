@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-24 | [torchtune RoPE cache：把旋转角提前烤好 / torchtune RoPE Cache: Bake Rotation Angles Ahead of Time](../2026/07/2026-07-24-torchtune-rope-cache.md) | [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) |
+| 2026-07-24 | [WorldFoundry Cosmos3：把动作推理写成任务契约 / WorldFoundry Cosmos3: Turn Action Inference into a Task Contract](../2026/07/2026-07-24-worldfoundry-cosmos3-action-profile.md) | [OpenEnvision/WorldFoundry](https://github.com/OpenEnvision/WorldFoundry) |
 | 2026-07-21 | [FlashAttention custom op：真实 kernel 和 fake shape 分开注册 / FlashAttention Custom Op: Register the Real Kernel and the Fake Shape Path Separately](../2026/07/2026-07-21-flash-attn-custom-op-fake.md) | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) |
 | 2026-07-21 | [vLLM allocate_slots：一次分配同时考虑命中、外部 KV 和 speculative lookahead / vLLM allocate_slots: Allocate for Hits, External KV, and Speculative Lookahead Together](../2026/07/2026-07-21-vllm-allocate-slots-contract.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-07-15 | [vLLM LoRA MoE：W13 融进 kernel，W2 在外面补差量 / vLLM LoRA MoE: Fuse W13 into the Kernel, Add W2 Outside](../2026/07/2026-07-15-vllm-trtllm-lora-moe.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

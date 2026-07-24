@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-24 | [tokenizers AddedToken：原文匹配和规范化匹配分两棵树 / tokenizers AddedToken: Split Raw and Normalized Matching into Two Tries](../2026/07/2026-07-24-tokenizers-added-token-matcher.md) | huggingface/tokenizers |
 | 2026-07-23 | [Transformers Top-H：用熵决定保留多少候选 token / Transformers Top-H: Use Entropy to Decide How Many Tokens Survive](../2026/07/2026-07-23-transformers-toph-logits-warper.md) | huggingface/transformers |
 | 2026-07-22 | [TRL GRPO：训练器里把生成后端也变成可插拔模块 / TRL GRPO: Make the Generation Backend Pluggable Inside the Trainer](../2026/07/2026-07-22-trl-grpo-vllm-generation.md) | huggingface/trl |
 | 2026-07-21 | [Transformers DynamicLayer：KV cache 默认就是沿时间维追加 / Transformers DynamicLayer: The Default KV Cache Appends Along Time](../2026/07/2026-07-21-transformers-dynamic-cache-layer.md) | huggingface/transformers |
