@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-25** · robotics · [LeRobot DatasetInfo：把机器人数据集元信息变成有类型契约 / LeRobot DatasetInfo: Turn Robot Dataset Metadata into a Typed Contract](2026/07/2026-07-25-lerobot-dataset-info-dataclass.md) — `huggingface/lerobot` (tracked)
+- **2026-07-25** · pytorch · [PyTorch MultiheadAttention：把两种 mask 展成同一张四维表 / PyTorch MultiheadAttention: Expand Two Masks into One 4D Table](2026/07/2026-07-25-pytorch-mha-merge-masks.md) — `pytorch/pytorch`
+- **2026-07-25** · huggingface · [nanoVLM VQA Collator：左 padding 文本，保留图像列表 / nanoVLM VQA Collator: Left-Pad Text and Keep Images as a List](2026/07/2026-07-25-nanovlm-vqa-collator-left-pad.md) — `huggingface/nanoVLM`
+- **2026-07-25** · vla · [openpi ActionChunkBroker：一次推理，多步消费 / openpi ActionChunkBroker: Infer Once, Consume Many Steps](nano/vla/2026-07-25-openpi-action-chunk-broker.md) — `Physical-Intelligence/openpi`
+- **2026-07-25** · wam · [Wan2.1 Flow Scheduler：采样前先重写 sigma 时间表 / Wan2.1 Flow Scheduler: Rewrite the Sigma Schedule Before Sampling](nano/wam/2026-07-25-wan21-flow-scheduler-set-timesteps.md) — `Wan-Video/Wan2.1`
+- **2026-07-25** · robotics · [Neuracore DataStream：把机器人传感器流做成可停止的生命周期 / Neuracore DataStream: Give Robot Sensor Streams a Stoppable Lifecycle](2026/07/2026-07-25-neuracore-data-stream-lifecycle.md) — `NeuracoreAI/neuracore` (trending)
 - **2026-07-24** · infrastructure · [torchtune RoPE cache：把旋转角提前烤好 / torchtune RoPE Cache: Bake Rotation Angles Ahead of Time](2026/07/2026-07-24-torchtune-rope-cache.md) — `meta-pytorch/torchtune` (tracked)
 - **2026-07-24** · pytorch · [PyTorch SpectralNorm：用 power iteration 管住权重尺度 / PyTorch SpectralNorm: Keep Weight Scale in Check with Power Iteration](2026/07/2026-07-24-pytorch-spectral-norm-parametrization.md) — `pytorch/pytorch`
 - **2026-07-24** · huggingface · [tokenizers AddedToken：原文匹配和规范化匹配分两棵树 / tokenizers AddedToken: Split Raw and Normalized Matching into Two Tries](2026/07/2026-07-24-tokenizers-added-token-matcher.md) — `huggingface/tokenizers`

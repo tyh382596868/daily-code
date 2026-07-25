@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-25 | [LeRobot DatasetInfo：把机器人数据集元信息变成有类型契约 / LeRobot DatasetInfo: Turn Robot Dataset Metadata into a Typed Contract](../2026/07/2026-07-25-lerobot-dataset-info-dataclass.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
+| 2026-07-25 | [Neuracore DataStream：把机器人传感器流做成可停止的生命周期 / Neuracore DataStream: Give Robot Sensor Streams a Stoppable Lifecycle](../2026/07/2026-07-25-neuracore-data-stream-lifecycle.md) | [NeuracoreAI/neuracore](https://github.com/NeuracoreAI/neuracore) |
 | 2026-07-22 | [Isaac-GR00T ActionChunk：同一段动作可以变成相对量或逐步增量 / Isaac-GR00T ActionChunk: One Action Chunk Can Become Relative Poses or Step Deltas](../2026/07/2026-07-22-groot-actionchunk-relative-delta.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-07-22 | [FluxVLA SmolVLA：先检查维度，再让 VLM 和 expert 互相注意 / FluxVLA SmolVLA: Validate Dimensions Before the VLM and Expert Attend to Each Other](../2026/07/2026-07-22-fluxvla-smolvla-dimension-contract.md) | [FluxVLA/FluxVLA](https://github.com/FluxVLA/FluxVLA) |
 | 2026-07-19 | [LeRobot eval rollout：把环境、policy 和处理器接成闭环 / LeRobot eval rollout: Close the Loop Between Env, Policy, and Processors](../2026/07/2026-07-19-lerobot-eval-rollout-processors.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-25 | [nanoVLM VQA Collator：左 padding 文本，保留图像列表 / nanoVLM VQA Collator: Left-Pad Text and Keep Images as a List](../2026/07/2026-07-25-nanovlm-vqa-collator-left-pad.md) | huggingface/nanoVLM |
 | 2026-07-24 | [tokenizers AddedToken：原文匹配和规范化匹配分两棵树 / tokenizers AddedToken: Split Raw and Normalized Matching into Two Tries](../2026/07/2026-07-24-tokenizers-added-token-matcher.md) | huggingface/tokenizers |
 | 2026-07-23 | [Transformers Top-H：用熵决定保留多少候选 token / Transformers Top-H: Use Entropy to Decide How Many Tokens Survive](../2026/07/2026-07-23-transformers-toph-logits-warper.md) | huggingface/transformers |
 | 2026-07-22 | [TRL GRPO：训练器里把生成后端也变成可插拔模块 / TRL GRPO: Make the Generation Backend Pluggable Inside the Trainer](../2026/07/2026-07-22-trl-grpo-vllm-generation.md) | huggingface/trl |

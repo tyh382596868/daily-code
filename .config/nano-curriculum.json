@@ -645,6 +645,13 @@
         "note": "nano/vla/2026-07-24-lerobot-dataset-slice-window.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-07-25",
+        "note": "nano/vla/2026-07-25-openpi-action-chunk-broker.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1277,6 +1284,13 @@
         "id": "output-head",
         "date": "2026-07-24",
         "note": "nano/wam/2026-07-24-wan21-conditioned-output-head.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-07-25",
+        "note": "nano/wam/2026-07-25-wan21-flow-scheduler-set-timesteps.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

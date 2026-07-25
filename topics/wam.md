@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-25 | noise-scheduler (advanced variant, inference-time sigma reset) | [Wan2.1 Flow Scheduler：采样前先重写 sigma 时间表 / Wan2.1 Flow Scheduler: Rewrite the Sigma Schedule Before Sampling](../nano/wam/2026-07-25-wan21-flow-scheduler-set-timesteps.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-24 | output-head (advanced variant, conditioned final projection) | [Wan2.1 Head：最后一层也吃条件向量 / Wan2.1 Head: The Last Layer Is Conditioned Too](../nano/wam/2026-07-24-wan21-conditioned-output-head.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-23 | patchify-positional (advanced variant, 3D tubelet patch embedding) | [Open-Sora PatchEmbed3D：一次卷积把视频切成时空 token / Open-Sora PatchEmbed3D: One Convolution Turns Video into Spacetime Tokens](../nano/wam/2026-07-23-opensora-patch-embed3d.md) | [PKU-YuanGroup/Open-Sora](https://github.com/PKU-YuanGroup/Open-Sora) |
 | 2026-07-22 | temporal-compression (causal 3D convolution) | [Open-Sora CausalConv3d：时间维只向过去补 padding / Open-Sora CausalConv3d: Pad Time Only Toward the Past](../nano/wam/2026-07-22-open-sora-causal-3d-compression.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
