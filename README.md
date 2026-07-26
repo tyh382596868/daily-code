@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-26** · diffusion · [Cosmos Video2World：先把采样任务写成契约 / Cosmos Video2World: Write the Sampling Task as a Contract First](2026/07/2026-07-26-cosmos-video2world-inference-config.md) — `nvidia-cosmos/cosmos-predict2` (tracked)
+- **2026-07-26** · pytorch · [PyTorch pad_sequence：padding 也有左右方向 / PyTorch pad_sequence: Padding Has a Direction Too](2026/07/2026-07-26-pytorch-pad-sequence-padding-side.md) — `pytorch/pytorch`
+- **2026-07-26** · huggingface · [Diffusers FlowMatch Euler：一步就是沿速度场走一小段 / Diffusers FlowMatch Euler: One Step Walks Along the Velocity Field](2026/07/2026-07-26-diffusers-flowmatch-euler-step.md) — `huggingface/diffusers`
+- **2026-07-26** · vla · [LeRobot PolicyServer：把异步观测变成可控推理节拍 / LeRobot PolicyServer: Turn Async Observations into a Controlled Inference Beat](nano/vla/2026-07-26-lerobot-async-policy-server.md) — `huggingface/lerobot` (vla, inference-loop advanced variant)
+- **2026-07-26** · wam · [Open-Sora RFLOW：采样器负责时间表和 CFG 组合 / Open-Sora RFLOW: The Sampler Owns Timesteps and CFG Mixing](nano/wam/2026-07-26-open-sora-rflow-sampler.md) — `hpcaitech/Open-Sora` (wam, sampler-inference advanced variant)
+- **2026-07-26** · diffusion · [Diffusion Policy：动作序列也可以当成去噪对象 / Diffusion Policy: Treat the Action Sequence as the Denoising Target](2026/07/2026-07-26-diffusion-policy-action-diffusion.md) — `lucidrains/diffusion-policy` (trending)
 - **2026-07-25** · robotics · [LeRobot DatasetInfo：把机器人数据集元信息变成有类型契约 / LeRobot DatasetInfo: Turn Robot Dataset Metadata into a Typed Contract](2026/07/2026-07-25-lerobot-dataset-info-dataclass.md) — `huggingface/lerobot` (tracked)
 - **2026-07-25** · pytorch · [PyTorch MultiheadAttention：把两种 mask 展成同一张四维表 / PyTorch MultiheadAttention: Expand Two Masks into One 4D Table](2026/07/2026-07-25-pytorch-mha-merge-masks.md) — `pytorch/pytorch`
 - **2026-07-25** · huggingface · [nanoVLM VQA Collator：左 padding 文本，保留图像列表 / nanoVLM VQA Collator: Left-Pad Text and Keep Images as a List](2026/07/2026-07-25-nanovlm-vqa-collator-left-pad.md) — `huggingface/nanoVLM`

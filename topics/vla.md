@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-26 | inference-loop (advanced variant, async policy server) | [LeRobot PolicyServer：把异步观测变成可控推理节拍 / LeRobot PolicyServer: Turn Async Observations into a Controlled Inference Beat](../nano/vla/2026-07-26-lerobot-async-policy-server.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-25 | action-chunking (advanced variant, client-side broker) | [openpi ActionChunkBroker：一次推理，多步消费 / openpi ActionChunkBroker: Infer Once, Consume Many Steps](../nano/vla/2026-07-25-openpi-action-chunk-broker.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-24 | short-term-observation-memory (advanced variant, dataset slice windows) | [LeRobot Dataset slice：窗口读取复用单帧路径 / LeRobot Dataset Slice: Window Reads Reuse the Single-Frame Path](../nano/vla/2026-07-24-lerobot-dataset-slice-window.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-23 | training-step (advanced variant, task-to-prompt schema adapter) | [openpi PromptFromTask：把 task 字段变成语言条件 / openpi PromptFromTask: Turn the Task Field into Language Conditioning](../nano/vla/2026-07-23-openpi-prompt-from-task.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |

@@ -652,6 +652,13 @@
         "note": "nano/vla/2026-07-25-openpi-action-chunk-broker.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-07-26",
+        "note": "nano/vla/2026-07-26-lerobot-async-policy-server.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1292,6 +1299,13 @@
         "date": "2026-07-25",
         "note": "nano/wam/2026-07-25-wan21-flow-scheduler-set-timesteps.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-26",
+        "note": "nano/wam/2026-07-26-open-sora-rflow-sampler.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]

@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-26 | [PyTorch pad_sequence：padding 也有左右方向 / PyTorch pad_sequence: Padding Has a Direction Too](../2026/07/2026-07-26-pytorch-pad-sequence-padding-side.md) | `torch/nn/utils/rnn.py` |
 | 2026-07-25 | [PyTorch MultiheadAttention：把两种 mask 展成同一张四维表 / PyTorch MultiheadAttention: Expand Two Masks into One 4D Table](../2026/07/2026-07-25-pytorch-mha-merge-masks.md) | `torch/nn/modules/activation.py` |
 | 2026-07-24 | [PyTorch SpectralNorm：用 power iteration 管住权重尺度 / PyTorch SpectralNorm: Keep Weight Scale in Check with Power Iteration](../2026/07/2026-07-24-pytorch-spectral-norm-parametrization.md) | `torch/nn/utils/parametrizations.py` |
 | 2026-07-23 | [PyTorch LRScheduler：用 wrapper 抓住 step 调用顺序 / PyTorch LRScheduler: Catch Step Order with a Wrapper](../2026/07/2026-07-23-pytorch-lr-scheduler-step-guard.md) | `torch/optim/lr_scheduler.py` |

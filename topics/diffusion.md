@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-26 | [Cosmos Video2World：先把采样任务写成契约 / Cosmos Video2World: Write the Sampling Task as a Contract First](../2026/07/2026-07-26-cosmos-video2world-inference-config.md) | nvidia-cosmos/cosmos-predict2 |
+| 2026-07-26 | [Diffusion Policy：动作序列也可以当成去噪对象 / Diffusion Policy: Treat the Action Sequence as the Denoising Target](../2026/07/2026-07-26-diffusion-policy-action-diffusion.md) | lucidrains/diffusion-policy |
 | 2026-07-23 | [JEPA predictor：先给目标 token 加噪，再让上下文去修复 / JEPA Predictor: Noise the Target Tokens, Then Let Context Repair Them](../2026/07/2026-07-23-jepa-predictor-diffusion-target.md) | facebookresearch/jepa |
 | 2026-07-23 | [Ctrl-World：把机器人控制变成视频生成条件 / Ctrl-World: Turn Robot Control into Video-Generation Conditioning](../2026/07/2026-07-23-ctrl-world-action-mask-conditioning.md) | Robert-gyj/Ctrl-World |
 | 2026-07-20 | [DINOv3 RoPE attention：只旋转图像 token，保留 prefix / DINOv3 RoPE Attention: Rotate Image Tokens, Keep the Prefix](../2026/07/2026-07-20-dinov3-rope-attention.md) | facebookresearch/dinov3 |

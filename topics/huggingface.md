@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-26 | [Diffusers FlowMatch Euler：一步就是沿速度场走一小段 / Diffusers FlowMatch Euler: One Step Walks Along the Velocity Field](../2026/07/2026-07-26-diffusers-flowmatch-euler-step.md) | huggingface/diffusers |
 | 2026-07-25 | [nanoVLM VQA Collator：左 padding 文本，保留图像列表 / nanoVLM VQA Collator: Left-Pad Text and Keep Images as a List](../2026/07/2026-07-25-nanovlm-vqa-collator-left-pad.md) | huggingface/nanoVLM |
 | 2026-07-24 | [tokenizers AddedToken：原文匹配和规范化匹配分两棵树 / tokenizers AddedToken: Split Raw and Normalized Matching into Two Tries](../2026/07/2026-07-24-tokenizers-added-token-matcher.md) | huggingface/tokenizers |
 | 2026-07-23 | [Transformers Top-H：用熵决定保留多少候选 token / Transformers Top-H: Use Entropy to Decide How Many Tokens Survive](../2026/07/2026-07-23-transformers-toph-logits-warper.md) | huggingface/transformers |
