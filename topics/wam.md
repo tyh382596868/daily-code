@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-27 | vae-encoder-decoder (advanced variant, 2D/3D temporal resample) | [Wan2.1 Resample：同一层切换 2D 和 3D 时间缩放 / Wan2.1 Resample: One Layer Switches 2D and 3D Time Scaling](../nano/wam/2026-07-27-wan21-resample-2d-3d-switch.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-26 | sampler-inference (advanced variant, RFLOW + CFG loop) | [Open-Sora RFLOW：采样器负责时间表和 CFG 组合 / Open-Sora RFLOW: The Sampler Owns Timesteps and CFG Mixing](../nano/wam/2026-07-26-open-sora-rflow-sampler.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-07-25 | noise-scheduler (advanced variant, inference-time sigma reset) | [Wan2.1 Flow Scheduler：采样前先重写 sigma 时间表 / Wan2.1 Flow Scheduler: Rewrite the Sigma Schedule Before Sampling](../nano/wam/2026-07-25-wan21-flow-scheduler-set-timesteps.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-24 | output-head (advanced variant, conditioned final projection) | [Wan2.1 Head：最后一层也吃条件向量 / Wan2.1 Head: The Last Layer Is Conditioned Too](../nano/wam/2026-07-24-wan21-conditioned-output-head.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

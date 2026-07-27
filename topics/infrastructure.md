@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-27 | [vLLM CPU KV cache：按显存布局推导内存池 / vLLM CPU KV Cache: Derive the Host Pool from the GPU Layout](../2026/07/2026-07-27-vllm-cpu-kv-cache-config.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-27 | [OpenWorldLib Memory：把交互流收进统一记录表 / OpenWorldLib Memory: Store Interaction Streams as Uniform Records](../2026/07/2026-07-27-openworldlib-ai2thor-memory.md) | [OpenDCAI/OpenWorldLib](https://github.com/OpenDCAI/OpenWorldLib) |
 | 2026-07-24 | [torchtune RoPE cache：把旋转角提前烤好 / torchtune RoPE Cache: Bake Rotation Angles Ahead of Time](../2026/07/2026-07-24-torchtune-rope-cache.md) | [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) |
 | 2026-07-24 | [WorldFoundry Cosmos3：把动作推理写成任务契约 / WorldFoundry Cosmos3: Turn Action Inference into a Task Contract](../2026/07/2026-07-24-worldfoundry-cosmos3-action-profile.md) | [OpenEnvision/WorldFoundry](https://github.com/OpenEnvision/WorldFoundry) |
 | 2026-07-21 | [FlashAttention custom op：真实 kernel 和 fake shape 分开注册 / FlashAttention Custom Op: Register the Real Kernel and the Fake Shape Path Separately](../2026/07/2026-07-21-flash-attn-custom-op-fake.md) | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) |

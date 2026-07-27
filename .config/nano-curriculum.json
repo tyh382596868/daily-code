@@ -659,6 +659,13 @@
         "note": "nano/vla/2026-07-26-lerobot-async-policy-server.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-07-27",
+        "note": "nano/vla/2026-07-27-openpi-resize-with-pad-torch.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1306,6 +1313,13 @@
         "date": "2026-07-26",
         "note": "nano/wam/2026-07-26-open-sora-rflow-sampler.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-07-27",
+        "note": "nano/wam/2026-07-27-wan21-resample-2d-3d-switch.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

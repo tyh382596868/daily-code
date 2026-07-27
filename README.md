@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-27** · infrastructure · [vLLM CPU KV cache：按显存布局推导内存池 / vLLM CPU KV Cache: Derive the Host Pool from the GPU Layout](2026/07/2026-07-27-vllm-cpu-kv-cache-config.md) — `vllm-project/vllm` (tracked)
+- **2026-07-27** · pytorch · [PyTorch zero_grad：清空梯度也能批处理 / PyTorch zero_grad: Batch the Gradient Clearing Too](2026/07/2026-07-27-pytorch-optimizer-zero-grad-foreach.md) — `pytorch/pytorch` (pytorch)
+- **2026-07-27** · huggingface · [Accelerate accumulate：梯度同步是一个上下文选择 / Accelerate accumulate: Gradient Sync Is a Context Choice](2026/07/2026-07-27-accelerate-accumulate-no-sync.md) — `huggingface/accelerate` (huggingface)
+- **2026-07-27** · vla · [openpi resize_with_pad：视觉入口先守住长宽比 / openpi resize_with_pad: Preserve Aspect Ratio at the Vision Door](nano/vla/2026-07-27-openpi-resize-with-pad-torch.md) — `Physical-Intelligence/openpi` (vla, vision-encoder advanced variant)
+- **2026-07-27** · wam · [Wan2.1 Resample：同一层切换 2D 和 3D 时间缩放 / Wan2.1 Resample: One Layer Switches 2D and 3D Time Scaling](nano/wam/2026-07-27-wan21-resample-2d-3d-switch.md) — `Wan-Video/Wan2.1` (wam, vae-encoder-decoder advanced variant)
+- **2026-07-27** · infrastructure · [OpenWorldLib Memory：把交互流收进统一记录表 / OpenWorldLib Memory: Store Interaction Streams as Uniform Records](2026/07/2026-07-27-openworldlib-ai2thor-memory.md) — `OpenDCAI/OpenWorldLib` (trending)
 - **2026-07-26** · diffusion · [Cosmos Video2World：先把采样任务写成契约 / Cosmos Video2World: Write the Sampling Task as a Contract First](2026/07/2026-07-26-cosmos-video2world-inference-config.md) — `nvidia-cosmos/cosmos-predict2` (tracked)
 - **2026-07-26** · pytorch · [PyTorch pad_sequence：padding 也有左右方向 / PyTorch pad_sequence: Padding Has a Direction Too](2026/07/2026-07-26-pytorch-pad-sequence-padding-side.md) — `pytorch/pytorch`
 - **2026-07-26** · huggingface · [Diffusers FlowMatch Euler：一步就是沿速度场走一小段 / Diffusers FlowMatch Euler: One Step Walks Along the Velocity Field](2026/07/2026-07-26-diffusers-flowmatch-euler-step.md) — `huggingface/diffusers`
