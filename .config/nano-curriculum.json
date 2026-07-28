@@ -666,6 +666,13 @@
         "note": "nano/vla/2026-07-27-openpi-resize-with-pad-torch.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-28",
+        "note": "nano/vla/2026-07-28-lerobot-data-processor-pipeline.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1320,6 +1327,13 @@
         "date": "2026-07-27",
         "note": "nano/wam/2026-07-27-wan21-resample-2d-3d-switch.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-07-28",
+        "note": "nano/wam/2026-07-28-fastwam-dual-noise-training-loss.md",
+        "repo": "yuantianyuan01/FastWAM",
         "via": "wam"
       }
     ]

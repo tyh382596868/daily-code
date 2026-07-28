@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-28 | [Datasets shuffle buffer：流式数据也能近似打乱 / Datasets Shuffle Buffer: Approximate Shuffle for Streams](../2026/07/2026-07-28-datasets-buffer-shuffled-iterable.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |
 | 2026-07-27 | [Accelerate accumulate：梯度同步是一个上下文选择 / Accelerate accumulate: Gradient Sync Is a Context Choice](../2026/07/2026-07-27-accelerate-accumulate-no-sync.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-07-26 | [Diffusers FlowMatch Euler：一步就是沿速度场走一小段 / Diffusers FlowMatch Euler: One Step Walks Along the Velocity Field](../2026/07/2026-07-26-diffusers-flowmatch-euler-step.md) | huggingface/diffusers |
 | 2026-07-25 | [nanoVLM VQA Collator：左 padding 文本，保留图像列表 / nanoVLM VQA Collator: Left-Pad Text and Keep Images as a List](../2026/07/2026-07-25-nanovlm-vqa-collator-left-pad.md) | huggingface/nanoVLM |

@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-28 | [LeRobot delta action：把手柄增量变成机器人目标 / LeRobot Delta Action: Turn Teleop Deltas into Robot Targets](../2026/07/2026-07-28-lerobot-delta-action-processor.md) | huggingface/lerobot |
+| 2026-07-28 | [oomwoo RecoveryController：安全恢复要有阶梯 / oomwoo RecoveryController: Safety Recovery Needs a Ladder](../2026/07/2026-07-28-oomwoo-recovery-controller.md) | makerspet/oomwoo |
 | 2026-07-25 | [LeRobot DatasetInfo：把机器人数据集元信息变成有类型契约 / LeRobot DatasetInfo: Turn Robot Dataset Metadata into a Typed Contract](../2026/07/2026-07-25-lerobot-dataset-info-dataclass.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-25 | [Neuracore DataStream：把机器人传感器流做成可停止的生命周期 / Neuracore DataStream: Give Robot Sensor Streams a Stoppable Lifecycle](../2026/07/2026-07-25-neuracore-data-stream-lifecycle.md) | [NeuracoreAI/neuracore](https://github.com/NeuracoreAI/neuracore) |
 | 2026-07-22 | [Isaac-GR00T ActionChunk：同一段动作可以变成相对量或逐步增量 / Isaac-GR00T ActionChunk: One Action Chunk Can Become Relative Poses or Step Deltas](../2026/07/2026-07-22-groot-actionchunk-relative-delta.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |

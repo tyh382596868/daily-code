@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-28 | [PyTorch scatter：递归拆开嵌套 batch / PyTorch scatter: Recursively Split a Nested Batch](../2026/07/2026-07-28-pytorch-scatter-gather-recursive.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) |
 | 2026-07-27 | [PyTorch zero_grad：清空梯度也能批处理 / PyTorch zero_grad: Batch the Gradient Clearing Too](../2026/07/2026-07-27-pytorch-optimizer-zero-grad-foreach.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) |
 | 2026-07-26 | [PyTorch pad_sequence：padding 也有左右方向 / PyTorch pad_sequence: Padding Has a Direction Too](../2026/07/2026-07-26-pytorch-pad-sequence-padding-side.md) | `torch/nn/utils/rnn.py` |
 | 2026-07-25 | [PyTorch MultiheadAttention：把两种 mask 展成同一张四维表 / PyTorch MultiheadAttention: Expand Two Masks into One 4D Table](../2026/07/2026-07-25-pytorch-mha-merge-masks.md) | `torch/nn/modules/activation.py` |

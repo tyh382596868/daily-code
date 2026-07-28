@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-07-28 | robotics | [LeRobot delta action：把手柄增量变成机器人目标 / LeRobot Delta Action: Turn Teleop Deltas into Robot Targets](2026/07/2026-07-28-lerobot-delta-action-processor.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
+| 2026-07-28 | pytorch | [PyTorch scatter：递归拆开嵌套 batch / PyTorch scatter: Recursively Split a Nested Batch](2026/07/2026-07-28-pytorch-scatter-gather-recursive.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-07-28 | huggingface | [Datasets shuffle buffer：流式数据也能近似打乱 / Datasets Shuffle Buffer: Approximate Shuffle for Streams](2026/07/2026-07-28-datasets-buffer-shuffled-iterable.md) | [huggingface/datasets](https://github.com/huggingface/datasets) (huggingface) |
+| 2026-07-28 | vla | [LeRobot ProcessorPipeline：把 VLA 数据流做成链 / LeRobot ProcessorPipeline: Make the VLA Data Flow a Chain](nano/vla/2026-07-28-lerobot-data-processor-pipeline.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, training-step advanced variant) |
+| 2026-07-28 | wam | [FastWAM training_loss：视频和动作各自加噪再一起预测 / FastWAM training_loss: Noise Video and Action Separately, Predict Them Together](nano/wam/2026-07-28-fastwam-dual-noise-training-loss.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) (wam, training-loop advanced variant) |
+| 2026-07-28 | robotics | [oomwoo RecoveryController：安全恢复要有阶梯 / oomwoo RecoveryController: Safety Recovery Needs a Ladder](2026/07/2026-07-28-oomwoo-recovery-controller.md) | [makerspet/oomwoo](https://github.com/makerspet/oomwoo) (trending) |
 | 2026-07-27 | infrastructure | [vLLM CPU KV cache：按显存布局推导内存池 / vLLM CPU KV Cache: Derive the Host Pool from the GPU Layout](2026/07/2026-07-27-vllm-cpu-kv-cache-config.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
 | 2026-07-27 | pytorch | [PyTorch zero_grad：清空梯度也能批处理 / PyTorch zero_grad: Batch the Gradient Clearing Too](2026/07/2026-07-27-pytorch-optimizer-zero-grad-foreach.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-07-27 | huggingface | [Accelerate accumulate：梯度同步是一个上下文选择 / Accelerate accumulate: Gradient Sync Is a Context Choice](2026/07/2026-07-27-accelerate-accumulate-no-sync.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |
