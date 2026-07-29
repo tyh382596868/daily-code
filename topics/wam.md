@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-29 | sampler-inference (advanced variant, action-only cached video inference) | [FastWAM infer_action：缓存视频，只采样动作 / FastWAM infer_action: Cache Video, Sample Only Actions](../nano/wam/2026-07-29-fastwam-action-only-inference.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-28 | training-loop (advanced variant, dual video/action denoising loss) | [FastWAM training_loss：视频和动作各自加噪再一起预测 / FastWAM training_loss: Noise Video and Action Separately, Predict Them Together](../nano/wam/2026-07-28-fastwam-dual-noise-training-loss.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-07-27 | vae-encoder-decoder (advanced variant, 2D/3D temporal resample) | [Wan2.1 Resample：同一层切换 2D 和 3D 时间缩放 / Wan2.1 Resample: One Layer Switches 2D and 3D Time Scaling](../nano/wam/2026-07-27-wan21-resample-2d-3d-switch.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-07-26 | sampler-inference (advanced variant, RFLOW + CFG loop) | [Open-Sora RFLOW：采样器负责时间表和 CFG 组合 / Open-Sora RFLOW: The Sampler Owns Timesteps and CFG Mixing](../nano/wam/2026-07-26-open-sora-rflow-sampler.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |

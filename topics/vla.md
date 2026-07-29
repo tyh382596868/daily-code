@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-29 | action-head-continuous (advanced variant, action-space registry) | [XVLA action space：让动作 head 有机器人语义 / XVLA Action Spaces: Give the Action Head Robot Semantics](../nano/vla/2026-07-29-xvla-action-space-registry.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-28 | training-step (advanced variant, serializable processor chain) | [LeRobot ProcessorPipeline：把 VLA 数据流做成链 / LeRobot ProcessorPipeline: Make the VLA Data Flow a Chain](../nano/vla/2026-07-28-lerobot-data-processor-pipeline.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-27 | vision-encoder (advanced variant, openpi torch resize-with-pad) | [openpi resize_with_pad：视觉入口先守住长宽比 / openpi resize_with_pad: Preserve Aspect Ratio at the Vision Door](../nano/vla/2026-07-27-openpi-resize-with-pad-torch.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-26 | inference-loop (advanced variant, async policy server) | [LeRobot PolicyServer：把异步观测变成可控推理节拍 / LeRobot PolicyServer: Turn Async Observations into a Controlled Inference Beat](../nano/vla/2026-07-26-lerobot-async-policy-server.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

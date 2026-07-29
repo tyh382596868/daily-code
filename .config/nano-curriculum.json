@@ -673,6 +673,13 @@
         "note": "nano/vla/2026-07-28-lerobot-data-processor-pipeline.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-07-29",
+        "note": "nano/vla/2026-07-29-xvla-action-space-registry.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1334,6 +1341,13 @@
         "date": "2026-07-28",
         "note": "nano/wam/2026-07-28-fastwam-dual-noise-training-loss.md",
         "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-29",
+        "note": "nano/wam/2026-07-29-fastwam-action-only-inference.md",
+        "repo": "huggingface/lerobot",
         "via": "wam"
       }
     ]

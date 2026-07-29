@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-29 | [vLLM MultiConnector：多个 KV 后端像一个后端 / vLLM MultiConnector: Make Many KV Backends Look Like One](../2026/07/2026-07-29-vllm-multi-kv-connector.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-07-29 | [code-review-graph hybrid_search：先排序，再让 agent 读代码 / code-review-graph hybrid_search: Rank First, Let the Agent Read Later](../2026/07/2026-07-29-code-review-graph-hybrid-search.md) | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) |
 | 2026-07-27 | [vLLM CPU KV cache：按显存布局推导内存池 / vLLM CPU KV Cache: Derive the Host Pool from the GPU Layout](../2026/07/2026-07-27-vllm-cpu-kv-cache-config.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-07-27 | [OpenWorldLib Memory：把交互流收进统一记录表 / OpenWorldLib Memory: Store Interaction Streams as Uniform Records](../2026/07/2026-07-27-openworldlib-ai2thor-memory.md) | [OpenDCAI/OpenWorldLib](https://github.com/OpenDCAI/OpenWorldLib) |
 | 2026-07-24 | [torchtune RoPE cache：把旋转角提前烤好 / torchtune RoPE Cache: Bake Rotation Angles Ahead of Time](../2026/07/2026-07-24-torchtune-rope-cache.md) | [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) |

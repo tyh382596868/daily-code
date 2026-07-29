@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-29** · infrastructure · [vLLM MultiConnector：多个 KV 后端像一个后端 / vLLM MultiConnector: Make Many KV Backends Look Like One](2026/07/2026-07-29-vllm-multi-kv-connector.md) — `vllm-project/vllm` (tracked)
+- **2026-07-29** · pytorch · [PyTorch Dynamo backend：字符串最后要变成 callable / PyTorch Dynamo Backends: Strings Eventually Become Callables](2026/07/2026-07-29-pytorch-dynamo-backend-registry.md) — `pytorch/pytorch` (pytorch)
+- **2026-07-29** · huggingface · [PEFT UniLora：用索引表拼出 LoRA 矩阵 / PEFT UniLora: Rebuild LoRA Matrices from Index Tables](2026/07/2026-07-29-peft-unilora-indexed-matrices.md) — `huggingface/peft` (huggingface)
+- **2026-07-29** · vla · [XVLA action space：让动作 head 有机器人语义 / XVLA Action Spaces: Give the Action Head Robot Semantics](nano/vla/2026-07-29-xvla-action-space-registry.md) — `huggingface/lerobot` (vla, action-head-continuous advanced variant)
+- **2026-07-29** · wam · [FastWAM infer_action：缓存视频，只采样动作 / FastWAM infer_action: Cache Video, Sample Only Actions](nano/wam/2026-07-29-fastwam-action-only-inference.md) — `huggingface/lerobot` (wam, sampler-inference advanced variant)
+- **2026-07-29** · infrastructure · [code-review-graph hybrid_search：先排序，再让 agent 读代码 / code-review-graph hybrid_search: Rank First, Let the Agent Read Later](2026/07/2026-07-29-code-review-graph-hybrid-search.md) — `tirth8205/code-review-graph` (trending)
 - **2026-07-28** · robotics · [LeRobot delta action：把手柄增量变成机器人目标 / LeRobot Delta Action: Turn Teleop Deltas into Robot Targets](2026/07/2026-07-28-lerobot-delta-action-processor.md) — `huggingface/lerobot` (tracked)
 - **2026-07-28** · pytorch · [PyTorch scatter：递归拆开嵌套 batch / PyTorch scatter: Recursively Split a Nested Batch](2026/07/2026-07-28-pytorch-scatter-gather-recursive.md) — `pytorch/pytorch` (pytorch)
 - **2026-07-28** · huggingface · [Datasets shuffle buffer：流式数据也能近似打乱 / Datasets Shuffle Buffer: Approximate Shuffle for Streams](2026/07/2026-07-28-datasets-buffer-shuffled-iterable.md) — `huggingface/datasets` (huggingface)
