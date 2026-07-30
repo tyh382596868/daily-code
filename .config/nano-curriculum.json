@@ -680,6 +680,13 @@
         "note": "nano/vla/2026-07-29-xvla-action-space-registry.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-07-30",
+        "note": "nano/vla/2026-07-30-molmoact2-dct-action-tokenizer.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1347,6 +1354,13 @@
         "id": "sampler-inference",
         "date": "2026-07-29",
         "note": "nano/wam/2026-07-29-fastwam-action-only-inference.md",
+        "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-07-30",
+        "note": "nano/wam/2026-07-30-fastwam-action-toggle-processor.md",
         "repo": "huggingface/lerobot",
         "via": "wam"
       }

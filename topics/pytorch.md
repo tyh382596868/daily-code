@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-07-30 | [PyTorch register_buffer：状态不是参数也要被模块管理 / PyTorch register_buffer: State Without Parameters Still Belongs to the Module](../2026/07/2026-07-30-pytorch-register-buffer.md) | pytorch/pytorch |
 | 2026-07-29 | [PyTorch Dynamo backend：字符串最后要变成 callable / PyTorch Dynamo Backends: Strings Eventually Become Callables](../2026/07/2026-07-29-pytorch-dynamo-backend-registry.md) | `torch/_dynamo/backends/registry.py` |
 | 2026-07-28 | [PyTorch scatter：递归拆开嵌套 batch / PyTorch scatter: Recursively Split a Nested Batch](../2026/07/2026-07-28-pytorch-scatter-gather-recursive.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) |
 | 2026-07-27 | [PyTorch zero_grad：清空梯度也能批处理 / PyTorch zero_grad: Batch the Gradient Clearing Too](../2026/07/2026-07-27-pytorch-optimizer-zero-grad-foreach.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) |

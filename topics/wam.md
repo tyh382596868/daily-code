@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-07-30 | action-conditioning (advanced variant, action toggle postprocess) | [FastWAM action toggle：把连续输出接到 LIBERO 开关语义 / FastWAM Action Toggle: Attach Continuous Outputs to LIBERO Toggle Semantics](../nano/wam/2026-07-30-fastwam-action-toggle-processor.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-29 | sampler-inference (advanced variant, action-only cached video inference) | [FastWAM infer_action：缓存视频，只采样动作 / FastWAM infer_action: Cache Video, Sample Only Actions](../nano/wam/2026-07-29-fastwam-action-only-inference.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-28 | training-loop (advanced variant, dual video/action denoising loss) | [FastWAM training_loss：视频和动作各自加噪再一起预测 / FastWAM training_loss: Noise Video and Action Separately, Predict Them Together](../nano/wam/2026-07-28-fastwam-dual-noise-training-loss.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-07-27 | vae-encoder-decoder (advanced variant, 2D/3D temporal resample) | [Wan2.1 Resample：同一层切换 2D 和 3D 时间缩放 / Wan2.1 Resample: One Layer Switches 2D and 3D Time Scaling](../nano/wam/2026-07-27-wan21-resample-2d-3d-switch.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

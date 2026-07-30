@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-07-30** · robotics · [LeRobot phone teleop：手机坐标要翻译成机器人动作 / LeRobot Phone Teleop: Translate Phone Pose into Robot Actions](2026/07/2026-07-30-lerobot-phone-teleop-action-map.md) — `huggingface/lerobot` (tracked)
+- **2026-07-30** · pytorch · [PyTorch register_buffer：状态不是参数也要被模块管理 / PyTorch register_buffer: State Without Parameters Still Belongs to the Module](2026/07/2026-07-30-pytorch-register-buffer.md) — `pytorch/pytorch` (pytorch)
+- **2026-07-30** · huggingface · [TRL reference model：冻结一份策略作比较 / TRL Reference Model: Freeze a Policy for Comparison](2026/07/2026-07-30-trl-create-reference-model.md) — `huggingface/trl` (huggingface)
+- **2026-07-30** · vla · [MolmoAct2 action tokenizer：先做 DCT，再交给 BPE / MolmoAct2 Action Tokenizer: DCT First, BPE Second](nano/vla/2026-07-30-molmoact2-dct-action-tokenizer.md) — `huggingface/lerobot` (vla, action-tokenizer advanced variant)
+- **2026-07-30** · wam · [FastWAM action toggle：把连续输出接到 LIBERO 开关语义 / FastWAM Action Toggle: Attach Continuous Outputs to LIBERO Toggle Semantics](nano/wam/2026-07-30-fastwam-action-toggle-processor.md) — `huggingface/lerobot` (wam, action-conditioning advanced variant)
+- **2026-07-30** · robotics · [lidar_slam_ros2 map policy：地图更新先变成小判定 / lidar_slam_ros2 Map Policy: Turn Map Updates into Small Decisions](2026/07/2026-07-30-lidar-slam-map-update-policy.md) — `rsasaki0109/lidar_slam_ros2` (trending)
 - **2026-07-29** · infrastructure · [vLLM MultiConnector：多个 KV 后端像一个后端 / vLLM MultiConnector: Make Many KV Backends Look Like One](2026/07/2026-07-29-vllm-multi-kv-connector.md) — `vllm-project/vllm` (tracked)
 - **2026-07-29** · pytorch · [PyTorch Dynamo backend：字符串最后要变成 callable / PyTorch Dynamo Backends: Strings Eventually Become Callables](2026/07/2026-07-29-pytorch-dynamo-backend-registry.md) — `pytorch/pytorch` (pytorch)
 - **2026-07-29** · huggingface · [PEFT UniLora：用索引表拼出 LoRA 矩阵 / PEFT UniLora: Rebuild LoRA Matrices from Index Tables](2026/07/2026-07-29-peft-unilora-indexed-matrices.md) — `huggingface/peft` (huggingface)

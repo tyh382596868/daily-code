@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-30 | [LeRobot phone teleop：手机坐标要翻译成机器人动作 / LeRobot Phone Teleop: Translate Phone Pose into Robot Actions](../2026/07/2026-07-30-lerobot-phone-teleop-action-map.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
+| 2026-07-30 | [lidar_slam_ros2 map policy：地图更新先变成小判定 / lidar_slam_ros2 Map Policy: Turn Map Updates into Small Decisions](../2026/07/2026-07-30-lidar-slam-map-update-policy.md) | [rsasaki0109/lidar_slam_ros2](https://github.com/rsasaki0109/lidar_slam_ros2) |
 | 2026-07-28 | [LeRobot delta action：把手柄增量变成机器人目标 / LeRobot Delta Action: Turn Teleop Deltas into Robot Targets](../2026/07/2026-07-28-lerobot-delta-action-processor.md) | huggingface/lerobot |
 | 2026-07-28 | [oomwoo RecoveryController：安全恢复要有阶梯 / oomwoo RecoveryController: Safety Recovery Needs a Ladder](../2026/07/2026-07-28-oomwoo-recovery-controller.md) | makerspet/oomwoo |
 | 2026-07-25 | [LeRobot DatasetInfo：把机器人数据集元信息变成有类型契约 / LeRobot DatasetInfo: Turn Robot Dataset Metadata into a Typed Contract](../2026/07/2026-07-25-lerobot-dataset-info-dataclass.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
