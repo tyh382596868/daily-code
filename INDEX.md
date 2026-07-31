@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-07-31 | diffusion | [Wan2.1 CausalConv3d：视频 VAE 只看过去 / Wan2.1 CausalConv3d: A Video VAE Looks Only Backward](2026/07/2026-07-31-wan21-causal-conv-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (tracked) |
+| 2026-07-31 | pytorch | [PyTorch _call_impl：一次 forward 要穿过 hook 门厅 / PyTorch _call_impl: A Forward Pass Walks Through the Hook Lobby](2026/07/2026-07-31-pytorch-module-call-hooks.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-07-31 | huggingface | [tokenizers truncation：max_length 最后会变成两段预算 / tokenizers Truncation: max_length Becomes Two Budgets](2026/07/2026-07-31-tokenizers-truncate-encodings.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) (huggingface) |
+| 2026-07-31 | vla | [openpi FSQ codebook：把连续向量写成混合进制 token / openpi FSQ Codebook: Write Continuous Vectors as Mixed-Radix Tokens](nano/vla/2026-07-31-openpi-fsq-codebook.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (vla, action-tokenizer advanced variant) |
+| 2026-07-31 | wam | [Open-Sora channel chunk Conv3d：卷积不变，只把通道分块 / Open-Sora Channel-Chunk Conv3d: Same Convolution, Split Channels](nano/wam/2026-07-31-open-sora-channel-chunk-conv3d.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) (wam, vae-encoder-decoder advanced variant) |
+| 2026-07-31 | diffusion | [FireRed OpenStoryline：把视频片段采成 VLM 证据 / FireRed OpenStoryline: Sample a Video Segment into VLM Evidence](2026/07/2026-07-31-firered-video-segment-sampling.md) | [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) (trending) |
 | 2026-07-30 | robotics | [LeRobot phone teleop：手机坐标要翻译成机器人动作 / LeRobot Phone Teleop: Translate Phone Pose into Robot Actions](2026/07/2026-07-30-lerobot-phone-teleop-action-map.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
 | 2026-07-30 | pytorch | [PyTorch register_buffer：状态不是参数也要被模块管理 / PyTorch register_buffer: State Without Parameters Still Belongs to the Module](2026/07/2026-07-30-pytorch-register-buffer.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-07-30 | huggingface | [TRL reference model：冻结一份策略作比较 / TRL Reference Model: Freeze a Policy for Comparison](2026/07/2026-07-30-trl-create-reference-model.md) | [huggingface/trl](https://github.com/huggingface/trl) (huggingface) |

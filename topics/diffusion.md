@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-07-31 | [Wan2.1 CausalConv3d：视频 VAE 只看过去 / Wan2.1 CausalConv3d: A Video VAE Looks Only Backward](../2026/07/2026-07-31-wan21-causal-conv-cache.md) | Wan-Video/Wan2.1 |
+| 2026-07-31 | [FireRed OpenStoryline：把视频片段采成 VLM 证据 / FireRed OpenStoryline: Sample a Video Segment into VLM Evidence](../2026/07/2026-07-31-firered-video-segment-sampling.md) | FireRedTeam/FireRed-OpenStoryline |
 | 2026-07-26 | [Cosmos Video2World：先把采样任务写成契约 / Cosmos Video2World: Write the Sampling Task as a Contract First](../2026/07/2026-07-26-cosmos-video2world-inference-config.md) | nvidia-cosmos/cosmos-predict2 |
 | 2026-07-26 | [Diffusion Policy：动作序列也可以当成去噪对象 / Diffusion Policy: Treat the Action Sequence as the Denoising Target](../2026/07/2026-07-26-diffusion-policy-action-diffusion.md) | lucidrains/diffusion-policy |
 | 2026-07-23 | [JEPA predictor：先给目标 token 加噪，再让上下文去修复 / JEPA Predictor: Noise the Target Tokens, Then Let Context Repair Them](../2026/07/2026-07-23-jepa-predictor-diffusion-target.md) | facebookresearch/jepa |

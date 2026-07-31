@@ -687,6 +687,13 @@
         "note": "nano/vla/2026-07-30-molmoact2-dct-action-tokenizer.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-07-31",
+        "note": "nano/vla/2026-07-31-openpi-fsq-codebook.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1362,6 +1369,13 @@
         "date": "2026-07-30",
         "note": "nano/wam/2026-07-30-fastwam-action-toggle-processor.md",
         "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-07-31",
+        "note": "nano/wam/2026-07-31-open-sora-channel-chunk-conv3d.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]
