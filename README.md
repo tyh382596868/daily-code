@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-03** · diffusion · [DiT sin/cos 位置编码：把二维网格切成两把频率尺 / DiT Sin/Cos Position Embedding: Split a 2D Grid into Two Frequency Rulers](2026/08/2026-08-03-dit-sincos-pos-embed.md) — `facebookresearch/DiT` (tracked)
+- **2026-08-03** · pytorch · [PyTorch pack_padded_sequence：变长序列先排序再压紧 / PyTorch pack_padded_sequence: Sort Variable-Length Sequences, Then Pack Them](2026/08/2026-08-03-pytorch-pack-padded-sequence.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-03** · huggingface · [Diffusers randn_tensor：随机噪声也要管 device / Diffusers randn_tensor: Random Noise Has Device Rules Too](2026/08/2026-08-03-diffusers-randn-tensor.md) — `huggingface/diffusers` (huggingface)
+- **2026-08-03** · vla · [openpi pi0 suffix embedding：动作、状态和时间步要先变成 token / openpi pi0 Suffix Embedding: Turn Action, State, and Time into Tokens First](nano/vla/2026-08-03-openpi-pi0-suffix-embedding.md) — `Physical-Intelligence/openpi` (vla, action-head-continuous advanced variant, suffix embedding for state/action/time tokens)
+- **2026-08-03** · wam · [Wan2.1 VAE attention：每一帧内部做空间自注意力 / Wan2.1 VAE Attention: Run Spatial Self-Attention Inside Each Frame](nano/wam/2026-08-03-wan21-vae-spatial-attention.md) — `Wan-Video/Wan2.1` (wam, vae-encoder-decoder advanced variant, framewise spatial attention inside the video VAE)
+- **2026-08-03** · diffusion · [loushang MethodProjector：把方法步骤投影成可执行提示 / loushang MethodProjector: Project a Method Step into Executable Guidance](2026/08/2026-08-03-loushang-method-projector.md) — `zhnt/loushang` (trending)
 - **2026-08-01** · infrastructure · [vLLM hybrid KV connector：先问外部缓存，再分配本地 block / vLLM Hybrid KV Connector: Ask External Cache Before Allocating Local Blocks](2026/08/2026-08-01-vllm-hybrid-kv-connector.md) — `vllm-project/vllm` (tracked)
 - **2026-08-01** · pytorch · [PyTorch ChainedScheduler：多个学习率调度器串起来走 / PyTorch ChainedScheduler: Step Several LR Schedulers in Sequence](2026/08/2026-08-01-pytorch-chained-scheduler.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-01** · huggingface · [Transformers repetition penalty：重复 token 的分数要按符号处理 / Transformers Repetition Penalty: Penalize Reused Tokens by Score Sign](2026/08/2026-08-01-transformers-repetition-penalty.md) — `huggingface/transformers` (huggingface)

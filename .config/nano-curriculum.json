@@ -701,6 +701,13 @@
         "note": "nano/vla/2026-08-01-lerobot-pi0-denoise-loop.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-08-03",
+        "note": "nano/vla/2026-08-03-openpi-pi0-suffix-embedding.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1390,6 +1397,13 @@
         "date": "2026-08-01",
         "note": "nano/wam/2026-08-01-fastwam-video-loss-mask.md",
         "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-08-03",
+        "note": "nano/wam/2026-08-03-wan21-vae-spatial-attention.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-08-03 | [PyTorch pack_padded_sequence：变长序列先排序再压紧 / PyTorch pack_padded_sequence: Sort Variable-Length Sequences, Then Pack Them](../2026/08/2026-08-03-pytorch-pack-padded-sequence.md) | `torch/nn/utils/rnn.py` |
 | 2026-08-01 | [PyTorch ChainedScheduler：多个学习率调度器串起来走 / PyTorch ChainedScheduler: Step Several LR Schedulers in Sequence](../2026/08/2026-08-01-pytorch-chained-scheduler.md) | `torch/optim/lr_scheduler.py` |
 | 2026-07-31 | [PyTorch _call_impl：一次 forward 要穿过 hook 门厅 / PyTorch _call_impl: A Forward Pass Walks Through the Hook Lobby](../2026/07/2026-07-31-pytorch-module-call-hooks.md) | `torch/nn/modules/module.py` |
 | 2026-07-30 | [PyTorch register_buffer：状态不是参数也要被模块管理 / PyTorch register_buffer: State Without Parameters Still Belongs to the Module](../2026/07/2026-07-30-pytorch-register-buffer.md) | pytorch/pytorch |

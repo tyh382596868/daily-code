@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-03 | action-head-continuous (advanced variant, suffix embedding for state/action/time tokens) | [openpi pi0 suffix embedding：动作、状态和时间步要先变成 token / openpi pi0 Suffix Embedding: Turn Action, State, and Time into Tokens First](../nano/vla/2026-08-03-openpi-pi0-suffix-embedding.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-01 | inference-loop (advanced variant, iterative action denoising) | [LeRobot pi0 denoise loop：从纯噪声动作一路积分出来 / LeRobot pi0 Denoise Loop: Integrate Actions Out of Noise](../nano/vla/2026-08-01-lerobot-pi0-denoise-loop.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-31 | action-tokenizer (advanced variant, FSQ mixed-radix codebook) | [openpi FSQ codebook：把连续向量写成混合进制 token / openpi FSQ Codebook: Write Continuous Vectors as Mixed-Radix Tokens](../nano/vla/2026-07-31-openpi-fsq-codebook.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-07-30 | action-tokenizer (advanced variant, DCT+BPE action tokens) | [MolmoAct2 action tokenizer：先做 DCT，再交给 BPE / MolmoAct2 Action Tokenizer: DCT First, BPE Second](../nano/vla/2026-07-30-molmoact2-dct-action-tokenizer.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

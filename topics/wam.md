@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-03 | vae-encoder-decoder (advanced variant, framewise spatial attention) | [Wan2.1 VAE attention：每一帧内部做空间自注意力 / Wan2.1 VAE Attention: Run Spatial Self-Attention Inside Each Frame](../nano/wam/2026-08-03-wan21-vae-spatial-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-01 | training-loop (advanced variant, per-sample valid-latent loss mask) | [FastWAM video loss mask：只让有效 latent 参与平均 / FastWAM Video Loss Mask: Average Only Valid Latents](../nano/wam/2026-08-01-fastwam-video-loss-mask.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-07-31 | vae-encoder-decoder (advanced variant, channel-chunked Conv3d) | [Open-Sora channel chunk Conv3d：卷积不变，只把通道分块 / Open-Sora Channel-Chunk Conv3d: Same Convolution, Split Channels](../nano/wam/2026-07-31-open-sora-channel-chunk-conv3d.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-07-30 | action-conditioning (advanced variant, action toggle postprocess) | [FastWAM action toggle：把连续输出接到 LIBERO 开关语义 / FastWAM Action Toggle: Attach Continuous Outputs to LIBERO Toggle Semantics](../nano/wam/2026-07-30-fastwam-action-toggle-processor.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

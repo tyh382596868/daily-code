@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-03 | [loushang MethodProjector：把方法步骤投影成可执行提示 / loushang MethodProjector: Project a Method Step into Executable Guidance](../2026/08/2026-08-03-loushang-method-projector.md) | zhnt/loushang |
+| 2026-08-03 | [DiT sin/cos 位置编码：把二维网格切成两把频率尺 / DiT Sin/Cos Position Embedding: Split a 2D Grid into Two Frequency Rulers](../2026/08/2026-08-03-dit-sincos-pos-embed.md) | facebookresearch/DiT |
 | 2026-07-31 | [Wan2.1 CausalConv3d：视频 VAE 只看过去 / Wan2.1 CausalConv3d: A Video VAE Looks Only Backward](../2026/07/2026-07-31-wan21-causal-conv-cache.md) | Wan-Video/Wan2.1 |
 | 2026-07-31 | [FireRed OpenStoryline：把视频片段采成 VLM 证据 / FireRed OpenStoryline: Sample a Video Segment into VLM Evidence](../2026/07/2026-07-31-firered-video-segment-sampling.md) | FireRedTeam/FireRed-OpenStoryline |
 | 2026-07-26 | [Cosmos Video2World：先把采样任务写成契约 / Cosmos Video2World: Write the Sampling Task as a Contract First](../2026/07/2026-07-26-cosmos-video2world-inference-config.md) | nvidia-cosmos/cosmos-predict2 |
