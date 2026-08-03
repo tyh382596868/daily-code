@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-01 | training-loop (advanced variant, per-sample valid-latent loss mask) | [FastWAM video loss mask：只让有效 latent 参与平均 / FastWAM Video Loss Mask: Average Only Valid Latents](../nano/wam/2026-08-01-fastwam-video-loss-mask.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-07-31 | vae-encoder-decoder (advanced variant, channel-chunked Conv3d) | [Open-Sora channel chunk Conv3d：卷积不变，只把通道分块 / Open-Sora Channel-Chunk Conv3d: Same Convolution, Split Channels](../nano/wam/2026-07-31-open-sora-channel-chunk-conv3d.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-07-30 | action-conditioning (advanced variant, action toggle postprocess) | [FastWAM action toggle：把连续输出接到 LIBERO 开关语义 / FastWAM Action Toggle: Attach Continuous Outputs to LIBERO Toggle Semantics](../nano/wam/2026-07-30-fastwam-action-toggle-processor.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-07-29 | sampler-inference (advanced variant, action-only cached video inference) | [FastWAM infer_action：缓存视频，只采样动作 / FastWAM infer_action: Cache Video, Sample Only Actions](../nano/wam/2026-07-29-fastwam-action-only-inference.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

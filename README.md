@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-01** · infrastructure · [vLLM hybrid KV connector：先问外部缓存，再分配本地 block / vLLM Hybrid KV Connector: Ask External Cache Before Allocating Local Blocks](2026/08/2026-08-01-vllm-hybrid-kv-connector.md) — `vllm-project/vllm` (tracked)
+- **2026-08-01** · pytorch · [PyTorch ChainedScheduler：多个学习率调度器串起来走 / PyTorch ChainedScheduler: Step Several LR Schedulers in Sequence](2026/08/2026-08-01-pytorch-chained-scheduler.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-01** · huggingface · [Transformers repetition penalty：重复 token 的分数要按符号处理 / Transformers Repetition Penalty: Penalize Reused Tokens by Score Sign](2026/08/2026-08-01-transformers-repetition-penalty.md) — `huggingface/transformers` (huggingface)
+- **2026-08-01** · vla · [LeRobot pi0 denoise loop：从纯噪声动作一路积分出来 / LeRobot pi0 Denoise Loop: Integrate Actions Out of Noise](nano/vla/2026-08-01-lerobot-pi0-denoise-loop.md) — `huggingface/lerobot` (vla, inference-loop (advanced variant, iterative action denoising))
+- **2026-08-01** · wam · [FastWAM video loss mask：只让有效 latent 参与平均 / FastWAM Video Loss Mask: Average Only Valid Latents](nano/wam/2026-08-01-fastwam-video-loss-mask.md) — `yuantianyuan01/FastWAM` (wam, training-loop (advanced variant, per-sample valid-latent loss mask))
+- **2026-08-01** · infrastructure · [OpenAI Agents Runner：同步 API 只是异步循环外壳 / OpenAI Agents Runner: The Sync API Is a Shell Around the Async Loop](2026/08/2026-08-01-openai-agents-runner.md) — `openai/openai-agents-python` (trending)
 - **2026-07-31** · diffusion · [Wan2.1 CausalConv3d：视频 VAE 只看过去 / Wan2.1 CausalConv3d: A Video VAE Looks Only Backward](2026/07/2026-07-31-wan21-causal-conv-cache.md) — `Wan-Video/Wan2.1` (tracked)
 - **2026-07-31** · pytorch · [PyTorch _call_impl：一次 forward 要穿过 hook 门厅 / PyTorch _call_impl: A Forward Pass Walks Through the Hook Lobby](2026/07/2026-07-31-pytorch-module-call-hooks.md) — `pytorch/pytorch` (pytorch)
 - **2026-07-31** · huggingface · [tokenizers truncation：max_length 最后会变成两段预算 / tokenizers Truncation: max_length Becomes Two Budgets](2026/07/2026-07-31-tokenizers-truncate-encodings.md) — `huggingface/tokenizers` (huggingface)

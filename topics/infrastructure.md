@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-01 | [vLLM hybrid KV connector：先问外部缓存，再分配本地 block / vLLM Hybrid KV Connector: Ask External Cache Before Allocating Local Blocks](../2026/08/2026-08-01-vllm-hybrid-kv-connector.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-08-01 | [OpenAI Agents Runner：同步 API 只是异步循环外壳 / OpenAI Agents Runner: The Sync API Is a Shell Around the Async Loop](../2026/08/2026-08-01-openai-agents-runner.md) | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) |
 | 2026-07-29 | [vLLM MultiConnector：多个 KV 后端像一个后端 / vLLM MultiConnector: Make Many KV Backends Look Like One](../2026/07/2026-07-29-vllm-multi-kv-connector.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-07-29 | [code-review-graph hybrid_search：先排序，再让 agent 读代码 / code-review-graph hybrid_search: Rank First, Let the Agent Read Later](../2026/07/2026-07-29-code-review-graph-hybrid-search.md) | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) |
 | 2026-07-27 | [vLLM CPU KV cache：按显存布局推导内存池 / vLLM CPU KV Cache: Derive the Host Pool from the GPU Layout](../2026/07/2026-07-27-vllm-cpu-kv-cache-config.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-01 | [Transformers repetition penalty：重复 token 的分数要按符号处理 / Transformers Repetition Penalty: Penalize Reused Tokens by Score Sign](../2026/08/2026-08-01-transformers-repetition-penalty.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-07-31 | [tokenizers truncation：max_length 最后会变成两段预算 / tokenizers Truncation: max_length Becomes Two Budgets](../2026/07/2026-07-31-tokenizers-truncate-encodings.md) | huggingface/tokenizers |
 | 2026-07-30 | [TRL reference model：冻结一份策略作比较 / TRL Reference Model: Freeze a Policy for Comparison](../2026/07/2026-07-30-trl-create-reference-model.md) | huggingface/trl |
 | 2026-07-29 | [PEFT UniLora：用索引表拼出 LoRA 矩阵 / PEFT UniLora: Rebuild LoRA Matrices from Index Tables](../2026/07/2026-07-29-peft-unilora-indexed-matrices.md) | [huggingface/peft](https://github.com/huggingface/peft) |
