@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-04 | [Accelerate RNG sync：随机数状态也要广播 / Accelerate RNG Sync: Broadcast the Random State Too](../2026/08/2026-08-04-accelerate-rng-state-sync.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-08-03 | [Diffusers randn_tensor：随机噪声也要管 device / Diffusers randn_tensor: Random Noise Has Device Rules Too](../2026/08/2026-08-03-diffusers-randn-tensor.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-08-01 | [Transformers repetition penalty：重复 token 的分数要按符号处理 / Transformers Repetition Penalty: Penalize Reused Tokens by Score Sign](../2026/08/2026-08-01-transformers-repetition-penalty.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-07-31 | [tokenizers truncation：max_length 最后会变成两段预算 / tokenizers Truncation: max_length Becomes Two Budgets](../2026/07/2026-07-31-tokenizers-truncate-encodings.md) | huggingface/tokenizers |

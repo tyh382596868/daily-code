@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-04 | [FlashAttention unpad_input：先把有效 token 压紧 / FlashAttention unpad_input: Compact Valid Tokens First](../2026/08/2026-08-04-flash-attn-unpad-input.md) | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) |
+| 2026-08-04 | [MCP ToolManager：函数先变 Tool，再进注册表 / MCP ToolManager: Turn a Function into a Tool, Then Register It](../2026/08/2026-08-04-mcp-python-tool-manager.md) | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) |
 | 2026-08-01 | [vLLM hybrid KV connector：先问外部缓存，再分配本地 block / vLLM Hybrid KV Connector: Ask External Cache Before Allocating Local Blocks](../2026/08/2026-08-01-vllm-hybrid-kv-connector.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-08-01 | [OpenAI Agents Runner：同步 API 只是异步循环外壳 / OpenAI Agents Runner: The Sync API Is a Shell Around the Async Loop](../2026/08/2026-08-01-openai-agents-runner.md) | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) |
 | 2026-07-29 | [vLLM MultiConnector：多个 KV 后端像一个后端 / vLLM MultiConnector: Make Many KV Backends Look Like One](../2026/07/2026-07-29-vllm-multi-kv-connector.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

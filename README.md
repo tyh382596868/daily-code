@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-04** · infrastructure · [FlashAttention unpad_input：先把有效 token 压紧 / FlashAttention unpad_input: Compact Valid Tokens First](2026/08/2026-08-04-flash-attn-unpad-input.md) — `Dao-AILab/flash-attention` (tracked)
+- **2026-08-04** · pytorch · [PyTorch collate：递归拼 batch 前先查类型注册表 / PyTorch collate: Check the Type Registry Before Recursing a Batch](2026/08/2026-08-04-pytorch-collate-recursive-registry.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-04** · huggingface · [Accelerate RNG sync：随机数状态也要广播 / Accelerate RNG Sync: Broadcast the Random State Too](2026/08/2026-08-04-accelerate-rng-state-sync.md) — `huggingface/accelerate` (huggingface)
+- **2026-08-04** · vla · [LeRobot LingBot-VA keyframe buffer：执行动作时顺手攒观测 / LeRobot LingBot-VA Keyframe Buffer: Collect Observations While Executing Actions](nano/vla/2026-08-04-lerobot-lingbot-keyframe-buffer.md) — `huggingface/lerobot` (vla, short-term-observation-memory advanced variant)
+- **2026-08-04** · wam · [DreamZero action encoder：同一个 WAM 要听懂多种机器人 / DreamZero Action Encoder: One WAM Needs to Understand Many Robots](nano/wam/2026-08-04-dreamzero-multi-embodiment-action-encoder.md) — `dreamzero0/dreamzero` (wam, action-conditioning advanced variant)
+- **2026-08-04** · infrastructure · [MCP ToolManager：函数先变 Tool，再进注册表 / MCP ToolManager: Turn a Function into a Tool, Then Register It](2026/08/2026-08-04-mcp-python-tool-manager.md) — `modelcontextprotocol/python-sdk` (trending)
 - **2026-08-03** · diffusion · [DiT sin/cos 位置编码：把二维网格切成两把频率尺 / DiT Sin/Cos Position Embedding: Split a 2D Grid into Two Frequency Rulers](2026/08/2026-08-03-dit-sincos-pos-embed.md) — `facebookresearch/DiT` (tracked)
 - **2026-08-03** · pytorch · [PyTorch pack_padded_sequence：变长序列先排序再压紧 / PyTorch pack_padded_sequence: Sort Variable-Length Sequences, Then Pack Them](2026/08/2026-08-03-pytorch-pack-padded-sequence.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-03** · huggingface · [Diffusers randn_tensor：随机噪声也要管 device / Diffusers randn_tensor: Random Noise Has Device Rules Too](2026/08/2026-08-03-diffusers-randn-tensor.md) — `huggingface/diffusers` (huggingface)

@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-04 | action-conditioning (advanced variant, embodiment-specific action encoder) | [DreamZero action encoder：同一个 WAM 要听懂多种机器人 / DreamZero Action Encoder: One WAM Needs to Understand Many Robots](../nano/wam/2026-08-04-dreamzero-multi-embodiment-action-encoder.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-08-03 | vae-encoder-decoder (advanced variant, framewise spatial attention) | [Wan2.1 VAE attention：每一帧内部做空间自注意力 / Wan2.1 VAE Attention: Run Spatial Self-Attention Inside Each Frame](../nano/wam/2026-08-03-wan21-vae-spatial-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-01 | training-loop (advanced variant, per-sample valid-latent loss mask) | [FastWAM video loss mask：只让有效 latent 参与平均 / FastWAM Video Loss Mask: Average Only Valid Latents](../nano/wam/2026-08-01-fastwam-video-loss-mask.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-07-31 | vae-encoder-decoder (advanced variant, channel-chunked Conv3d) | [Open-Sora channel chunk Conv3d：卷积不变，只把通道分块 / Open-Sora Channel-Chunk Conv3d: Same Convolution, Split Channels](../nano/wam/2026-07-31-open-sora-channel-chunk-conv3d.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |

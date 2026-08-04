@@ -708,6 +708,13 @@
         "note": "nano/vla/2026-08-03-openpi-pi0-suffix-embedding.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "short-term-observation-memory",
+        "date": "2026-08-04",
+        "note": "nano/vla/2026-08-04-lerobot-lingbot-keyframe-buffer.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1404,6 +1411,13 @@
         "date": "2026-08-03",
         "note": "nano/wam/2026-08-03-wan21-vae-spatial-attention.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-04",
+        "note": "nano/wam/2026-08-04-dreamzero-multi-embodiment-action-encoder.md",
+        "repo": "dreamzero0/dreamzero",
         "via": "wam"
       }
     ]
