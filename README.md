@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-05** · robotics · [LeRobot Unitree 外骨骼 IK：先算腕部目标，再解机器人关节 / LeRobot Unitree Exo IK: Compute Wrist Targets, Then Solve Robot Joints](2026/08/2026-08-05-lerobot-unitree-exo-ik.md) — `huggingface/lerobot` (tracked)
+- **2026-08-05** · pytorch · [PyTorch Dynamo disable：跳过当前函数，还是跳过整棵调用树 / PyTorch Dynamo disable: Skip One Function or the Whole Call Tree](2026/08/2026-08-05-pytorch-dynamo-disable.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-05** · huggingface · [nanoVLM top-k/top-p：采样前先把候选 token 削薄 / nanoVLM top-k/top-p: Thin the Candidate Tokens Before Sampling](2026/08/2026-08-05-nanovlm-top-k-top-p-filtering.md) — `huggingface/nanoVLM` (huggingface)
+- **2026-08-05** · vla · [LeRobot GROOT AlternateVLDiT：动作 head 轮流看文字和图像 / LeRobot GROOT AlternateVLDiT: Let the Action Head Alternate Text and Image Attention](nano/vla/2026-08-05-lerobot-groot-alternate-vl-dit.md) — `huggingface/lerobot` (vla, action-head-continuous advanced variant)
+- **2026-08-05** · wam · [FastWAM Wan VAE adapter：raw latent 进出都要标准化 / FastWAM Wan VAE Adapter: Standardize Raw Latents on Both Sides](nano/wam/2026-08-05-fastwam-wan-vae-adapter.md) — `huggingface/lerobot` (wam, vae-encoder-decoder advanced variant)
+- **2026-08-05** · robotics · [MolmoSpaces pick-place：成功状态需要 carry-forward / MolmoSpaces Pick-Place: Success State Needs Carry-Forward](2026/08/2026-08-05-molmospaces-pick-place-carry-forward.md) — `allenai/molmospaces` (trending)
 - **2026-08-04** · infrastructure · [FlashAttention unpad_input：先把有效 token 压紧 / FlashAttention unpad_input: Compact Valid Tokens First](2026/08/2026-08-04-flash-attn-unpad-input.md) — `Dao-AILab/flash-attention` (tracked)
 - **2026-08-04** · pytorch · [PyTorch collate：递归拼 batch 前先查类型注册表 / PyTorch collate: Check the Type Registry Before Recursing a Batch](2026/08/2026-08-04-pytorch-collate-recursive-registry.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-04** · huggingface · [Accelerate RNG sync：随机数状态也要广播 / Accelerate RNG Sync: Broadcast the Random State Too](2026/08/2026-08-04-accelerate-rng-state-sync.md) — `huggingface/accelerate` (huggingface)

@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-05 | action-head-continuous (advanced variant, alternating image/text conditioning masks) | [LeRobot GROOT AlternateVLDiT：动作 head 轮流看文字和图像 / LeRobot GROOT AlternateVLDiT: Let the Action Head Alternate Text and Image Attention](../nano/vla/2026-08-05-lerobot-groot-alternate-vl-dit.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-04 | short-term-observation-memory (advanced variant, keyframe feedback during chunked inference) | [LeRobot LingBot-VA keyframe buffer：执行动作时顺手攒观测 / LeRobot LingBot-VA Keyframe Buffer: Collect Observations While Executing Actions](../nano/vla/2026-08-04-lerobot-lingbot-keyframe-buffer.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-03 | action-head-continuous (advanced variant, suffix embedding for state/action/time tokens) | [openpi pi0 suffix embedding：动作、状态和时间步要先变成 token / openpi pi0 Suffix Embedding: Turn Action, State, and Time into Tokens First](../nano/vla/2026-08-03-openpi-pi0-suffix-embedding.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-01 | inference-loop (advanced variant, iterative action denoising) | [LeRobot pi0 denoise loop：从纯噪声动作一路积分出来 / LeRobot pi0 Denoise Loop: Integrate Actions Out of Noise](../nano/vla/2026-08-01-lerobot-pi0-denoise-loop.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

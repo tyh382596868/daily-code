@@ -715,6 +715,13 @@
         "note": "nano/vla/2026-08-04-lerobot-lingbot-keyframe-buffer.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-08-05",
+        "note": "nano/vla/2026-08-05-lerobot-groot-alternate-vl-dit.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1418,6 +1425,13 @@
         "date": "2026-08-04",
         "note": "nano/wam/2026-08-04-dreamzero-multi-embodiment-action-encoder.md",
         "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-08-05",
+        "note": "nano/wam/2026-08-05-fastwam-wan-vae-adapter.md",
+        "repo": "huggingface/lerobot",
         "via": "wam"
       }
     ]
