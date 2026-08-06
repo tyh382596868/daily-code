@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-06 | [PEFT PEANuT：delta weight 由 base weight 生成 / PEFT PEANuT: Generate Delta Weights from the Base Weight](../2026/08/2026-08-06-peft-peanut-delta-weight.md) | [huggingface/peft](https://github.com/huggingface/peft) |
 | 2026-08-05 | [nanoVLM top-k/top-p：采样前先把候选 token 削薄 / nanoVLM top-k/top-p: Thin the Candidate Tokens Before Sampling](../2026/08/2026-08-05-nanovlm-top-k-top-p-filtering.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-08-04 | [Accelerate RNG sync：随机数状态也要广播 / Accelerate RNG Sync: Broadcast the Random State Too](../2026/08/2026-08-04-accelerate-rng-state-sync.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-08-03 | [Diffusers randn_tensor：随机噪声也要管 device / Diffusers randn_tensor: Random Noise Has Device Rules Too](../2026/08/2026-08-03-diffusers-randn-tensor.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |

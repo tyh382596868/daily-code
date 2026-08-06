@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-08-06 | diffusion | [VEnhancer Heun sampler：先试走一步，再用平均斜率修正 / VEnhancer Heun Sampler: Take a Trial Step, Then Correct with the Average Slope](2026/08/2026-08-06-venhancer-heun-sampler.md) | [Vchitect/VEnhancer](https://github.com/Vchitect/VEnhancer) (tracked) |
+| 2026-08-06 | pytorch | [PyTorch WeakIdKeyDictionary：按身份弱引用对象 / PyTorch WeakIdKeyDictionary: Weak Keys by Object Identity](2026/08/2026-08-06-pytorch-weak-id-key-dictionary.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-08-06 | huggingface | [PEFT PEANuT：delta weight 由 base weight 生成 / PEFT PEANuT: Generate Delta Weights from the Base Weight](2026/08/2026-08-06-peft-peanut-delta-weight.md) | [huggingface/peft](https://github.com/huggingface/peft) (huggingface) |
+| 2026-08-06 | vla | [LeRobot RTC ActionQueue：动作 chunk 要线程安全地消费 / LeRobot RTC ActionQueue: Consume Action Chunks Thread-Safely](nano/vla/2026-08-06-lerobot-rtc-action-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, action-chunking advanced variant) |
+| 2026-08-06 | wam | [Wan2.1 add_noise：同一个加噪函数要懂训练和 inpainting / Wan2.1 add_noise: One Noise Function Must Understand Training and Inpainting](nano/wam/2026-08-06-wan21-scheduler-add-noise.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, noise-scheduler advanced variant) |
+| 2026-08-06 | diffusion | [Spherical Diffusion Policy：每步都把条件钉回去 / Spherical Diffusion Policy: Pin the Conditions Back at Every Step](2026/08/2026-08-06-spherical-diffusion-policy-mask-sampling.md) | [amazon-science/Spherical_Diffusion_Policy](https://github.com/amazon-science/Spherical_Diffusion_Policy) (trending) |
 | 2026-08-05 | robotics | [LeRobot Unitree 外骨骼 IK：先算腕部目标，再解机器人关节 / LeRobot Unitree Exo IK: Compute Wrist Targets, Then Solve Robot Joints](2026/08/2026-08-05-lerobot-unitree-exo-ik.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
 | 2026-08-05 | pytorch | [PyTorch Dynamo disable：跳过当前函数，还是跳过整棵调用树 / PyTorch Dynamo disable: Skip One Function or the Whole Call Tree](2026/08/2026-08-05-pytorch-dynamo-disable.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-08-05 | huggingface | [nanoVLM top-k/top-p：采样前先把候选 token 削薄 / nanoVLM top-k/top-p: Thin the Candidate Tokens Before Sampling](2026/08/2026-08-05-nanovlm-top-k-top-p-filtering.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (huggingface) |

@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-06 | noise-scheduler (advanced variant, scheduler-aware add_noise) | [Wan2.1 add_noise：同一个加噪函数要懂训练和 inpainting / Wan2.1 add_noise: One Noise Function Must Understand Training and Inpainting](../nano/wam/2026-08-06-wan21-scheduler-add-noise.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-05 | vae-encoder-decoder (advanced variant, Wan latent standardization adapter) | [FastWAM Wan VAE adapter：raw latent 进出都要标准化 / FastWAM Wan VAE Adapter: Standardize Raw Latents on Both Sides](../nano/wam/2026-08-05-fastwam-wan-vae-adapter.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-04 | action-conditioning (advanced variant, embodiment-specific action encoder) | [DreamZero action encoder：同一个 WAM 要听懂多种机器人 / DreamZero Action Encoder: One WAM Needs to Understand Many Robots](../nano/wam/2026-08-04-dreamzero-multi-embodiment-action-encoder.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-08-03 | vae-encoder-decoder (advanced variant, framewise spatial attention) | [Wan2.1 VAE attention：每一帧内部做空间自注意力 / Wan2.1 VAE Attention: Run Spatial Self-Attention Inside Each Frame](../nano/wam/2026-08-03-wan21-vae-spatial-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

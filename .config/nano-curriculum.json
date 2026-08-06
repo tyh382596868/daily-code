@@ -722,6 +722,13 @@
         "note": "nano/vla/2026-08-05-lerobot-groot-alternate-vl-dit.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-08-06",
+        "note": "nano/vla/2026-08-06-lerobot-rtc-action-queue.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1432,6 +1439,13 @@
         "date": "2026-08-05",
         "note": "nano/wam/2026-08-05-fastwam-wan-vae-adapter.md",
         "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-08-06",
+        "note": "nano/wam/2026-08-06-wan21-scheduler-add-noise.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]
