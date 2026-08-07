@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-07 | training-step (advanced variant, checkpointed image/language embedding) | [LeRobot pi0 checkpoint wrapper：显存优化要包在组件边界上 / LeRobot pi0 Checkpoint Wrapper: Put Memory Savings on Component Boundaries](../nano/vla/2026-08-07-lerobot-pi0-gradient-checkpoint.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-06 | action-chunking (advanced variant, thread-safe RTC action queue) | [LeRobot RTC ActionQueue：动作 chunk 要线程安全地消费 / LeRobot RTC ActionQueue: Consume Action Chunks Thread-Safely](../nano/vla/2026-08-06-lerobot-rtc-action-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-05 | action-head-continuous (advanced variant, alternating image/text conditioning masks) | [LeRobot GROOT AlternateVLDiT：动作 head 轮流看文字和图像 / LeRobot GROOT AlternateVLDiT: Let the Action Head Alternate Text and Image Attention](../nano/vla/2026-08-05-lerobot-groot-alternate-vl-dit.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-04 | short-term-observation-memory (advanced variant, keyframe feedback during chunked inference) | [LeRobot LingBot-VA keyframe buffer：执行动作时顺手攒观测 / LeRobot LingBot-VA Keyframe Buffer: Collect Observations While Executing Actions](../nano/vla/2026-08-04-lerobot-lingbot-keyframe-buffer.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

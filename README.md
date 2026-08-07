@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-07** · infrastructure · [nanoGPT DDP 累积梯度：只在最后一个 micro-step 同步 / nanoGPT DDP Accumulation: Sync Only on the Last Micro-Step](2026/08/2026-08-07-nanogpt-ddp-grad-accumulation.md) — `karpathy/nanoGPT` (tracked)
+- **2026-08-07** · pytorch · [PyTorch checkpoint early-stop：重算够了就停 / PyTorch Checkpoint Early-Stop: Stop Recompute Once Enough Is Rebuilt](2026/08/2026-08-07-pytorch-checkpoint-early-stop.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-07** · huggingface · [Datasets skip/take：流式切片也要可恢复 / Datasets skip/take: Streaming Slices Must Be Resumable](2026/08/2026-08-07-datasets-skip-take-streaming.md) — `huggingface/datasets` (huggingface)
+- **2026-08-07** · vla · [LeRobot pi0 checkpoint wrapper：显存优化要包在组件边界上 / LeRobot pi0 Checkpoint Wrapper: Put Memory Savings on Component Boundaries](nano/vla/2026-08-07-lerobot-pi0-gradient-checkpoint.md) — `huggingface/lerobot` (vla, training-step advanced variant)
+- **2026-08-07** · wam · [Wan2.1 patch/freq buffer：视频切块后还要带上三维坐标尺 / Wan2.1 Patch/Freq Buffer: Patch Video Tokens Need 3D Rulers](nano/wam/2026-08-07-wan21-patch-freq-buffer.md) — `Wan-Video/Wan2.1` (wam, patchify-positional advanced variant)
+- **2026-08-07** · infrastructure · [Open Code Review pipeline：确定性工程先切范围，agent 再深读 / Open Code Review Pipeline: Deterministic Scope First, Agent Deep-Reads Later](2026/08/2026-08-07-open-code-review-agent-pipeline.md) — `alibaba/open-code-review` (trending)
 - **2026-08-06** · diffusion · [VEnhancer Heun sampler：先试走一步，再用平均斜率修正 / VEnhancer Heun Sampler: Take a Trial Step, Then Correct with the Average Slope](2026/08/2026-08-06-venhancer-heun-sampler.md) — `Vchitect/VEnhancer` (tracked)
 - **2026-08-06** · pytorch · [PyTorch WeakIdKeyDictionary：按身份弱引用对象 / PyTorch WeakIdKeyDictionary: Weak Keys by Object Identity](2026/08/2026-08-06-pytorch-weak-id-key-dictionary.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-06** · huggingface · [PEFT PEANuT：delta weight 由 base weight 生成 / PEFT PEANuT: Generate Delta Weights from the Base Weight](2026/08/2026-08-06-peft-peanut-delta-weight.md) — `huggingface/peft` (huggingface)
