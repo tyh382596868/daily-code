@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-08-10 | [PyTorch IterableDataset fetcher：流式数据也要凑 batch / PyTorch IterableDataset Fetcher: Streaming Data Still Needs Batches](../2026/08/2026-08-10-pytorch-iterable-dataset-fetcher.md) | `torch/utils/data/_utils/fetch.py` |
 | 2026-08-07 | [PyTorch checkpoint early-stop：重算够了就停 / PyTorch Checkpoint Early-Stop: Stop Recompute Once Enough Is Rebuilt](../2026/08/2026-08-07-pytorch-checkpoint-early-stop.md) | `torch/utils/checkpoint.py` |
 | 2026-08-06 | [PyTorch WeakIdKeyDictionary：按身份弱引用对象 / PyTorch WeakIdKeyDictionary: Weak Keys by Object Identity](../2026/08/2026-08-06-pytorch-weak-id-key-dictionary.md) | `torch/utils/weak.py` |
 | 2026-08-05 | [PyTorch Dynamo disable：跳过当前函数，还是跳过整棵调用树 / PyTorch Dynamo disable: Skip One Function or the Whole Call Tree](../2026/08/2026-08-05-pytorch-dynamo-disable.md) | `torch/_dynamo/decorators.py` |

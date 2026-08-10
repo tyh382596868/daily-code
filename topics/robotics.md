@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-10 | [LeRobot action interpolation：把低频动作补成平滑控制流 / LeRobot Action Interpolation: Turn Sparse Actions into Smooth Control](../2026/08/2026-08-10-lerobot-action-interpolator.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
+| 2026-08-10 | [Upkie MPCBalancer：每一拍都重规划平衡速度 / Upkie MPCBalancer: Replan Balance Velocity at Every Tick](../2026/08/2026-08-10-upkie-mpc-balancer.md) | [upkie/upkie](https://github.com/upkie/upkie) |
 | 2026-08-05 | [LeRobot Unitree 外骨骼 IK：先算腕部目标，再解机器人关节 / LeRobot Unitree Exo IK: Compute Wrist Targets, Then Solve Robot Joints](../2026/08/2026-08-05-lerobot-unitree-exo-ik.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-05 | [MolmoSpaces pick-place：成功状态需要 carry-forward / MolmoSpaces Pick-Place: Success State Needs Carry-Forward](../2026/08/2026-08-05-molmospaces-pick-place-carry-forward.md) | [allenai/molmospaces](https://github.com/allenai/molmospaces) |
 | 2026-07-30 | [LeRobot phone teleop：手机坐标要翻译成机器人动作 / LeRobot Phone Teleop: Translate Phone Pose into Robot Actions](../2026/07/2026-07-30-lerobot-phone-teleop-action-map.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

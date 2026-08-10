@@ -736,6 +736,13 @@
         "note": "nano/vla/2026-08-07-lerobot-pi0-gradient-checkpoint.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-10",
+        "note": "nano/vla/2026-08-10-openvla-predict-action-detokenize.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
       }
     ]
   },
@@ -1459,6 +1466,13 @@
         "id": "patchify-positional",
         "date": "2026-08-07",
         "note": "nano/wam/2026-08-07-wan21-patch-freq-buffer.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-10",
+        "note": "nano/wam/2026-08-10-wan21-mlp-image-projector.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

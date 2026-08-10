@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-10** · robotics · [LeRobot action interpolation：把低频动作补成平滑控制流 / LeRobot Action Interpolation: Turn Sparse Actions into Smooth Control](2026/08/2026-08-10-lerobot-action-interpolator.md) — `huggingface/lerobot` (tracked)
+- **2026-08-10** · pytorch · [PyTorch IterableDataset fetcher：流式数据也要凑 batch / PyTorch IterableDataset Fetcher: Streaming Data Still Needs Batches](2026/08/2026-08-10-pytorch-iterable-dataset-fetcher.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-10** · huggingface · [TRL selective log-softmax：只算被选 token 的 logprob / TRL Selective Log-Softmax: Compute Logprobs Only for Selected Tokens](2026/08/2026-08-10-trl-selective-log-softmax.md) — `huggingface/trl` (huggingface)
+- **2026-08-10** · vla · [OpenVLA action prediction：token 要还原成连续动作 / OpenVLA Action Prediction: Tokens Must Become Continuous Actions](nano/vla/2026-08-10-openvla-predict-action-detokenize.md) — `openvla/openvla` (vla, inference-loop advanced variant)
+- **2026-08-10** · wam · [Wan2.1 MLPProj：图像条件也要投影成上下文 token / Wan2.1 MLPProj: Image Conditions Become Context Tokens](nano/wam/2026-08-10-wan21-mlp-image-projector.md) — `Wan-Video/Wan2.1` (wam, action-conditioning advanced variant)
+- **2026-08-10** · robotics · [Upkie MPCBalancer：每一拍都重规划平衡速度 / Upkie MPCBalancer: Replan Balance Velocity at Every Tick](2026/08/2026-08-10-upkie-mpc-balancer.md) — `upkie/upkie` (trending)
 - **2026-08-07** · infrastructure · [nanoGPT DDP 累积梯度：只在最后一个 micro-step 同步 / nanoGPT DDP Accumulation: Sync Only on the Last Micro-Step](2026/08/2026-08-07-nanogpt-ddp-grad-accumulation.md) — `karpathy/nanoGPT` (tracked)
 - **2026-08-07** · pytorch · [PyTorch checkpoint early-stop：重算够了就停 / PyTorch Checkpoint Early-Stop: Stop Recompute Once Enough Is Rebuilt](2026/08/2026-08-07-pytorch-checkpoint-early-stop.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-07** · huggingface · [Datasets skip/take：流式切片也要可恢复 / Datasets skip/take: Streaming Slices Must Be Resumable](2026/08/2026-08-07-datasets-skip-take-streaming.md) — `huggingface/datasets` (huggingface)

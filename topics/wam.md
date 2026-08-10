@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-10 | action-conditioning (advanced variant, image embedding projector) | [Wan2.1 MLPProj：图像条件也要投影成上下文 token / Wan2.1 MLPProj: Image Conditions Become Context Tokens](../nano/wam/2026-08-10-wan21-mlp-image-projector.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-07 | patchify-positional (advanced variant, 3D patch embedding plus freq table) | [Wan2.1 patch/freq buffer：视频切块后还要带上三维坐标尺 / Wan2.1 Patch/Freq Buffer: Patch Video Tokens Need 3D Rulers](../nano/wam/2026-08-07-wan21-patch-freq-buffer.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-06 | noise-scheduler (advanced variant, scheduler-aware add_noise) | [Wan2.1 add_noise：同一个加噪函数要懂训练和 inpainting / Wan2.1 add_noise: One Noise Function Must Understand Training and Inpainting](../nano/wam/2026-08-06-wan21-scheduler-add-noise.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-05 | vae-encoder-decoder (advanced variant, Wan latent standardization adapter) | [FastWAM Wan VAE adapter：raw latent 进出都要标准化 / FastWAM Wan VAE Adapter: Standardize Raw Latents on Both Sides](../nano/wam/2026-08-05-fastwam-wan-vae-adapter.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
