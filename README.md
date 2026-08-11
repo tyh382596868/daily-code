@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-11** · diffusion · [V-JEPA 3D sin/cos 位置编码：时间轴分到更多维度 / V-JEPA 3D Sin/Cos Position Embedding: Give Time More Room](2026/08/2026-08-11-jepa-3d-sincos-pos-embed.md) — `facebookresearch/jepa` (tracked)
+- **2026-08-11** · pytorch · [PyTorch CyclicLR：学习率按 batch 走三角波 / PyTorch CyclicLR: A Batch-Level Triangular Wave](2026/08/2026-08-11-pytorch-cyclic-lr.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-11** · huggingface · [tokenizers Metaspace：把空格变成可见字符 / tokenizers Metaspace: Make Spaces Visible](2026/08/2026-08-11-tokenizers-metaspace-pretokenizer.md) — `huggingface/tokenizers` (huggingface)
+- **2026-08-11** · vla · [LeRobot normalizer processor：观测和动作共用一张尺度表 / LeRobot Normalizer Processor: One Scale Table for Observations and Actions](nano/vla/2026-08-11-lerobot-normalizer-processor.md) — `huggingface/lerobot` (vla, training-step advanced variant)
+- **2026-08-11** · wam · [Open-Sora reference mask：条件帧要钉在 latent 时间轴上 / Open-Sora Reference Mask: Pin Condition Frames onto the Latent Timeline](nano/wam/2026-08-11-open-sora-reference-condition-mask.md) — `hpcaitech/Open-Sora` (wam, action-conditioning advanced variant)
+- **2026-08-11** · diffusion · [Open-Dreamer shortcut forcing：两次半步蒸成一步 / Open-Dreamer Shortcut Forcing: Distill Two Half-Steps into One](2026/08/2026-08-11-open-dreamer-shortcut-forcing.md) — `next-state/open-dreamer` (trending)
 - **2026-08-10** · robotics · [LeRobot action interpolation：把低频动作补成平滑控制流 / LeRobot Action Interpolation: Turn Sparse Actions into Smooth Control](2026/08/2026-08-10-lerobot-action-interpolator.md) — `huggingface/lerobot` (tracked)
 - **2026-08-10** · pytorch · [PyTorch IterableDataset fetcher：流式数据也要凑 batch / PyTorch IterableDataset Fetcher: Streaming Data Still Needs Batches](2026/08/2026-08-10-pytorch-iterable-dataset-fetcher.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-10** · huggingface · [TRL selective log-softmax：只算被选 token 的 logprob / TRL Selective Log-Softmax: Compute Logprobs Only for Selected Tokens](2026/08/2026-08-10-trl-selective-log-softmax.md) — `huggingface/trl` (huggingface)

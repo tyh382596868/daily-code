@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-11 | [V-JEPA 3D sin/cos 位置编码：时间轴分到更多维度 / V-JEPA 3D Sin/Cos Position Embedding: Give Time More Room](../2026/08/2026-08-11-jepa-3d-sincos-pos-embed.md) | facebookresearch/jepa |
+| 2026-08-11 | [Open-Dreamer shortcut forcing：两次半步蒸成一步 / Open-Dreamer Shortcut Forcing: Distill Two Half-Steps into One](../2026/08/2026-08-11-open-dreamer-shortcut-forcing.md) | next-state/open-dreamer |
 | 2026-08-06 | [VEnhancer Heun sampler：先试走一步，再用平均斜率修正 / VEnhancer Heun Sampler: Take a Trial Step, Then Correct with the Average Slope](../2026/08/2026-08-06-venhancer-heun-sampler.md) | Vchitect/VEnhancer |
 | 2026-08-06 | [Spherical Diffusion Policy：每步都把条件钉回去 / Spherical Diffusion Policy: Pin the Conditions Back at Every Step](../2026/08/2026-08-06-spherical-diffusion-policy-mask-sampling.md) | amazon-science/Spherical_Diffusion_Policy |
 | 2026-08-03 | [loushang MethodProjector：把方法步骤投影成可执行提示 / loushang MethodProjector: Project a Method Step into Executable Guidance](../2026/08/2026-08-03-loushang-method-projector.md) | zhnt/loushang |

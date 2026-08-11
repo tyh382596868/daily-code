@@ -743,6 +743,13 @@
         "note": "nano/vla/2026-08-10-openvla-predict-action-detokenize.md",
         "repo": "openvla/openvla",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-08-11",
+        "note": "nano/vla/2026-08-11-lerobot-normalizer-processor.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1474,6 +1481,13 @@
         "date": "2026-08-10",
         "note": "nano/wam/2026-08-10-wan21-mlp-image-projector.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-11",
+        "note": "nano/wam/2026-08-11-open-sora-reference-condition-mask.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]
