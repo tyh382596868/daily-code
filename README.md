@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-12** · infrastructure · [torchtune Vision RoPE：把图像 patch 拆成 X/Y 两把尺 / torchtune Vision RoPE: Split Image Patches into X/Y Rulers](2026/08/2026-08-12-torchtune-vision-rope.md) — `pytorch/torchtune` (tracked)
+- **2026-08-12** · pytorch · [PyTorch pin_memory：递归搬 batch，但保住容器形状 / PyTorch pin_memory: Recursively Move a Batch While Preserving Containers](2026/08/2026-08-12-pytorch-pin-memory-recursive.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-12** · huggingface · [Transformers min-p：阈值跟着最强 token 走 / Transformers min-p: Let the Threshold Follow the Strongest Token](2026/08/2026-08-12-transformers-min-p-logits-warper.md) — `huggingface/transformers` (huggingface)
+- **2026-08-12** · vla · [SmolVLA prefix embedding：把图像、语言、状态排成同一条前缀 / SmolVLA Prefix Embedding: Put Images, Language, and State into One Prefix](nano/vla/2026-08-12-smolvla-prefix-embedding.md) — `huggingface/lerobot` (vla, vlm-backbone-wiring advanced variant)
+- **2026-08-12** · wam · [DreamZero KV cache：先把每层的记忆槽形状定死 / DreamZero KV Cache: Fix the Per-Layer Memory Shapes First](nano/wam/2026-08-12-dreamzero-kv-cache-shapes.md) — `dreamzero0/dreamzero` (wam, sampler-inference advanced variant)
+- **2026-08-12** · infrastructure · [MineWorld inference：动作先变 token，再生成下一段画面 / MineWorld Inference: Tokenize Actions Before Generating the Next Frames](2026/08/2026-08-12-mineworld-action-conditioned-generation.md) — `microsoft/mineworld` (trending)
 - **2026-08-11** · diffusion · [V-JEPA 3D sin/cos 位置编码：时间轴分到更多维度 / V-JEPA 3D Sin/Cos Position Embedding: Give Time More Room](2026/08/2026-08-11-jepa-3d-sincos-pos-embed.md) — `facebookresearch/jepa` (tracked)
 - **2026-08-11** · pytorch · [PyTorch CyclicLR：学习率按 batch 走三角波 / PyTorch CyclicLR: A Batch-Level Triangular Wave](2026/08/2026-08-11-pytorch-cyclic-lr.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-11** · huggingface · [tokenizers Metaspace：把空格变成可见字符 / tokenizers Metaspace: Make Spaces Visible](2026/08/2026-08-11-tokenizers-metaspace-pretokenizer.md) — `huggingface/tokenizers` (huggingface)

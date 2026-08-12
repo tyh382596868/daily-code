@@ -750,6 +750,13 @@
         "note": "nano/vla/2026-08-11-lerobot-normalizer-processor.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-08-12",
+        "note": "nano/vla/2026-08-12-smolvla-prefix-embedding.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1488,6 +1495,13 @@
         "date": "2026-08-11",
         "note": "nano/wam/2026-08-11-open-sora-reference-condition-mask.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-08-12",
+        "note": "nano/wam/2026-08-12-dreamzero-kv-cache-shapes.md",
+        "repo": "dreamzero0/dreamzero",
         "via": "wam"
       }
     ]

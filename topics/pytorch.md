@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-08-12 | [PyTorch pin_memory：递归搬 batch，但保住容器形状 / PyTorch pin_memory: Recursively Move a Batch While Preserving Containers](../2026/08/2026-08-12-pytorch-pin-memory-recursive.md) | `torch/utils/data/_utils/pin_memory.py` |
 | 2026-08-11 | [PyTorch CyclicLR：学习率按 batch 走三角波 / PyTorch CyclicLR: A Batch-Level Triangular Wave](../2026/08/2026-08-11-pytorch-cyclic-lr.md) | `torch/optim/lr_scheduler.py` |
 | 2026-08-10 | [PyTorch IterableDataset fetcher：流式数据也要凑 batch / PyTorch IterableDataset Fetcher: Streaming Data Still Needs Batches](../2026/08/2026-08-10-pytorch-iterable-dataset-fetcher.md) | `torch/utils/data/_utils/fetch.py` |
 | 2026-08-07 | [PyTorch checkpoint early-stop：重算够了就停 / PyTorch Checkpoint Early-Stop: Stop Recompute Once Enough Is Rebuilt](../2026/08/2026-08-07-pytorch-checkpoint-early-stop.md) | `torch/utils/checkpoint.py` |

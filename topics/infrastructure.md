@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-12 | [torchtune Vision RoPE：把图像 patch 拆成 X/Y 两把尺 / torchtune Vision RoPE: Split Image Patches into X/Y Rulers](../2026/08/2026-08-12-torchtune-vision-rope.md) | [pytorch/torchtune](https://github.com/pytorch/torchtune) |
+| 2026-08-12 | [MineWorld inference：动作先变 token，再生成下一段画面 / MineWorld Inference: Tokenize Actions Before Generating the Next Frames](../2026/08/2026-08-12-mineworld-action-conditioned-generation.md) | [microsoft/mineworld](https://github.com/microsoft/mineworld) |
 | 2026-08-07 | [nanoGPT DDP 累积梯度：只在最后一个 micro-step 同步 / nanoGPT DDP Accumulation: Sync Only on the Last Micro-Step](../2026/08/2026-08-07-nanogpt-ddp-grad-accumulation.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
 | 2026-08-07 | [Open Code Review pipeline：确定性工程先切范围，agent 再深读 / Open Code Review Pipeline: Deterministic Scope First, Agent Deep-Reads Later](../2026/08/2026-08-07-open-code-review-agent-pipeline.md) | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) |
 | 2026-08-04 | [FlashAttention unpad_input：先把有效 token 压紧 / FlashAttention unpad_input: Compact Valid Tokens First](../2026/08/2026-08-04-flash-attn-unpad-input.md) | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) |

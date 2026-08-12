@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-12 | [Transformers min-p：阈值跟着最强 token 走 / Transformers min-p: Let the Threshold Follow the Strongest Token](../2026/08/2026-08-12-transformers-min-p-logits-warper.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-08-11 | [tokenizers Metaspace：把空格变成可见字符 / tokenizers Metaspace: Make Spaces Visible](../2026/08/2026-08-11-tokenizers-metaspace-pretokenizer.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) |
 | 2026-08-10 | [TRL selective log-softmax：只算被选 token 的 logprob / TRL Selective Log-Softmax: Compute Logprobs Only for Selected Tokens](../2026/08/2026-08-10-trl-selective-log-softmax.md) | [huggingface/trl](https://github.com/huggingface/trl) |
 | 2026-08-07 | [Datasets skip/take：流式切片也要可恢复 / Datasets skip/take: Streaming Slices Must Be Resumable](../2026/08/2026-08-07-datasets-skip-take-streaming.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |

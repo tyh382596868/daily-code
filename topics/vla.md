@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-12 | vlm-backbone-wiring (advanced variant, prefix assembly for image, language, and state tokens) | [SmolVLA prefix embedding：把图像、语言、状态排成同一条前缀 / SmolVLA Prefix Embedding: Put Images, Language, and State into One Prefix](../nano/vla/2026-08-12-smolvla-prefix-embedding.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-11 | training-step (advanced variant, shared normalization processor) | [LeRobot normalizer processor：观测和动作共用一张尺度表 / LeRobot Normalizer Processor: One Scale Table for Observations and Actions](../nano/vla/2026-08-11-lerobot-normalizer-processor.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-10 | inference-loop (advanced variant, action token detokenization and unnormalization) | [OpenVLA action prediction：token 要还原成连续动作 / OpenVLA Action Prediction: Tokens Must Become Continuous Actions](../nano/vla/2026-08-10-openvla-predict-action-detokenize.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-08-07 | training-step (advanced variant, checkpointed image/language embedding) | [LeRobot pi0 checkpoint wrapper：显存优化要包在组件边界上 / LeRobot pi0 Checkpoint Wrapper: Put Memory Savings on Component Boundaries](../nano/vla/2026-08-07-lerobot-pi0-gradient-checkpoint.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
