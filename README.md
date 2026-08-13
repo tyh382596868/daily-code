@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-13** · robotics · [LeRobot relative actions：把绝对目标改成相对位移 / LeRobot Relative Actions: Turn Absolute Targets into Offsets](2026/08/2026-08-13-lerobot-relative-actions-processor.md) — `huggingface/lerobot` (tracked)
+- **2026-08-13** · pytorch · [PyTorch MapDatasetFetcher：batch 索引可以走快速通道 / PyTorch MapDatasetFetcher: Batched Indices Can Take a Fast Path](2026/08/2026-08-13-pytorch-map-dataset-fetcher.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-13** · huggingface · [Diffusers SCM step：用三角参数化从噪声回到样本 / Diffusers SCM Step: Walk from Noise to Sample with Trigflow](2026/08/2026-08-13-diffusers-scm-scheduler-step.md) — `huggingface/diffusers` (huggingface)
+- **2026-08-13** · vla · [LeRobot Evo1 action mask：动作 head 也要知道哪些维度有效 / LeRobot Evo1 Action Mask: The Action Head Must Know Which Dimensions Are Valid](nano/vla/2026-08-13-lerobot-evo1-action-mask-context.md) — `huggingface/lerobot` (vla, action-head-continuous advanced variant)
+- **2026-08-13** · wam · [DreamZero blockwise flash attention：视频块只看该看的控制信号 / DreamZero Blockwise Flash Attention: Video Blocks See Only the Right Control Signals](nano/wam/2026-08-13-dreamzero-blockwise-causal-flash-attn.md) — `dreamzero0/dreamzero` (wam, dit-block advanced variant)
+- **2026-08-13** · robotics · [IsaacTeleop JointStateRetargeter：把设备关节翻译成机器人动作 / IsaacTeleop JointStateRetargeter: Translate Device Joints into Robot Actions](2026/08/2026-08-13-isaacteleop-joint-state-retargeter.md) — `NVIDIA/IsaacTeleop` (trending)
 - **2026-08-12** · infrastructure · [torchtune Vision RoPE：把图像 patch 拆成 X/Y 两把尺 / torchtune Vision RoPE: Split Image Patches into X/Y Rulers](2026/08/2026-08-12-torchtune-vision-rope.md) — `pytorch/torchtune` (tracked)
 - **2026-08-12** · pytorch · [PyTorch pin_memory：递归搬 batch，但保住容器形状 / PyTorch pin_memory: Recursively Move a Batch While Preserving Containers](2026/08/2026-08-12-pytorch-pin-memory-recursive.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-12** · huggingface · [Transformers min-p：阈值跟着最强 token 走 / Transformers min-p: Let the Threshold Follow the Strongest Token](2026/08/2026-08-12-transformers-min-p-logits-warper.md) — `huggingface/transformers` (huggingface)

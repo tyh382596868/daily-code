@@ -757,6 +757,13 @@
         "note": "nano/vla/2026-08-12-smolvla-prefix-embedding.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-08-13",
+        "note": "nano/vla/2026-08-13-lerobot-evo1-action-mask-context.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1501,6 +1508,13 @@
         "id": "sampler-inference",
         "date": "2026-08-12",
         "note": "nano/wam/2026-08-12-dreamzero-kv-cache-shapes.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-08-13",
+        "note": "nano/wam/2026-08-13-dreamzero-blockwise-causal-flash-attn.md",
         "repo": "dreamzero0/dreamzero",
         "via": "wam"
       }
