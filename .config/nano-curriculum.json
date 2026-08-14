@@ -764,6 +764,13 @@
         "note": "nano/vla/2026-08-13-lerobot-evo1-action-mask-context.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-14",
+        "note": "nano/vla/2026-08-14-openpi-websocket-client-policy.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1516,6 +1523,13 @@
         "date": "2026-08-13",
         "note": "nano/wam/2026-08-13-dreamzero-blockwise-causal-flash-attn.md",
         "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-08-14",
+        "note": "nano/wam/2026-08-14-wan21-unipc-solver-step.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-14 | sampler-inference (advanced variant, UniPC predictor-corrector state machine) | [Wan2.1 UniPC step：采样器要记住前几步 / Wan2.1 UniPC Step: A Sampler Needs Memory of Previous Steps](../nano/wam/2026-08-14-wan21-unipc-solver-step.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-13 | dit-block (advanced variant, blockwise causal image/action/state attention) | [DreamZero blockwise flash attention：视频块只看该看的控制信号 / DreamZero Blockwise Flash Attention: Video Blocks See Only the Right Control Signals](../nano/wam/2026-08-13-dreamzero-blockwise-causal-flash-attn.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-08-12 | sampler-inference (advanced variant, per-layer self/cross-attention KV cache shapes) | [DreamZero KV cache：先把每层的记忆槽形状定死 / DreamZero KV Cache: Fix the Per-Layer Memory Shapes First](../nano/wam/2026-08-12-dreamzero-kv-cache-shapes.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-08-11 | action-conditioning (advanced variant, reference-frame mask construction) | [Open-Sora reference mask：条件帧要钉在 latent 时间轴上 / Open-Sora Reference Mask: Pin Condition Frames onto the Latent Timeline](../nano/wam/2026-08-11-open-sora-reference-condition-mask.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |

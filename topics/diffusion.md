@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-14 | [DINOv3 RoPE 坐标增强：位置编码也能做数据增强 / DINOv3 RoPE Coordinate Augmentation: Position Encoding Can Be Augmented Too](../2026/08/2026-08-14-dinov3-rope-position-embedding.md) | facebookresearch/dinov3 |
+| 2026-08-14 | [WMPO rollout：VLA 动作驱动世界模型想象未来 / WMPO Rollout: VLA Actions Drive a World Model's Imagination](../2026/08/2026-08-14-wmpo-world-model-rollout.md) | WM-PO/WMPO |
 | 2026-08-11 | [V-JEPA 3D sin/cos 位置编码：时间轴分到更多维度 / V-JEPA 3D Sin/Cos Position Embedding: Give Time More Room](../2026/08/2026-08-11-jepa-3d-sincos-pos-embed.md) | facebookresearch/jepa |
 | 2026-08-11 | [Open-Dreamer shortcut forcing：两次半步蒸成一步 / Open-Dreamer Shortcut Forcing: Distill Two Half-Steps into One](../2026/08/2026-08-11-open-dreamer-shortcut-forcing.md) | next-state/open-dreamer |
 | 2026-08-06 | [VEnhancer Heun sampler：先试走一步，再用平均斜率修正 / VEnhancer Heun Sampler: Take a Trial Step, Then Correct with the Average Slope](../2026/08/2026-08-06-venhancer-heun-sampler.md) | Vchitect/VEnhancer |

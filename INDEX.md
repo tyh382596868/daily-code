@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-08-14 | diffusion | [DINOv3 RoPE 坐标增强：位置编码也能做数据增强 / DINOv3 RoPE Coordinate Augmentation: Position Encoding Can Be Augmented Too](2026/08/2026-08-14-dinov3-rope-position-embedding.md) | [facebookresearch/dinov3](https://github.com/facebookresearch/dinov3) (tracked) |
+| 2026-08-14 | pytorch | [PyTorch tree_map_only：只改你关心的叶子 / PyTorch tree_map_only: Transform Only the Leaves You Care About](2026/08/2026-08-14-pytorch-tree-map-only.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-08-14 | huggingface | [Accelerate split_between_processes：把提示词公平发给每张卡 / Accelerate split_between_processes: Deal Prompts Fairly Across Processes](2026/08/2026-08-14-accelerate-split-between-processes.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |
+| 2026-08-14 | vla | [openpi WebsocketClientPolicy：把远端服务伪装成本地 policy / openpi WebsocketClientPolicy: Make a Remote Server Look Like a Local Policy](nano/vla/2026-08-14-openpi-websocket-client-policy.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (vla, inference-loop advanced variant) |
+| 2026-08-14 | wam | [Wan2.1 UniPC step：采样器要记住前几步 / Wan2.1 UniPC Step: A Sampler Needs Memory of Previous Steps](nano/wam/2026-08-14-wan21-unipc-solver-step.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference advanced variant) |
+| 2026-08-14 | diffusion | [WMPO rollout：VLA 动作驱动世界模型想象未来 / WMPO Rollout: VLA Actions Drive a World Model's Imagination](2026/08/2026-08-14-wmpo-world-model-rollout.md) | [WM-PO/WMPO](https://github.com/WM-PO/WMPO) (trending) |
 | 2026-08-13 | robotics | [LeRobot relative actions：把绝对目标改成相对位移 / LeRobot Relative Actions: Turn Absolute Targets into Offsets](2026/08/2026-08-13-lerobot-relative-actions-processor.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
 | 2026-08-13 | pytorch | [PyTorch MapDatasetFetcher：batch 索引可以走快速通道 / PyTorch MapDatasetFetcher: Batched Indices Can Take a Fast Path](2026/08/2026-08-13-pytorch-map-dataset-fetcher.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-08-13 | huggingface | [Diffusers SCM step：用三角参数化从噪声回到样本 / Diffusers SCM Step: Walk from Noise to Sample with Trigflow](2026/08/2026-08-13-diffusers-scm-scheduler-step.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |
