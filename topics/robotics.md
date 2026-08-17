@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-17 | [Xiaomi XR1 CustomCollate：把多轮图文动作样本拼成一条训练序列 / Xiaomi XR1 CustomCollate: Pack Multimodal Action Samples into One Training Sequence](../2026/08/2026-08-17-xiaomi-xr1-custom-collate.md) | [XiaomiRobotics/Xiaomi-Robotics-1](https://github.com/XiaomiRobotics/Xiaomi-Robotics-1) |
+| 2026-08-17 | [LeRobot EE safety：末端目标先限幅再限速 / LeRobot EE Safety: Clip the Target, Then Rate-Limit the Step](../2026/08/2026-08-17-lerobot-ee-bounds-safety.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-13 | [LeRobot relative actions：把绝对目标改成相对位移 / LeRobot Relative Actions: Turn Absolute Targets into Offsets](../2026/08/2026-08-13-lerobot-relative-actions-processor.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-13 | [IsaacTeleop JointStateRetargeter：把设备关节翻译成机器人动作 / IsaacTeleop JointStateRetargeter: Translate Device Joints into Robot Actions](../2026/08/2026-08-13-isaacteleop-joint-state-retargeter.md) | [NVIDIA/IsaacTeleop](https://github.com/NVIDIA/IsaacTeleop) |
 | 2026-08-10 | [LeRobot action interpolation：把低频动作补成平滑控制流 / LeRobot Action Interpolation: Turn Sparse Actions into Smooth Control](../2026/08/2026-08-10-lerobot-action-interpolator.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

@@ -771,6 +771,13 @@
         "note": "nano/vla/2026-08-14-openpi-websocket-client-policy.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-08-17",
+        "note": "nano/vla/2026-08-17-openpi-pad-states-actions.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1529,6 +1536,13 @@
         "id": "sampler-inference",
         "date": "2026-08-14",
         "note": "nano/wam/2026-08-14-wan21-unipc-solver-step.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-08-17",
+        "note": "nano/wam/2026-08-17-wan21-attention-block-adaln.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

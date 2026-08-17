@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-17 | [Datasets FilteredExamplesIterable：filter 先变成 mask 再丢列 / Datasets FilteredExamplesIterable: Turn Filter into a Mask, Then Drop the Column](../2026/08/2026-08-17-datasets-filtered-examples-iterable.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |
 | 2026-08-14 | [Accelerate split_between_processes：把提示词公平发给每张卡 / Accelerate split_between_processes: Deal Prompts Fairly Across Processes](../2026/08/2026-08-14-accelerate-split-between-processes.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-08-13 | [Diffusers SCM step：用三角参数化从噪声回到样本 / Diffusers SCM Step: Walk from Noise to Sample with Trigflow](../2026/08/2026-08-13-diffusers-scm-scheduler-step.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-08-12 | [Transformers min-p：阈值跟着最强 token 走 / Transformers min-p: Let the Threshold Follow the Strongest Token](../2026/08/2026-08-12-transformers-min-p-logits-warper.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
