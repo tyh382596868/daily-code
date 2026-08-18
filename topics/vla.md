@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-18 | action-tokenizer (advanced variant, FAST prefix/action masks) | [openpi FAST token masks：prefix 看全局，action 只算 loss / openpi FAST Token Masks: Prefix Sees Context, Actions Carry Loss](../nano/vla/2026-08-18-openpi-fast-token-masks.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-17 | action-head-continuous (advanced variant, shared state/action width padding) | [openpi PadStatesAndActions：不同机器人先补齐到同一动作维度 / openpi PadStatesAndActions: Pad Different Robots into One Action Width](../nano/vla/2026-08-17-openpi-pad-states-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-14 | inference-loop (advanced variant, websocket client policy adapter) | [openpi WebsocketClientPolicy：把远端服务伪装成本地 policy / openpi WebsocketClientPolicy: Make a Remote Server Look Like a Local Policy](../nano/vla/2026-08-14-openpi-websocket-client-policy.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-13 | action-head-continuous (advanced variant, context preparation and action masks) | [LeRobot Evo1 action mask：动作 head 也要知道哪些维度有效 / LeRobot Evo1 Action Mask: The Action Head Must Know Which Dimensions Are Valid](../nano/vla/2026-08-13-lerobot-evo1-action-mask-context.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

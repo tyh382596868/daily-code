@@ -221,6 +221,13 @@
     "covered": [
       {
         "id": "action-tokenizer",
+        "date": "2026-08-18",
+        "note": "nano/vla/2026-08-18-openpi-fast-token-masks.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
         "date": "2026-05-10",
         "note": "2026/05/2026-05-10-openvla-action-tokenizer-example.md",
         "repo": "openvla/openvla",
@@ -1014,6 +1021,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "text-conditioning",
+        "date": "2026-08-18",
+        "note": "nano/wam/2026-08-18-wan21-t5-context-trim.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "dit-block",
         "date": "2026-05-25",

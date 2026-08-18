@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-18** · diffusion · [V-JEPA loss：只预测被遮住的特征，还要保持方差 / V-JEPA Loss: Predict Masked Features, Keep Variance Alive](2026/08/2026-08-18-jepa-target-variance-loss.md) — `facebookresearch/jepa` (tracked)
+- **2026-08-18** · pytorch · [PyTorch BatchSampler：把索引流切成小批次 / PyTorch BatchSampler: Slice an Index Stream into Mini-Batches](2026/08/2026-08-18-pytorch-batch-sampler.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-18** · huggingface · [Diffusers FlowMatch schedule：sigma 时间表先变形再补终点 / Diffusers FlowMatch Schedule: Shape Sigmas, Then Append the Endpoint](2026/08/2026-08-18-diffusers-flowmatch-sigma-schedule.md) — `huggingface/diffusers` (huggingface)
+- **2026-08-18** · vla · [openpi FAST token masks：prefix 看全局，action 只算 loss / openpi FAST Token Masks: Prefix Sees Context, Actions Carry Loss](nano/vla/2026-08-18-openpi-fast-token-masks.md) — `Physical-Intelligence/openpi` (vla, action-tokenizer advanced variant)
+- **2026-08-18** · wam · [Wan2.1 T5 context：先 padding 编码，再按 mask 剪回有效长度 / Wan2.1 T5 Context: Encode Padded Text, Then Trim by Mask Length](nano/wam/2026-08-18-wan21-t5-context-trim.md) — `Wan-Video/Wan2.1` (wam, text-conditioning advanced variant)
+- **2026-08-18** · diffusion · [Multitask DiT flow matching：动作从噪声直线走向数据 / Multitask DiT Flow Matching: Move Actions from Noise to Data Along a Line](2026/08/2026-08-18-multitask-dit-flow-matching.md) — `brysonjones/multitask_dit_policy` (trending)
 - **2026-08-17** · robotics · [LeRobot EE safety：末端目标先限幅再限速 / LeRobot EE Safety: Clip the Target, Then Rate-Limit the Step](2026/08/2026-08-17-lerobot-ee-bounds-safety.md) — `huggingface/lerobot` (tracked)
 - **2026-08-17** · pytorch · [PyTorch unpad_sequence：用长度 mask 把 padding 拆回列表 / PyTorch unpad_sequence: Use Length Masks to Split Padding Back Out](2026/08/2026-08-17-pytorch-unpad-sequence.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-17** · huggingface · [Datasets FilteredExamplesIterable：filter 先变成 mask 再丢列 / Datasets FilteredExamplesIterable: Turn Filter into a Mask, Then Drop the Column](2026/08/2026-08-17-datasets-filtered-examples-iterable.md) — `huggingface/datasets` (huggingface)
