@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-19 | [PEFT LoRA forward：base 先算，adapter 再补差量 / PEFT LoRA Forward: Run the Base, Then Add the Adapter Delta](../2026/08/2026-08-19-peft-lora-forward-delta.md) | [huggingface/peft](https://github.com/huggingface/peft) |
 | 2026-08-18 | [Diffusers FlowMatch schedule：sigma 时间表先变形再补终点 / Diffusers FlowMatch Schedule: Shape Sigmas, Then Append the Endpoint](../2026/08/2026-08-18-diffusers-flowmatch-sigma-schedule.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-08-17 | [Datasets FilteredExamplesIterable：filter 先变成 mask 再丢列 / Datasets FilteredExamplesIterable: Turn Filter into a Mask, Then Drop the Column](../2026/08/2026-08-17-datasets-filtered-examples-iterable.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |
 | 2026-08-14 | [Accelerate split_between_processes：把提示词公平发给每张卡 / Accelerate split_between_processes: Deal Prompts Fairly Across Processes](../2026/08/2026-08-14-accelerate-split-between-processes.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |

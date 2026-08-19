@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-19 | [nanoGPT 学习率调度：先热身，再余弦降温 / nanoGPT LR Schedule: Warm Up, Then Cosine Cool Down](../2026/08/2026-08-19-nanogpt-cosine-warmup-lr.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
+| 2026-08-19 | [SkyRL async limiter：速率和并发是两道闸 / SkyRL Async Limiter: Rate and Concurrency Are Two Gates](../2026/08/2026-08-19-skyrl-async-rate-limiter.md) | [NovaSky-AI/SkyRL](https://github.com/NovaSky-AI/SkyRL) |
 | 2026-08-12 | [torchtune Vision RoPE：把图像 patch 拆成 X/Y 两把尺 / torchtune Vision RoPE: Split Image Patches into X/Y Rulers](../2026/08/2026-08-12-torchtune-vision-rope.md) | [pytorch/torchtune](https://github.com/pytorch/torchtune) |
 | 2026-08-12 | [MineWorld inference：动作先变 token，再生成下一段画面 / MineWorld Inference: Tokenize Actions Before Generating the Next Frames](../2026/08/2026-08-12-mineworld-action-conditioned-generation.md) | [microsoft/mineworld](https://github.com/microsoft/mineworld) |
 | 2026-08-07 | [nanoGPT DDP 累积梯度：只在最后一个 micro-step 同步 / nanoGPT DDP Accumulation: Sync Only on the Last Micro-Step](../2026/08/2026-08-07-nanogpt-ddp-grad-accumulation.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |

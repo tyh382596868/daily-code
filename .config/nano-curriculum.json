@@ -785,6 +785,13 @@
         "note": "nano/vla/2026-08-17-openpi-pad-states-actions.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-19",
+        "note": "nano/vla/2026-08-19-openpi-runtime-loop.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1557,6 +1564,13 @@
         "id": "dit-block",
         "date": "2026-08-17",
         "note": "nano/wam/2026-08-17-wan21-attention-block-adaln.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-19",
+        "note": "nano/wam/2026-08-19-wan21-vace-hint-skip.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }

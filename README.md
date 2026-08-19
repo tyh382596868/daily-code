@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-19** · infrastructure · [nanoGPT 学习率调度：先热身，再余弦降温 / nanoGPT LR Schedule: Warm Up, Then Cosine Cool Down](2026/08/2026-08-19-nanogpt-cosine-warmup-lr.md) — `karpathy/nanoGPT` (tracked)
+- **2026-08-19** · pytorch · [PyTorch worker seed：给 NumPy 单独洗一副随机牌 / PyTorch Worker Seed: Shuffle a Separate Deck for NumPy](2026/08/2026-08-19-pytorch-worker-seed-state.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-19** · huggingface · [PEFT LoRA forward：base 先算，adapter 再补差量 / PEFT LoRA Forward: Run the Base, Then Add the Adapter Delta](2026/08/2026-08-19-peft-lora-forward-delta.md) — `huggingface/peft` (huggingface)
+- **2026-08-19** · vla · [openpi Runtime loop：观测、决策、执行、记录一拍完成 / openpi Runtime Loop: Observe, Decide, Act, Log on Every Tick](nano/vla/2026-08-19-openpi-runtime-loop.md) — `Physical-Intelligence/openpi` (vla, inference-loop advanced variant)
+- **2026-08-19** · wam · [Wan2.1 VACE hints：控制分支用零初始化慢慢接入 / Wan2.1 VACE Hints: Add the Control Branch with Zero Init](nano/wam/2026-08-19-wan21-vace-hint-skip.md) — `Wan-Video/Wan2.1` (wam, action-conditioning advanced variant)
+- **2026-08-19** · infrastructure · [SkyRL async limiter：速率和并发是两道闸 / SkyRL Async Limiter: Rate and Concurrency Are Two Gates](2026/08/2026-08-19-skyrl-async-rate-limiter.md) — `NovaSky-AI/SkyRL` (trending)
 - **2026-08-18** · diffusion · [V-JEPA loss：只预测被遮住的特征，还要保持方差 / V-JEPA Loss: Predict Masked Features, Keep Variance Alive](2026/08/2026-08-18-jepa-target-variance-loss.md) — `facebookresearch/jepa` (tracked)
 - **2026-08-18** · pytorch · [PyTorch BatchSampler：把索引流切成小批次 / PyTorch BatchSampler: Slice an Index Stream into Mini-Batches](2026/08/2026-08-18-pytorch-batch-sampler.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-18** · huggingface · [Diffusers FlowMatch schedule：sigma 时间表先变形再补终点 / Diffusers FlowMatch Schedule: Shape Sigmas, Then Append the Endpoint](2026/08/2026-08-18-diffusers-flowmatch-sigma-schedule.md) — `huggingface/diffusers` (huggingface)

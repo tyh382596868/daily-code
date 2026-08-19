@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-08-19 | [PyTorch worker seed：给 NumPy 单独洗一副随机牌 / PyTorch Worker Seed: Shuffle a Separate Deck for NumPy](../2026/08/2026-08-19-pytorch-worker-seed-state.md) | `torch/utils/data/_utils/worker.py` |
 | 2026-08-18 | [PyTorch BatchSampler：把索引流切成小批次 / PyTorch BatchSampler: Slice an Index Stream into Mini-Batches](../2026/08/2026-08-18-pytorch-batch-sampler.md) | `torch/utils/data/sampler.py` |
 | 2026-08-17 | [PyTorch unpad_sequence：用长度 mask 把 padding 拆回列表 / PyTorch unpad_sequence: Use Length Masks to Split Padding Back Out](../2026/08/2026-08-17-pytorch-unpad-sequence.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) |
 | 2026-08-14 | [PyTorch tree_map_only：只改你关心的叶子 / PyTorch tree_map_only: Transform Only the Leaves You Care About](../2026/08/2026-08-14-pytorch-tree-map-only.md) | `torch/utils/_pytree.py` |

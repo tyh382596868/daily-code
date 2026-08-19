@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-19 | action-conditioning (advanced variant, VACE hint side branch) | [Wan2.1 VACE hints：控制分支用零初始化慢慢接入 / Wan2.1 VACE Hints: Add the Control Branch with Zero Init](../nano/wam/2026-08-19-wan21-vace-hint-skip.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-18 | text-conditioning (advanced variant, T5 context trim by mask length) | [Wan2.1 T5 context：先 padding 编码，再按 mask 剪回有效长度 / Wan2.1 T5 Context: Encode Padded Text, Then Trim by Mask Length](../nano/wam/2026-08-18-wan21-t5-context-trim.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-17 | dit-block (advanced variant, AdaLN-gated self-attention and FFN) | [Wan2.1 AttentionBlock：AdaLN 把时间条件塞进 DiT block / Wan2.1 AttentionBlock: AdaLN Injects Time Conditions into the DiT Block](../nano/wam/2026-08-17-wan21-attention-block-adaln.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-14 | sampler-inference (advanced variant, UniPC predictor-corrector state machine) | [Wan2.1 UniPC step：采样器要记住前几步 / Wan2.1 UniPC Step: A Sampler Needs Memory of Previous Steps](../nano/wam/2026-08-14-wan21-unipc-solver-step.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
