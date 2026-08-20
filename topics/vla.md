@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-20 | action-tokenizer (advanced variant, uniform bin and bit action discretization) | [StarVLA ActionBinning：连续动作先落进桶里 / StarVLA ActionBinning: Put Continuous Actions into Bins First](../nano/vla/2026-08-20-starvla-action-binning.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
 | 2026-08-19 | inference-loop (advanced variant, deployment runtime loop) | [openpi Runtime loop：观测、决策、执行、记录一拍完成 / openpi Runtime Loop: Observe, Decide, Act, Log on Every Tick](../nano/vla/2026-08-19-openpi-runtime-loop.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-18 | action-tokenizer (advanced variant, FAST prefix/action masks) | [openpi FAST token masks：prefix 看全局，action 只算 loss / openpi FAST Token Masks: Prefix Sees Context, Actions Carry Loss](../nano/vla/2026-08-18-openpi-fast-token-masks.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-17 | action-head-continuous (advanced variant, shared state/action width padding) | [openpi PadStatesAndActions：不同机器人先补齐到同一动作维度 / openpi PadStatesAndActions: Pad Different Robots into One Action Width](../nano/vla/2026-08-17-openpi-pad-states-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |

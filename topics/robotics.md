@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-20 | [StarVLA Layerwise Q-Former：每层视觉特征都问一遍 / StarVLA Layerwise Q-Former: Query Every Vision Layer](../2026/08/2026-08-20-starvla-layerwise-qformer.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
+| 2026-08-20 | [FlashDreams Euler scheduler：时间表要固定，buffer 要保真 / FlashDreams Euler Scheduler: Pin the Schedule, Preserve the Buffers](../2026/08/2026-08-20-flashdreams-euler-scheduler.md) | [NVIDIA/flashdreams](https://github.com/NVIDIA/flashdreams) |
 | 2026-08-17 | [Xiaomi XR1 CustomCollate：把多轮图文动作样本拼成一条训练序列 / Xiaomi XR1 CustomCollate: Pack Multimodal Action Samples into One Training Sequence](../2026/08/2026-08-17-xiaomi-xr1-custom-collate.md) | [XiaomiRobotics/Xiaomi-Robotics-1](https://github.com/XiaomiRobotics/Xiaomi-Robotics-1) |
 | 2026-08-17 | [LeRobot EE safety：末端目标先限幅再限速 / LeRobot EE Safety: Clip the Target, Then Rate-Limit the Step](../2026/08/2026-08-17-lerobot-ee-bounds-safety.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-13 | [LeRobot relative actions：把绝对目标改成相对位移 / LeRobot Relative Actions: Turn Absolute Targets into Offsets](../2026/08/2026-08-13-lerobot-relative-actions-processor.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

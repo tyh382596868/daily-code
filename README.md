@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-20** · robotics · [StarVLA Layerwise Q-Former：每层视觉特征都问一遍 / StarVLA Layerwise Q-Former: Query Every Vision Layer](2026/08/2026-08-20-starvla-layerwise-qformer.md) — `starVLA/starVLA` (tracked)
+- **2026-08-20** · pytorch · [PyTorch WeightedRandomSampler：权重变成抽样概率 / PyTorch WeightedRandomSampler: Turn Weights into Draw Probabilities](2026/08/2026-08-20-pytorch-weighted-random-sampler.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-20** · huggingface · [Transformers typical sampling：挑接近熵的 token / Transformers Typical Sampling: Keep Tokens Near Entropy](2026/08/2026-08-20-transformers-typical-logits-warper.md) — `huggingface/transformers` (huggingface)
+- **2026-08-20** · vla · [StarVLA ActionBinning：连续动作先落进桶里 / StarVLA ActionBinning: Put Continuous Actions into Bins First](nano/vla/2026-08-20-starvla-action-binning.md) — `starVLA/starVLA` (vla, action-tokenizer advanced variant)
+- **2026-08-20** · wam · [LingBot-VA loss：视频和动作分开算，再一起反传 / LingBot-VA Loss: Score Video and Action Separately, Backprop Together](nano/wam/2026-08-20-lingbot-va-video-action-loss.md) — `Robbyant/lingbot-va` (wam, training-loop advanced variant)
+- **2026-08-20** · robotics · [FlashDreams Euler scheduler：时间表要固定，buffer 要保真 / FlashDreams Euler Scheduler: Pin the Schedule, Preserve the Buffers](2026/08/2026-08-20-flashdreams-euler-scheduler.md) — `NVIDIA/flashdreams` (trending)
 - **2026-08-19** · infrastructure · [nanoGPT 学习率调度：先热身，再余弦降温 / nanoGPT LR Schedule: Warm Up, Then Cosine Cool Down](2026/08/2026-08-19-nanogpt-cosine-warmup-lr.md) — `karpathy/nanoGPT` (tracked)
 - **2026-08-19** · pytorch · [PyTorch worker seed：给 NumPy 单独洗一副随机牌 / PyTorch Worker Seed: Shuffle a Separate Deck for NumPy](2026/08/2026-08-19-pytorch-worker-seed-state.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-19** · huggingface · [PEFT LoRA forward：base 先算，adapter 再补差量 / PEFT LoRA Forward: Run the Base, Then Add the Adapter Delta](2026/08/2026-08-19-peft-lora-forward-delta.md) — `huggingface/peft` (huggingface)

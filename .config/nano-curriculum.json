@@ -792,6 +792,13 @@
         "note": "nano/vla/2026-08-19-openpi-runtime-loop.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-08-20",
+        "note": "nano/vla/2026-08-20-starvla-action-binning.md",
+        "repo": "starVLA/starVLA",
+        "via": "vla"
       }
     ]
   },
@@ -1572,6 +1579,13 @@
         "date": "2026-08-19",
         "note": "nano/wam/2026-08-19-wan21-vace-hint-skip.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-08-20",
+        "note": "nano/wam/2026-08-20-lingbot-va-video-action-loss.md",
+        "repo": "Robbyant/lingbot-va",
         "via": "wam"
       }
     ]

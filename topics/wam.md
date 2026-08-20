@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-20 | training-loop (advanced variant, separate video/action denoising losses) | [LingBot-VA loss：视频和动作分开算，再一起反传 / LingBot-VA Loss: Score Video and Action Separately, Backprop Together](../nano/wam/2026-08-20-lingbot-va-video-action-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) |
 | 2026-08-19 | action-conditioning (advanced variant, VACE hint side branch) | [Wan2.1 VACE hints：控制分支用零初始化慢慢接入 / Wan2.1 VACE Hints: Add the Control Branch with Zero Init](../nano/wam/2026-08-19-wan21-vace-hint-skip.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-18 | text-conditioning (advanced variant, T5 context trim by mask length) | [Wan2.1 T5 context：先 padding 编码，再按 mask 剪回有效长度 / Wan2.1 T5 Context: Encode Padded Text, Then Trim by Mask Length](../nano/wam/2026-08-18-wan21-t5-context-trim.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-17 | dit-block (advanced variant, AdaLN-gated self-attention and FFN) | [Wan2.1 AttentionBlock：AdaLN 把时间条件塞进 DiT block / Wan2.1 AttentionBlock: AdaLN Injects Time Conditions into the DiT Block](../nano/wam/2026-08-17-wan21-attention-block-adaln.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
