@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-21 | [Diffusers EntropyBound：低不确定 token 先落定 / Diffusers EntropyBound: Accept Low-Uncertainty Tokens First](../2026/08/2026-08-21-diffusers-entropy-bound-scheduler.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-08-20 | [Transformers typical sampling：挑接近熵的 token / Transformers Typical Sampling: Keep Tokens Near Entropy](../2026/08/2026-08-20-transformers-typical-logits-warper.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-08-19 | [PEFT LoRA forward：base 先算，adapter 再补差量 / PEFT LoRA Forward: Run the Base, Then Add the Adapter Delta](../2026/08/2026-08-19-peft-lora-forward-delta.md) | [huggingface/peft](https://github.com/huggingface/peft) |
 | 2026-08-18 | [Diffusers FlowMatch schedule：sigma 时间表先变形再补终点 / Diffusers FlowMatch Schedule: Shape Sigmas, Then Append the Endpoint](../2026/08/2026-08-18-diffusers-flowmatch-sigma-schedule.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |

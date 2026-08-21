@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-21 | [DiT 初始化：先让模型安静下来 / DiT Initialization: Start the Model Quietly](../2026/08/2026-08-21-dit-zero-init-weights.md) | facebookresearch/DiT |
+| 2026-08-21 | [HY-World panorama pipeline：把指令、图像和缓存参数一次交清 / HY-World Panorama Pipeline: Hand Off Prompt, Image, and Cache Knobs Together](../2026/08/2026-08-21-hyworld-panorama-pipeline.md) | Tencent-Hunyuan/HY-World-2.0 |
 | 2026-08-18 | [V-JEPA loss：只预测被遮住的特征，还要保持方差 / V-JEPA Loss: Predict Masked Features, Keep Variance Alive](../2026/08/2026-08-18-jepa-target-variance-loss.md) | facebookresearch/jepa |
 | 2026-08-18 | [Multitask DiT flow matching：动作从噪声直线走向数据 / Multitask DiT Flow Matching: Move Actions from Noise to Data Along a Line](../2026/08/2026-08-18-multitask-dit-flow-matching.md) | brysonjones/multitask_dit_policy |
 | 2026-08-14 | [DINOv3 RoPE 坐标增强：位置编码也能做数据增强 / DINOv3 RoPE Coordinate Augmentation: Position Encoding Can Be Augmented Too](../2026/08/2026-08-14-dinov3-rope-position-embedding.md) | facebookresearch/dinov3 |

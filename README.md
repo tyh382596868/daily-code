@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-08-21** · diffusion · [DiT 初始化：先让模型安静下来 / DiT Initialization: Start the Model Quietly](2026/08/2026-08-21-dit-zero-init-weights.md) — `facebookresearch/DiT` (tracked)
+- **2026-08-21** · pytorch · [PyTorch OneCycleLR：学习率和动量反着走 / PyTorch OneCycleLR: Learning Rate and Momentum Move Opposite Ways](2026/08/2026-08-21-pytorch-one-cycle-lr.md) — `pytorch/pytorch` (pytorch)
+- **2026-08-21** · huggingface · [Diffusers EntropyBound：低不确定 token 先落定 / Diffusers EntropyBound: Accept Low-Uncertainty Tokens First](2026/08/2026-08-21-diffusers-entropy-bound-scheduler.md) — `huggingface/diffusers` (huggingface)
+- **2026-08-21** · vla · [openpi PyTorch sample_actions：前缀只算一次，动作一路积分 / openpi PyTorch sample_actions: Cache the Prefix, Integrate the Actions](nano/vla/2026-08-21-openpi-pytorch-prefix-cache-euler.md) — `Physical-Intelligence/openpi` (vla, inference-loop advanced variant)
+- **2026-08-21** · wam · [Wan2.1 VAE codec：首帧单独过，后面四帧一组 / Wan2.1 VAE Codec: First Frame Alone, Then Four at a Time](nano/wam/2026-08-21-wan21-vae-chunked-codec.md) — `Wan-Video/Wan2.1` (wam, vae-encoder-decoder advanced variant)
+- **2026-08-21** · diffusion · [HY-World panorama pipeline：把指令、图像和缓存参数一次交清 / HY-World Panorama Pipeline: Hand Off Prompt, Image, and Cache Knobs Together](2026/08/2026-08-21-hyworld-panorama-pipeline.md) — `Tencent-Hunyuan/HY-World-2.0` (trending)
 - **2026-08-20** · robotics · [StarVLA Layerwise Q-Former：每层视觉特征都问一遍 / StarVLA Layerwise Q-Former: Query Every Vision Layer](2026/08/2026-08-20-starvla-layerwise-qformer.md) — `starVLA/starVLA` (tracked)
 - **2026-08-20** · pytorch · [PyTorch WeightedRandomSampler：权重变成抽样概率 / PyTorch WeightedRandomSampler: Turn Weights into Draw Probabilities](2026/08/2026-08-20-pytorch-weighted-random-sampler.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-20** · huggingface · [Transformers typical sampling：挑接近熵的 token / Transformers Typical Sampling: Keep Tokens Near Entropy](2026/08/2026-08-20-transformers-typical-logits-warper.md) — `huggingface/transformers` (huggingface)

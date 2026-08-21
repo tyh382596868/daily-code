@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "inference-loop",
+        "date": "2026-08-21",
+        "note": "nano/vla/2026-08-21-openpi-pytorch-prefix-cache-euler.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
         "id": "action-tokenizer",
         "date": "2026-08-18",
         "note": "nano/vla/2026-08-18-openpi-fast-token-masks.md",
@@ -1035,6 +1042,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-08-21",
+        "note": "nano/wam/2026-08-21-wan21-vae-chunked-codec.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "text-conditioning",
         "date": "2026-08-18",
