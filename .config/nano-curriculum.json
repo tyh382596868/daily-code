@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "short-term-observation-memory",
+        "date": "2026-08-23",
+        "note": "nano/vla/2026-08-23-lerobot-streaming-video-encoder.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
         "id": "inference-loop",
         "date": "2026-08-21",
         "note": "nano/vla/2026-08-21-openpi-pytorch-prefix-cache-euler.md",
@@ -1042,6 +1049,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-23",
+        "note": "nano/wam/2026-08-23-wan21-i2v-first-frame-conditioning.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "vae-encoder-decoder",
         "date": "2026-08-21",

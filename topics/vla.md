@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-23 | short-term-observation-memory (advanced variant, streaming video encoding during collection) | [LeRobot StreamingVideoEncoder：采集时边录边压 / LeRobot StreamingVideoEncoder: Encode While Recording](../nano/vla/2026-08-23-lerobot-streaming-video-encoder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-21 | inference-loop (advanced variant, prefix KV cache plus Euler action integration) | [openpi PyTorch sample_actions：前缀只算一次，动作一路积分 / openpi PyTorch sample_actions: Cache the Prefix, Integrate the Actions](../nano/vla/2026-08-21-openpi-pytorch-prefix-cache-euler.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-20 | action-tokenizer (advanced variant, uniform bin and bit action discretization) | [StarVLA ActionBinning：连续动作先落进桶里 / StarVLA ActionBinning: Put Continuous Actions into Bins First](../nano/vla/2026-08-20-starvla-action-binning.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
 | 2026-08-19 | inference-loop (advanced variant, deployment runtime loop) | [openpi Runtime loop：观测、决策、执行、记录一拍完成 / openpi Runtime Loop: Observe, Decide, Act, Log on Every Tick](../nano/vla/2026-08-19-openpi-runtime-loop.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |

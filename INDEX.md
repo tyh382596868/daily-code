@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-08-23 | infrastructure | [vLLM partial block cache：半块前缀也能命中 / vLLM Partial Block Cache: Even Half a Block Can Hit](2026/08/2026-08-23-vllm-partial-block-cache.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
+| 2026-08-23 | pytorch | [PyTorch ExponentialLR：递推乘一次，闭式算全程 / PyTorch ExponentialLR: Multiply Once, or Compute the Whole Curve](2026/08/2026-08-23-pytorch-exponential-lr.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-08-23 | huggingface | [Accelerate executable batch size：OOM 后自动退一步 / Accelerate Executable Batch Size: Step Down After OOM](2026/08/2026-08-23-accelerate-executable-batch-size.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |
+| 2026-08-23 | vla | [LeRobot StreamingVideoEncoder：采集时边录边压 / LeRobot StreamingVideoEncoder: Encode While Recording](nano/vla/2026-08-23-lerobot-streaming-video-encoder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, short-term-observation-memory advanced variant) |
+| 2026-08-23 | wam | [Wan2.1 I2V conditioning：首帧钉住，后续交给噪声 / Wan2.1 I2V Conditioning: Pin the First Frame, Let Noise Fill the Rest](nano/wam/2026-08-23-wan21-i2v-first-frame-conditioning.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, action-conditioning advanced variant) |
+| 2026-08-23 | infrastructure | [Strix agent factory：工具先注册，再装进 agent / Strix Agent Factory: Register Tools, Then Build the Agent](2026/08/2026-08-23-strix-agent-tool-registry.md) | [usestrix/strix](https://github.com/usestrix/strix) (trending) |
 | 2026-08-21 | diffusion | [DiT 初始化：先让模型安静下来 / DiT Initialization: Start the Model Quietly](2026/08/2026-08-21-dit-zero-init-weights.md) | [facebookresearch/DiT](https://github.com/facebookresearch/DiT) (tracked) |
 | 2026-08-21 | pytorch | [PyTorch OneCycleLR：学习率和动量反着走 / PyTorch OneCycleLR: Learning Rate and Momentum Move Opposite Ways](2026/08/2026-08-21-pytorch-one-cycle-lr.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-08-21 | huggingface | [Diffusers EntropyBound：低不确定 token 先落定 / Diffusers EntropyBound: Accept Low-Uncertainty Tokens First](2026/08/2026-08-21-diffusers-entropy-bound-scheduler.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |

@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-23 | [vLLM partial block cache：半块前缀也能命中 / vLLM Partial Block Cache: Even Half a Block Can Hit](../2026/08/2026-08-23-vllm-partial-block-cache.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-08-23 | [Strix agent factory：工具先注册，再装进 agent / Strix Agent Factory: Register Tools, Then Build the Agent](../2026/08/2026-08-23-strix-agent-tool-registry.md) | [usestrix/strix](https://github.com/usestrix/strix) |
 | 2026-08-19 | [nanoGPT 学习率调度：先热身，再余弦降温 / nanoGPT LR Schedule: Warm Up, Then Cosine Cool Down](../2026/08/2026-08-19-nanogpt-cosine-warmup-lr.md) | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) |
 | 2026-08-19 | [SkyRL async limiter：速率和并发是两道闸 / SkyRL Async Limiter: Rate and Concurrency Are Two Gates](../2026/08/2026-08-19-skyrl-async-rate-limiter.md) | [NovaSky-AI/SkyRL](https://github.com/NovaSky-AI/SkyRL) |
 | 2026-08-12 | [torchtune Vision RoPE：把图像 patch 拆成 X/Y 两把尺 / torchtune Vision RoPE: Split Image Patches into X/Y Rulers](../2026/08/2026-08-12-torchtune-vision-rope.md) | [pytorch/torchtune](https://github.com/pytorch/torchtune) |

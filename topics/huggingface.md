@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-23 | [Accelerate executable batch size：OOM 后自动退一步 / Accelerate Executable Batch Size: Step Down After OOM](../2026/08/2026-08-23-accelerate-executable-batch-size.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-08-21 | [Diffusers EntropyBound：低不确定 token 先落定 / Diffusers EntropyBound: Accept Low-Uncertainty Tokens First](../2026/08/2026-08-21-diffusers-entropy-bound-scheduler.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-08-20 | [Transformers typical sampling：挑接近熵的 token / Transformers Typical Sampling: Keep Tokens Near Entropy](../2026/08/2026-08-20-transformers-typical-logits-warper.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-08-19 | [PEFT LoRA forward：base 先算，adapter 再补差量 / PEFT LoRA Forward: Run the Base, Then Add the Adapter Delta](../2026/08/2026-08-19-peft-lora-forward-delta.md) | [huggingface/peft](https://github.com/huggingface/peft) |

@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-23 | action-conditioning (advanced variant, first-frame I2V condition mask) | [Wan2.1 I2V conditioning：首帧钉住，后续交给噪声 / Wan2.1 I2V Conditioning: Pin the First Frame, Let Noise Fill the Rest](../nano/wam/2026-08-23-wan21-i2v-first-frame-conditioning.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-21 | vae-encoder-decoder (advanced variant, temporal chunk codec with cache lifecycle) | [Wan2.1 VAE codec：首帧单独过，后面四帧一组 / Wan2.1 VAE Codec: First Frame Alone, Then Four at a Time](../nano/wam/2026-08-21-wan21-vae-chunked-codec.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-20 | training-loop (advanced variant, separate video/action denoising losses) | [LingBot-VA loss：视频和动作分开算，再一起反传 / LingBot-VA Loss: Score Video and Action Separately, Backprop Together](../nano/wam/2026-08-20-lingbot-va-video-action-loss.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) |
 | 2026-08-19 | action-conditioning (advanced variant, VACE hint side branch) | [Wan2.1 VACE hints：控制分支用零初始化慢慢接入 / Wan2.1 VACE Hints: Add the Control Branch with Zero Init](../nano/wam/2026-08-19-wan21-vace-hint-skip.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

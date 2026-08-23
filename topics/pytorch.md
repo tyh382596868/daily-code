@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-08-23 | [PyTorch ExponentialLR：递推乘一次，闭式算全程 / PyTorch ExponentialLR: Multiply Once, or Compute the Whole Curve](../2026/08/2026-08-23-pytorch-exponential-lr.md) | `torch/optim/lr_scheduler.py` |
 | 2026-08-21 | [PyTorch OneCycleLR：学习率和动量反着走 / PyTorch OneCycleLR: Learning Rate and Momentum Move Opposite Ways](../2026/08/2026-08-21-pytorch-one-cycle-lr.md) | `torch/optim/lr_scheduler.py` |
 | 2026-08-20 | [PyTorch WeightedRandomSampler：权重变成抽样概率 / PyTorch WeightedRandomSampler: Turn Weights into Draw Probabilities](../2026/08/2026-08-20-pytorch-weighted-random-sampler.md) | `torch/utils/data/sampler.py` |
 | 2026-08-19 | [PyTorch worker seed：给 NumPy 单独洗一副随机牌 / PyTorch Worker Seed: Shuffle a Separate Deck for NumPy](../2026/08/2026-08-19-pytorch-worker-seed-state.md) | `torch/utils/data/_utils/worker.py` |
