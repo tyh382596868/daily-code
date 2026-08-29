@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-08-29 | robotics | [LeRobot video budget：先估时长，再管存储 / LeRobot Video Budget: Estimate Time Before Managing Storage](2026/08/2026-08-29-lerobot-video-budget-estimator.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
+| 2026-08-29 | pytorch | [PyTorch ConstantLR：先压低，再还原 / PyTorch ConstantLR: Lower First, Restore Later](2026/08/2026-08-29-pytorch-constant-lr.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-08-29 | huggingface | [TRL DPO loss：偏好学习先变成 log-ratio / TRL DPO Loss: Preference Learning Starts as a Log Ratio](2026/08/2026-08-29-trl-dpo-loss-switchboard.md) | [huggingface/trl](https://github.com/huggingface/trl) (huggingface) |
+| 2026-08-29 | vla | [LeRobot action dispatch：动作队列最后一公里 / LeRobot Action Dispatch: The Last Mile of the Action Queue](nano/vla/2026-08-29-lerobot-action-dispatch.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, inference-loop advanced variant) |
+| 2026-08-29 | wam | [Wan2.1 CFG loop：正负提示词各走一遍 / Wan2.1 CFG Loop: Run Positive and Negative Prompts Together](nano/wam/2026-08-29-wan21-cfg-denoising-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, sampler-inference advanced variant) |
+| 2026-08-29 | robotics | [IsaacLab ActionManager：动作先分发，再落到执行器 / IsaacLab ActionManager: Dispatch Actions Before Applying Them](2026/08/2026-08-29-isaaclab-action-manager.md) | [isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab) (trending) |
 | 2026-08-23 | infrastructure | [vLLM partial block cache：半块前缀也能命中 / vLLM Partial Block Cache: Even Half a Block Can Hit](2026/08/2026-08-23-vllm-partial-block-cache.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
 | 2026-08-23 | pytorch | [PyTorch ExponentialLR：递推乘一次，闭式算全程 / PyTorch ExponentialLR: Multiply Once, or Compute the Whole Curve](2026/08/2026-08-23-pytorch-exponential-lr.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-08-23 | huggingface | [Accelerate executable batch size：OOM 后自动退一步 / Accelerate Executable Batch Size: Step Down After OOM](2026/08/2026-08-23-accelerate-executable-batch-size.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |

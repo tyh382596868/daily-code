@@ -813,6 +813,13 @@
         "note": "nano/vla/2026-08-20-starvla-action-binning.md",
         "repo": "starVLA/starVLA",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-29",
+        "note": "nano/vla/2026-08-29-lerobot-action-dispatch.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1614,6 +1621,13 @@
         "date": "2026-08-20",
         "note": "nano/wam/2026-08-20-lingbot-va-video-action-loss.md",
         "repo": "Robbyant/lingbot-va",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-08-29",
+        "note": "nano/wam/2026-08-29-wan21-cfg-denoising-loop.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]
