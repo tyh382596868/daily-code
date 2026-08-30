@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-30 | [CogVideo pipeline dispatch：一种入口，三种生成模式 / CogVideo Pipeline Dispatch: One Entry, Three Generation Modes](../2026/08/2026-08-30-cogvideo-pipeline-dispatch.md) | zai-org/CogVideo |
+| 2026-08-30 | [MOVA FlowMatchScheduler：sigma 时间表决定每一步走多远 / MOVA FlowMatchScheduler: The Sigma Schedule Decides Each Step Size](../2026/08/2026-08-30-mova-flow-match-scheduler.md) | OpenMOSS/MOVA |
 | 2026-08-21 | [DiT 初始化：先让模型安静下来 / DiT Initialization: Start the Model Quietly](../2026/08/2026-08-21-dit-zero-init-weights.md) | facebookresearch/DiT |
 | 2026-08-21 | [HY-World panorama pipeline：把指令、图像和缓存参数一次交清 / HY-World Panorama Pipeline: Hand Off Prompt, Image, and Cache Knobs Together](../2026/08/2026-08-21-hyworld-panorama-pipeline.md) | Tencent-Hunyuan/HY-World-2.0 |
 | 2026-08-18 | [V-JEPA loss：只预测被遮住的特征，还要保持方差 / V-JEPA Loss: Predict Masked Features, Keep Variance Alive](../2026/08/2026-08-18-jepa-target-variance-loss.md) | facebookresearch/jepa |

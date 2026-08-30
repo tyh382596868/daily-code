@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-08-30 | diffusion | [CogVideo pipeline dispatch：一种入口，三种生成模式 / CogVideo Pipeline Dispatch: One Entry, Three Generation Modes](2026/08/2026-08-30-cogvideo-pipeline-dispatch.md) | [zai-org/CogVideo](https://github.com/zai-org/CogVideo) (tracked) |
+| 2026-08-30 | pytorch | [PyTorch PackedSequence.to：只搬该搬的张量 / PyTorch PackedSequence.to: Move Only the Tensors That Should Move](2026/08/2026-08-30-pytorch-packed-sequence-to.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-08-30 | huggingface | [tokenizers ByteLevel：每个 byte 都有路可走 / tokenizers ByteLevel: Every Byte Has a Path](2026/08/2026-08-30-tokenizers-byte-level.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) (huggingface) |
+| 2026-08-30 | vla | [openpi TokenizePrompt：语言条件先变成模型前缀 / openpi TokenizePrompt: Turn Language Conditions into Model Prefixes](nano/vla/2026-08-30-openpi-tokenize-prompt.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (vla, action-tokenizer advanced variant) |
+| 2026-08-30 | wam | [Open-Sora chunked Conv3D：大卷积分块算，语义不变 / Open-Sora Chunked Conv3D: Split a Large Convolution Without Changing Semantics](nano/wam/2026-08-30-open-sora-channel-chunk-conv3d.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) (wam, vae-encoder-decoder advanced variant) |
+| 2026-08-30 | diffusion | [MOVA FlowMatchScheduler：sigma 时间表决定每一步走多远 / MOVA FlowMatchScheduler: The Sigma Schedule Decides Each Step Size](2026/08/2026-08-30-mova-flow-match-scheduler.md) | [OpenMOSS/MOVA](https://github.com/OpenMOSS/MOVA) (trending) |
 | 2026-08-29 | robotics | [LeRobot video budget：先估时长，再管存储 / LeRobot Video Budget: Estimate Time Before Managing Storage](2026/08/2026-08-29-lerobot-video-budget-estimator.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
 | 2026-08-29 | pytorch | [PyTorch ConstantLR：先压低，再还原 / PyTorch ConstantLR: Lower First, Restore Later](2026/08/2026-08-29-pytorch-constant-lr.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-08-29 | huggingface | [TRL DPO loss：偏好学习先变成 log-ratio / TRL DPO Loss: Preference Learning Starts as a Log Ratio](2026/08/2026-08-29-trl-dpo-loss-switchboard.md) | [huggingface/trl](https://github.com/huggingface/trl) (huggingface) |

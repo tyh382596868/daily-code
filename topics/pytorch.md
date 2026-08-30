@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-08-30 | [PyTorch PackedSequence.to：只搬该搬的张量 / PyTorch PackedSequence.to: Move Only the Tensors That Should Move](../2026/08/2026-08-30-pytorch-packed-sequence-to.md) | `torch/nn/utils/rnn.py` |
 | 2026-08-29 | [PyTorch ConstantLR：先压低，再还原 / PyTorch ConstantLR: Lower First, Restore Later](../2026/08/2026-08-29-pytorch-constant-lr.md) | `torch/optim/lr_scheduler.py` |
 | 2026-08-23 | [PyTorch ExponentialLR：递推乘一次，闭式算全程 / PyTorch ExponentialLR: Multiply Once, or Compute the Whole Curve](../2026/08/2026-08-23-pytorch-exponential-lr.md) | `torch/optim/lr_scheduler.py` |
 | 2026-08-21 | [PyTorch OneCycleLR：学习率和动量反着走 / PyTorch OneCycleLR: Learning Rate and Momentum Move Opposite Ways](../2026/08/2026-08-21-pytorch-one-cycle-lr.md) | `torch/optim/lr_scheduler.py` |

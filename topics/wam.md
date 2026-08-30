@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-30 | vae-encoder-decoder (advanced variant, channel-chunked 3D convolution) | [Open-Sora chunked Conv3D：大卷积分块算，语义不变 / Open-Sora Chunked Conv3D: Split a Large Convolution Without Changing Semantics](../nano/wam/2026-08-30-open-sora-channel-chunk-conv3d.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-08-29 | sampler-inference (advanced variant, classifier-free guidance denoising loop) | [Wan2.1 CFG loop：正负提示词各走一遍 / Wan2.1 CFG Loop: Run Positive and Negative Prompts Together](../nano/wam/2026-08-29-wan21-cfg-denoising-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-23 | action-conditioning (advanced variant, first-frame I2V condition mask) | [Wan2.1 I2V conditioning：首帧钉住，后续交给噪声 / Wan2.1 I2V Conditioning: Pin the First Frame, Let Noise Fill the Rest](../nano/wam/2026-08-23-wan21-i2v-first-frame-conditioning.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-21 | vae-encoder-decoder (advanced variant, temporal chunk codec with cache lifecycle) | [Wan2.1 VAE codec：首帧单独过，后面四帧一组 / Wan2.1 VAE Codec: First Frame Alone, Then Four at a Time](../nano/wam/2026-08-21-wan21-vae-chunked-codec.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

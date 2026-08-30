@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-08-30 | [tokenizers ByteLevel：每个 byte 都有路可走 / tokenizers ByteLevel: Every Byte Has a Path](../2026/08/2026-08-30-tokenizers-byte-level.md) | huggingface/tokenizers |
 | 2026-08-29 | [TRL DPO loss：偏好学习先变成 log-ratio / TRL DPO Loss: Preference Learning Starts as a Log Ratio](../2026/08/2026-08-29-trl-dpo-loss-switchboard.md) | [huggingface/trl](https://github.com/huggingface/trl) |
 | 2026-08-23 | [Accelerate executable batch size：OOM 后自动退一步 / Accelerate Executable Batch Size: Step Down After OOM](../2026/08/2026-08-23-accelerate-executable-batch-size.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-08-21 | [Diffusers EntropyBound：低不确定 token 先落定 / Diffusers EntropyBound: Accept Low-Uncertainty Tokens First](../2026/08/2026-08-21-diffusers-entropy-bound-scheduler.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |

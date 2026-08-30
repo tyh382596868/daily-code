@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "action-tokenizer",
+        "date": "2026-08-30",
+        "note": "nano/vla/2026-08-30-openpi-tokenize-prompt.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
         "id": "short-term-observation-memory",
         "date": "2026-08-23",
         "note": "nano/vla/2026-08-23-lerobot-streaming-video-encoder.md",
@@ -1056,6 +1063,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-08-30",
+        "note": "nano/wam/2026-08-30-open-sora-channel-chunk-conv3d.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
       {
         "id": "action-conditioning",
         "date": "2026-08-23",
