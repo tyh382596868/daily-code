@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-08-31 | inference-loop (advanced variant, multimodal prefill plus KV-cache decode) | [nanoVLM generate：多模态先 prefill，后面只解一个 token / nanoVLM Generate: Multimodal Prefill, Then Decode One Token at a Time](../nano/vla/2026-08-31-nanovlm-kv-cache-generate.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-08-30 | action-tokenizer (advanced variant, prompt/state prefix tokenization) | [openpi TokenizePrompt：语言条件先变成模型前缀 / openpi TokenizePrompt: Turn Language Conditions into Model Prefixes](../nano/vla/2026-08-30-openpi-tokenize-prompt.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-08-29 | inference-loop (advanced variant, action queue dispatch) | [LeRobot action dispatch：动作队列最后一公里 / LeRobot Action Dispatch: The Last Mile of the Action Queue](../nano/vla/2026-08-29-lerobot-action-dispatch.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-23 | short-term-observation-memory (advanced variant, streaming video encoding during collection) | [LeRobot StreamingVideoEncoder：采集时边录边压 / LeRobot StreamingVideoEncoder: Encode While Recording](../nano/vla/2026-08-23-lerobot-streaming-video-encoder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

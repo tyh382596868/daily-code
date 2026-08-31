@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-08-31 | infrastructure | [torchtune activation offload：用 hooks 给反向传播腾显存 / torchtune Activation Offload: Use Hooks to Free VRAM for Backward](2026/08/2026-08-31-torchtune-activation-offload-hooks.md) | [pytorch/torchtune](https://github.com/pytorch/torchtune) (tracked) |
+| 2026-08-31 | pytorch | [PyTorch HOP DCE：子图多余输出要一起删 / PyTorch HOP DCE: Remove Extra Subgraph Outputs Together](2026/08/2026-08-31-pytorch-hop-extra-output-dce.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-08-31 | huggingface | [nanoVLM projector：先降 token，再升通道 / nanoVLM Projector: Reduce Tokens, Expand Channels](2026/08/2026-08-31-nanovlm-modality-projector.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (huggingface) |
+| 2026-08-31 | vla | [nanoVLM generate：多模态先 prefill，后面只解一个 token / nanoVLM Generate: Multimodal Prefill, Then Decode One Token at a Time](nano/vla/2026-08-31-nanovlm-kv-cache-generate.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (vla, inference-loop advanced variant) |
+| 2026-08-31 | wam | [Wan2.1 context parallel：把视频 token 沿序列切开 / Wan2.1 Context Parallel: Split Video Tokens Along Sequence](nano/wam/2026-08-31-wan21-context-parallel-dit.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, dit-block advanced variant) |
+| 2026-08-31 | infrastructure | [Sprix SAGE router：先列路线，再按效用选队伍 / Sprix SAGE Router: Enumerate Routes, Then Pick by Utility](2026/08/2026-08-31-sprix-sage-utility-router.md) | [wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router) (trending) |
 | 2026-08-30 | diffusion | [CogVideo pipeline dispatch：一种入口，三种生成模式 / CogVideo Pipeline Dispatch: One Entry, Three Generation Modes](2026/08/2026-08-30-cogvideo-pipeline-dispatch.md) | [zai-org/CogVideo](https://github.com/zai-org/CogVideo) (tracked) |
 | 2026-08-30 | pytorch | [PyTorch PackedSequence.to：只搬该搬的张量 / PyTorch PackedSequence.to: Move Only the Tensors That Should Move](2026/08/2026-08-30-pytorch-packed-sequence-to.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-08-30 | huggingface | [tokenizers ByteLevel：每个 byte 都有路可走 / tokenizers ByteLevel: Every Byte Has a Path](2026/08/2026-08-30-tokenizers-byte-level.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) (huggingface) |

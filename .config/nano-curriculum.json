@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "inference-loop",
+        "date": "2026-08-31",
+        "note": "nano/vla/2026-08-31-nanovlm-kv-cache-generate.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
         "id": "action-tokenizer",
         "date": "2026-08-30",
         "note": "nano/vla/2026-08-30-openpi-tokenize-prompt.md",
@@ -1063,6 +1070,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "dit-block",
+        "date": "2026-08-31",
+        "note": "nano/wam/2026-08-31-wan21-context-parallel-dit.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "vae-encoder-decoder",
         "date": "2026-08-30",
