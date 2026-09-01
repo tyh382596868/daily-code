@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-01 | action-conditioning (advanced variant, VACE mask-aligned paired latents) | [Wan2.1 VACE mask：把可控区域变成双通道 latent / Wan2.1 VACE Mask: Turn Editable Regions into Paired Latents](../nano/wam/2026-09-01-wan21-vace-mask-latents.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-31 | dit-block (advanced variant, sequence/context parallel DiT forward) | [Wan2.1 context parallel：把视频 token 沿序列切开 / Wan2.1 Context Parallel: Split Video Tokens Along Sequence](../nano/wam/2026-08-31-wan21-context-parallel-dit.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-08-30 | vae-encoder-decoder (advanced variant, channel-chunked 3D convolution) | [Open-Sora chunked Conv3D：大卷积分块算，语义不变 / Open-Sora Chunked Conv3D: Split a Large Convolution Without Changing Semantics](../nano/wam/2026-08-30-open-sora-channel-chunk-conv3d.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-08-29 | sampler-inference (advanced variant, classifier-free guidance denoising loop) | [Wan2.1 CFG loop：正负提示词各走一遍 / Wan2.1 CFG Loop: Run Positive and Negative Prompts Together](../nano/wam/2026-08-29-wan21-cfg-denoising-loop.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-01 | [LeRobot chunked transport：大消息拆小块传 / LeRobot Chunked Transport: Send Big Messages in Small Pieces](../2026/09/2026-09-01-lerobot-chunked-transport.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
+| 2026-09-01 | [HFlow motion checks：一次差分，多处复用 / HFlow Motion Checks: Differentiate Once, Reuse the Evidence](../2026/09/2026-09-01-hflow-joint-motion-profile.md) | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) |
 | 2026-08-29 | [LeRobot video budget：先估时长，再管存储 / LeRobot Video Budget: Estimate Time Before Managing Storage](../2026/08/2026-08-29-lerobot-video-budget-estimator.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-29 | [IsaacLab ActionManager：动作先分发，再落到执行器 / IsaacLab ActionManager: Dispatch Actions Before Applying Them](../2026/08/2026-08-29-isaaclab-action-manager.md) | [isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab) |
 | 2026-08-20 | [StarVLA Layerwise Q-Former：每层视觉特征都问一遍 / StarVLA Layerwise Q-Former: Query Every Vision Layer](../2026/08/2026-08-20-starvla-layerwise-qformer.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |

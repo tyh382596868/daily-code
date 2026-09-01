@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "short-term-observation-memory",
+        "date": "2026-09-01",
+        "note": "nano/vla/2026-09-01-lerobot-pi05-observation-history.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
         "id": "inference-loop",
         "date": "2026-08-31",
         "note": "nano/vla/2026-08-31-nanovlm-kv-cache-generate.md",
@@ -1070,6 +1077,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "action-conditioning",
+        "date": "2026-09-01",
+        "note": "nano/wam/2026-09-01-wan21-vace-mask-latents.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "dit-block",
         "date": "2026-08-31",

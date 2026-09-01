@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-09-01** · robotics · [LeRobot chunked transport：大消息拆小块传 / LeRobot Chunked Transport: Send Big Messages in Small Pieces](2026/09/2026-09-01-lerobot-chunked-transport.md) — `huggingface/lerobot` (tracked)
+- **2026-09-01** · pytorch · [PyTorch DataLoader prefetch：边取边补任务 / PyTorch DataLoader Prefetch: Refill Work While Reading Results](2026/09/2026-09-01-pytorch-dataloader-prefetch.md) — `pytorch/pytorch` (pytorch)
+- **2026-09-01** · huggingface · [Transformers sequence bias：短语偏好落到最后一个 token / Transformers Sequence Bias: Apply Phrase Preference to the Final Token](2026/09/2026-09-01-transformers-sequence-bias.md) — `huggingface/transformers` (huggingface)
+- **2026-09-01** · vla · [LeRobot Pi05 memory：固定步幅取历史帧 / LeRobot Pi05 Memory: Sample History Frames at a Fixed Stride](nano/vla/2026-09-01-lerobot-pi05-observation-history.md) — `huggingface/lerobot` (vla, short-term-observation-memory advanced variant)
+- **2026-09-01** · wam · [Wan2.1 VACE mask：把可控区域变成双通道 latent / Wan2.1 VACE Mask: Turn Editable Regions into Paired Latents](nano/wam/2026-09-01-wan21-vace-mask-latents.md) — `Wan-Video/Wan2.1` (wam, action-conditioning advanced variant)
+- **2026-09-01** · robotics · [HFlow motion checks：一次差分，多处复用 / HFlow Motion Checks: Differentiate Once, Reuse the Evidence](2026/09/2026-09-01-hflow-joint-motion-profile.md) — `Hebbian-Robotics/hflow` (trending)
 - **2026-08-31** · infrastructure · [torchtune activation offload：用 hooks 给反向传播腾显存 / torchtune Activation Offload: Use Hooks to Free VRAM for Backward](2026/08/2026-08-31-torchtune-activation-offload-hooks.md) — `pytorch/torchtune` (tracked)
 - **2026-08-31** · pytorch · [PyTorch HOP DCE：子图多余输出要一起删 / PyTorch HOP DCE: Remove Extra Subgraph Outputs Together](2026/08/2026-08-31-pytorch-hop-extra-output-dce.md) — `pytorch/pytorch` (pytorch)
 - **2026-08-31** · huggingface · [nanoVLM projector：先降 token，再升通道 / nanoVLM Projector: Reduce Tokens, Expand Channels](2026/08/2026-08-31-nanovlm-modality-projector.md) — `huggingface/nanoVLM` (huggingface)

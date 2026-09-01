@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-09-01 | [PyTorch DataLoader prefetch：边取边补任务 / PyTorch DataLoader Prefetch: Refill Work While Reading Results](../2026/09/2026-09-01-pytorch-dataloader-prefetch.md) | `torch/utils/data/dataloader.py` |
 | 2026-08-31 | [PyTorch HOP DCE：子图多余输出要一起删 / PyTorch HOP DCE: Remove Extra Subgraph Outputs Together](../2026/08/2026-08-31-pytorch-hop-extra-output-dce.md) | `torch/_dynamo/dce_extra_outputs.py` |
 | 2026-08-30 | [PyTorch PackedSequence.to：只搬该搬的张量 / PyTorch PackedSequence.to: Move Only the Tensors That Should Move](../2026/08/2026-08-30-pytorch-packed-sequence-to.md) | `torch/nn/utils/rnn.py` |
 | 2026-08-29 | [PyTorch ConstantLR：先压低，再还原 / PyTorch ConstantLR: Lower First, Restore Later](../2026/08/2026-08-29-pytorch-constant-lr.md) | `torch/optim/lr_scheduler.py` |
