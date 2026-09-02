@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "inference-loop",
+        "date": "2026-09-02",
+        "note": "nano/vla/2026-09-02-openpi-policy-wrapper.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
         "id": "short-term-observation-memory",
         "date": "2026-09-01",
         "note": "nano/vla/2026-09-01-lerobot-pi05-observation-history.md",
@@ -1077,6 +1084,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "dit-block",
+        "date": "2026-09-02",
+        "note": "nano/wam/2026-09-02-wan21-flash-attention-wrapper.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "action-conditioning",
         "date": "2026-09-01",

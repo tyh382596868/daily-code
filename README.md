@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-09-02** · diffusion · [V-JEPA 可变位置编码：输入变了，位置格子也跟着变 / V-JEPA Variable Positional Embedding: Let the Grid Follow the Input](2026/09/2026-09-02-jepa-variable-pos-mask.md) — `facebookresearch/jepa` (tracked)
+- **2026-09-02** · pytorch · [PyTorch RMSNorm：最后一维做均方根归一化 / PyTorch RMSNorm: Normalize by Root Mean Square Along the Last Dimension](2026/09/2026-09-02-pytorch-rmsnorm.md) — `pytorch/pytorch` (pytorch)
+- **2026-09-02** · huggingface · [Diffusers dynamic thresholding：按分位数收紧 x0 / Diffusers Dynamic Thresholding: Clamp x0 by Percentile](2026/09/2026-09-02-diffusers-dynamic-thresholding.md) — `huggingface/diffusers` (huggingface)
+- **2026-09-02** · vla · [openpi Policy：一份 `infer()` 同时兼容 JAX 和 PyTorch / openpi Policy: One `infer()` for Both JAX and PyTorch](nano/vla/2026-09-02-openpi-policy-wrapper.md) — `Physical-Intelligence/openpi` (vla, inference-loop advanced variant)
+- **2026-09-02** · wam · [Wan2.1 Flash Attention 包装器：先压平变长 token，再交给 kernel / Wan2.1 Flash Attention Wrapper: Flatten Variable-Length Tokens Before the Kernel](nano/wam/2026-09-02-wan21-flash-attention-wrapper.md) — `Wan-Video/Wan2.1` (wam, dit-block advanced variant)
+- **2026-09-02** · diffusion · [UFO BaseModel：checkpoint 保存、加载和 target network 处理 / UFO BaseModel: Checkpoint Save, Load, and Target-Network Handling](2026/09/2026-09-02-ufo-base-model-checkpoint-io.md) — `Roboparty/UFO` (trending)
 - **2026-09-01** · robotics · [LeRobot chunked transport：大消息拆小块传 / LeRobot Chunked Transport: Send Big Messages in Small Pieces](2026/09/2026-09-01-lerobot-chunked-transport.md) — `huggingface/lerobot` (tracked)
 - **2026-09-01** · pytorch · [PyTorch DataLoader prefetch：边取边补任务 / PyTorch DataLoader Prefetch: Refill Work While Reading Results](2026/09/2026-09-01-pytorch-dataloader-prefetch.md) — `pytorch/pytorch` (pytorch)
 - **2026-09-01** · huggingface · [Transformers sequence bias：短语偏好落到最后一个 token / Transformers Sequence Bias: Apply Phrase Preference to the Final Token](2026/09/2026-09-01-transformers-sequence-bias.md) — `huggingface/transformers` (huggingface)

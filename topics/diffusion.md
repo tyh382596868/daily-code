@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-02 | [V-JEPA 可变位置编码：输入变了，位置格子也跟着变 / V-JEPA Variable Positional Embedding: Let the Grid Follow the Input](../2026/09/2026-09-02-jepa-variable-pos-mask.md) | facebookresearch/jepa |
+| 2026-09-02 | [UFO BaseModel：checkpoint 保存、加载和 target network 处理 / UFO BaseModel: Checkpoint Save, Load, and Target-Network Handling](../2026/09/2026-09-02-ufo-base-model-checkpoint-io.md) | Roboparty/UFO |
 | 2026-08-30 | [CogVideo pipeline dispatch：一种入口，三种生成模式 / CogVideo Pipeline Dispatch: One Entry, Three Generation Modes](../2026/08/2026-08-30-cogvideo-pipeline-dispatch.md) | zai-org/CogVideo |
 | 2026-08-30 | [MOVA FlowMatchScheduler：sigma 时间表决定每一步走多远 / MOVA FlowMatchScheduler: The Sigma Schedule Decides Each Step Size](../2026/08/2026-08-30-mova-flow-match-scheduler.md) | OpenMOSS/MOVA |
 | 2026-08-21 | [DiT 初始化：先让模型安静下来 / DiT Initialization: Start the Model Quietly](../2026/08/2026-08-21-dit-zero-init-weights.md) | facebookresearch/DiT |
