@@ -4,6 +4,7 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-06 | [AWorld BaseAgent：把状态机和 task-local 上下文绑在一起 / AWorld BaseAgent: Bind the State Machine to Task-Local Context](../2026/09/2026-09-06-aworld-agent-base.md) | [inclusionAI/AWorld](https://github.com/inclusionAI/AWorld) |
 | 2026-08-31 | [torchtune activation offload：用 hooks 给反向传播腾显存 / torchtune Activation Offload: Use Hooks to Free VRAM for Backward](../2026/08/2026-08-31-torchtune-activation-offload-hooks.md) | [pytorch/torchtune](https://github.com/pytorch/torchtune) |
 | 2026-08-31 | [Sprix SAGE router：先列路线，再按效用选队伍 / Sprix SAGE Router: Enumerate Routes, Then Pick by Utility](../2026/08/2026-08-31-sprix-sage-utility-router.md) | [wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router) |
 | 2026-08-23 | [vLLM partial block cache：半块前缀也能命中 / vLLM Partial Block Cache: Even Half a Block Can Hit](../2026/08/2026-08-23-vllm-partial-block-cache.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

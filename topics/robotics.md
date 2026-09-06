@@ -4,6 +4,7 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-06 | [DROID dataloader：先筛成功样本，再把多源轨迹交给 RLDS / DROID Dataloader: Filter Success First, Then Hand Multi-Source Trajectories to RLDS](../2026/09/2026-09-06-droid-policy-learning-dataloader.md) | [droid-dataset/droid_policy_learning](https://github.com/droid-dataset/droid_policy_learning) |
 | 2026-09-01 | [LeRobot chunked transport：大消息拆小块传 / LeRobot Chunked Transport: Send Big Messages in Small Pieces](../2026/09/2026-09-01-lerobot-chunked-transport.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-01 | [HFlow motion checks：一次差分，多处复用 / HFlow Motion Checks: Differentiate Once, Reuse the Evidence](../2026/09/2026-09-01-hflow-joint-motion-profile.md) | [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) |
 | 2026-08-29 | [LeRobot video budget：先估时长，再管存储 / LeRobot Video Budget: Estimate Time Before Managing Storage](../2026/08/2026-08-29-lerobot-video-budget-estimator.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

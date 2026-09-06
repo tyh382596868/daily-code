@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-06 | [Datasets StepExamplesIterable：按步长抽样，同时保住断点 / Datasets StepExamplesIterable: Step Through Streaming Data Without Losing Resume State](../2026/09/2026-09-06-datasets-step-examples-iterable.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |
 | 2026-09-02 | [Diffusers dynamic thresholding：按分位数收紧 x0 / Diffusers Dynamic Thresholding: Clamp x0 by Percentile](../2026/09/2026-09-02-diffusers-dynamic-thresholding.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-09-01 | [Transformers sequence bias：短语偏好落到最后一个 token / Transformers Sequence Bias: Apply Phrase Preference to the Final Token](../2026/09/2026-09-01-transformers-sequence-bias.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-08-31 | [nanoVLM projector：先降 token，再升通道 / nanoVLM Projector: Reduce Tokens, Expand Channels](../2026/08/2026-08-31-nanovlm-modality-projector.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |

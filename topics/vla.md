@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-06 | action-chunking (advanced variant, relative and absolute chunk conversion) | [Isaac-GR00T ActionChunk：绝对动作和相对动作一键互转 / Isaac-GR00T ActionChunk: Convert Absolute and Relative Actions Both Ways](../nano/vla/2026-09-06-isaac-groot-action-chunking.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-09-02 | inference-loop (advanced variant, unified JAX/PyTorch Policy wrapper) | [openpi Policy：一份 `infer()` 同时兼容 JAX 和 PyTorch / openpi Policy: One `infer()` for Both JAX and PyTorch](../nano/vla/2026-09-02-openpi-policy-wrapper.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-09-01 | short-term-observation-memory (advanced variant, fixed-stride Pi05 visual history) | [LeRobot Pi05 memory：固定步幅取历史帧 / LeRobot Pi05 Memory: Sample History Frames at a Fixed Stride](../nano/vla/2026-09-01-lerobot-pi05-observation-history.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-08-31 | inference-loop (advanced variant, multimodal prefill plus KV-cache decode) | [nanoVLM generate：多模态先 prefill，后面只解一个 token / nanoVLM Generate: Multimodal Prefill, Then Decode One Token at a Time](../nano/vla/2026-08-31-nanovlm-kv-cache-generate.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |

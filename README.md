@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-09-06** · robotics · [DROID dataloader：先筛成功样本，再把多源轨迹交给 RLDS / DROID Dataloader: Filter Success First, Then Hand Multi-Source Trajectories to RLDS](2026/09/2026-09-06-droid-policy-learning-dataloader.md) — `droid-dataset/droid_policy_learning` (tracked)
+- **2026-09-06** · pytorch · [PyTorch pin_memory：递归搬 batch，但保住容器形状 / PyTorch pin_memory: Move a Batch Recursively, Keep the Container Shape](2026/09/2026-09-06-pytorch-pin-memory-thread.md) — `pytorch/pytorch` (pytorch)
+- **2026-09-06** · huggingface · [Datasets StepExamplesIterable：按步长抽样，同时保住断点 / Datasets StepExamplesIterable: Step Through Streaming Data Without Losing Resume State](2026/09/2026-09-06-datasets-step-examples-iterable.md) — `huggingface/datasets` (huggingface)
+- **2026-09-06** · vla · [Isaac-GR00T ActionChunk：绝对动作和相对动作一键互转 / Isaac-GR00T ActionChunk: Convert Absolute and Relative Actions Both Ways](nano/vla/2026-09-06-isaac-groot-action-chunking.md) — `NVIDIA/Isaac-GR00T` (vla, action-chunking advanced variant)
+- **2026-09-06** · wam · [DreamZero VideoVAE：4 帧一组编码，缓存把时间切开 / DreamZero VideoVAE: Encode in Four-Frame Chunks, Carry the Cache Across Time](nano/wam/2026-09-06-dreamzero-video-vae-cache.md) — `dreamzero0/dreamzero` (wam, vae-encoder-decoder advanced variant)
+- **2026-09-06** · infrastructure · [AWorld BaseAgent：把状态机和 task-local 上下文绑在一起 / AWorld BaseAgent: Bind the State Machine to Task-Local Context](2026/09/2026-09-06-aworld-agent-base.md) — `inclusionAI/AWorld` (trending)
 - **2026-09-02** · diffusion · [V-JEPA 可变位置编码：输入变了，位置格子也跟着变 / V-JEPA Variable Positional Embedding: Let the Grid Follow the Input](2026/09/2026-09-02-jepa-variable-pos-mask.md) — `facebookresearch/jepa` (tracked)
 - **2026-09-02** · pytorch · [PyTorch RMSNorm：最后一维做均方根归一化 / PyTorch RMSNorm: Normalize by Root Mean Square Along the Last Dimension](2026/09/2026-09-02-pytorch-rmsnorm.md) — `pytorch/pytorch` (pytorch)
 - **2026-09-02** · huggingface · [Diffusers dynamic thresholding：按分位数收紧 x0 / Diffusers Dynamic Thresholding: Clamp x0 by Percentile](2026/09/2026-09-02-diffusers-dynamic-thresholding.md) — `huggingface/diffusers` (huggingface)

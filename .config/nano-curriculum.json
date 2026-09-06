@@ -848,6 +848,13 @@
         "note": "nano/vla/2026-08-29-lerobot-action-dispatch.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-09-06",
+        "note": "nano/vla/2026-09-06-isaac-groot-action-chunking.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
       }
     ]
   },
@@ -1684,6 +1691,13 @@
         "date": "2026-08-29",
         "note": "nano/wam/2026-08-29-wan21-cfg-denoising-loop.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-09-06",
+        "note": "nano/wam/2026-09-06-dreamzero-video-vae-cache.md",
+        "repo": "dreamzero0/dreamzero",
         "via": "wam"
       }
     ]
