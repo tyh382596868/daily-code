@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-09 | sampler-inference (advanced variant, video K/V cache for action denoising) | [FastWAM action cache：视频 K/V 只算一次，动作每步重算 / FastWAM Action Cache: Compute Video K/V Once, Recompute Actions Each Step](../nano/wam/2026-09-09-fastwam-action-video-kv-cache.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-09-06 | vae-encoder-decoder (advanced variant, chunked temporal cache) | [DreamZero VideoVAE：4 帧一组编码，缓存把时间切开 / DreamZero VideoVAE: Encode in Four-Frame Chunks, Carry the Cache Across Time](../nano/wam/2026-09-06-dreamzero-video-vae-cache.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-09-02 | dit-block (advanced variant, variable-length FlashAttention backend) | [Wan2.1 Flash Attention 包装器：先压平变长 token，再交给 kernel / Wan2.1 Flash Attention Wrapper: Flatten Variable-Length Tokens Before the Kernel](../nano/wam/2026-09-02-wan21-flash-attention-wrapper.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-09-01 | action-conditioning (advanced variant, VACE mask-aligned paired latents) | [Wan2.1 VACE mask：把可控区域变成双通道 latent / Wan2.1 VACE Mask: Turn Editable Regions into Paired Latents](../nano/wam/2026-09-01-wan21-vace-mask-latents.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |

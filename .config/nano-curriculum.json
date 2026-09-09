@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "training-step",
+        "date": "2026-09-09",
+        "note": "nano/vla/2026-09-09-openvla-action-collator.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
+      },
+      {
         "id": "inference-loop",
         "date": "2026-09-02",
         "note": "nano/vla/2026-09-02-openpi-policy-wrapper.md",
@@ -1091,6 +1098,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "sampler-inference",
+        "date": "2026-09-09",
+        "note": "nano/wam/2026-09-09-fastwam-action-video-kv-cache.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
       {
         "id": "dit-block",
         "date": "2026-09-02",

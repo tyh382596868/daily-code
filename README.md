@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-09-09** · diffusion · [DINOv3 变长 attention：先合并投影，再保住每段边界 / DINOv3 Variable-Length Attention: Fuse the Projection, Keep Each Segment](2026/09/2026-09-09-dinov3-variable-list-attention.md) — `facebookresearch/dinov3` (tracked)
+- **2026-09-09** · pytorch · [PyTorch `create_block_mask`：把布尔规则压成稀疏块 / PyTorch `create_block_mask`: Compile a Boolean Rule into Sparse Blocks](2026/09/2026-09-09-pytorch-create-block-mask.md) — `pytorch/pytorch` (pytorch)
+- **2026-09-09** · huggingface · [Accelerate DataLoaderShard：提前看一批，结尾才不会错 / Accelerate DataLoaderShard: Look One Batch Ahead to Get the End Right](2026/09/2026-09-09-accelerate-dataloader-lookahead.md) — `huggingface/accelerate` (huggingface)
+- **2026-09-09** · vla · [OpenVLA Action Collator：把变长语言和图像装进稳定 batch / OpenVLA Action Collator: Pack Variable-Length Language and Images into a Stable Batch](nano/vla/2026-09-09-openvla-action-collator.md) — `openvla/openvla` (vla, training-step advanced variant)
+- **2026-09-09** · wam · [FastWAM action cache：视频 K/V 只算一次，动作每步重算 / FastWAM Action Cache: Compute Video K/V Once, Recompute Actions Each Step](nano/wam/2026-09-09-fastwam-action-video-kv-cache.md) — `yuantianyuan01/FastWAM` (wam, sampler-inference advanced variant)
+- **2026-09-09** · diffusion · [Autonomous OS motion timeline：超速片段自动拉长 / Autonomous OS Motion Timeline: Stretch Only the Unsafe Segments](2026/09/2026-09-09-autonomous-os-motion-timeline.md) — `autonomous-ai/autonomous-os` (trending)
 - **2026-09-06** · robotics · [DROID dataloader：先筛成功样本，再把多源轨迹交给 RLDS / DROID Dataloader: Filter Success First, Then Hand Multi-Source Trajectories to RLDS](2026/09/2026-09-06-droid-policy-learning-dataloader.md) — `droid-dataset/droid_policy_learning` (tracked)
 - **2026-09-06** · pytorch · [PyTorch pin_memory：递归搬 batch，但保住容器形状 / PyTorch pin_memory: Move a Batch Recursively, Keep the Container Shape](2026/09/2026-09-06-pytorch-pin-memory-thread.md) — `pytorch/pytorch` (pytorch)
 - **2026-09-06** · huggingface · [Datasets StepExamplesIterable：按步长抽样，同时保住断点 / Datasets StepExamplesIterable: Step Through Streaming Data Without Losing Resume State](2026/09/2026-09-06-datasets-step-examples-iterable.md) — `huggingface/datasets` (huggingface)

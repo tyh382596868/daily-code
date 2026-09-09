@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-09-09 | [PyTorch `create_block_mask`：把布尔规则压成稀疏块 / PyTorch `create_block_mask`: Compile a Boolean Rule into Sparse Blocks](../2026/09/2026-09-09-pytorch-create-block-mask.md) | `torch/nn/attention/flex_attention.py` |
 | 2026-09-06 | [PyTorch pin_memory：递归搬 batch，但保住容器形状 / PyTorch pin_memory: Move a Batch Recursively, Keep the Container Shape](../2026/09/2026-09-06-pytorch-pin-memory-thread.md) | `torch/utils/data/_utils/pin_memory.py` |
 | 2026-09-02 | [PyTorch RMSNorm：最后一维做均方根归一化 / PyTorch RMSNorm: Normalize by Root Mean Square Along the Last Dimension](../2026/09/2026-09-02-pytorch-rmsnorm.md) | `torch/nn/modules/normalization.py` |
 | 2026-09-01 | [PyTorch DataLoader prefetch：边取边补任务 / PyTorch DataLoader Prefetch: Refill Work While Reading Results](../2026/09/2026-09-01-pytorch-dataloader-prefetch.md) | `torch/utils/data/dataloader.py` |
