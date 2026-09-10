@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-10 | [vLLM prefill gate：解码不断，新 prefill 等节拍 / vLLM Prefill Gate: Keep Decoding, Admit Prefill on Cadence](../2026/09/2026-09-10-vllm-dp-prefill-gate.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-09-10 | [Alpamayo2 input profiles：任务先选相机和帧 / Alpamayo2 Input Profiles: Choose Cameras and Frames Per Task](../2026/09/2026-09-10-alpamayo2-input-profiles.md) | [NVlabs/alpamayo2](https://github.com/NVlabs/alpamayo2) |
 | 2026-09-06 | [AWorld BaseAgent：把状态机和 task-local 上下文绑在一起 / AWorld BaseAgent: Bind the State Machine to Task-Local Context](../2026/09/2026-09-06-aworld-agent-base.md) | [inclusionAI/AWorld](https://github.com/inclusionAI/AWorld) |
 | 2026-08-31 | [torchtune activation offload：用 hooks 给反向传播腾显存 / torchtune Activation Offload: Use Hooks to Free VRAM for Backward](../2026/08/2026-08-31-torchtune-activation-offload-hooks.md) | [pytorch/torchtune](https://github.com/pytorch/torchtune) |
 | 2026-08-31 | [Sprix SAGE router：先列路线，再按效用选队伍 / Sprix SAGE Router: Enumerate Routes, Then Pick by Utility](../2026/08/2026-08-31-sprix-sage-utility-router.md) | [wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router) |

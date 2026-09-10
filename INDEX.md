@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-09-10 | infrastructure | [vLLM prefill gate：解码不断，新 prefill 等节拍 / vLLM Prefill Gate: Keep Decoding, Admit Prefill on Cadence](2026/09/2026-09-10-vllm-dp-prefill-gate.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
+| 2026-09-10 | pytorch | [PyTorch SAC storage key：同名 op 也要分执行区 / PyTorch SAC Storage Key: Same Op, Separate Compiled Regions](2026/09/2026-09-10-pytorch-sac-storage-key.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-09-10 | huggingface | [Transformers Cache offload：下一层预取，上一层下放 / Transformers Cache Offload: Prefetch Next, Offload Current](2026/09/2026-09-10-transformers-cache-offload-prefetch.md) | [huggingface/transformers](https://github.com/huggingface/transformers) (huggingface) |
+| 2026-09-10 | vla | [GR00T frozen eval：冻结参数还要冻结行为 / GR00T Frozen Eval: Freeze Behavior, Not Just Parameters](nano/vla/2026-09-10-groot-frozen-modules-eval.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) (vla, fine-tune-lora advanced variant) |
+| 2026-09-10 | wam | [LingBot-VA action mode：同一主干切换视频和动作 / LingBot-VA Action Mode: One Backbone Switches Between Video and Action](nano/wam/2026-09-10-lingbot-va-action-mode-switch.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) (wam, action-conditioning advanced variant) |
+| 2026-09-10 | infrastructure | [Alpamayo2 input profiles：任务先选相机和帧 / Alpamayo2 Input Profiles: Choose Cameras and Frames Per Task](2026/09/2026-09-10-alpamayo2-input-profiles.md) | [NVlabs/alpamayo2](https://github.com/NVlabs/alpamayo2) (trending) |
 | 2026-09-09 | diffusion | [DINOv3 变长 attention：先合并投影，再保住每段边界 / DINOv3 Variable-Length Attention: Fuse the Projection, Keep Each Segment](2026/09/2026-09-09-dinov3-variable-list-attention.md) | [facebookresearch/dinov3](https://github.com/facebookresearch/dinov3) (tracked) |
 | 2026-09-09 | pytorch | [PyTorch `create_block_mask`：把布尔规则压成稀疏块 / PyTorch `create_block_mask`: Compile a Boolean Rule into Sparse Blocks](2026/09/2026-09-09-pytorch-create-block-mask.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-09-09 | huggingface | [Accelerate DataLoaderShard：提前看一批，结尾才不会错 / Accelerate DataLoaderShard: Look One Batch Ahead to Get the End Right](2026/09/2026-09-09-accelerate-dataloader-lookahead.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |

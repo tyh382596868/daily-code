@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "fine-tune-lora",
+        "date": "2026-09-10",
+        "note": "nano/vla/2026-09-10-groot-frozen-modules-eval.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
+      },
+      {
         "id": "training-step",
         "date": "2026-09-09",
         "note": "nano/vla/2026-09-09-openvla-action-collator.md",
@@ -1098,6 +1105,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "action-conditioning",
+        "date": "2026-09-10",
+        "note": "nano/wam/2026-09-10-lingbot-va-action-mode-switch.md",
+        "repo": "Robbyant/lingbot-va",
+        "via": "wam"
+      },
       {
         "id": "sampler-inference",
         "date": "2026-09-09",
