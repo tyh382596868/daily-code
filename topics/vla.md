@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-11 | vision-encoder (advanced variant, frozen vision tower plus connector boundary) | [SmolVLA 视觉入口：冻结塔、统一 dtype，再接 connector / SmolVLA Vision Boundary: Freeze, Cast, Then Connect](../nano/vla/2026-09-11-smolvla-vision-encoder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-10 | fine-tune-lora (advanced variant, restore frozen modules to eval mode) | [GR00T frozen eval：冻结参数还要冻结行为 / GR00T Frozen Eval: Freeze Behavior, Not Just Parameters](../nano/vla/2026-09-10-groot-frozen-modules-eval.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-09-09 | training-step (advanced variant, padded action-prediction collator) | [OpenVLA Action Collator：把变长语言和图像装进稳定 batch / OpenVLA Action Collator: Pack Variable-Length Language and Images into a Stable Batch](../nano/vla/2026-09-09-openvla-action-collator.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-09-06 | action-chunking (advanced variant, relative and absolute chunk conversion) | [Isaac-GR00T ActionChunk：绝对动作和相对动作一键互转 / Isaac-GR00T ActionChunk: Convert Absolute and Relative Actions Both Ways](../nano/vla/2026-09-06-isaac-groot-action-chunking.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |

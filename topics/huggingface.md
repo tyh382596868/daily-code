@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-11 | [PEFT 变体注册表：配置组合变成稳定 dispatch key / PEFT Variant Registry: Turn Config Combinations into Stable Dispatch Keys](../2026/09/2026-09-11-peft-lora-variant-registry.md) | [huggingface/peft](https://github.com/huggingface/peft) |
 | 2026-09-10 | [Transformers Cache offload：下一层预取，上一层下放 / Transformers Cache Offload: Prefetch Next, Offload Current](../2026/09/2026-09-10-transformers-cache-offload-prefetch.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-09-09 | [Accelerate DataLoaderShard：提前看一批，结尾才不会错 / Accelerate DataLoaderShard: Look One Batch Ahead to Get the End Right](../2026/09/2026-09-09-accelerate-dataloader-lookahead.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-09-06 | [Datasets StepExamplesIterable：按步长抽样，同时保住断点 / Datasets StepExamplesIterable: Step Through Streaming Data Without Losing Resume State](../2026/09/2026-09-06-datasets-step-examples-iterable.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |

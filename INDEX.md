@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-09-11 | robotics | [LeRobot 计划刷新：事件出现，再回头重跑计划 / LeRobot Plan Refresh: Re-enter the Plan After an Event](2026/09/2026-09-11-lerobot-steerable-plan-refresh.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
+| 2026-09-11 | pytorch | [PyTorch Adaptive Softmax：先找桶，再算桶内概率 / PyTorch Adaptive Softmax: Find the Bucket, Then Score Inside It](2026/09/2026-09-11-pytorch-adaptive-log-softmax.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-09-11 | huggingface | [PEFT 变体注册表：配置组合变成稳定 dispatch key / PEFT Variant Registry: Turn Config Combinations into Stable Dispatch Keys](2026/09/2026-09-11-peft-lora-variant-registry.md) | [huggingface/peft](https://github.com/huggingface/peft) (huggingface) |
+| 2026-09-11 | vla | [SmolVLA 视觉入口：冻结塔、统一 dtype，再接 connector / SmolVLA Vision Boundary: Freeze, Cast, Then Connect](nano/vla/2026-09-11-smolvla-vision-encoder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, vision-encoder advanced variant) |
+| 2026-09-11 | wam | [FastWAM MoT：每个 expert 自己准备 QKV，再共享 attention / FastWAM MoT: Per-Expert QKV, Shared Attention](nano/wam/2026-09-11-fastwam-mot-attention-io.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) (wam, dit-block advanced variant) |
+| 2026-09-11 | robotics | [OpenWAM attention backend：一个 tensor 契约，多个 kernel / OpenWAM Attention Backend: One Tensor Contract, Many Kernels](2026/09/2026-09-11-openwam-attention-backend.md) | [OpenWAM-Official/OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) (trending) |
 | 2026-09-10 | infrastructure | [vLLM prefill gate：解码不断，新 prefill 等节拍 / vLLM Prefill Gate: Keep Decoding, Admit Prefill on Cadence](2026/09/2026-09-10-vllm-dp-prefill-gate.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
 | 2026-09-10 | pytorch | [PyTorch SAC storage key：同名 op 也要分执行区 / PyTorch SAC Storage Key: Same Op, Separate Compiled Regions](2026/09/2026-09-10-pytorch-sac-storage-key.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-09-10 | huggingface | [Transformers Cache offload：下一层预取，上一层下放 / Transformers Cache Offload: Prefetch Next, Offload Current](2026/09/2026-09-10-transformers-cache-offload-prefetch.md) | [huggingface/transformers](https://github.com/huggingface/transformers) (huggingface) |

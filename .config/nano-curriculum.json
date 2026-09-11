@@ -869,6 +869,13 @@
         "note": "nano/vla/2026-09-06-isaac-groot-action-chunking.md",
         "repo": "NVIDIA/Isaac-GR00T",
         "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-09-11",
+        "note": "nano/vla/2026-09-11-smolvla-vision-encoder.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1726,6 +1733,13 @@
         "date": "2026-09-06",
         "note": "nano/wam/2026-09-06-dreamzero-video-vae-cache.md",
         "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-09-11",
+        "note": "nano/wam/2026-09-11-fastwam-mot-attention-io.md",
+        "repo": "yuantianyuan01/FastWAM",
         "via": "wam"
       }
     ]
