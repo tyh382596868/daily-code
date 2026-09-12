@@ -220,6 +220,69 @@
     ],
     "covered": [
       {
+        "id": "fine-tune-lora",
+        "date": "2026-09-10",
+        "note": "nano/vla/2026-09-10-groot-frozen-modules-eval.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-09-09",
+        "note": "nano/vla/2026-09-09-openvla-action-collator.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-09-02",
+        "note": "nano/vla/2026-09-02-openpi-policy-wrapper.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "short-term-observation-memory",
+        "date": "2026-09-01",
+        "note": "nano/vla/2026-09-01-lerobot-pi05-observation-history.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-31",
+        "note": "nano/vla/2026-08-31-nanovlm-kv-cache-generate.md",
+        "repo": "huggingface/nanoVLM",
+        "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-08-30",
+        "note": "nano/vla/2026-08-30-openpi-tokenize-prompt.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "short-term-observation-memory",
+        "date": "2026-08-23",
+        "note": "nano/vla/2026-08-23-lerobot-streaming-video-encoder.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-21",
+        "note": "nano/vla/2026-08-21-openpi-pytorch-prefix-cache-euler.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-08-18",
+        "note": "nano/vla/2026-08-18-openpi-fast-token-masks.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
         "id": "action-tokenizer",
         "date": "2026-05-10",
         "note": "2026/05/2026-05-10-openvla-action-tokenizer-example.md",
@@ -505,6 +568,321 @@
         "note": "nano/vla/2026-07-01-lerobot-action-queue-merge.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-02",
+        "note": "nano/vla/2026-07-02-gamma-world-action-normalizer.md",
+        "repo": "nv-tlabs/Gamma-World",
+        "via": "vla"
+      },
+      {
+        "id": "fine-tune-lora",
+        "date": "2026-07-03",
+        "note": "nano/vla/2026-07-03-openvla-lora-finetune-stack.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-05",
+        "note": "nano/vla/2026-07-05-openpi-transform-group.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-07-06",
+        "note": "nano/vla/2026-07-06-lerobot-diffusion-policy-action-queue.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-07-07",
+        "note": "nano/vla/2026-07-07-openpi-fast-action-tokenizer.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-07-08",
+        "note": "nano/vla/2026-07-08-smolvla-resize-with-pad.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-07-09",
+        "note": "nano/vla/2026-07-09-lerobot-pi0-attention-mask.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-07-10",
+        "note": "nano/vla/2026-07-10-openpi-pi0-flow-matching-suffix.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-07-12",
+        "note": "nano/vla/2026-07-12-lerobot-pi0-cache-clone.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-07-13",
+        "note": "nano/vla/2026-07-13-lerobot-act-temporal-ensembler.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "fine-tune-lora",
+        "date": "2026-07-14",
+        "note": "nano/vla/2026-07-14-openvla-lora-ddp-rlds-loop.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-15",
+        "note": "nano/vla/2026-07-15-lerobot-groot-state-dropout-pack-inputs.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-07-16",
+        "note": "nano/vla/2026-07-16-openpi-fast-tokenize-extract-actions.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-17",
+        "note": "nano/vla/2026-07-17-openpi-repack-transform.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "short-term-observation-memory",
+        "date": "2026-07-19",
+        "note": "nano/vla/2026-07-19-lerobot-delta-timestamps-window.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-07-20",
+        "note": "nano/vla/2026-07-20-openpi-flow-suffix-attention-mask.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-07-21",
+        "note": "nano/vla/2026-07-21-lerobot-groot-rtc-leftover.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-07-22",
+        "note": "nano/vla/2026-07-22-openpi-paligemma-expert-wiring.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-23",
+        "note": "nano/vla/2026-07-23-openpi-prompt-from-task.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "short-term-observation-memory",
+        "date": "2026-07-24",
+        "note": "nano/vla/2026-07-24-lerobot-dataset-slice-window.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-07-25",
+        "note": "nano/vla/2026-07-25-openpi-action-chunk-broker.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-07-26",
+        "note": "nano/vla/2026-07-26-lerobot-async-policy-server.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-07-27",
+        "note": "nano/vla/2026-07-27-openpi-resize-with-pad-torch.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-07-28",
+        "note": "nano/vla/2026-07-28-lerobot-data-processor-pipeline.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-07-29",
+        "note": "nano/vla/2026-07-29-xvla-action-space-registry.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-07-30",
+        "note": "nano/vla/2026-07-30-molmoact2-dct-action-tokenizer.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-07-31",
+        "note": "nano/vla/2026-07-31-openpi-fsq-codebook.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-01",
+        "note": "nano/vla/2026-08-01-lerobot-pi0-denoise-loop.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-08-03",
+        "note": "nano/vla/2026-08-03-openpi-pi0-suffix-embedding.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "short-term-observation-memory",
+        "date": "2026-08-04",
+        "note": "nano/vla/2026-08-04-lerobot-lingbot-keyframe-buffer.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-08-05",
+        "note": "nano/vla/2026-08-05-lerobot-groot-alternate-vl-dit.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-08-06",
+        "note": "nano/vla/2026-08-06-lerobot-rtc-action-queue.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-08-07",
+        "note": "nano/vla/2026-08-07-lerobot-pi0-gradient-checkpoint.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-10",
+        "note": "nano/vla/2026-08-10-openvla-predict-action-detokenize.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
+      },
+      {
+        "id": "training-step",
+        "date": "2026-08-11",
+        "note": "nano/vla/2026-08-11-lerobot-normalizer-processor.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-08-12",
+        "note": "nano/vla/2026-08-12-smolvla-prefix-embedding.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-08-13",
+        "note": "nano/vla/2026-08-13-lerobot-evo1-action-mask-context.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-14",
+        "note": "nano/vla/2026-08-14-openpi-websocket-client-policy.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-08-17",
+        "note": "nano/vla/2026-08-17-openpi-pad-states-actions.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-19",
+        "note": "nano/vla/2026-08-19-openpi-runtime-loop.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-08-20",
+        "note": "nano/vla/2026-08-20-starvla-action-binning.md",
+        "repo": "starVLA/starVLA",
+        "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-08-29",
+        "note": "nano/vla/2026-08-29-lerobot-action-dispatch.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-09-06",
+        "note": "nano/vla/2026-09-06-isaac-groot-action-chunking.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-09-11",
+        "note": "nano/vla/2026-09-11-smolvla-vision-encoder.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-09-12",
+        "note": "nano/vla/2026-09-12-groot-timestep-adanorm.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -741,6 +1119,69 @@
       }
     ],
     "covered": [
+      {
+        "id": "action-conditioning",
+        "date": "2026-09-10",
+        "note": "nano/wam/2026-09-10-lingbot-va-action-mode-switch.md",
+        "repo": "Robbyant/lingbot-va",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-09-09",
+        "note": "nano/wam/2026-09-09-fastwam-action-video-kv-cache.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-09-02",
+        "note": "nano/wam/2026-09-02-wan21-flash-attention-wrapper.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-09-01",
+        "note": "nano/wam/2026-09-01-wan21-vace-mask-latents.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-08-31",
+        "note": "nano/wam/2026-08-31-wan21-context-parallel-dit.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-08-30",
+        "note": "nano/wam/2026-08-30-open-sora-channel-chunk-conv3d.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-23",
+        "note": "nano/wam/2026-08-23-wan21-i2v-first-frame-conditioning.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-08-21",
+        "note": "nano/wam/2026-08-21-wan21-vae-chunked-codec.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-08-18",
+        "note": "nano/wam/2026-08-18-wan21-t5-context-trim.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "dit-block",
         "date": "2026-05-25",
@@ -998,6 +1439,321 @@
         "date": "2026-07-01",
         "note": "nano/wam/2026-07-01-dreamzero-action-state-rope.md",
         "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-07-02",
+        "note": "nano/wam/2026-07-02-dreamzero-decoupled-video-action-noise.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-07-03",
+        "note": "nano/wam/2026-07-03-dit-final-layer-output-head.md",
+        "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-07-05",
+        "note": "nano/wam/2026-07-05-wan21-timestep-embedding.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-07-06",
+        "note": "nano/wam/2026-07-06-wan21-variable-length-flash-attention.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-07",
+        "note": "nano/wam/2026-07-07-fastwam-video-kv-cache.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-07-08",
+        "note": "nano/wam/2026-07-08-wan21-vae-temporal-chunk-cache.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-07-09",
+        "note": "nano/wam/2026-07-09-wan21-i2v-cross-attention.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-10",
+        "note": "nano/wam/2026-07-10-wan21-t2v-cfg-sampling-loop.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-07-12",
+        "note": "nano/wam/2026-07-12-wan21-t2v-cross-attention.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "patchify-positional",
+        "date": "2026-07-13",
+        "note": "nano/wam/2026-07-13-wan21-video-patchify-forward.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-07-14",
+        "note": "nano/wam/2026-07-14-dit-timestep-embedder.md",
+        "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-15",
+        "note": "nano/wam/2026-07-15-wan21-frame-num-target-shape.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-07-16",
+        "note": "nano/wam/2026-07-16-dreamzero-blockwise-action-state-attention.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "output-head",
+        "date": "2026-07-17",
+        "note": "nano/wam/2026-07-17-dit-unpatchify-latent-output.md",
+        "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "classifier-free-guidance",
+        "date": "2026-07-19",
+        "note": "nano/wam/2026-07-19-dit-label-dropout-cfg.md",
+        "repo": "facebookresearch/DiT",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-07-20",
+        "note": "nano/wam/2026-07-20-wan21-adaln-block-modulation.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "text-conditioning",
+        "date": "2026-07-21",
+        "note": "nano/wam/2026-07-21-wan21-clip-context-concat.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "temporal-compression",
+        "date": "2026-07-22",
+        "note": "nano/wam/2026-07-22-open-sora-causal-3d-compression.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "patchify-positional",
+        "date": "2026-07-23",
+        "note": "nano/wam/2026-07-23-opensora-patch-embed3d.md",
+        "repo": "PKU-YuanGroup/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "output-head",
+        "date": "2026-07-24",
+        "note": "nano/wam/2026-07-24-wan21-conditioned-output-head.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-07-25",
+        "note": "nano/wam/2026-07-25-wan21-flow-scheduler-set-timesteps.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-26",
+        "note": "nano/wam/2026-07-26-open-sora-rflow-sampler.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-07-27",
+        "note": "nano/wam/2026-07-27-wan21-resample-2d-3d-switch.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-07-28",
+        "note": "nano/wam/2026-07-28-fastwam-dual-noise-training-loss.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-07-29",
+        "note": "nano/wam/2026-07-29-fastwam-action-only-inference.md",
+        "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-07-30",
+        "note": "nano/wam/2026-07-30-fastwam-action-toggle-processor.md",
+        "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-07-31",
+        "note": "nano/wam/2026-07-31-open-sora-channel-chunk-conv3d.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-08-01",
+        "note": "nano/wam/2026-08-01-fastwam-video-loss-mask.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-08-03",
+        "note": "nano/wam/2026-08-03-wan21-vae-spatial-attention.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-04",
+        "note": "nano/wam/2026-08-04-dreamzero-multi-embodiment-action-encoder.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-08-05",
+        "note": "nano/wam/2026-08-05-fastwam-wan-vae-adapter.md",
+        "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "noise-scheduler",
+        "date": "2026-08-06",
+        "note": "nano/wam/2026-08-06-wan21-scheduler-add-noise.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "patchify-positional",
+        "date": "2026-08-07",
+        "note": "nano/wam/2026-08-07-wan21-patch-freq-buffer.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-10",
+        "note": "nano/wam/2026-08-10-wan21-mlp-image-projector.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-11",
+        "note": "nano/wam/2026-08-11-open-sora-reference-condition-mask.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-08-12",
+        "note": "nano/wam/2026-08-12-dreamzero-kv-cache-shapes.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-08-13",
+        "note": "nano/wam/2026-08-13-dreamzero-blockwise-causal-flash-attn.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-08-14",
+        "note": "nano/wam/2026-08-14-wan21-unipc-solver-step.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-08-17",
+        "note": "nano/wam/2026-08-17-wan21-attention-block-adaln.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-08-19",
+        "note": "nano/wam/2026-08-19-wan21-vace-hint-skip.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-08-20",
+        "note": "nano/wam/2026-08-20-lingbot-va-video-action-loss.md",
+        "repo": "Robbyant/lingbot-va",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-08-29",
+        "note": "nano/wam/2026-08-29-wan21-cfg-denoising-loop.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-09-06",
+        "note": "nano/wam/2026-09-06-dreamzero-video-vae-cache.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-09-11",
+        "note": "nano/wam/2026-09-11-fastwam-mot-attention-io.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-09-12",
+        "note": "nano/wam/2026-09-12-wan21-resample-cache.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

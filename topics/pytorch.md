@@ -6,6 +6,60 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-09-12 | [PyTorch SDPA context：临时选择 attention kernel / PyTorch SDPA Context: Select an Attention Kernel Temporarily](../2026/09/2026-09-12-pytorch-sdpa-kernel-context.md) | `torch/nn/attention/__init__.py` |
+| 2026-09-11 | [PyTorch Adaptive Softmax：先找桶，再算桶内概率 / PyTorch Adaptive Softmax: Find the Bucket, Then Score Inside It](../2026/09/2026-09-11-pytorch-adaptive-log-softmax.md) | `torch/nn/modules/adaptive.py` |
+| 2026-09-10 | [PyTorch SAC storage key：同名 op 也要分执行区 / PyTorch SAC Storage Key: Same Op, Separate Compiled Regions](../2026/09/2026-09-10-pytorch-sac-storage-key.md) | `torch/utils/checkpoint.py` |
+| 2026-09-09 | [PyTorch `create_block_mask`：把布尔规则压成稀疏块 / PyTorch `create_block_mask`: Compile a Boolean Rule into Sparse Blocks](../2026/09/2026-09-09-pytorch-create-block-mask.md) | `torch/nn/attention/flex_attention.py` |
+| 2026-09-06 | [PyTorch pin_memory：递归搬 batch，但保住容器形状 / PyTorch pin_memory: Move a Batch Recursively, Keep the Container Shape](../2026/09/2026-09-06-pytorch-pin-memory-thread.md) | `torch/utils/data/_utils/pin_memory.py` |
+| 2026-09-02 | [PyTorch RMSNorm：最后一维做均方根归一化 / PyTorch RMSNorm: Normalize by Root Mean Square Along the Last Dimension](../2026/09/2026-09-02-pytorch-rmsnorm.md) | `torch/nn/modules/normalization.py` |
+| 2026-09-01 | [PyTorch DataLoader prefetch：边取边补任务 / PyTorch DataLoader Prefetch: Refill Work While Reading Results](../2026/09/2026-09-01-pytorch-dataloader-prefetch.md) | `torch/utils/data/dataloader.py` |
+| 2026-08-31 | [PyTorch HOP DCE：子图多余输出要一起删 / PyTorch HOP DCE: Remove Extra Subgraph Outputs Together](../2026/08/2026-08-31-pytorch-hop-extra-output-dce.md) | `torch/_dynamo/dce_extra_outputs.py` |
+| 2026-08-30 | [PyTorch PackedSequence.to：只搬该搬的张量 / PyTorch PackedSequence.to: Move Only the Tensors That Should Move](../2026/08/2026-08-30-pytorch-packed-sequence-to.md) | `torch/nn/utils/rnn.py` |
+| 2026-08-29 | [PyTorch ConstantLR：先压低，再还原 / PyTorch ConstantLR: Lower First, Restore Later](../2026/08/2026-08-29-pytorch-constant-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-08-23 | [PyTorch ExponentialLR：递推乘一次，闭式算全程 / PyTorch ExponentialLR: Multiply Once, or Compute the Whole Curve](../2026/08/2026-08-23-pytorch-exponential-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-08-21 | [PyTorch OneCycleLR：学习率和动量反着走 / PyTorch OneCycleLR: Learning Rate and Momentum Move Opposite Ways](../2026/08/2026-08-21-pytorch-one-cycle-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-08-20 | [PyTorch WeightedRandomSampler：权重变成抽样概率 / PyTorch WeightedRandomSampler: Turn Weights into Draw Probabilities](../2026/08/2026-08-20-pytorch-weighted-random-sampler.md) | `torch/utils/data/sampler.py` |
+| 2026-08-19 | [PyTorch worker seed：给 NumPy 单独洗一副随机牌 / PyTorch Worker Seed: Shuffle a Separate Deck for NumPy](../2026/08/2026-08-19-pytorch-worker-seed-state.md) | `torch/utils/data/_utils/worker.py` |
+| 2026-08-18 | [PyTorch BatchSampler：把索引流切成小批次 / PyTorch BatchSampler: Slice an Index Stream into Mini-Batches](../2026/08/2026-08-18-pytorch-batch-sampler.md) | `torch/utils/data/sampler.py` |
+| 2026-08-17 | [PyTorch unpad_sequence：用长度 mask 把 padding 拆回列表 / PyTorch unpad_sequence: Use Length Masks to Split Padding Back Out](../2026/08/2026-08-17-pytorch-unpad-sequence.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) |
+| 2026-08-14 | [PyTorch tree_map_only：只改你关心的叶子 / PyTorch tree_map_only: Transform Only the Leaves You Care About](../2026/08/2026-08-14-pytorch-tree-map-only.md) | `torch/utils/_pytree.py` |
+| 2026-08-13 | [PyTorch MapDatasetFetcher：batch 索引可以走快速通道 / PyTorch MapDatasetFetcher: Batched Indices Can Take a Fast Path](../2026/08/2026-08-13-pytorch-map-dataset-fetcher.md) | `torch/utils/data/_utils/fetch.py` |
+| 2026-08-12 | [PyTorch pin_memory：递归搬 batch，但保住容器形状 / PyTorch pin_memory: Recursively Move a Batch While Preserving Containers](../2026/08/2026-08-12-pytorch-pin-memory-recursive.md) | `torch/utils/data/_utils/pin_memory.py` |
+| 2026-08-11 | [PyTorch CyclicLR：学习率按 batch 走三角波 / PyTorch CyclicLR: A Batch-Level Triangular Wave](../2026/08/2026-08-11-pytorch-cyclic-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-08-10 | [PyTorch IterableDataset fetcher：流式数据也要凑 batch / PyTorch IterableDataset Fetcher: Streaming Data Still Needs Batches](../2026/08/2026-08-10-pytorch-iterable-dataset-fetcher.md) | `torch/utils/data/_utils/fetch.py` |
+| 2026-08-07 | [PyTorch checkpoint early-stop：重算够了就停 / PyTorch Checkpoint Early-Stop: Stop Recompute Once Enough Is Rebuilt](../2026/08/2026-08-07-pytorch-checkpoint-early-stop.md) | `torch/utils/checkpoint.py` |
+| 2026-08-06 | [PyTorch WeakIdKeyDictionary：按身份弱引用对象 / PyTorch WeakIdKeyDictionary: Weak Keys by Object Identity](../2026/08/2026-08-06-pytorch-weak-id-key-dictionary.md) | `torch/utils/weak.py` |
+| 2026-08-05 | [PyTorch Dynamo disable：跳过当前函数，还是跳过整棵调用树 / PyTorch Dynamo disable: Skip One Function or the Whole Call Tree](../2026/08/2026-08-05-pytorch-dynamo-disable.md) | `torch/_dynamo/decorators.py` |
+| 2026-08-04 | [PyTorch collate：递归拼 batch 前先查类型注册表 / PyTorch collate: Check the Type Registry Before Recursing a Batch](../2026/08/2026-08-04-pytorch-collate-recursive-registry.md) | `torch/utils/data/_utils/collate.py` |
+| 2026-08-03 | [PyTorch pack_padded_sequence：变长序列先排序再压紧 / PyTorch pack_padded_sequence: Sort Variable-Length Sequences, Then Pack Them](../2026/08/2026-08-03-pytorch-pack-padded-sequence.md) | `torch/nn/utils/rnn.py` |
+| 2026-08-01 | [PyTorch ChainedScheduler：多个学习率调度器串起来走 / PyTorch ChainedScheduler: Step Several LR Schedulers in Sequence](../2026/08/2026-08-01-pytorch-chained-scheduler.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-31 | [PyTorch _call_impl：一次 forward 要穿过 hook 门厅 / PyTorch _call_impl: A Forward Pass Walks Through the Hook Lobby](../2026/07/2026-07-31-pytorch-module-call-hooks.md) | `torch/nn/modules/module.py` |
+| 2026-07-30 | [PyTorch register_buffer：状态不是参数也要被模块管理 / PyTorch register_buffer: State Without Parameters Still Belongs to the Module](../2026/07/2026-07-30-pytorch-register-buffer.md) | pytorch/pytorch |
+| 2026-07-29 | [PyTorch Dynamo backend：字符串最后要变成 callable / PyTorch Dynamo Backends: Strings Eventually Become Callables](../2026/07/2026-07-29-pytorch-dynamo-backend-registry.md) | `torch/_dynamo/backends/registry.py` |
+| 2026-07-28 | [PyTorch scatter：递归拆开嵌套 batch / PyTorch scatter: Recursively Split a Nested Batch](../2026/07/2026-07-28-pytorch-scatter-gather-recursive.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) |
+| 2026-07-27 | [PyTorch zero_grad：清空梯度也能批处理 / PyTorch zero_grad: Batch the Gradient Clearing Too](../2026/07/2026-07-27-pytorch-optimizer-zero-grad-foreach.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) |
+| 2026-07-26 | [PyTorch pad_sequence：padding 也有左右方向 / PyTorch pad_sequence: Padding Has a Direction Too](../2026/07/2026-07-26-pytorch-pad-sequence-padding-side.md) | `torch/nn/utils/rnn.py` |
+| 2026-07-25 | [PyTorch MultiheadAttention：把两种 mask 展成同一张四维表 / PyTorch MultiheadAttention: Expand Two Masks into One 4D Table](../2026/07/2026-07-25-pytorch-mha-merge-masks.md) | `torch/nn/modules/activation.py` |
+| 2026-07-24 | [PyTorch SpectralNorm：用 power iteration 管住权重尺度 / PyTorch SpectralNorm: Keep Weight Scale in Check with Power Iteration](../2026/07/2026-07-24-pytorch-spectral-norm-parametrization.md) | `torch/nn/utils/parametrizations.py` |
+| 2026-07-23 | [PyTorch LRScheduler：用 wrapper 抓住 step 调用顺序 / PyTorch LRScheduler: Catch Step Order with a Wrapper](../2026/07/2026-07-23-pytorch-lr-scheduler-step-guard.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-22 | [PyTorch saved_tensors_hooks：反向传播保存什么，由你接管 / PyTorch saved_tensors_hooks: Take Control of What Backward Saves](../2026/07/2026-07-22-pytorch-saved-tensors-hooks.md) | `torch/autograd/graph.py` |
+| 2026-07-21 | [PyTorch ConstantLR：先打折，到了步数再还原 / PyTorch ConstantLR: Discount First, Restore at the Milestone](../2026/07/2026-07-21-pytorch-constant-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-20 | [PyTorch LazyModule：第一次 forward 后把自己变成真模块 / PyTorch LazyModule: Become a Real Module After the First Forward](../2026/07/2026-07-20-pytorch-lazy-module-materialize.md) | `torch/nn/modules/lazy.py` |
+| 2026-07-19 | [PyTorch DataLoader：IterableDataset 不能自定义 sampler / PyTorch DataLoader: IterableDataset Cannot Use a Custom Sampler](../2026/07/2026-07-19-pytorch-dataloader-iterable-sampler.md) | `torch/utils/data/dataloader.py` |
+| 2026-07-17 | [PyTorch CosineAnnealingWarmRestarts：余弦下降后重启周期 / PyTorch CosineAnnealingWarmRestarts: Cosine Decay, Then Restart the Cycle](../2026/07/2026-07-17-pytorch-cosine-warm-restarts.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-16 | [PyTorch swap_tensors：只放行内部 TensorWeakRef / PyTorch swap_tensors: Allow Only Internal TensorWeakRef](../2026/07/2026-07-16-pytorch-swap-tensors-weakref.md) | `torch/utils/__init__.py` |
+| 2026-07-15 | [PyTorch Inductor：先探测 tensor subclass，再合并 Linear / PyTorch Inductor: Probe Tensor Subclasses Before Fusing Linear](../2026/07/2026-07-15-pytorch-batch-linear-lhs-fusion.md) | `torch/_inductor/fx_passes/group_batch_fusion.py` |
+| 2026-07-14 | [PyTorch SequentialLR：按里程碑接力学习率调度器 / PyTorch SequentialLR: Relay LR Schedulers at Milestones](../2026/07/2026-07-14-pytorch-sequential-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-13 | [PyTorch RandomSampler：可变长度数据集也能延迟求长度 / PyTorch RandomSampler: Delay Dataset Length Until Iteration](../2026/07/2026-07-13-pytorch-random-sampler.md) | `torch/utils/data/sampler.py` |
+| 2026-07-12 | [PyTorch DistributedSampler：先补齐，再按 rank 切片 / PyTorch DistributedSampler: Pad First, Then Slice by Rank](../2026/07/2026-07-12-pytorch-distributed-sampler.md) | `torch/utils/data/distributed.py` |
+| 2026-07-10 | [PyTorch selective checkpoint：给每个 op 一张保存或重算的票 / PyTorch Selective Checkpoint: Give Each Op a Save-or-Recompute Ticket](../2026/07/2026-07-10-pytorch-selective-checkpoint-policy.md) | `torch/utils/checkpoint.py` |
+| 2026-07-09 | [PyTorch AveragedModel：第一次复制，之后才平均 / PyTorch AveragedModel: Copy First, Average Later](../2026/07/2026-07-09-pytorch-averaged-model.md) | `torch/optim/swa_utils.py` |
+| 2026-07-08 | [PyTorch LinearLR：递推更新也要等价闭式公式 / PyTorch LinearLR: Recursive Updates Must Match the Closed Form](../2026/07/2026-07-08-pytorch-linear-lr-recursive-closed-form.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-07 | [PyTorch ReduceLROnPlateau：学习率调度器也会看验证集脸色 / PyTorch ReduceLROnPlateau: An LR Scheduler That Watches Validation Metrics](../2026/07/2026-07-07-pytorch-reduce-lr-on-plateau.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-06 | [PyTorch PolynomialLR：递推和闭式公式要对齐 / PyTorch PolynomialLR: Keep the Recursive and Closed-Form Schedules Aligned](../2026/07/2026-07-06-pytorch-polynomial-lr.md) | `torch/optim/lr_scheduler.py` |
+| 2026-07-05 | [PyTorch AdamW：用一个标志把 weight decay 从 Adam 里拆出来 / PyTorch AdamW: One Flag Decouples Weight Decay from Adam](../2026/07/2026-07-05-pytorch-adamw-decoupled-wrapper.md) | `torch/optim/adamw.py` |
+| 2026-07-03 | [PyTorch parametrization cache：一次 forward 里别重复算同一个权重 / PyTorch Parametrization Cache: Do Not Recompute the Same Weight in One Forward](../2026/07/2026-07-03-pytorch-parametrize-cache.md) | `torch/nn/utils/parametrize.py` |
+| 2026-07-02 | [PyTorch TreeSpec：按模板拆 pytree / PyTorch TreeSpec: Flatten a PyTree Against a Template](../2026/07/2026-07-02-pytorch-treespec-flatten-up-to.md) | `torch/utils/_pytree.py` |
 | 2026-07-01 | [PyTorch 子模块手术：用点路径精准替换一层 / PyTorch Submodule Surgery: Replace a Layer by Dotted Path](../2026/07/2026-07-01-pytorch-submodule-surgery.md) | `torch/nn/modules/module.py` |
 | 2026-06-30 | [PyTorch 梯度裁剪的第二步：只缩小，不放大 / PyTorch Gradient Clipping Step Two: Scale Down, Never Up](../2026/06/2026-06-30-pytorch-clip-grads-with-norm.md) | `torch/nn/utils/clip_grad.py` |
 | 2026-06-26 | [`torch.func.vmap`：把任意函数向量化，批量维度随心所欲 / `torch.func.vmap`: Vectorize Any Function, Put the Batch Dimension Anywhere](../2026/06/2026-06-26-pytorch-vmap.md) | `torch/_functorch/apis.py` |

@@ -4,6 +4,44 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-12 | [Open-Sora 时间表：分辨率和帧数一起改变采样节奏 / Open-Sora Timesteps: Let Resolution and Frame Count Change the Sampling Pace](../2026/09/2026-09-12-opensora-flow-schedule.md) | hpcaitech/Open-Sora |
+| 2026-09-12 | [TemporalStore 决策：把计数和准入放进一次原子操作 / TemporalStore Decisions: Make Counting and Admission One Atomic Operation](../2026/09/2026-09-12-temporalstore-idempotent-cap.md) | matrixarkai/TemporalStore |
+| 2026-09-09 | [DINOv3 变长 attention：先合并投影，再保住每段边界 / DINOv3 Variable-Length Attention: Fuse the Projection, Keep Each Segment](../2026/09/2026-09-09-dinov3-variable-list-attention.md) | facebookresearch/dinov3 |
+| 2026-09-09 | [Autonomous OS motion timeline：超速片段自动拉长 / Autonomous OS Motion Timeline: Stretch Only the Unsafe Segments](../2026/09/2026-09-09-autonomous-os-motion-timeline.md) | autonomous-ai/autonomous-os |
+| 2026-09-02 | [V-JEPA 可变位置编码：输入变了，位置格子也跟着变 / V-JEPA Variable Positional Embedding: Let the Grid Follow the Input](../2026/09/2026-09-02-jepa-variable-pos-mask.md) | facebookresearch/jepa |
+| 2026-09-02 | [UFO BaseModel：checkpoint 保存、加载和 target network 处理 / UFO BaseModel: Checkpoint Save, Load, and Target-Network Handling](../2026/09/2026-09-02-ufo-base-model-checkpoint-io.md) | Roboparty/UFO |
+| 2026-08-30 | [CogVideo pipeline dispatch：一种入口，三种生成模式 / CogVideo Pipeline Dispatch: One Entry, Three Generation Modes](../2026/08/2026-08-30-cogvideo-pipeline-dispatch.md) | zai-org/CogVideo |
+| 2026-08-30 | [MOVA FlowMatchScheduler：sigma 时间表决定每一步走多远 / MOVA FlowMatchScheduler: The Sigma Schedule Decides Each Step Size](../2026/08/2026-08-30-mova-flow-match-scheduler.md) | OpenMOSS/MOVA |
+| 2026-08-21 | [DiT 初始化：先让模型安静下来 / DiT Initialization: Start the Model Quietly](../2026/08/2026-08-21-dit-zero-init-weights.md) | facebookresearch/DiT |
+| 2026-08-21 | [HY-World panorama pipeline：把指令、图像和缓存参数一次交清 / HY-World Panorama Pipeline: Hand Off Prompt, Image, and Cache Knobs Together](../2026/08/2026-08-21-hyworld-panorama-pipeline.md) | Tencent-Hunyuan/HY-World-2.0 |
+| 2026-08-18 | [V-JEPA loss：只预测被遮住的特征，还要保持方差 / V-JEPA Loss: Predict Masked Features, Keep Variance Alive](../2026/08/2026-08-18-jepa-target-variance-loss.md) | facebookresearch/jepa |
+| 2026-08-18 | [Multitask DiT flow matching：动作从噪声直线走向数据 / Multitask DiT Flow Matching: Move Actions from Noise to Data Along a Line](../2026/08/2026-08-18-multitask-dit-flow-matching.md) | brysonjones/multitask_dit_policy |
+| 2026-08-14 | [DINOv3 RoPE 坐标增强：位置编码也能做数据增强 / DINOv3 RoPE Coordinate Augmentation: Position Encoding Can Be Augmented Too](../2026/08/2026-08-14-dinov3-rope-position-embedding.md) | facebookresearch/dinov3 |
+| 2026-08-14 | [WMPO rollout：VLA 动作驱动世界模型想象未来 / WMPO Rollout: VLA Actions Drive a World Model's Imagination](../2026/08/2026-08-14-wmpo-world-model-rollout.md) | WM-PO/WMPO |
+| 2026-08-11 | [V-JEPA 3D sin/cos 位置编码：时间轴分到更多维度 / V-JEPA 3D Sin/Cos Position Embedding: Give Time More Room](../2026/08/2026-08-11-jepa-3d-sincos-pos-embed.md) | facebookresearch/jepa |
+| 2026-08-11 | [Open-Dreamer shortcut forcing：两次半步蒸成一步 / Open-Dreamer Shortcut Forcing: Distill Two Half-Steps into One](../2026/08/2026-08-11-open-dreamer-shortcut-forcing.md) | next-state/open-dreamer |
+| 2026-08-06 | [VEnhancer Heun sampler：先试走一步，再用平均斜率修正 / VEnhancer Heun Sampler: Take a Trial Step, Then Correct with the Average Slope](../2026/08/2026-08-06-venhancer-heun-sampler.md) | Vchitect/VEnhancer |
+| 2026-08-06 | [Spherical Diffusion Policy：每步都把条件钉回去 / Spherical Diffusion Policy: Pin the Conditions Back at Every Step](../2026/08/2026-08-06-spherical-diffusion-policy-mask-sampling.md) | amazon-science/Spherical_Diffusion_Policy |
+| 2026-08-03 | [loushang MethodProjector：把方法步骤投影成可执行提示 / loushang MethodProjector: Project a Method Step into Executable Guidance](../2026/08/2026-08-03-loushang-method-projector.md) | zhnt/loushang |
+| 2026-08-03 | [DiT sin/cos 位置编码：把二维网格切成两把频率尺 / DiT Sin/Cos Position Embedding: Split a 2D Grid into Two Frequency Rulers](../2026/08/2026-08-03-dit-sincos-pos-embed.md) | facebookresearch/DiT |
+| 2026-07-31 | [Wan2.1 CausalConv3d：视频 VAE 只看过去 / Wan2.1 CausalConv3d: A Video VAE Looks Only Backward](../2026/07/2026-07-31-wan21-causal-conv-cache.md) | Wan-Video/Wan2.1 |
+| 2026-07-31 | [FireRed OpenStoryline：把视频片段采成 VLM 证据 / FireRed OpenStoryline: Sample a Video Segment into VLM Evidence](../2026/07/2026-07-31-firered-video-segment-sampling.md) | FireRedTeam/FireRed-OpenStoryline |
+| 2026-07-26 | [Cosmos Video2World：先把采样任务写成契约 / Cosmos Video2World: Write the Sampling Task as a Contract First](../2026/07/2026-07-26-cosmos-video2world-inference-config.md) | nvidia-cosmos/cosmos-predict2 |
+| 2026-07-26 | [Diffusion Policy：动作序列也可以当成去噪对象 / Diffusion Policy: Treat the Action Sequence as the Denoising Target](../2026/07/2026-07-26-diffusion-policy-action-diffusion.md) | lucidrains/diffusion-policy |
+| 2026-07-23 | [JEPA predictor：先给目标 token 加噪，再让上下文去修复 / JEPA Predictor: Noise the Target Tokens, Then Let Context Repair Them](../2026/07/2026-07-23-jepa-predictor-diffusion-target.md) | facebookresearch/jepa |
+| 2026-07-23 | [Ctrl-World：把机器人控制变成视频生成条件 / Ctrl-World: Turn Robot Control into Video-Generation Conditioning](../2026/07/2026-07-23-ctrl-world-action-mask-conditioning.md) | Robert-gyj/Ctrl-World |
+| 2026-07-20 | [DINOv3 RoPE attention：只旋转图像 token，保留 prefix / DINOv3 RoPE Attention: Rotate Image Tokens, Keep the Prefix](../2026/07/2026-07-20-dinov3-rope-attention.md) | facebookresearch/dinov3 |
+| 2026-07-20 | [World-R1 reward：不生成文字，直接读 0-9 的 logits / World-R1 Reward: Read 0-9 Logits Instead of Generating Text](../2026/07/2026-07-20-world-r1-logit-reward.md) | microsoft/World-R1 |
+| 2026-07-17 | [DiT unpatchify：把 token 棋盘折回 latent 图 / DiT unpatchify: Fold the Token Board Back into a Latent Image](../2026/07/2026-07-17-dit-unpatchify.md) | facebookresearch/DiT |
+| 2026-07-17 | [Astra relative pose：把相机轨迹变成局部动作 / Astra Relative Pose: Turn Camera Trajectory into Local Actions](../2026/07/2026-07-17-astra-relative-pose.md) | EternalEvan/Astra |
+| 2026-07-14 | [CogVideoX 推理入口：一个函数分发 T2V/I2V/V2V / CogVideoX Inference Entry: One Function Dispatches T2V/I2V/V2V](../2026/07/2026-07-14-cogvideo-trimodal-inference-entry.md) | zai-org/CogVideo |
+| 2026-07-14 | [LTX-Video retrieve_timesteps：自定义采样步也要重设 scheduler / LTX-Video retrieve_timesteps: Custom Steps Still Reset the Scheduler](../2026/07/2026-07-14-ltx-video-retrieve-timesteps.md) | Lightricks/LTX-Video |
+| 2026-07-10 | [dino_wm VWorldModel：在 embedding 空间预测未来 / dino_wm VWorldModel: Predict the Future in Embedding Space](../2026/07/2026-07-10-dino-wm-embedding-prediction-loss.md) | gaoyuezhou/dino_wm |
+| 2026-07-10 | [MIRA schedule：动作先 symlog，采样步先慢后快 / MIRA Schedule: Symlog Actions, Then Use a Slow-to-Fast Sampling Grid](../2026/07/2026-07-10-mira-symlog-schedule.md) | mira-wm/mira |
+| 2026-07-07 | [Open-Sora DoubleStreamBlockProcessor：两条流，一次注意力 / Open-Sora DoubleStreamBlockProcessor: Two Streams, One Attention Call](../2026/07/2026-07-07-open-sora-double-stream-processor.md) | hpcaitech/Open-Sora |
+| 2026-07-07 | [Cosmos action-conditioned video：把机器人状态改成相对动作 / Cosmos Action-Conditioned Video: Convert Robot States into Relative Actions](../2026/07/2026-07-07-cosmos-action-conditioned-relative-actions.md) | nvidia-cosmos/cosmos-predict2.5 |
+| 2026-07-03 | [DiT adaLN-Zero：条件不是加进去，而是调制整层 / DiT adaLN-Zero: Conditioning by Modulating the Whole Layer](../2026/07/2026-07-03-dit-adaln-zero-block.md) | facebookresearch/DiT |
+| 2026-07-03 | [BitVLA BitLinear：把权重压成 {-1,0,1} / BitVLA BitLinear: Compress Weights into {-1, 0, 1}](../2026/07/2026-07-03-bitvla-bitlinear-quantization.md) | ustcwhy/BitVLA |
 | 2026-06-30 | [Wan2.1 的 3D RoPE 自注意力：把时间、高度、宽度拆成三把尺 / Wan2.1 3D RoPE Self-Attention: Three Rulers for Time, Height, and Width](../2026/06/2026-06-30-wan21-rope-self-attention.md) | Wan-Video/Wan2.1 |
 | 2026-06-30 | [DiffSynth 的 WanVideoPipeline：把视频生成拆成可插拔单元 / DiffSynth's WanVideoPipeline: Video Generation as Pluggable Units](../2026/06/2026-06-30-diffsynth-wan-video-pipeline-units.md) | modelscope/DiffSynth-Studio |
 | 2026-06-24 | [DPM-Solver++(2M)：用历史预测做二阶修正的视频扩散采样器 / DPM-Solver++(2M): 2nd-Order Multistep Correction via History Tracking in Video Diffusion](../2026/06/2026-06-24-cogvideo-dpmpp2m-sampler.md) | THUDM/CogVideo |
