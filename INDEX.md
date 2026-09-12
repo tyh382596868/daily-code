@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-09-12 | diffusion | [Open-Sora 时间表：分辨率和帧数一起改变采样节奏 / Open-Sora Timesteps: Let Resolution and Frame Count Change the Sampling Pace](2026/09/2026-09-12-opensora-flow-schedule.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) (tracked) |
+| 2026-09-12 | pytorch | [PyTorch SDPA context：临时选择 attention kernel / PyTorch SDPA Context: Select an Attention Kernel Temporarily](2026/09/2026-09-12-pytorch-sdpa-kernel-context.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-09-12 | huggingface | [Transformers Static Cache：先分配，再原地写入 / Transformers Static Cache: Preallocate, Then Update In Place](2026/09/2026-09-12-transformers-static-cache.md) | [huggingface/transformers](https://github.com/huggingface/transformers) (huggingface) |
+| 2026-09-12 | vla | [GR00T 时间条件：把 flow step 变成 AdaNorm 调制 / GR00T Time Conditioning: Turn the Flow Step into AdaNorm Modulation](nano/vla/2026-09-12-groot-timestep-adanorm.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla, action-head-continuous advanced variant) |
+| 2026-09-12 | wam | [Wan2.1 Resample：空间缩放和时间 cache 分开处理 / Wan2.1 Resample: Separate Spatial Resizing from Temporal Cache State](nano/wam/2026-09-12-wan21-resample-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam, vae-encoder-decoder advanced variant) |
+| 2026-09-12 | diffusion | [TemporalStore 决策：把计数和准入放进一次原子操作 / TemporalStore Decisions: Make Counting and Admission One Atomic Operation](2026/09/2026-09-12-temporalstore-idempotent-cap.md) | [matrixarkai/TemporalStore](https://github.com/matrixarkai/TemporalStore) (trending, 215 stars observed) |
 | 2026-09-11 | robotics | [LeRobot 计划刷新：事件出现，再回头重跑计划 / LeRobot Plan Refresh: Re-enter the Plan After an Event](2026/09/2026-09-11-lerobot-steerable-plan-refresh.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
 | 2026-09-11 | pytorch | [PyTorch Adaptive Softmax：先找桶，再算桶内概率 / PyTorch Adaptive Softmax: Find the Bucket, Then Score Inside It](2026/09/2026-09-11-pytorch-adaptive-log-softmax.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-09-11 | huggingface | [PEFT 变体注册表：配置组合变成稳定 dispatch key / PEFT Variant Registry: Turn Config Combinations into Stable Dispatch Keys](2026/09/2026-09-11-peft-lora-variant-registry.md) | [huggingface/peft](https://github.com/huggingface/peft) (huggingface) |

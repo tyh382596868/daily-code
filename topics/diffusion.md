@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-12 | [Open-Sora 时间表：分辨率和帧数一起改变采样节奏 / Open-Sora Timesteps: Let Resolution and Frame Count Change the Sampling Pace](../2026/09/2026-09-12-opensora-flow-schedule.md) | hpcaitech/Open-Sora |
+| 2026-09-12 | [TemporalStore 决策：把计数和准入放进一次原子操作 / TemporalStore Decisions: Make Counting and Admission One Atomic Operation](../2026/09/2026-09-12-temporalstore-idempotent-cap.md) | matrixarkai/TemporalStore |
 | 2026-09-09 | [DINOv3 变长 attention：先合并投影，再保住每段边界 / DINOv3 Variable-Length Attention: Fuse the Projection, Keep Each Segment](../2026/09/2026-09-09-dinov3-variable-list-attention.md) | facebookresearch/dinov3 |
 | 2026-09-09 | [Autonomous OS motion timeline：超速片段自动拉长 / Autonomous OS Motion Timeline: Stretch Only the Unsafe Segments](../2026/09/2026-09-09-autonomous-os-motion-timeline.md) | autonomous-ai/autonomous-os |
 | 2026-09-02 | [V-JEPA 可变位置编码：输入变了，位置格子也跟着变 / V-JEPA Variable Positional Embedding: Let the Grid Follow the Input](../2026/09/2026-09-02-jepa-variable-pos-mask.md) | facebookresearch/jepa |

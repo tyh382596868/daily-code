@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-09-12 | [PyTorch SDPA context：临时选择 attention kernel / PyTorch SDPA Context: Select an Attention Kernel Temporarily](../2026/09/2026-09-12-pytorch-sdpa-kernel-context.md) | `torch/nn/attention/__init__.py` |
 | 2026-09-11 | [PyTorch Adaptive Softmax：先找桶，再算桶内概率 / PyTorch Adaptive Softmax: Find the Bucket, Then Score Inside It](../2026/09/2026-09-11-pytorch-adaptive-log-softmax.md) | `torch/nn/modules/adaptive.py` |
 | 2026-09-10 | [PyTorch SAC storage key：同名 op 也要分执行区 / PyTorch SAC Storage Key: Same Op, Separate Compiled Regions](../2026/09/2026-09-10-pytorch-sac-storage-key.md) | `torch/utils/checkpoint.py` |
 | 2026-09-09 | [PyTorch `create_block_mask`：把布尔规则压成稀疏块 / PyTorch `create_block_mask`: Compile a Boolean Rule into Sparse Blocks](../2026/09/2026-09-09-pytorch-create-block-mask.md) | `torch/nn/attention/flex_attention.py` |

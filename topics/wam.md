@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-12 | vae-encoder-decoder (advanced variant, spatial resampling plus temporal cache) | [Wan2.1 Resample：空间缩放和时间 cache 分开处理 / Wan2.1 Resample: Separate Spatial Resizing from Temporal Cache State](../nano/wam/2026-09-12-wan21-resample-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-09-11 | dit-block (advanced variant, per-expert QKV and RoPE preparation) | [FastWAM MoT：每个 expert 自己准备 QKV，再共享 attention / FastWAM MoT: Per-Expert QKV, Shared Attention](../nano/wam/2026-09-11-fastwam-mot-attention-io.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-09-10 | action-conditioning (advanced variant, shared video/action backbone adapters) | [LingBot-VA action mode：同一主干切换视频和动作 / LingBot-VA Action Mode: One Backbone Switches Between Video and Action](../nano/wam/2026-09-10-lingbot-va-action-mode-switch.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) |
 | 2026-09-09 | sampler-inference (advanced variant, video K/V cache for action denoising) | [FastWAM action cache：视频 K/V 只算一次，动作每步重算 / FastWAM Action Cache: Compute Video K/V Once, Recompute Actions Each Step](../nano/wam/2026-09-09-fastwam-action-video-kv-cache.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |

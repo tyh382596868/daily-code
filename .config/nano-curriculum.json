@@ -876,6 +876,13 @@
         "note": "nano/vla/2026-09-11-smolvla-vision-encoder.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-09-12",
+        "note": "nano/vla/2026-09-12-groot-timestep-adanorm.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1740,6 +1747,13 @@
         "date": "2026-09-11",
         "note": "nano/wam/2026-09-11-fastwam-mot-attention-io.md",
         "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-09-12",
+        "note": "nano/wam/2026-09-12-wan21-resample-cache.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]
