@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-09-13 | [PyTorch AOT Autograd：把 backward 编译器包在禁追踪壳里 / PyTorch AOT Autograd: Keep the Backward Compiler Outside Dynamo](../2026/09/2026-09-13-pytorch-aot-autograd-backend.md) | `torch/_dynamo/backends/common.py` |
 | 2026-09-12 | [PyTorch SDPA context：临时选择 attention kernel / PyTorch SDPA Context: Select an Attention Kernel Temporarily](../2026/09/2026-09-12-pytorch-sdpa-kernel-context.md) | `torch/nn/attention/__init__.py` |
 | 2026-09-11 | [PyTorch Adaptive Softmax：先找桶，再算桶内概率 / PyTorch Adaptive Softmax: Find the Bucket, Then Score Inside It](../2026/09/2026-09-11-pytorch-adaptive-log-softmax.md) | `torch/nn/modules/adaptive.py` |
 | 2026-09-10 | [PyTorch SAC storage key：同名 op 也要分执行区 / PyTorch SAC Storage Key: Same Op, Separate Compiled Regions](../2026/09/2026-09-10-pytorch-sac-storage-key.md) | `torch/utils/checkpoint.py` |
