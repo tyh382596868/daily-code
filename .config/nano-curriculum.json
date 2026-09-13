@@ -883,6 +883,13 @@
         "note": "nano/vla/2026-09-12-groot-timestep-adanorm.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-09-13",
+        "note": "nano/vla/2026-09-13-eo1-action-kv-cache-euler.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1754,6 +1761,13 @@
         "date": "2026-09-12",
         "note": "nano/wam/2026-09-12-wan21-resample-cache.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-09-13",
+        "note": "nano/wam/2026-09-13-fastwam-action-dit-inputs.md",
+        "repo": "huggingface/lerobot",
         "via": "wam"
       }
     ]

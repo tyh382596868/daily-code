@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-13 | inference-loop (advanced variant, prefix KV cache plus action-only Euler denoising) | [EO-1 动作采样：前缀只算一次，动作块反复去噪 / EO-1 Action Sampling: Cache the Prefix, Denoise Only the Action Chunk](../nano/vla/2026-09-13-eo1-action-kv-cache-euler.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-12 | action-head-continuous (advanced variant, timestep-conditioned AdaNorm) | [GR00T 时间条件：把 flow step 变成 AdaNorm 调制 / GR00T Time Conditioning: Turn the Flow Step into AdaNorm Modulation](../nano/vla/2026-09-12-groot-timestep-adanorm.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-11 | vision-encoder (advanced variant, frozen vision tower plus connector boundary) | [SmolVLA 视觉入口：冻结塔、统一 dtype，再接 connector / SmolVLA Vision Boundary: Freeze, Cast, Then Connect](../nano/vla/2026-09-11-smolvla-vision-encoder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-10 | fine-tune-lora (advanced variant, restore frozen modules to eval mode) | [GR00T frozen eval：冻结参数还要冻结行为 / GR00T Frozen Eval: Freeze Behavior, Not Just Parameters](../nano/vla/2026-09-10-groot-frozen-modules-eval.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |

@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-13 | [vLLM 权重缓存：同一块 tensor 只导出一次 / vLLM Weight Cache: Export One Tensor, Preserve Every Alias](../2026/09/2026-09-13-vllm-weight-cache-aliases.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-09-13 | [FastVideo VSA 元数据：先把视频 token 排成块，再让稀疏 kernel 跳过 padding / FastVideo VSA Metadata: Tile Video Tokens Before Sparse Kernels Skip Padding](../2026/09/2026-09-13-fastvideo-vsa-metadata.md) | [hao-ai-lab/FastVideo](https://github.com/hao-ai-lab/FastVideo) |
 | 2026-09-10 | [vLLM prefill gate：解码不断，新 prefill 等节拍 / vLLM Prefill Gate: Keep Decoding, Admit Prefill on Cadence](../2026/09/2026-09-10-vllm-dp-prefill-gate.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-09-10 | [Alpamayo2 input profiles：任务先选相机和帧 / Alpamayo2 Input Profiles: Choose Cameras and Frames Per Task](../2026/09/2026-09-10-alpamayo2-input-profiles.md) | [NVlabs/alpamayo2](https://github.com/NVlabs/alpamayo2) |
 | 2026-09-06 | [AWorld BaseAgent：把状态机和 task-local 上下文绑在一起 / AWorld BaseAgent: Bind the State Machine to Task-Local Context](../2026/09/2026-09-06-aworld-agent-base.md) | [inclusionAI/AWorld](https://github.com/inclusionAI/AWorld) |
