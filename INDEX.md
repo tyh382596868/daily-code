@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-09-14 | robotics | [LeRobot frame_index：让处理器不丢时间坐标 / LeRobot frame_index: Keep Time Coordinates Through Processors](2026/09/2026-09-14-lerobot-frame-index-metadata.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
+| 2026-09-14 | pytorch | [PyTorch Dynamo 重编译缓存：局部限额和全局刹车 / PyTorch Dynamo Cache Size: Local Limits and a Global Brake](2026/09/2026-09-14-pytorch-dynamo-cache-size.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-09-14 | huggingface | [nanoVLM 流式数据加载：没有长度也能切验证集 / nanoVLM Streaming Data: Split Validation Without Random Access](2026/09/2026-09-14-nanovlm-streaming-dataloader.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (huggingface) |
+| 2026-09-14 | vla | [openpi ActionChunkBroker：一次预测，逐拍执行 / openpi ActionChunkBroker: Predict Once, Execute One Tick at a Time](nano/vla/2026-09-14-openpi-action-chunk-broker.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (vla, action-chunking advanced variant) |
+| 2026-09-14 | wam | [FastWAM 推理模式：同一个 action API，两个 conditioning regime / FastWAM Inference Modes: One Action API, Two Conditioning Regimes](nano/wam/2026-09-14-fastwam-inference-mode-dispatch.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) (wam, sampler-inference advanced variant) |
+| 2026-09-14 | robotics | [EVA-CLIENT 数据质量分流：先分 episode，再原子发布 / EVA-CLIENT Quality Split: Partition Episodes, Then Publish Atomically](2026/09/2026-09-14-eva-client-quality-split.md) | [Noietch/EVA-CLIENT](https://github.com/Noietch/EVA-CLIENT) (trending, 208 stars observed) |
 | 2026-09-13 | infrastructure | [vLLM 权重缓存：同一块 tensor 只导出一次 / vLLM Weight Cache: Export One Tensor, Preserve Every Alias](2026/09/2026-09-13-vllm-weight-cache-aliases.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
 | 2026-09-13 | pytorch | [PyTorch AOT Autograd：把 backward 编译器包在禁追踪壳里 / PyTorch AOT Autograd: Keep the Backward Compiler Outside Dynamo](2026/09/2026-09-13-pytorch-aot-autograd-backend.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-09-13 | huggingface | [tokenizers Parity BPE：让低资源语言也拿到 merge 预算 / tokenizers Parity BPE: Give Low-Resource Languages a Share of the Merge Budget](2026/09/2026-09-13-tokenizers-parity-bpe.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) (huggingface) |

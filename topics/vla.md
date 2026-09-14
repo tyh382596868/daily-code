@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-14 | action-chunking (advanced variant, horizon buffering at the client boundary) | [openpi ActionChunkBroker：一次预测，逐拍执行 / openpi ActionChunkBroker: Predict Once, Execute One Tick at a Time](../nano/vla/2026-09-14-openpi-action-chunk-broker.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-09-13 | inference-loop (advanced variant, prefix KV cache plus action-only Euler denoising) | [EO-1 动作采样：前缀只算一次，动作块反复去噪 / EO-1 Action Sampling: Cache the Prefix, Denoise Only the Action Chunk](../nano/vla/2026-09-13-eo1-action-kv-cache-euler.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-12 | action-head-continuous (advanced variant, timestep-conditioned AdaNorm) | [GR00T 时间条件：把 flow step 变成 AdaNorm 调制 / GR00T Time Conditioning: Turn the Flow Step into AdaNorm Modulation](../nano/vla/2026-09-12-groot-timestep-adanorm.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-11 | vision-encoder (advanced variant, frozen vision tower plus connector boundary) | [SmolVLA 视觉入口：冻结塔、统一 dtype，再接 connector / SmolVLA Vision Boundary: Freeze, Cast, Then Connect](../nano/vla/2026-09-11-smolvla-vision-encoder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

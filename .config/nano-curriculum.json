@@ -890,6 +890,13 @@
         "note": "nano/vla/2026-09-13-eo1-action-kv-cache-euler.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-09-14",
+        "note": "nano/vla/2026-09-14-openpi-action-chunk-broker.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1768,6 +1775,13 @@
         "date": "2026-09-13",
         "note": "nano/wam/2026-09-13-fastwam-action-dit-inputs.md",
         "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-09-14",
+        "note": "nano/wam/2026-09-14-fastwam-inference-mode-dispatch.md",
+        "repo": "yuantianyuan01/FastWAM",
         "via": "wam"
       }
     ]

@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-14 | [nanoVLM 流式数据加载：没有长度也能切验证集 / nanoVLM Streaming Data: Split Validation Without Random Access](../2026/09/2026-09-14-nanovlm-streaming-dataloader.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-09-13 | [tokenizers Parity BPE：让低资源语言也拿到 merge 预算 / tokenizers Parity BPE: Give Low-Resource Languages a Share of the Merge Budget](../2026/09/2026-09-13-tokenizers-parity-bpe.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) |
 | 2026-09-12 | [Transformers Static Cache：先分配，再原地写入 / Transformers Static Cache: Preallocate, Then Update In Place](../2026/09/2026-09-12-transformers-static-cache.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-09-11 | [PEFT 变体注册表：配置组合变成稳定 dispatch key / PEFT Variant Registry: Turn Config Combinations into Stable Dispatch Keys](../2026/09/2026-09-11-peft-lora-variant-registry.md) | [huggingface/peft](https://github.com/huggingface/peft) |
