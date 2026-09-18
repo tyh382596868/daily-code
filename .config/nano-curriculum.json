@@ -897,6 +897,13 @@
         "note": "nano/vla/2026-09-14-openpi-action-chunk-broker.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "inference-loop",
+        "date": "2026-09-18",
+        "note": "nano/vla/2026-09-18-openvla-generation-cache.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
       }
     ]
   },
@@ -1782,6 +1789,13 @@
         "date": "2026-09-14",
         "note": "nano/wam/2026-09-14-fastwam-inference-mode-dispatch.md",
         "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-09-18",
+        "note": "nano/wam/2026-09-18-opensora-causal-vae-encoder.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]

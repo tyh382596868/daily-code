@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-09-18 | [PyTorch Dynamo OrderedSet：集合也有可观察的顺序 / PyTorch Dynamo OrderedSet: A Set Can Have Observable Order](../2026/09/2026-09-18-pytorch-ordered-set-dynamo.md) | `torch/_dynamo/variables/sets.py` |
 | 2026-09-14 | [PyTorch Dynamo 重编译缓存：局部限额和全局刹车 / PyTorch Dynamo Cache Size: Local Limits and a Global Brake](../2026/09/2026-09-14-pytorch-dynamo-cache-size.md) | `torch/_dynamo/cache_size.py` |
 | 2026-09-13 | [PyTorch AOT Autograd：把 backward 编译器包在禁追踪壳里 / PyTorch AOT Autograd: Keep the Backward Compiler Outside Dynamo](../2026/09/2026-09-13-pytorch-aot-autograd-backend.md) | `torch/_dynamo/backends/common.py` |
 | 2026-09-12 | [PyTorch SDPA context：临时选择 attention kernel / PyTorch SDPA Context: Select an Attention Kernel Temporarily](../2026/09/2026-09-12-pytorch-sdpa-kernel-context.md) | `torch/nn/attention/__init__.py` |

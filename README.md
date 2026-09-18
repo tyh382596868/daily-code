@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-09-18** · diffusion · [Open-Sora activation offload：把 checkpoint 的中间结果暂存到 CPU / Open-Sora Activation Offload: Park Checkpoint Activations on CPU](2026/09/2026-09-18-opensora-activation-offload-checkpoint.md) — `hpcaitech/Open-Sora` (tracked)
+- **2026-09-18** · pytorch · [PyTorch Dynamo OrderedSet：集合也有可观察的顺序 / PyTorch Dynamo OrderedSet: A Set Can Have Observable Order](2026/09/2026-09-18-pytorch-ordered-set-dynamo.md) — `pytorch/pytorch` (pytorch)
+- **2026-09-18** · huggingface · [Diffusers Wan2.2 modular block：把 denoise 变成可组合流水线 / Diffusers Wan2.2 Modular Block: Turn Denoising into a Composable Pipeline](2026/09/2026-09-18-diffusers-wan22-modular-blocks.md) — `huggingface/diffusers` (huggingface)
+- **2026-09-18** · vla · [OpenVLA generation cache：第一步看图，后面只看新 token / OpenVLA Generation Cache: See the Image Once, Then Read One New Token](nano/vla/2026-09-18-openvla-generation-cache.md) — `openvla/openvla` (vla, inference-loop advanced variant)
+- **2026-09-18** · wam · [Open-Sora causal 3D VAE：时间压缩不能偷看未来 / Open-Sora Causal 3D VAE: Temporal Compression Must Not See the Future](nano/wam/2026-09-18-opensora-causal-vae-encoder.md) — `hpcaitech/Open-Sora` (wam, vae-encoder-decoder advanced variant)
+- **2026-09-18** · diffusion · [WBench NavScore：别把“走得远”误当成“走得对” / WBench NavScore: Do Not Confuse Going Far with Going Correctly](2026/09/2026-09-18-wbench-navigation-score.md) — `meituan-longcat/WBench` (trending, 233 stars observed)
 - **2026-09-14** · robotics · [LeRobot frame_index：让处理器不丢时间坐标 / LeRobot frame_index: Keep Time Coordinates Through Processors](2026/09/2026-09-14-lerobot-frame-index-metadata.md) — `huggingface/lerobot` (tracked)
 - **2026-09-14** · pytorch · [PyTorch Dynamo 重编译缓存：局部限额和全局刹车 / PyTorch Dynamo Cache Size: Local Limits and a Global Brake](2026/09/2026-09-14-pytorch-dynamo-cache-size.md) — `pytorch/pytorch` (pytorch)
 - **2026-09-14** · huggingface · [nanoVLM 流式数据加载：没有长度也能切验证集 / nanoVLM Streaming Data: Split Validation Without Random Access](2026/09/2026-09-14-nanovlm-streaming-dataloader.md) — `huggingface/nanoVLM` (huggingface)

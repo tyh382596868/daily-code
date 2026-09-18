@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-18 | [Open-Sora activation offload：把 checkpoint 的中间结果暂存到 CPU / Open-Sora Activation Offload: Park Checkpoint Activations on CPU](../2026/09/2026-09-18-opensora-activation-offload-checkpoint.md) | hpcaitech/Open-Sora |
+| 2026-09-18 | [WBench NavScore：别把“走得远”误当成“走得对” / WBench NavScore: Do Not Confuse Going Far with Going Correctly](../2026/09/2026-09-18-wbench-navigation-score.md) | meituan-longcat/WBench |
 | 2026-09-12 | [Open-Sora 时间表：分辨率和帧数一起改变采样节奏 / Open-Sora Timesteps: Let Resolution and Frame Count Change the Sampling Pace](../2026/09/2026-09-12-opensora-flow-schedule.md) | hpcaitech/Open-Sora |
 | 2026-09-12 | [TemporalStore 决策：把计数和准入放进一次原子操作 / TemporalStore Decisions: Make Counting and Admission One Atomic Operation](../2026/09/2026-09-12-temporalstore-idempotent-cap.md) | matrixarkai/TemporalStore |
 | 2026-09-09 | [DINOv3 变长 attention：先合并投影，再保住每段边界 / DINOv3 Variable-Length Attention: Fuse the Projection, Keep Each Segment](../2026/09/2026-09-09-dinov3-variable-list-attention.md) | facebookresearch/dinov3 |

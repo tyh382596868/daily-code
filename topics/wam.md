@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-18 | vae-encoder-decoder (advanced variant, causal 3D encoder with temporal compression) | [Open-Sora causal 3D VAE：时间压缩不能偷看未来 / Open-Sora Causal 3D VAE: Temporal Compression Must Not See the Future](../nano/wam/2026-09-18-opensora-causal-vae-encoder.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-09-14 | sampler-inference (advanced variant, explicit IDM versus first-frame action inference) | [FastWAM 推理模式：同一个 action API，两个 conditioning regime / FastWAM Inference Modes: One Action API, Two Conditioning Regimes](../nano/wam/2026-09-14-fastwam-inference-mode-dispatch.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-09-13 | action-conditioning (advanced variant, input contract plus six-way timestep modulation) | [FastWAM ActionDiT：先验证契约，再把动作、文字和时间装进 token / FastWAM ActionDiT: Validate the Contract Before Packing Action, Text, and Time](../nano/wam/2026-09-13-fastwam-action-dit-inputs.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-12 | vae-encoder-decoder (advanced variant, spatial resampling plus temporal cache) | [Wan2.1 Resample：空间缩放和时间 cache 分开处理 / Wan2.1 Resample: Separate Spatial Resizing from Temporal Cache State](../nano/wam/2026-09-12-wan21-resample-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
