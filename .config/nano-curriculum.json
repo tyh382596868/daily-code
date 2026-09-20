@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "training-step",
+        "date": "2026-09-20",
+        "note": "nano/vla/2026-09-20-lerobot-eo1-dual-supervision.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
         "id": "fine-tune-lora",
         "date": "2026-09-10",
         "note": "nano/vla/2026-09-10-groot-frozen-modules-eval.md",
@@ -1140,6 +1147,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "noise-scheduler",
+        "date": "2026-09-20",
+        "note": "nano/wam/2026-09-20-fastwam-continuous-flow-scheduler.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
       {
         "id": "action-conditioning",
         "date": "2026-09-10",

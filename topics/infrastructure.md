@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-20 | [vLLM workspace lanes：一块平坦 buffer 服务多个临时张量 / vLLM Workspace Lanes: One Flat Buffer for Many Temporary Tensors](../2026/09/2026-09-20-vllm-workspace-lanes.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-09-20 | [AReaL proximal log-prob 插值：异步 RL 不必每次重跑旧 policy / AReaL Proximal Log-Prob Interpolation: Async RL Without Re-running the Old Policy](../2026/09/2026-09-20-areal-prox-logp-interpolation.md) | [areal-project/AReaL](https://github.com/areal-project/AReaL) |
 | 2026-09-13 | [vLLM 权重缓存：同一块 tensor 只导出一次 / vLLM Weight Cache: Export One Tensor, Preserve Every Alias](../2026/09/2026-09-13-vllm-weight-cache-aliases.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-09-13 | [FastVideo VSA 元数据：先把视频 token 排成块，再让稀疏 kernel 跳过 padding / FastVideo VSA Metadata: Tile Video Tokens Before Sparse Kernels Skip Padding](../2026/09/2026-09-13-fastvideo-vsa-metadata.md) | [hao-ai-lab/FastVideo](https://github.com/hao-ai-lab/FastVideo) |
 | 2026-09-10 | [vLLM prefill gate：解码不断，新 prefill 等节拍 / vLLM Prefill Gate: Keep Decoding, Admit Prefill on Cadence](../2026/09/2026-09-10-vllm-dp-prefill-gate.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

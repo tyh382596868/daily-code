@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-20 | [Accelerate device mesh：先按语义排序，再给 PyTorch 一张规范网格 / Accelerate Device Mesh: Sort by Meaning Before Giving PyTorch a Canonical Mesh](../2026/09/2026-09-20-accelerate-device-mesh.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-09-18 | [Diffusers Wan2.2 modular block：把 denoise 变成可组合流水线 / Diffusers Wan2.2 Modular Block: Turn Denoising into a Composable Pipeline](../2026/09/2026-09-18-diffusers-wan22-modular-blocks.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-09-14 | [nanoVLM 流式数据加载：没有长度也能切验证集 / nanoVLM Streaming Data: Split Validation Without Random Access](../2026/09/2026-09-14-nanovlm-streaming-dataloader.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-09-13 | [tokenizers Parity BPE：让低资源语言也拿到 merge 预算 / tokenizers Parity BPE: Give Low-Resource Languages a Share of the Merge Budget](../2026/09/2026-09-13-tokenizers-parity-bpe.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) |

@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-09-20** · infrastructure · [vLLM workspace lanes：一块平坦 buffer 服务多个临时张量 / vLLM Workspace Lanes: One Flat Buffer for Many Temporary Tensors](2026/09/2026-09-20-vllm-workspace-lanes.md) — `vllm-project/vllm` (tracked)
+- **2026-09-20** · pytorch · [PyTorch Dynamo shared constants：按 id 清理前先问“它是不是全局共享” / PyTorch Dynamo Shared Constants: Ask Whether an Object Is Globally Shared Before Pruning by ID](2026/09/2026-09-20-pytorch-shared-constant-pruning.md) — `pytorch/pytorch` (pytorch)
+- **2026-09-20** · huggingface · [Accelerate device mesh：先按语义排序，再给 PyTorch 一张规范网格 / Accelerate Device Mesh: Sort by Meaning Before Giving PyTorch a Canonical Mesh](2026/09/2026-09-20-accelerate-device-mesh.md) — `huggingface/accelerate` (huggingface)
+- **2026-09-20** · vla · [EO-1 双监督训练：动作 flow loss 和文本 loss 共用一次 backbone / EO-1 Dual-Supervision Training: One Backbone, Action Flow Loss and Text Loss](nano/vla/2026-09-20-lerobot-eo1-dual-supervision.md) — `huggingface/lerobot` (vla, training-step advanced variant)
+- **2026-09-20** · wam · [FastWAM continuous scheduler：训练时间、加噪目标和推理步长共用一条轴 / FastWAM Continuous Scheduler: Training Time, Noise Targets, and Inference Steps Share One Axis](nano/wam/2026-09-20-fastwam-continuous-flow-scheduler.md) — `yuantianyuan01/FastWAM` (wam, noise-scheduler advanced variant)
+- **2026-09-20** · infrastructure · [AReaL proximal log-prob 插值：异步 RL 不必每次重跑旧 policy / AReaL Proximal Log-Prob Interpolation: Async RL Without Re-running the Old Policy](2026/09/2026-09-20-areal-prox-logp-interpolation.md) — `areal-project/AReaL` (trending, 5778 stars observed)
 - **2026-09-18** · diffusion · [Open-Sora activation offload：把 checkpoint 的中间结果暂存到 CPU / Open-Sora Activation Offload: Park Checkpoint Activations on CPU](2026/09/2026-09-18-opensora-activation-offload-checkpoint.md) — `hpcaitech/Open-Sora` (tracked)
 - **2026-09-18** · pytorch · [PyTorch Dynamo OrderedSet：集合也有可观察的顺序 / PyTorch Dynamo OrderedSet: A Set Can Have Observable Order](2026/09/2026-09-18-pytorch-ordered-set-dynamo.md) — `pytorch/pytorch` (pytorch)
 - **2026-09-18** · huggingface · [Diffusers Wan2.2 modular block：把 denoise 变成可组合流水线 / Diffusers Wan2.2 Modular Block: Turn Denoising into a Composable Pipeline](2026/09/2026-09-18-diffusers-wan22-modular-blocks.md) — `huggingface/diffusers` (huggingface)
