@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-22 | classifier-free-guidance (advanced variant, three-way I2V guidance with temporal image scale) | [Open-Sora I2V guidance：文字和图像条件分两条方向推 / Open-Sora I2V Guidance: Push Text and Image Conditions Along Separate Directions](../nano/wam/2026-09-22-open-sora-i2v-guidance.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-09-20 | noise-scheduler (advanced variant, shifted continuous flow matching) | [FastWAM continuous scheduler：训练时间、加噪目标和推理步长共用一条轴 / FastWAM Continuous Scheduler: Training Time, Noise Targets, and Inference Steps Share One Axis](../nano/wam/2026-09-20-fastwam-continuous-flow-scheduler.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-09-18 | vae-encoder-decoder (advanced variant, causal 3D encoder with temporal compression) | [Open-Sora causal 3D VAE：时间压缩不能偷看未来 / Open-Sora Causal 3D VAE: Temporal Compression Must Not See the Future](../nano/wam/2026-09-18-opensora-causal-vae-encoder.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-09-14 | sampler-inference (advanced variant, explicit IDM versus first-frame action inference) | [FastWAM 推理模式：同一个 action API，两个 conditioning regime / FastWAM Inference Modes: One Action API, Two Conditioning Regimes](../nano/wam/2026-09-14-fastwam-inference-mode-dispatch.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |

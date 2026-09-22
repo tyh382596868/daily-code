@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-09-22 | [PyTorch DeviceMesh abort：失败时先拆掉通信网 / PyTorch DeviceMesh Abort: Tear Down the Communication Mesh on Failure](../2026/09/2026-09-22-pytorch-device-mesh-abort.md) | `torch/distributed/device_mesh.py` |
 | 2026-09-20 | [PyTorch Dynamo shared constants：按 id 清理前先问“它是不是全局共享” / PyTorch Dynamo Shared Constants: Ask Whether an Object Is Globally Shared Before Pruning by ID](../2026/09/2026-09-20-pytorch-shared-constant-pruning.md) | `torch/_dynamo/guards.py` |
 | 2026-09-18 | [PyTorch Dynamo OrderedSet：集合也有可观察的顺序 / PyTorch Dynamo OrderedSet: A Set Can Have Observable Order](../2026/09/2026-09-18-pytorch-ordered-set-dynamo.md) | `torch/_dynamo/variables/sets.py` |
 | 2026-09-14 | [PyTorch Dynamo 重编译缓存：局部限额和全局刹车 / PyTorch Dynamo Cache Size: Local Limits and a Global Brake](../2026/09/2026-09-14-pytorch-dynamo-cache-size.md) | `torch/_dynamo/cache_size.py` |

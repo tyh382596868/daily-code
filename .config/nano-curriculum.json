@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-09-22",
+        "note": "nano/vla/2026-09-22-lerobot-groot-n17-backbone-wiring.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
         "id": "training-step",
         "date": "2026-09-20",
         "note": "nano/vla/2026-09-20-lerobot-eo1-dual-supervision.md",
@@ -1147,6 +1154,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "classifier-free-guidance",
+        "date": "2026-09-22",
+        "note": "nano/wam/2026-09-22-open-sora-i2v-guidance.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
       {
         "id": "noise-scheduler",
         "date": "2026-09-20",

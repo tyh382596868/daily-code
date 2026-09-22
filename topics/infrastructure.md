@@ -4,6 +4,7 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-22 | [Nautilus Compass 会话检索：先过滤，再让关键词有层次 / Nautilus Compass Session Search: Filter First, Then Weight Keywords](../2026/09/2026-09-22-nautilus-compass-session-search.md) | [chunxiaoxx/nautilus-compass](https://github.com/chunxiaoxx/nautilus-compass) |
 | 2026-09-20 | [vLLM workspace lanes：一块平坦 buffer 服务多个临时张量 / vLLM Workspace Lanes: One Flat Buffer for Many Temporary Tensors](../2026/09/2026-09-20-vllm-workspace-lanes.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-09-20 | [AReaL proximal log-prob 插值：异步 RL 不必每次重跑旧 policy / AReaL Proximal Log-Prob Interpolation: Async RL Without Re-running the Old Policy](../2026/09/2026-09-20-areal-prox-logp-interpolation.md) | [areal-project/AReaL](https://github.com/areal-project/AReaL) |
 | 2026-09-13 | [vLLM 权重缓存：同一块 tensor 只导出一次 / vLLM Weight Cache: Export One Tensor, Preserve Every Alias](../2026/09/2026-09-13-vllm-weight-cache-aliases.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

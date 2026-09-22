@@ -4,6 +4,7 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-22 | [DROID 轨迹采样：先找可用 episode，再按 worker 分片 / DROID Trajectory Sampling: Find Episodes, Then Partition Workers](../2026/09/2026-09-22-droid-trajectory-sampler.md) | [droid-dataset/droid](https://github.com/droid-dataset/droid) |
 | 2026-09-14 | [LeRobot frame_index：让处理器不丢时间坐标 / LeRobot frame_index: Keep Time Coordinates Through Processors](../2026/09/2026-09-14-lerobot-frame-index-metadata.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-14 | [EVA-CLIENT 数据质量分流：先分 episode，再原子发布 / EVA-CLIENT Quality Split: Partition Episodes, Then Publish Atomically](../2026/09/2026-09-14-eva-client-quality-split.md) | [Noietch/EVA-CLIENT](https://github.com/Noietch/EVA-CLIENT) |
 | 2026-09-11 | [LeRobot 计划刷新：事件出现，再回头重跑计划 / LeRobot Plan Refresh: Re-enter the Plan After an Event](../2026/09/2026-09-11-lerobot-steerable-plan-refresh.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-09-22** · robotics · [DROID 轨迹采样：先找可用 episode，再按 worker 分片 / DROID Trajectory Sampling: Find Episodes, Then Partition Workers](2026/09/2026-09-22-droid-trajectory-sampler.md) — `droid-dataset/droid` (tracked)
+- **2026-09-22** · pytorch · [PyTorch DeviceMesh abort：失败时先拆掉通信网 / PyTorch DeviceMesh Abort: Tear Down the Communication Mesh on Failure](2026/09/2026-09-22-pytorch-device-mesh-abort.md) — `pytorch/pytorch` (pytorch)
+- **2026-09-22** · huggingface · [Datasets RebatchedArrow：流式 chunk 也能拼成固定 batch / Datasets RebatchedArrow: Turn Streaming Chunks into Fixed Batches](2026/09/2026-09-22-datasets-rebatched-arrow.md) — `huggingface/datasets` (huggingface)
+- **2026-09-22** · vla · [GR00T N1.7 接线：VLM token 如何喂给连续动作 head / GR00T N1.7 Wiring: Feeding VLM Tokens into a Continuous Action Head](nano/vla/2026-09-22-lerobot-groot-n17-backbone-wiring.md) — `huggingface/lerobot` (vla, vlm-backbone-wiring advanced variant)
+- **2026-09-22** · wam · [Open-Sora I2V guidance：文字和图像条件分两条方向推 / Open-Sora I2V Guidance: Push Text and Image Conditions Along Separate Directions](nano/wam/2026-09-22-open-sora-i2v-guidance.md) — `hpcaitech/Open-Sora` (wam, classifier-free-guidance advanced variant)
+- **2026-09-22** · infrastructure · [Nautilus Compass 会话检索：先过滤，再让关键词有层次 / Nautilus Compass Session Search: Filter First, Then Weight Keywords](2026/09/2026-09-22-nautilus-compass-session-search.md) — `chunxiaoxx/nautilus-compass` (trending, 207 stars observed)
 - **2026-09-20** · infrastructure · [vLLM workspace lanes：一块平坦 buffer 服务多个临时张量 / vLLM Workspace Lanes: One Flat Buffer for Many Temporary Tensors](2026/09/2026-09-20-vllm-workspace-lanes.md) — `vllm-project/vllm` (tracked)
 - **2026-09-20** · pytorch · [PyTorch Dynamo shared constants：按 id 清理前先问“它是不是全局共享” / PyTorch Dynamo Shared Constants: Ask Whether an Object Is Globally Shared Before Pruning by ID](2026/09/2026-09-20-pytorch-shared-constant-pruning.md) — `pytorch/pytorch` (pytorch)
 - **2026-09-20** · huggingface · [Accelerate device mesh：先按语义排序，再给 PyTorch 一张规范网格 / Accelerate Device Mesh: Sort by Meaning Before Giving PyTorch a Canonical Mesh](2026/09/2026-09-20-accelerate-device-mesh.md) — `huggingface/accelerate` (huggingface)
