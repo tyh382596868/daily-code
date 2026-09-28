@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-09-28 | [Wan2.1 VAE codec 变体：首帧单独编码，后续按时间块接上 / Wan2.1 VAE Codec Variant: Encode the First Frame Alone, Then Append Temporal Chunks](../nano/wam/2026-09-28-wan21-vae-chunked-codec-variant.md) | `Wan-Video/Wan2.1` | vae-encoder-decoder advanced variant |
 | 2026-09-13 | action-conditioning (advanced variant, input contract plus six-way timestep modulation) | [FastWAM ActionDiT：先验证契约，再把动作、文字和时间装进 token / FastWAM ActionDiT: Validate the Contract Before Packing Action, Text, and Time](../nano/wam/2026-09-13-fastwam-action-dit-inputs.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-12 | vae-encoder-decoder (advanced variant, spatial resampling plus temporal cache) | [Wan2.1 Resample：空间缩放和时间 cache 分开处理 / Wan2.1 Resample: Separate Spatial Resizing from Temporal Cache State](../nano/wam/2026-09-12-wan21-resample-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-09-11 | dit-block (advanced variant, per-expert QKV and RoPE preparation) | [FastWAM MoT：每个 expert 自己准备 QKV，再共享 attention / FastWAM MoT: Per-Expert QKV, Shared Attention](../nano/wam/2026-09-11-fastwam-mot-attention-io.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |

@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "action-tokenizer",
+        "date": "2026-09-28",
+        "note": "nano/vla/2026-09-28-lerobot-tokenizer-processor.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
         "id": "fine-tune-lora",
         "date": "2026-09-10",
         "note": "nano/vla/2026-09-10-groot-frozen-modules-eval.md",
@@ -1126,6 +1133,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-09-28",
+        "note": "nano/wam/2026-09-28-wan21-vae-chunked-codec-variant.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "action-conditioning",
         "date": "2026-09-10",
