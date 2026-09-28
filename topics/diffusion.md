@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-28 | [Open-Sora pinned memory cache：CPU buffer 也要复用 / Open-Sora Pinned Memory Cache: Reuse CPU Buffers Too](../2026/09/2026-09-28-opensora-pin-memory-cache.md) | hpcaitech/Open-Sora |
+| 2026-09-28 | [WorldCrafter camera trajectory：把键盘动作采样成连续相机路径 / WorldCrafter Camera Trajectory: Sample Keyboard Actions into Continuous Camera Paths](../2026/09/2026-09-28-worldcrafter-camera-trajectory.md) | TencentARC/WorldCrafter |
 | 2026-09-12 | [Open-Sora 时间表：分辨率和帧数一起改变采样节奏 / Open-Sora Timesteps: Let Resolution and Frame Count Change the Sampling Pace](../2026/09/2026-09-12-opensora-flow-schedule.md) | hpcaitech/Open-Sora |
 | 2026-09-12 | [TemporalStore 决策：把计数和准入放进一次原子操作 / TemporalStore Decisions: Make Counting and Admission One Atomic Operation](../2026/09/2026-09-12-temporalstore-idempotent-cap.md) | matrixarkai/TemporalStore |
 | 2026-09-09 | [DINOv3 变长 attention：先合并投影，再保住每段边界 / DINOv3 Variable-Length Attention: Fuse the Projection, Keep Each Segment](../2026/09/2026-09-09-dinov3-variable-list-attention.md) | facebookresearch/dinov3 |
