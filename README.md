@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-09-30** · infrastructure · [vLLM fusion gate：先验条件通过了，才把 RoPE 和 KV cache 合成一个 op / vLLM Fusion Gate: Fuse RoPE and KV Cache Only After the Preconditions Pass](2026/09/2026-09-30-vllm-rope-kvcache-fusion-gate.md) — `vllm-project/vllm` (tracked)
+- **2026-09-30** · pytorch · [PyTorch varlen attention：先收集拒绝理由，再选择后端 / PyTorch Varlen Attention: Collect Rejection Reasons Before Choosing a Backend](2026/09/2026-09-30-pytorch-varlen-cudnn-rejections.md) — `pytorch/pytorch` (pytorch)
+- **2026-09-30** · huggingface · [tokenizers BPE hot/cold queue：初始 pair 排一次，新 pair 进小堆 / tokenizers BPE Hot/Cold Queue: Sort Initial Pairs Once, Heap Only New Pairs](2026/09/2026-09-30-tokenizers-bpe-hot-cold-queue.md) — `huggingface/tokenizers` (huggingface)
+- **2026-09-30** · vla · [LeRobot Evo1 action head：动作先变 token，再按 embodiment 走不同线性层 / LeRobot Evo1 Action Head: Tokenize Actions, Then Route by Embodiment](nano/vla/2026-09-30-lerobot-evo1-multi-embodiment-action-head.md) — `huggingface/lerobot` (vla, action-head-continuous advanced variant, multi-embodiment flow-matching action head)
+- **2026-09-30** · wam · [Open-Sora visual condition：把参考帧编码成 latent，再和 mask 拼在一起 / Open-Sora Visual Condition: Encode Reference Frames into Latents, Then Concatenate the Mask](nano/wam/2026-09-30-open-sora-visual-condition-latents.md) — `hpcaitech/Open-Sora` (wam, action-conditioning advanced variant, visual condition latent packing)
+- **2026-09-30** · infrastructure · [Cadence bootstrap：训练循环先做 readiness check，再提交 witness / Cadence Bootstrap: Check Readiness Before Committing Witnesses](2026/09/2026-09-30-cadence-bootstrap-readiness.md) — `muellerberndt/cadence` (trending)
 - **2026-09-28** · diffusion · [Open-Sora pinned memory cache：CPU buffer 也要复用 / Open-Sora Pinned Memory Cache: Reuse CPU Buffers Too](2026/09/2026-09-28-opensora-pin-memory-cache.md) — `hpcaitech/Open-Sora` (tracked)
 - **2026-09-28** · pytorch · [PyTorch Inductor live ranges：不重叠的 tensor 才能共用内存 / PyTorch Inductor Live Ranges: Share Memory Only When Lifetimes Do Not Overlap](2026/09/2026-09-28-pytorch-inductor-live-ranges.md) — `pytorch/pytorch` (pytorch)
 - **2026-09-28** · huggingface · [TRL chunked logprob：不落地完整词表 logits / TRL Chunked Logprob: Avoid Materializing Full-Vocabulary Logits](2026/09/2026-09-28-trl-chunked-logprob.md) — `huggingface/trl` (huggingface)

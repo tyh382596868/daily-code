@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "action-head-continuous",
+        "date": "2026-09-30",
+        "note": "nano/vla/2026-09-30-lerobot-evo1-multi-embodiment-action-head.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
         "id": "action-tokenizer",
         "date": "2026-09-28",
         "note": "nano/vla/2026-09-28-lerobot-tokenizer-processor.md",
@@ -1133,6 +1140,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "action-conditioning",
+        "date": "2026-09-30",
+        "note": "nano/wam/2026-09-30-open-sora-visual-condition-latents.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
       {
         "id": "vae-encoder-decoder",
         "date": "2026-09-28",

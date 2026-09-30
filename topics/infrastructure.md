@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-09-30 | [vLLM fusion gate：先验条件通过了，才把 RoPE 和 KV cache 合成一个 op / vLLM Fusion Gate: Fuse RoPE and KV Cache Only After the Preconditions Pass](../2026/09/2026-09-30-vllm-rope-kvcache-fusion-gate.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-09-30 | [Cadence bootstrap：训练循环先做 readiness check，再提交 witness / Cadence Bootstrap: Check Readiness Before Committing Witnesses](../2026/09/2026-09-30-cadence-bootstrap-readiness.md) | [muellerberndt/cadence](https://github.com/muellerberndt/cadence) |
 | 2026-09-13 | [vLLM 权重缓存：同一块 tensor 只导出一次 / vLLM Weight Cache: Export One Tensor, Preserve Every Alias](../2026/09/2026-09-13-vllm-weight-cache-aliases.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-09-13 | [FastVideo VSA 元数据：先把视频 token 排成块，再让稀疏 kernel 跳过 padding / FastVideo VSA Metadata: Tile Video Tokens Before Sparse Kernels Skip Padding](../2026/09/2026-09-13-fastvideo-vsa-metadata.md) | [hao-ai-lab/FastVideo](https://github.com/hao-ai-lab/FastVideo) |
 | 2026-09-10 | [vLLM prefill gate：解码不断，新 prefill 等节拍 / vLLM Prefill Gate: Keep Decoding, Admit Prefill on Cadence](../2026/09/2026-09-10-vllm-dp-prefill-gate.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
