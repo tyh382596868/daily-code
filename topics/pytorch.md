@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-09-30 | [PyTorch varlen attention：先收集拒绝理由，再选择后端 / PyTorch Varlen Attention: Collect Rejection Reasons Before Choosing a Backend](../2026/09/2026-09-30-pytorch-varlen-cudnn-rejections.md) | `torch/nn/attention/varlen.py` |
 | 2026-09-28 | [PyTorch Inductor live ranges：不重叠的 tensor 才能共用内存 / PyTorch Inductor Live Ranges: Share Memory Only When Lifetimes Do Not Overlap](../2026/09/2026-09-28-pytorch-inductor-live-ranges.md) | `torch/_inductor/codegen/memory_planning.py` |
 | 2026-09-13 | [PyTorch AOT Autograd：把 backward 编译器包在禁追踪壳里 / PyTorch AOT Autograd: Keep the Backward Compiler Outside Dynamo](../2026/09/2026-09-13-pytorch-aot-autograd-backend.md) | `torch/_dynamo/backends/common.py` |
 | 2026-09-12 | [PyTorch SDPA context：临时选择 attention kernel / PyTorch SDPA Context: Select an Attention Kernel Temporarily](../2026/09/2026-09-12-pytorch-sdpa-kernel-context.md) | `torch/nn/attention/__init__.py` |
