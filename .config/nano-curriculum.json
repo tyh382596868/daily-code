@@ -904,6 +904,13 @@
         "note": "nano/vla/2026-09-13-eo1-action-kv-cache-euler.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-10-08",
+        "note": "nano/vla/2026-10-08-lerobot-vlajepa-dit-action-head.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1796,6 +1803,13 @@
         "date": "2026-09-13",
         "note": "nano/wam/2026-09-13-fastwam-action-dit-inputs.md",
         "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-10-08",
+        "note": "nano/wam/2026-10-08-open-sora-mmdit-double-stream.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]

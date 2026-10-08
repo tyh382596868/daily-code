@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-08 | action-head-continuous (advanced variant, DiT action head with timestep modulation) | [LeRobot VLA-JEPA action head：动作 token 自己去噪，语义 token 做条件 / LeRobot VLA-JEPA Action Head: Denoise Action Tokens While Conditioning on Semantic Tokens](../nano/vla/2026-10-08-lerobot-vlajepa-dit-action-head.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-30 | action-head-continuous (advanced variant, multi-embodiment category-specific action encoder) | [LeRobot Evo1 action head：动作先变 token，再按 embodiment 走不同线性层 / LeRobot Evo1 Action Head: Tokenize Actions, Then Route by Embodiment](../nano/vla/2026-09-30-lerobot-evo1-multi-embodiment-action-head.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-28 | [LeRobot tokenizer processor：把任务文字变成 observation token / LeRobot Tokenizer Processor: Turn Task Text into Observation Tokens](../nano/vla/2026-09-28-lerobot-tokenizer-processor.md) | `huggingface/lerobot` | action-tokenizer advanced variant |
 | 2026-09-13 | inference-loop (advanced variant, prefix KV cache plus action-only Euler denoising) | [EO-1 动作采样：前缀只算一次，动作块反复去噪 / EO-1 Action Sampling: Cache the Prefix, Denoise Only the Action Chunk](../nano/vla/2026-09-13-eo1-action-kv-cache-euler.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
