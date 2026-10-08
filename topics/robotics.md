@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-08 | [openpi WebSocket policy server：远端 policy 也要像本地函数一样稳 / openpi WebSocket Policy Server: Make Remote Policy Calls Feel Like Local Functions](../2026/10/2026-10-08-openpi-websocket-policy-server.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
+| 2026-10-08 | [frax control matrices：一次 kinematics，打包控制器要的矩阵 / frax Control Matrices: One Kinematics Pass, Package What the Controller Needs](../2026/10/2026-10-08-frax-control-matrices.md) | [StanfordASL/frax](https://github.com/StanfordASL/frax) |
 | 2026-09-11 | [LeRobot 计划刷新：事件出现，再回头重跑计划 / LeRobot Plan Refresh: Re-enter the Plan After an Event](../2026/09/2026-09-11-lerobot-steerable-plan-refresh.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-11 | [OpenWAM attention backend：一个 tensor 契约，多个 kernel / OpenWAM Attention Backend: One Tensor Contract, Many Kernels](../2026/09/2026-09-11-openwam-attention-backend.md) | [OpenWAM-Official/OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) |
 | 2026-09-06 | [DROID dataloader：先筛成功样本，再把多源轨迹交给 RLDS / DROID Dataloader: Filter Success First, Then Hand Multi-Source Trajectories to RLDS](../2026/09/2026-09-06-droid-policy-learning-dataloader.md) | [droid-dataset/droid_policy_learning](https://github.com/droid-dataset/droid_policy_learning) |

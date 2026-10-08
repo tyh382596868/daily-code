@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-08** · robotics · [openpi WebSocket policy server：远端 policy 也要像本地函数一样稳 / openpi WebSocket Policy Server: Make Remote Policy Calls Feel Like Local Functions](2026/10/2026-10-08-openpi-websocket-policy-server.md) — `Physical-Intelligence/openpi` (tracked)
+- **2026-10-08** · pytorch · [PyTorch SDPA layout：输出也要沿着 query 的步幅走 / PyTorch SDPA Layout: Let the Output Follow the Query Strides](2026/10/2026-10-08-pytorch-sdpa-matching-layout.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-08** · huggingface · [nanoVLM collator：先过滤坏样本，再左填充成 batch / nanoVLM Collator: Filter Bad Samples, Then Left-Pad a Batch](2026/10/2026-10-08-nanovlm-collator-left-padding.md) — `huggingface/nanoVLM` (huggingface)
+- **2026-10-08** · vla · [LeRobot VLA-JEPA action head：动作 token 自己去噪，语义 token 做条件 / LeRobot VLA-JEPA Action Head: Denoise Action Tokens While Conditioning on Semantic Tokens](nano/vla/2026-10-08-lerobot-vlajepa-dit-action-head.md) — `huggingface/lerobot` (vla, action-head-continuous advanced variant)
+- **2026-10-08** · wam · [Open-Sora MM-DiT：图像流和文本流分开调制，一起注意力 / Open-Sora MM-DiT: Modulate Image and Text Separately, Attend Together](nano/wam/2026-10-08-open-sora-mmdit-double-stream.md) — `hpcaitech/Open-Sora` (wam, dit-block advanced variant)
+- **2026-10-08** · robotics · [frax control matrices：一次 kinematics，打包控制器要的矩阵 / frax Control Matrices: One Kinematics Pass, Package What the Controller Needs](2026/10/2026-10-08-frax-control-matrices.md) — `StanfordASL/frax` (trending, 400 stars observed)
 - **2026-09-30** · infrastructure · [vLLM fusion gate：先验条件通过了，才把 RoPE 和 KV cache 合成一个 op / vLLM Fusion Gate: Fuse RoPE and KV Cache Only After the Preconditions Pass](2026/09/2026-09-30-vllm-rope-kvcache-fusion-gate.md) — `vllm-project/vllm` (tracked)
 - **2026-09-30** · pytorch · [PyTorch varlen attention：先收集拒绝理由，再选择后端 / PyTorch Varlen Attention: Collect Rejection Reasons Before Choosing a Backend](2026/09/2026-09-30-pytorch-varlen-cudnn-rejections.md) — `pytorch/pytorch` (pytorch)
 - **2026-09-30** · huggingface · [tokenizers BPE hot/cold queue：初始 pair 排一次，新 pair 进小堆 / tokenizers BPE Hot/Cold Queue: Sort Initial Pairs Once, Heap Only New Pairs](2026/09/2026-09-30-tokenizers-bpe-hot-cold-queue.md) — `huggingface/tokenizers` (huggingface)

@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-08 | [nanoVLM collator：先过滤坏样本，再左填充成 batch / nanoVLM Collator: Filter Bad Samples, Then Left-Pad a Batch](../2026/10/2026-10-08-nanovlm-collator-left-padding.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-09-30 | [tokenizers BPE hot/cold queue：初始 pair 排一次，新 pair 进小堆 / tokenizers BPE Hot/Cold Queue: Sort Initial Pairs Once, Heap Only New Pairs](../2026/09/2026-09-30-tokenizers-bpe-hot-cold-queue.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) |
 | 2026-09-28 | [TRL chunked logprob：不落地完整词表 logits / TRL Chunked Logprob: Avoid Materializing Full-Vocabulary Logits](../2026/09/2026-09-28-trl-chunked-logprob.md) | `trl/kernels/chunked_logprob.py` |
 | 2026-09-13 | [tokenizers Parity BPE：让低资源语言也拿到 merge 预算 / tokenizers Parity BPE: Give Low-Resource Languages a Share of the Merge Budget](../2026/09/2026-09-13-tokenizers-parity-bpe.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) |

@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-08 | dit-block (advanced variant, double-stream image/text attention with modulation gates) | [Open-Sora MM-DiT：图像流和文本流分开调制，一起注意力 / Open-Sora MM-DiT: Modulate Image and Text Separately, Attend Together](../nano/wam/2026-10-08-open-sora-mmdit-double-stream.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-09-30 | action-conditioning (advanced variant, visual condition latent packing) | [Open-Sora visual condition：把参考帧编码成 latent，再和 mask 拼在一起 / Open-Sora Visual Condition: Encode Reference Frames into Latents, Then Concatenate the Mask](../nano/wam/2026-09-30-open-sora-visual-condition-latents.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-09-28 | [Wan2.1 VAE codec 变体：首帧单独编码，后续按时间块接上 / Wan2.1 VAE Codec Variant: Encode the First Frame Alone, Then Append Temporal Chunks](../nano/wam/2026-09-28-wan21-vae-chunked-codec-variant.md) | `Wan-Video/Wan2.1` | vae-encoder-decoder advanced variant |
 | 2026-09-13 | action-conditioning (advanced variant, input contract plus six-way timestep modulation) | [FastWAM ActionDiT：先验证契约，再把动作、文字和时间装进 token / FastWAM ActionDiT: Validate the Contract Before Packing Action, Text, and Time](../nano/wam/2026-09-13-fastwam-action-dit-inputs.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
