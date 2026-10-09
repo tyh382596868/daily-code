@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-09 | vlm-backbone-wiring (advanced variant, prefix/action FlexAttention mask) | [FineART-VLA Flex mask：prefix 看历史，动作只看本块 / FineART-VLA Flex Mask: Prefix Sees History, Actions See Their Block](../nano/vla/2026-10-09-fineart-vla-flex-mask-builder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-08 | action-head-continuous (advanced variant, DiT action head with timestep modulation) | [LeRobot VLA-JEPA action head：动作 token 自己去噪，语义 token 做条件 / LeRobot VLA-JEPA Action Head: Denoise Action Tokens While Conditioning on Semantic Tokens](../nano/vla/2026-10-08-lerobot-vlajepa-dit-action-head.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-30 | action-head-continuous (advanced variant, multi-embodiment category-specific action encoder) | [LeRobot Evo1 action head：动作先变 token，再按 embodiment 走不同线性层 / LeRobot Evo1 Action Head: Tokenize Actions, Then Route by Embodiment](../nano/vla/2026-09-30-lerobot-evo1-multi-embodiment-action-head.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-09-28 | [LeRobot tokenizer processor：把任务文字变成 observation token / LeRobot Tokenizer Processor: Turn Task Text into Observation Tokens](../nano/vla/2026-09-28-lerobot-tokenizer-processor.md) | `huggingface/lerobot` | action-tokenizer advanced variant |

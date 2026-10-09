@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "vlm-backbone-wiring",
+        "date": "2026-10-09",
+        "note": "nano/vla/2026-10-09-fineart-vla-flex-mask-builder.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
         "id": "action-head-continuous",
         "date": "2026-09-30",
         "note": "nano/vla/2026-09-30-lerobot-evo1-multi-embodiment-action-head.md",
@@ -1147,6 +1154,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "noise-scheduler",
+        "date": "2026-10-09",
+        "note": "nano/wam/2026-10-09-fastwam-continuous-flow-scheduler.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
       {
         "id": "action-conditioning",
         "date": "2026-09-30",
