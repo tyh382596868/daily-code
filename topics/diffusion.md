@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-09 | [DiT timestep respacing：少采样几步，也要覆盖整条噪声路 / DiT Timestep Respacing: Fewer Steps, Still Cover the Whole Noise Path](../2026/10/2026-10-09-dit-spaced-timesteps.md) | facebookresearch/DiT |
+| 2026-10-09 | [SparkDiffusion sparse registry：让 attention 变体插件化 / SparkDiffusion Sparse Registry: Make Attention Variants Pluggable](../2026/10/2026-10-09-sparkdiffusion-sparse-attn-registry.md) | AlibabaResearch/SparkDiffusion |
 | 2026-09-28 | [Open-Sora pinned memory cache：CPU buffer 也要复用 / Open-Sora Pinned Memory Cache: Reuse CPU Buffers Too](../2026/09/2026-09-28-opensora-pin-memory-cache.md) | hpcaitech/Open-Sora |
 | 2026-09-28 | [WorldCrafter camera trajectory：把键盘动作采样成连续相机路径 / WorldCrafter Camera Trajectory: Sample Keyboard Actions into Continuous Camera Paths](../2026/09/2026-09-28-worldcrafter-camera-trajectory.md) | TencentARC/WorldCrafter |
 | 2026-09-12 | [Open-Sora 时间表：分辨率和帧数一起改变采样节奏 / Open-Sora Timesteps: Let Resolution and Frame Count Change the Sampling Pace](../2026/09/2026-09-12-opensora-flow-schedule.md) | hpcaitech/Open-Sora |
