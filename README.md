@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-10** · infrastructure · [vLLM fused RoPE：用空 tensor 保住 KV cache 副作用顺序 / vLLM Fused RoPE: Preserve KV-Cache Side Effects with an Empty Tensor](2026/10/2026-10-10-vllm-rope-kv-update-side-effect.md) — `vllm-project/vllm` (tracked)
+- **2026-10-10** · pytorch · [PyTorch Dynamo tee：多个迭代器共用一条惰性链 / PyTorch Dynamo tee: Several Iterators Share One Lazy Chain](2026/10/2026-10-10-pytorch-dynamo-itertools-tee.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-10** · huggingface · [Accelerate BatchSamplerShard：尾 batch 也要公平补齐 / Accelerate BatchSamplerShard: Make the Tail Batch Fair Too](2026/10/2026-10-10-accelerate-batch-sampler-shard-tail.md) — `huggingface/accelerate` (huggingface)
+- **2026-10-10** · vla · [OpenVLA action tokenizer：连续动作借用 LLM 词表尾部 / OpenVLA Action Tokenizer: Continuous Actions Borrow the Tail of the LLM Vocabulary](nano/vla/2026-10-10-openvla-action-tokenizer.md) — `openvla/openvla` (vla, action-tokenizer advanced variant)
+- **2026-10-10** · wam · [Wan2.1 CausalConv3d：视频 VAE 只从过去补帧 / Wan2.1 CausalConv3d: A Video VAE Pads from the Past](nano/wam/2026-10-10-wan21-causal-conv-cache.md) — `Wan-Video/Wan2.1` (wam, vae-encoder-decoder advanced variant)
+- **2026-10-10** · infrastructure · [semantic-wm rollout：动作先写进时间线，再逐步洗出未来帧 / semantic-wm Rollout: Write Actions onto the Timeline, Then Denoise Future Frames](2026/10/2026-10-10-semantic-wm-action-conditioned-rollout.md) — `chandar-lab/semantic-wm` (trending, 372 stars observed)
 - **2026-10-09** · diffusion · [DiT timestep respacing：少采样几步，也要覆盖整条噪声路 / DiT Timestep Respacing: Fewer Steps, Still Cover the Whole Noise Path](2026/10/2026-10-09-dit-spaced-timesteps.md) — `facebookresearch/DiT` (tracked)
 - **2026-10-09** · pytorch · [PyTorch causal mask：先尊重 hint，再验证 mask / PyTorch Causal Mask Detection: Trust the Hint, Otherwise Compare the Mask](2026/10/2026-10-09-pytorch-transformer-causal-mask-detect.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-09** · huggingface · [Diffusers latent packing：把 2x2 小格折成 token / Diffusers Latent Packing: Fold Each 2x2 Cell into a Token](2026/10/2026-10-09-diffusers-bria-latent-pack.md) — `huggingface/diffusers` (huggingface)
