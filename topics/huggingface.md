@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-10 | [Accelerate BatchSamplerShard：尾 batch 也要公平补齐 / Accelerate BatchSamplerShard: Make the Tail Batch Fair Too](../2026/10/2026-10-10-accelerate-batch-sampler-shard-tail.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-10-09 | [Diffusers latent packing：把 2x2 小格折成 token / Diffusers Latent Packing: Fold Each 2x2 Cell into a Token](../2026/10/2026-10-09-diffusers-bria-latent-pack.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-10-08 | [nanoVLM collator：先过滤坏样本，再左填充成 batch / nanoVLM Collator: Filter Bad Samples, Then Left-Pad a Batch](../2026/10/2026-10-08-nanovlm-collator-left-padding.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-09-30 | [tokenizers BPE hot/cold queue：初始 pair 排一次，新 pair 进小堆 / tokenizers BPE Hot/Cold Queue: Sort Initial Pairs Once, Heap Only New Pairs](../2026/09/2026-09-30-tokenizers-bpe-hot-cold-queue.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) |

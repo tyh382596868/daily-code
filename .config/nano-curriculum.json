@@ -918,6 +918,13 @@
         "note": "nano/vla/2026-10-08-lerobot-vlajepa-dit-action-head.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-10-10",
+        "note": "nano/vla/2026-10-10-openvla-action-tokenizer.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
       }
     ]
   },
@@ -1824,6 +1831,13 @@
         "date": "2026-10-08",
         "note": "nano/wam/2026-10-08-open-sora-mmdit-double-stream.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-10-10",
+        "note": "nano/wam/2026-10-10-wan21-causal-conv-cache.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

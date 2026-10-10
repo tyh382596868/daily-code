@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-10 | vae-encoder-decoder (advanced variant, causal Conv3d cache) | [Wan2.1 CausalConv3d：视频 VAE 只从过去补帧 / Wan2.1 CausalConv3d: A Video VAE Pads from the Past](../nano/wam/2026-10-10-wan21-causal-conv-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-10-09 | noise-scheduler (advanced variant, shifted continuous flow schedule) | [FastWAM continuous scheduler：训练抽 t，推理走 delta / FastWAM Continuous Scheduler: Sample t for Training, Step by Delta at Inference](../nano/wam/2026-10-09-fastwam-continuous-flow-scheduler.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |
 | 2026-10-08 | dit-block (advanced variant, double-stream image/text attention with modulation gates) | [Open-Sora MM-DiT：图像流和文本流分开调制，一起注意力 / Open-Sora MM-DiT: Modulate Image and Text Separately, Attend Together](../nano/wam/2026-10-08-open-sora-mmdit-double-stream.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-09-30 | action-conditioning (advanced variant, visual condition latent packing) | [Open-Sora visual condition：把参考帧编码成 latent，再和 mask 拼在一起 / Open-Sora Visual Condition: Encode Reference Frames into Latents, Then Concatenate the Mask](../nano/wam/2026-09-30-open-sora-visual-condition-latents.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
