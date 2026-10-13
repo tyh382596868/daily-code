@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-12** · robotics · [StarVLA policy server：把训练契约带到推理入口 / StarVLA Policy Server: Carry the Training Contract into Serving](2026/10/2026-10-12-starvla-policy-server-contract.md) — `starVLA/starVLA` (tracked)
+- **2026-10-12** · pytorch · [PyTorch Dynamo backend：字符串后端延迟变成函数 / PyTorch Dynamo Backends: Backend Strings Become Functions Lazily](2026/10/2026-10-12-pytorch-dynamo-backend-lazy-entrypoints.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-12** · huggingface · [Datasets gen_kwargs sharding：多文件参数要一起切 / Datasets gen_kwargs Sharding: Split Multi-File Arguments Together](2026/10/2026-10-12-datasets-shard-gen-kwargs.md) — `huggingface/datasets` (huggingface)
+- **2026-10-12** · vla · [openpi ActionChunkBroker：一次推理，多步消费 / openpi ActionChunkBroker: Infer Once, Consume Many Steps](nano/vla/2026-10-12-openpi-action-chunk-broker.md) — `Physical-Intelligence/openpi` (vla, action-chunking advanced variant)
+- **2026-10-12** · wam · [Wan2.1 T5 encoder：文本先变 context，再剪回有效长度 / Wan2.1 T5 Encoder: Turn Text into Context, Then Trim to Valid Length](nano/wam/2026-10-12-wan21-t5-encoder-context.md) — `Wan-Video/Wan2.1` (wam, text-conditioning advanced variant)
+- **2026-10-12** · robotics · [mini-vla diffusion head：动作先加噪，再学会还原 / mini-vla Diffusion Head: Add Noise to Actions, Then Learn to Undo It](2026/10/2026-10-12-mini-vla-diffusion-policy-head.md) — `keivalya/mini-vla` (trending, 372 stars observed)
 - **2026-10-10** · infrastructure · [vLLM fused RoPE：用空 tensor 保住 KV cache 副作用顺序 / vLLM Fused RoPE: Preserve KV-Cache Side Effects with an Empty Tensor](2026/10/2026-10-10-vllm-rope-kv-update-side-effect.md) — `vllm-project/vllm` (tracked)
 - **2026-10-10** · pytorch · [PyTorch Dynamo tee：多个迭代器共用一条惰性链 / PyTorch Dynamo tee: Several Iterators Share One Lazy Chain](2026/10/2026-10-10-pytorch-dynamo-itertools-tee.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-10** · huggingface · [Accelerate BatchSamplerShard：尾 batch 也要公平补齐 / Accelerate BatchSamplerShard: Make the Tail Batch Fair Too](2026/10/2026-10-10-accelerate-batch-sampler-shard-tail.md) — `huggingface/accelerate` (huggingface)
