@@ -220,6 +220,13 @@
     ],
     "covered": [
       {
+        "id": "action-chunking",
+        "date": "2026-10-12",
+        "note": "nano/vla/2026-10-12-openpi-action-chunk-broker.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
+      },
+      {
         "id": "vlm-backbone-wiring",
         "date": "2026-10-09",
         "note": "nano/vla/2026-10-09-fineart-vla-flex-mask-builder.md",
@@ -1161,6 +1168,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "text-conditioning",
+        "date": "2026-10-12",
+        "note": "nano/wam/2026-10-12-wan21-t5-encoder-context.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
       {
         "id": "noise-scheduler",
         "date": "2026-10-09",

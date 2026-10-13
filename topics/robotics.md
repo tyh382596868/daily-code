@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-12 | [StarVLA policy server：把训练契约带到推理入口 / StarVLA Policy Server: Carry the Training Contract into Serving](../2026/10/2026-10-12-starvla-policy-server-contract.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
+| 2026-10-12 | [mini-vla diffusion head：动作先加噪，再学会还原 / mini-vla Diffusion Head: Add Noise to Actions, Then Learn to Undo It](../2026/10/2026-10-12-mini-vla-diffusion-policy-head.md) | [keivalya/mini-vla](https://github.com/keivalya/mini-vla) |
 | 2026-10-08 | [openpi WebSocket policy server：远端 policy 也要像本地函数一样稳 / openpi WebSocket Policy Server: Make Remote Policy Calls Feel Like Local Functions](../2026/10/2026-10-08-openpi-websocket-policy-server.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-08 | [frax control matrices：一次 kinematics，打包控制器要的矩阵 / frax Control Matrices: One Kinematics Pass, Package What the Controller Needs](../2026/10/2026-10-08-frax-control-matrices.md) | [StanfordASL/frax](https://github.com/StanfordASL/frax) |
 | 2026-09-11 | [LeRobot 计划刷新：事件出现，再回头重跑计划 / LeRobot Plan Refresh: Re-enter the Plan After an Event](../2026/09/2026-09-11-lerobot-steerable-plan-refresh.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
