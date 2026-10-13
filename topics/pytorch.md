@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-10-13 | [PyTorch PrivateUse1：给自定义设备补上 `.foo()` 方法 / PyTorch PrivateUse1: Add `.foo()` Methods for a Custom Device](../2026/10/2026-10-13-pytorch-privateuse1-backend-methods.md) | `torch/utils/backend_registration.py` |
 | 2026-10-12 | [PyTorch Dynamo backend：字符串后端延迟变成函数 / PyTorch Dynamo Backends: Backend Strings Become Functions Lazily](../2026/10/2026-10-12-pytorch-dynamo-backend-lazy-entrypoints.md) | `torch/_dynamo/backends/registry.py` |
 | 2026-10-10 | [PyTorch Dynamo tee：多个迭代器共用一条惰性链 / PyTorch Dynamo tee: Several Iterators Share One Lazy Chain](../2026/10/2026-10-10-pytorch-dynamo-itertools-tee.md) | `torch/_dynamo/polyfills/itertools.py` |
 | 2026-10-09 | [PyTorch causal mask：先尊重 hint，再验证 mask / PyTorch Causal Mask Detection: Trust the Hint, Otherwise Compare the Mask](../2026/10/2026-10-09-pytorch-transformer-causal-mask-detect.md) | `torch/nn/modules/transformer.py` |

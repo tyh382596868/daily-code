@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-13 | action-chunking (advanced variant, latency-aware chunk reuse guards) | [LeRobot RTC guards：动作 chunk 能不能接上，要先看延迟 / LeRobot RTC Guards: Check Latency Before Reusing an Action Chunk](../nano/vla/2026-10-13-lerobot-rtc-delay-guards.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-12 | action-chunking (advanced variant, client-side chunk broker) | [openpi ActionChunkBroker：一次推理，多步消费 / openpi ActionChunkBroker: Infer Once, Consume Many Steps](../nano/vla/2026-10-12-openpi-action-chunk-broker.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-10 | action-tokenizer (advanced variant, OpenVLA vocabulary-tail bins) | [OpenVLA action tokenizer：连续动作借用 LLM 词表尾部 / OpenVLA Action Tokenizer: Continuous Actions Borrow the Tail of the LLM Vocabulary](../nano/vla/2026-10-10-openvla-action-tokenizer.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-10-09 | vlm-backbone-wiring (advanced variant, prefix/action FlexAttention mask) | [FineART-VLA Flex mask：prefix 看历史，动作只看本块 / FineART-VLA Flex Mask: Prefix Sees History, Actions See Their Block](../nano/vla/2026-10-09-fineart-vla-flex-mask-builder.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

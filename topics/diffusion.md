@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-13 | [MetaFine DP3 workspace：训练状态、normalizer 和 scheduler 一起落座 / MetaFine DP3 Workspace: Seat Training State, Normalizer, and Scheduler Together](../2026/10/2026-10-13-metafine-dp3-workspace.md) | Hiangx-robotics/MetaFine |
+| 2026-10-13 | [Wan2.1 I2V loop：首帧变条件，噪声一路被 CFG 拉回视频 / Wan2.1 I2V Loop: Turn the First Frame into Condition, Then Pull Noise into Video with CFG](../2026/10/2026-10-13-wan21-i2v-cfg-loop.md) | Wan-Video/Wan2.1 |
 | 2026-10-09 | [DiT timestep respacing：少采样几步，也要覆盖整条噪声路 / DiT Timestep Respacing: Fewer Steps, Still Cover the Whole Noise Path](../2026/10/2026-10-09-dit-spaced-timesteps.md) | facebookresearch/DiT |
 | 2026-10-09 | [SparkDiffusion sparse registry：让 attention 变体插件化 / SparkDiffusion Sparse Registry: Make Attention Variants Pluggable](../2026/10/2026-10-09-sparkdiffusion-sparse-attn-registry.md) | AlibabaResearch/SparkDiffusion |
 | 2026-09-28 | [Open-Sora pinned memory cache：CPU buffer 也要复用 / Open-Sora Pinned Memory Cache: Reuse CPU Buffers Too](../2026/09/2026-09-28-opensora-pin-memory-cache.md) | hpcaitech/Open-Sora |
