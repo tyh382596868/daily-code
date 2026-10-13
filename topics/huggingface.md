@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-13 | [PEFT TIES merge：先投票方向，再合并 adapter delta / PEFT TIES Merge: Vote on Direction Before Merging Adapter Deltas](../2026/10/2026-10-13-peft-ties-merge.md) | [huggingface/peft](https://github.com/huggingface/peft) |
 | 2026-10-12 | [Datasets gen_kwargs sharding：多文件参数要一起切 / Datasets gen_kwargs Sharding: Split Multi-File Arguments Together](../2026/10/2026-10-12-datasets-shard-gen-kwargs.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |
 | 2026-10-10 | [Accelerate BatchSamplerShard：尾 batch 也要公平补齐 / Accelerate BatchSamplerShard: Make the Tail Batch Fair Too](../2026/10/2026-10-10-accelerate-batch-sampler-shard-tail.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-10-09 | [Diffusers latent packing：把 2x2 小格折成 token / Diffusers Latent Packing: Fold Each 2x2 Cell into a Token](../2026/10/2026-10-09-diffusers-bria-latent-pack.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |

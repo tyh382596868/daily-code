@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-13 | text-conditioning (advanced variant, sequence-aligned frozen text embedder) | [Open-Sora HFEmbedder：文本 token 要补到并行友好的长度 / Open-Sora HFEmbedder: Pad Text Tokens to a Parallel-Friendly Length](../nano/wam/2026-10-13-open-sora-hfembedder-seq-align.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 | 2026-10-12 | text-conditioning (advanced variant, trimmed prompt context tokens) | [Wan2.1 T5 encoder：文本先变 context，再剪回有效长度 / Wan2.1 T5 Encoder: Turn Text into Context, Then Trim to Valid Length](../nano/wam/2026-10-12-wan21-t5-encoder-context.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-10-10 | vae-encoder-decoder (advanced variant, causal Conv3d cache) | [Wan2.1 CausalConv3d：视频 VAE 只从过去补帧 / Wan2.1 CausalConv3d: A Video VAE Pads from the Past](../nano/wam/2026-10-10-wan21-causal-conv-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-10-09 | noise-scheduler (advanced variant, shifted continuous flow schedule) | [FastWAM continuous scheduler：训练抽 t，推理走 delta / FastWAM Continuous Scheduler: Sample t for Training, Step by Delta at Inference](../nano/wam/2026-10-09-fastwam-continuous-flow-scheduler.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |

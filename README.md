@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-13** · diffusion · [Wan2.1 I2V loop：首帧变条件，噪声一路被 CFG 拉回视频 / Wan2.1 I2V Loop: Turn the First Frame into Condition, Then Pull Noise into Video with CFG](2026/10/2026-10-13-wan21-i2v-cfg-loop.md) — `Wan-Video/Wan2.1` (tracked)
+- **2026-10-13** · pytorch · [PyTorch PrivateUse1：给自定义设备补上 `.foo()` 方法 / PyTorch PrivateUse1: Add `.foo()` Methods for a Custom Device](2026/10/2026-10-13-pytorch-privateuse1-backend-methods.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-13** · huggingface · [PEFT TIES merge：先投票方向，再合并 adapter delta / PEFT TIES Merge: Vote on Direction Before Merging Adapter Deltas](2026/10/2026-10-13-peft-ties-merge.md) — `huggingface/peft` (huggingface)
+- **2026-10-13** · vla · [LeRobot RTC guards：动作 chunk 能不能接上，要先看延迟 / LeRobot RTC Guards: Check Latency Before Reusing an Action Chunk](nano/vla/2026-10-13-lerobot-rtc-delay-guards.md) — `huggingface/lerobot` (vla, action-chunking advanced variant)
+- **2026-10-13** · wam · [Open-Sora HFEmbedder：文本 token 要补到并行友好的长度 / Open-Sora HFEmbedder: Pad Text Tokens to a Parallel-Friendly Length](nano/wam/2026-10-13-open-sora-hfembedder-seq-align.md) — `hpcaitech/Open-Sora` (wam, text-conditioning advanced variant)
+- **2026-10-13** · diffusion · [MetaFine DP3 workspace：训练状态、normalizer 和 scheduler 一起落座 / MetaFine DP3 Workspace: Seat Training State, Normalizer, and Scheduler Together](2026/10/2026-10-13-metafine-dp3-workspace.md) — `Hiangx-robotics/MetaFine` (trending, 203 stars observed)
 - **2026-10-12** · robotics · [StarVLA policy server：把训练契约带到推理入口 / StarVLA Policy Server: Carry the Training Contract into Serving](2026/10/2026-10-12-starvla-policy-server-contract.md) — `starVLA/starVLA` (tracked)
 - **2026-10-12** · pytorch · [PyTorch Dynamo backend：字符串后端延迟变成函数 / PyTorch Dynamo Backends: Backend Strings Become Functions Lazily](2026/10/2026-10-12-pytorch-dynamo-backend-lazy-entrypoints.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-12** · huggingface · [Datasets gen_kwargs sharding：多文件参数要一起切 / Datasets gen_kwargs Sharding: Split Multi-File Arguments Together](2026/10/2026-10-12-datasets-shard-gen-kwargs.md) — `huggingface/datasets` (huggingface)

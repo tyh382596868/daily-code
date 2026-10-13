@@ -221,6 +221,13 @@
     "covered": [
       {
         "id": "action-chunking",
+        "date": "2026-10-13",
+        "note": "nano/vla/2026-10-13-lerobot-rtc-delay-guards.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
+      },
+      {
+        "id": "action-chunking",
         "date": "2026-10-12",
         "note": "nano/vla/2026-10-12-openpi-action-chunk-broker.md",
         "repo": "Physical-Intelligence/openpi",
@@ -1168,6 +1175,13 @@
       }
     ],
     "covered": [
+      {
+        "id": "text-conditioning",
+        "date": "2026-10-13",
+        "note": "nano/wam/2026-10-13-open-sora-hfembedder-seq-align.md",
+        "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
       {
         "id": "text-conditioning",
         "date": "2026-10-12",
