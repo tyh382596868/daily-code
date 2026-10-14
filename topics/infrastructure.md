@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-14 | [vLLM worker extension：动态混入能力，也要有生命周期 / vLLM Worker Extensions: Dynamic Mixins Need Lifecycle Hooks](../2026/10/2026-10-14-vllm-worker-extension-hooks.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-10-14 | [LLMServingSim tiered KV：一条 hash 链穿过 NPU、CPU 和 CXL / LLMServingSim Tiered KV: One Hash Chain Across NPU, CPU, and CXL](../2026/10/2026-10-14-llmservingsim-tiered-kv-prefix.md) | [casys-kaist/LLMServingSim](https://github.com/casys-kaist/LLMServingSim) |
 | 2026-10-10 | [vLLM fused RoPE：用空 tensor 保住 KV cache 副作用顺序 / vLLM Fused RoPE: Preserve KV-Cache Side Effects with an Empty Tensor](../2026/10/2026-10-10-vllm-rope-kv-update-side-effect.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-10-10 | [semantic-wm rollout：动作先写进时间线，再逐步洗出未来帧 / semantic-wm Rollout: Write Actions onto the Timeline, Then Denoise Future Frames](../2026/10/2026-10-10-semantic-wm-action-conditioned-rollout.md) | [chandar-lab/semantic-wm](https://github.com/chandar-lab/semantic-wm) |
 | 2026-09-30 | [vLLM fusion gate：先验条件通过了，才把 RoPE 和 KV cache 合成一个 op / vLLM Fusion Gate: Fuse RoPE and KV Cache Only After the Preconditions Pass](../2026/09/2026-09-30-vllm-rope-kvcache-fusion-gate.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

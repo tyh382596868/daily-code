@@ -939,6 +939,13 @@
         "note": "nano/vla/2026-10-10-openvla-action-tokenizer.md",
         "repo": "openvla/openvla",
         "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-10-14",
+        "note": "nano/vla/2026-10-14-openpi-droid-input-adapter.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1865,6 +1872,13 @@
         "id": "vae-encoder-decoder",
         "date": "2026-10-10",
         "note": "nano/wam/2026-10-10-wan21-causal-conv-cache.md",
+        "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-10-14",
+        "note": "nano/wam/2026-10-14-wan21-flow-dpm-step.md",
         "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
