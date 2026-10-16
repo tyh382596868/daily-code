@@ -946,6 +946,13 @@
         "note": "nano/vla/2026-10-14-openpi-droid-input-adapter.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-10-16",
+        "note": "nano/vla/2026-10-16-openpi-prefix-kv-action-sampling.md",
+        "repo": "Physical-Intelligence/openpi",
+        "via": "vla"
       }
     ]
   },
@@ -1880,6 +1887,13 @@
         "date": "2026-10-14",
         "note": "nano/wam/2026-10-14-wan21-flow-dpm-step.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "classifier-free-guidance",
+        "date": "2026-10-16",
+        "note": "nano/wam/2026-10-16-open-sora-i2v-three-branch-cfg.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]

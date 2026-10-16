@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-10-16 | [PyTorch 参数化注册：不替换 weight，替换读取方式 / PyTorch Parametrization Registration: Change How Weight Is Read, Not Where It Lives](../2026/10/2026-10-16-pytorch-parametrization-registration.md) | `torch/nn/utils/parametrize.py` |
 | 2026-10-14 | [PyTorch weights-only：安全 allowlist 也要有 blocklist / PyTorch Weights-Only: Even Safe Allowlists Need a Blocklist](../2026/10/2026-10-14-pytorch-weights-only-blocklist.md) | `torch/_weights_only_unpickler.py` |
 | 2026-10-13 | [PyTorch PrivateUse1：给自定义设备补上 `.foo()` 方法 / PyTorch PrivateUse1: Add `.foo()` Methods for a Custom Device](../2026/10/2026-10-13-pytorch-privateuse1-backend-methods.md) | `torch/utils/backend_registration.py` |
 | 2026-10-12 | [PyTorch Dynamo backend：字符串后端延迟变成函数 / PyTorch Dynamo Backends: Backend Strings Become Functions Lazily](../2026/10/2026-10-12-pytorch-dynamo-backend-lazy-entrypoints.md) | `torch/_dynamo/backends/registry.py` |
