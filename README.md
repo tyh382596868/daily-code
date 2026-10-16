@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-16** · robotics · [LeRobot 推理边界：把一次动作预测封进可控的安全壳 / LeRobot Inference Boundary: Put One Action Prediction in a Controlled Shell](2026/10/2026-10-16-lerobot-inference-boundary.md) — `huggingface/lerobot` (tracked)
+- **2026-10-16** · pytorch · [PyTorch 参数化注册：不替换 weight，替换读取方式 / PyTorch Parametrization Registration: Change How Weight Is Read, Not Where It Lives](2026/10/2026-10-16-pytorch-parametrization-registration.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-16** · huggingface · [TRL 多模态消息：先归一化结构，再填图像 / TRL Multimodal Messages: Normalize Structure Before Filling Images](2026/10/2026-10-16-trl-multimodal-message-normalization.md) — `huggingface/trl` (huggingface)
+- **2026-10-16** · vla · [openpi 动作采样：前缀算一次，动作去噪多步复用 / openpi Action Sampling: Compute the Prefix Once, Reuse It Across Denoising Steps](nano/vla/2026-10-16-openpi-prefix-kv-action-sampling.md) — `Physical-Intelligence/openpi` (vla, action-head-continuous advanced variant)
+- **2026-10-16** · wam · [Open-Sora 三分支 CFG：文字和图像条件分别拉动视频 / Open-Sora Three-Branch CFG: Let Text and Image Conditions Pull Video Separately](nano/wam/2026-10-16-open-sora-i2v-three-branch-cfg.md) — `hpcaitech/Open-Sora` (wam, classifier-free-guidance advanced variant)
+- **2026-10-16** · robotics · [dsh-memory 读缓存：只让被写的路径失效 / dsh-memory Read Cache: Invalidate Only the Path That Changed](2026/10/2026-10-16-dsh-memory-precise-read-cache.md) — `FuRongJun-1999/dsh-memory` (trending, 396 stars observed)
 - **2026-10-14** · infrastructure · [vLLM worker extension：动态混入能力，也要有生命周期 / vLLM Worker Extensions: Dynamic Mixins Need Lifecycle Hooks](2026/10/2026-10-14-vllm-worker-extension-hooks.md) — `vllm-project/vllm` (tracked)
 - **2026-10-14** · pytorch · [PyTorch weights-only：安全 allowlist 也要有 blocklist / PyTorch Weights-Only: Even Safe Allowlists Need a Blocklist](2026/10/2026-10-14-pytorch-weights-only-blocklist.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-14** · huggingface · [Transformers PagedAttentionCache：前缀命中要所有 allocator 同意 / Transformers PagedAttentionCache: Prefix Hits Need Every Allocator to Agree](2026/10/2026-10-14-transformers-paged-cache-prefix.md) — `huggingface/transformers` (huggingface)

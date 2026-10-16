@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-16 | [TRL 多模态消息：先归一化结构，再填图像 / TRL Multimodal Messages: Normalize Structure Before Filling Images](../2026/10/2026-10-16-trl-multimodal-message-normalization.md) | [huggingface/trl](https://github.com/huggingface/trl) |
 | 2026-10-14 | [Transformers PagedAttentionCache：前缀命中要所有 allocator 同意 / Transformers PagedAttentionCache: Prefix Hits Need Every Allocator to Agree](../2026/10/2026-10-14-transformers-paged-cache-prefix.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-10-13 | [PEFT TIES merge：先投票方向，再合并 adapter delta / PEFT TIES Merge: Vote on Direction Before Merging Adapter Deltas](../2026/10/2026-10-13-peft-ties-merge.md) | [huggingface/peft](https://github.com/huggingface/peft) |
 | 2026-10-12 | [Datasets gen_kwargs sharding：多文件参数要一起切 / Datasets gen_kwargs Sharding: Split Multi-File Arguments Together](../2026/10/2026-10-12-datasets-shard-gen-kwargs.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |
