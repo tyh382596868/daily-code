@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-22 | [VEnhancer 噪声刻度：在 beta、sigma 与 log-SNR 间切换 / VEnhancer Noise Coordinates](../2026/10/2026-10-22-venhancer-sigma-schedule.md) | Vchitect/VEnhancer |
+| 2026-10-22 | [GenZ-LIO 鲁棒门控：先拒绝坏测量，再融合好测量 / GenZ-LIO Robust Gating](../2026/10/2026-10-22-genz-lio-robust-gating.md) | cocel-postech/genz-lio |
 | 2026-10-13 | [MetaFine DP3 workspace：训练状态、normalizer 和 scheduler 一起落座 / MetaFine DP3 Workspace: Seat Training State, Normalizer, and Scheduler Together](../2026/10/2026-10-13-metafine-dp3-workspace.md) | Hiangx-robotics/MetaFine |
 | 2026-10-13 | [Wan2.1 I2V loop：首帧变条件，噪声一路被 CFG 拉回视频 / Wan2.1 I2V Loop: Turn the First Frame into Condition, Then Pull Noise into Video with CFG](../2026/10/2026-10-13-wan21-i2v-cfg-loop.md) | Wan-Video/Wan2.1 |
 | 2026-10-09 | [DiT timestep respacing：少采样几步，也要覆盖整条噪声路 / DiT Timestep Respacing: Fewer Steps, Still Cover the Whole Noise Path](../2026/10/2026-10-09-dit-spaced-timesteps.md) | facebookresearch/DiT |
