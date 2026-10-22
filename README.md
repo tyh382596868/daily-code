@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-22** · diffusion · [VEnhancer 噪声刻度：在 beta、sigma 与 log-SNR 间切换 / VEnhancer Noise Coordinates](2026/10/2026-10-22-venhancer-sigma-schedule.md) — `Vchitect/VEnhancer` (tracked)
+- **2026-10-22** · pytorch · [PyTorch pytree 注册：给容器一份可逆说明书 / PyTorch Pytree Registration](2026/10/2026-10-22-pytorch-pytree-registration.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-22** · huggingface · [Tokenizers BPE 缓存：把重复切词变成查表 / Tokenizers BPE Cache](2026/10/2026-10-22-tokenizers-bpe-cache.md) — `huggingface/tokenizers` (huggingface)
+- **2026-10-22** · vla · [Isaac GR00T 动作有效位：padding 不是动作 / Isaac GR00T Action Validity](nano/vla/2026-10-22-isaac-groot-action-padding.md) — `NVIDIA/Isaac-GR00T` (vla)
+- **2026-10-22** · wam · [FastWAM 分布式 step：只在真正更新时推进时间表 / FastWAM Distributed Step](nano/wam/2026-10-22-fastwam-distributed-step.md) — `yuantianyuan01/FastWAM` (wam)
+- **2026-10-22** · diffusion · [GenZ-LIO 鲁棒门控：先拒绝坏测量，再融合好测量 / GenZ-LIO Robust Gating](2026/10/2026-10-22-genz-lio-robust-gating.md) — `cocel-postech/genz-lio` (trending)
 - **2026-10-16** · robotics · [LeRobot 推理边界：把一次动作预测封进可控的安全壳 / LeRobot Inference Boundary: Put One Action Prediction in a Controlled Shell](2026/10/2026-10-16-lerobot-inference-boundary.md) — `huggingface/lerobot` (tracked)
 - **2026-10-16** · pytorch · [PyTorch 参数化注册：不替换 weight，替换读取方式 / PyTorch Parametrization Registration: Change How Weight Is Read, Not Where It Lives](2026/10/2026-10-16-pytorch-parametrization-registration.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-16** · huggingface · [TRL 多模态消息：先归一化结构，再填图像 / TRL Multimodal Messages: Normalize Structure Before Filling Images](2026/10/2026-10-16-trl-multimodal-message-normalization.md) — `huggingface/trl` (huggingface)

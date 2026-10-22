@@ -953,6 +953,13 @@
         "note": "nano/vla/2026-10-16-openpi-prefix-kv-action-sampling.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-10-22",
+        "note": "nano/vla/2026-10-22-isaac-groot-action-padding.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
       }
     ]
   },
@@ -1894,6 +1901,13 @@
         "date": "2026-10-16",
         "note": "nano/wam/2026-10-16-open-sora-i2v-three-branch-cfg.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-10-22",
+        "note": "nano/wam/2026-10-22-fastwam-distributed-step.md",
+        "repo": "yuantianyuan01/FastWAM",
         "via": "wam"
       }
     ]

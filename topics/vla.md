@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-22 | action-head-continuous (advanced variant, embodiment action mask) | [Isaac GR00T 动作有效位：padding 不是动作 / Isaac GR00T Action Validity](../nano/vla/2026-10-22-isaac-groot-action-padding.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-10-16 | action-head-continuous (advanced variant, prefix KV cache plus action-only Euler integration) | [openpi 动作采样：前缀算一次，动作去噪多步复用 / openpi Action Sampling: Compute the Prefix Once, Reuse It Across Denoising Steps](../nano/vla/2026-10-16-openpi-prefix-kv-action-sampling.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-14 | vision-encoder (advanced variant, observation schema adapter) | [openpi DROID adapter：把机器人观测翻译成 policy 契约 / openpi DROID Adapter: Translate Robot Observations into the Policy Contract](../nano/vla/2026-10-14-openpi-droid-input-adapter.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-13 | action-chunking (advanced variant, latency-aware chunk reuse guards) | [LeRobot RTC guards：动作 chunk 能不能接上，要先看延迟 / LeRobot RTC Guards: Check Latency Before Reusing an Action Chunk](../nano/vla/2026-10-13-lerobot-rtc-delay-guards.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

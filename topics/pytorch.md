@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-10-22 | [PyTorch pytree 注册：给容器一份可逆说明书 / PyTorch Pytree Registration](../2026/10/2026-10-22-pytorch-pytree-registration.md) | `torch/utils/_pytree.py` |
 | 2026-10-16 | [PyTorch 参数化注册：不替换 weight，替换读取方式 / PyTorch Parametrization Registration: Change How Weight Is Read, Not Where It Lives](../2026/10/2026-10-16-pytorch-parametrization-registration.md) | `torch/nn/utils/parametrize.py` |
 | 2026-10-14 | [PyTorch weights-only：安全 allowlist 也要有 blocklist / PyTorch Weights-Only: Even Safe Allowlists Need a Blocklist](../2026/10/2026-10-14-pytorch-weights-only-blocklist.md) | `torch/_weights_only_unpickler.py` |
 | 2026-10-13 | [PyTorch PrivateUse1：给自定义设备补上 `.foo()` 方法 / PyTorch PrivateUse1: Add `.foo()` Methods for a Custom Device](../2026/10/2026-10-13-pytorch-privateuse1-backend-methods.md) | `torch/utils/backend_registration.py` |
