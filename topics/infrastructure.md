@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-23 | [vLLM 前缀块索引 / vLLM Prefix Block Index](../2026/10/2026-10-23-vllm-prefix-block-map.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| 2026-10-23 | [quackd 动作 chunk 补给 / quackd Action-Chunk Refill](../2026/10/2026-10-23-quackd-action-chunk-refill.md) | [rokbenko/quackd](https://github.com/rokbenko/quackd) |
 | 2026-10-14 | [vLLM worker extension：动态混入能力，也要有生命周期 / vLLM Worker Extensions: Dynamic Mixins Need Lifecycle Hooks](../2026/10/2026-10-14-vllm-worker-extension-hooks.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-10-14 | [LLMServingSim tiered KV：一条 hash 链穿过 NPU、CPU 和 CXL / LLMServingSim Tiered KV: One Hash Chain Across NPU, CPU, and CXL](../2026/10/2026-10-14-llmservingsim-tiered-kv-prefix.md) | [casys-kaist/LLMServingSim](https://github.com/casys-kaist/LLMServingSim) |
 | 2026-10-10 | [vLLM fused RoPE：用空 tensor 保住 KV cache 副作用顺序 / vLLM Fused RoPE: Preserve KV-Cache Side Effects with an Empty Tensor](../2026/10/2026-10-10-vllm-rope-kv-update-side-effect.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-23** · infrastructure · [vLLM 前缀块索引 / vLLM Prefix Block Index](2026/10/2026-10-23-vllm-prefix-block-map.md) — `vllm-project/vllm` (tracked)
+- **2026-10-23** · pytorch · [PyTorch 选择性 checkpoint / PyTorch Selective Checkpointing](2026/10/2026-10-23-pytorch-selective-checkpoint.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-23** · huggingface · [nanoVLM pixel shuffle / nanoVLM Pixel Shuffle](2026/10/2026-10-23-nanovlm-modality-projector.md) — `huggingface/nanoVLM` (huggingface)
+- **2026-10-23** · vla · [OpenVLA 视觉 backbone 契约 / OpenVLA Vision Backbone Contract](nano/vla/2026-10-23-openvla-vision-backbone-contract.md) — `openvla/openvla` (vla)
+- **2026-10-23** · wam · [DreamZero 多 embodiment 动作编码 / DreamZero Multi-Embodiment Action Encoding](nano/wam/2026-10-23-dreamzero-multi-embodiment-action-encoder.md) — `dreamzero0/dreamzero` (wam)
+- **2026-10-23** · infrastructure · [quackd 动作 chunk 补给 / quackd Action-Chunk Refill](2026/10/2026-10-23-quackd-action-chunk-refill.md) — `rokbenko/quackd` (trending, 270 stars observed)
 - **2026-10-22** · diffusion · [VEnhancer 噪声刻度：在 beta、sigma 与 log-SNR 间切换 / VEnhancer Noise Coordinates](2026/10/2026-10-22-venhancer-sigma-schedule.md) — `Vchitect/VEnhancer` (tracked)
 - **2026-10-22** · pytorch · [PyTorch pytree 注册：给容器一份可逆说明书 / PyTorch Pytree Registration](2026/10/2026-10-22-pytorch-pytree-registration.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-22** · huggingface · [Tokenizers BPE 缓存：把重复切词变成查表 / Tokenizers BPE Cache](2026/10/2026-10-22-tokenizers-bpe-cache.md) — `huggingface/tokenizers` (huggingface)
