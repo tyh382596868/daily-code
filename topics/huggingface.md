@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-24 | [Transformers 连续批处理状态：状态转换就是计时边界 / Transformers Continuous Batching State](../2026/10/2026-10-24-transformers-continuous-request-state.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |
 | 2026-10-23 | [nanoVLM pixel shuffle / nanoVLM Pixel Shuffle](../2026/10/2026-10-23-nanovlm-modality-projector.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) |
 | 2026-10-22 | [Tokenizers BPE 缓存：把重复切词变成查表 / Tokenizers BPE Cache](../2026/10/2026-10-22-tokenizers-bpe-cache.md) | huggingface/tokenizers |
 | 2026-10-16 | [TRL 多模态消息：先归一化结构，再填图像 / TRL Multimodal Messages: Normalize Structure Before Filling Images](../2026/10/2026-10-16-trl-multimodal-message-normalization.md) | [huggingface/trl](https://github.com/huggingface/trl) |

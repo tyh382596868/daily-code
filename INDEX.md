@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-10-24 | robotics | [LeRobot PI0 处理顺序：先相对化，再归一化 / LeRobot PI0 Processor Order](2026/10/2026-10-24-lerobot-pi0-processor-order.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
+| 2026-10-24 | pytorch | [PyTorch foreach 分组：先按设备和 dtype 分桶 / PyTorch Foreach Groups](2026/10/2026-10-24-pytorch-foreach-device-dtype-groups.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-10-24 | huggingface | [Transformers 连续批处理状态 / Transformers Continuous Batching State](2026/10/2026-10-24-transformers-continuous-request-state.md) | [huggingface/transformers](https://github.com/huggingface/transformers) (huggingface) |
+| 2026-10-24 | vla | [SmolVLA 动作队列：一次预测，逐拍消费 / SmolVLA Action Queue](nano/vla/2026-10-24-smolvla-action-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla) |
+| 2026-10-24 | wam | [Wan2.1 AdaLN DiT block：六个门控制三段残差 / Wan2.1 AdaLN DiT Block](nano/wam/2026-10-24-wan21-adaln-attention-block.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam) |
+| 2026-10-24 | robotics | [ABot-World 因果块生成：首帧永远是干净条件 / ABot-World Causal Blocks](2026/10/2026-10-24-abot-world-causal-block-generation.md) | [amap-cvlab/ABot-World](https://github.com/amap-cvlab/ABot-World) (trending, 2503 stars observed) |
 | 2026-10-23 | infrastructure | [vLLM 前缀块索引 / vLLM Prefix Block Index](2026/10/2026-10-23-vllm-prefix-block-map.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
 | 2026-10-23 | pytorch | [PyTorch 选择性 checkpoint / PyTorch Selective Checkpointing](2026/10/2026-10-23-pytorch-selective-checkpoint.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-10-23 | huggingface | [nanoVLM pixel shuffle / nanoVLM Pixel Shuffle](2026/10/2026-10-23-nanovlm-modality-projector.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (huggingface) |

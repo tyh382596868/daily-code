@@ -967,6 +967,13 @@
         "note": "nano/vla/2026-10-23-openvla-vision-backbone-contract.md",
         "repo": "openvla/openvla",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-10-24",
+        "note": "nano/vla/2026-10-24-smolvla-action-queue.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1922,6 +1929,13 @@
         "date": "2026-10-23",
         "note": "nano/wam/2026-10-23-dreamzero-multi-embodiment-action-encoder.md",
         "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-10-24",
+        "note": "nano/wam/2026-10-24-wan21-adaln-attention-block.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

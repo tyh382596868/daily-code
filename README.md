@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-24** · robotics · [LeRobot PI0 处理顺序 / LeRobot PI0 Processor Order](2026/10/2026-10-24-lerobot-pi0-processor-order.md) — `huggingface/lerobot` (tracked)
+- **2026-10-24** · pytorch · [PyTorch foreach 分组 / PyTorch Foreach Groups](2026/10/2026-10-24-pytorch-foreach-device-dtype-groups.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-24** · huggingface · [Transformers 连续批处理状态 / Transformers Continuous Batching State](2026/10/2026-10-24-transformers-continuous-request-state.md) — `huggingface/transformers` (huggingface)
+- **2026-10-24** · vla · [SmolVLA 动作队列 / SmolVLA Action Queue](nano/vla/2026-10-24-smolvla-action-queue.md) — `huggingface/lerobot` (vla)
+- **2026-10-24** · wam · [Wan2.1 AdaLN DiT block / Wan2.1 AdaLN DiT Block](nano/wam/2026-10-24-wan21-adaln-attention-block.md) — `Wan-Video/Wan2.1` (wam)
+- **2026-10-24** · robotics · [ABot-World 因果块生成 / ABot-World Causal Blocks](2026/10/2026-10-24-abot-world-causal-block-generation.md) — `amap-cvlab/ABot-World` (trending, 2503 stars observed)
 - **2026-10-23** · infrastructure · [vLLM 前缀块索引 / vLLM Prefix Block Index](2026/10/2026-10-23-vllm-prefix-block-map.md) — `vllm-project/vllm` (tracked)
 - **2026-10-23** · pytorch · [PyTorch 选择性 checkpoint / PyTorch Selective Checkpointing](2026/10/2026-10-23-pytorch-selective-checkpoint.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-23** · huggingface · [nanoVLM pixel shuffle / nanoVLM Pixel Shuffle](2026/10/2026-10-23-nanovlm-modality-projector.md) — `huggingface/nanoVLM` (huggingface)
