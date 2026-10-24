@@ -8,6 +8,24 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-10-24 | robotics | [LeRobot PI0 处理顺序：先相对化，再归一化 / LeRobot PI0 Processor Order](2026/10/2026-10-24-lerobot-pi0-processor-order.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
+| 2026-10-24 | pytorch | [PyTorch foreach 分组：先按设备和 dtype 分桶 / PyTorch Foreach Groups](2026/10/2026-10-24-pytorch-foreach-device-dtype-groups.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-10-24 | huggingface | [Transformers 连续批处理状态 / Transformers Continuous Batching State](2026/10/2026-10-24-transformers-continuous-request-state.md) | [huggingface/transformers](https://github.com/huggingface/transformers) (huggingface) |
+| 2026-10-24 | vla | [SmolVLA 动作队列：一次预测，逐拍消费 / SmolVLA Action Queue](nano/vla/2026-10-24-smolvla-action-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla) |
+| 2026-10-24 | wam | [Wan2.1 AdaLN DiT block：六个门控制三段残差 / Wan2.1 AdaLN DiT Block](nano/wam/2026-10-24-wan21-adaln-attention-block.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam) |
+| 2026-10-24 | robotics | [ABot-World 因果块生成：首帧永远是干净条件 / ABot-World Causal Blocks](2026/10/2026-10-24-abot-world-causal-block-generation.md) | [amap-cvlab/ABot-World](https://github.com/amap-cvlab/ABot-World) (trending, 2503 stars observed) |
+| 2026-10-23 | infrastructure | [vLLM 前缀块索引 / vLLM Prefix Block Index](2026/10/2026-10-23-vllm-prefix-block-map.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
+| 2026-10-23 | pytorch | [PyTorch 选择性 checkpoint / PyTorch Selective Checkpointing](2026/10/2026-10-23-pytorch-selective-checkpoint.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-10-23 | huggingface | [nanoVLM pixel shuffle / nanoVLM Pixel Shuffle](2026/10/2026-10-23-nanovlm-modality-projector.md) | [huggingface/nanoVLM](https://github.com/huggingface/nanoVLM) (huggingface) |
+| 2026-10-23 | vla | [OpenVLA 视觉 backbone 契约 / OpenVLA Vision Backbone Contract](nano/vla/2026-10-23-openvla-vision-backbone-contract.md) | [openvla/openvla](https://github.com/openvla/openvla) (vla) |
+| 2026-10-23 | wam | [DreamZero 多 embodiment 动作编码 / DreamZero Multi-Embodiment Action Encoding](nano/wam/2026-10-23-dreamzero-multi-embodiment-action-encoder.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) (wam) |
+| 2026-10-23 | infrastructure | [quackd 动作 chunk 补给 / quackd Action-Chunk Refill](2026/10/2026-10-23-quackd-action-chunk-refill.md) | [rokbenko/quackd](https://github.com/rokbenko/quackd) (trending, 270 stars observed) |
+| 2026-10-22 | diffusion | [VEnhancer 噪声刻度：在 beta、sigma 与 log-SNR 间切换 / VEnhancer Noise Coordinates](2026/10/2026-10-22-venhancer-sigma-schedule.md) | [Vchitect/VEnhancer](https://github.com/Vchitect/VEnhancer) (tracked) |
+| 2026-10-22 | pytorch | [PyTorch pytree 注册：给容器一份可逆说明书 / PyTorch Pytree Registration](2026/10/2026-10-22-pytorch-pytree-registration.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-10-22 | huggingface | [Tokenizers BPE 缓存：把重复切词变成查表 / Tokenizers BPE Cache](2026/10/2026-10-22-tokenizers-bpe-cache.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) (huggingface) |
+| 2026-10-22 | vla | [Isaac GR00T 动作有效位：padding 不是动作 / Isaac GR00T Action Validity](nano/vla/2026-10-22-isaac-groot-action-padding.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) (vla) |
+| 2026-10-22 | wam | [FastWAM 分布式 step：只在真正更新时推进时间表 / FastWAM Distributed Step](nano/wam/2026-10-22-fastwam-distributed-step.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) (wam) |
+| 2026-10-22 | diffusion | [GenZ-LIO 鲁棒门控：先拒绝坏测量，再融合好测量 / GenZ-LIO Robust Gating](2026/10/2026-10-22-genz-lio-robust-gating.md) | [cocel-postech/genz-lio](https://github.com/cocel-postech/genz-lio) (trending) |
 | 2026-10-16 | robotics | [LeRobot 推理边界：把一次动作预测封进可控的安全壳 / LeRobot Inference Boundary: Put One Action Prediction in a Controlled Shell](2026/10/2026-10-16-lerobot-inference-boundary.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
 | 2026-10-16 | pytorch | [PyTorch 参数化注册：不替换 weight，替换读取方式 / PyTorch Parametrization Registration: Change How Weight Is Read, Not Where It Lives](2026/10/2026-10-16-pytorch-parametrization-registration.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-10-16 | huggingface | [TRL 多模态消息：先归一化结构，再填图像 / TRL Multimodal Messages: Normalize Structure Before Filling Images](2026/10/2026-10-16-trl-multimodal-message-normalization.md) | [huggingface/trl](https://github.com/huggingface/trl) (huggingface) |

@@ -953,6 +953,27 @@
         "note": "nano/vla/2026-10-16-openpi-prefix-kv-action-sampling.md",
         "repo": "Physical-Intelligence/openpi",
         "via": "vla"
+      },
+      {
+        "id": "action-head-continuous",
+        "date": "2026-10-22",
+        "note": "nano/vla/2026-10-22-isaac-groot-action-padding.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
+      },
+      {
+        "id": "vision-encoder",
+        "date": "2026-10-23",
+        "note": "nano/vla/2026-10-23-openvla-vision-backbone-contract.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-10-24",
+        "note": "nano/vla/2026-10-24-smolvla-action-queue.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1894,6 +1915,27 @@
         "date": "2026-10-16",
         "note": "nano/wam/2026-10-16-open-sora-i2v-three-branch-cfg.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "training-loop",
+        "date": "2026-10-22",
+        "note": "nano/wam/2026-10-22-fastwam-distributed-step.md",
+        "repo": "yuantianyuan01/FastWAM",
+        "via": "wam"
+      },
+      {
+        "id": "action-conditioning",
+        "date": "2026-10-23",
+        "note": "nano/wam/2026-10-23-dreamzero-multi-embodiment-action-encoder.md",
+        "repo": "dreamzero0/dreamzero",
+        "via": "wam"
+      },
+      {
+        "id": "dit-block",
+        "date": "2026-10-24",
+        "note": "nano/wam/2026-10-24-wan21-adaln-attention-block.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

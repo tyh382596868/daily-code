@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-24 | [LeRobot PI0 处理顺序：先相对化，再归一化 / LeRobot PI0 Processor Order](../2026/10/2026-10-24-lerobot-pi0-processor-order.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
+| 2026-10-24 | [ABot-World 因果块生成：首帧永远是干净条件 / ABot-World Causal Blocks](../2026/10/2026-10-24-abot-world-causal-block-generation.md) | [amap-cvlab/ABot-World](https://github.com/amap-cvlab/ABot-World) |
 | 2026-10-16 | [LeRobot 推理边界：把一次动作预测封进可控的安全壳 / LeRobot Inference Boundary: Put One Action Prediction in a Controlled Shell](../2026/10/2026-10-16-lerobot-inference-boundary.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-16 | [dsh-memory 读缓存：只让被写的路径失效 / dsh-memory Read Cache: Invalidate Only the Path That Changed](../2026/10/2026-10-16-dsh-memory-precise-read-cache.md) | [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) |
 | 2026-10-12 | [StarVLA policy server：把训练契约带到推理入口 / StarVLA Policy Server: Carry the Training Contract into Serving](../2026/10/2026-10-12-starvla-policy-server-contract.md) | [starVLA/starVLA](https://github.com/starVLA/starVLA) |
