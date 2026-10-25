@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-25 | action-chunking (advanced variant, policy-owned chunk queue) | [FastWAM 动作队列：预测一段，控制器逐拍取 / FastWAM Action Queue](../nano/vla/2026-10-25-fastwam-action-chunk-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-24 | action-chunking (advanced variant, queue-backed tick consumption) | [SmolVLA 动作队列：一次预测，逐拍消费 / SmolVLA Action Queue](../nano/vla/2026-10-24-smolvla-action-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-23 | vision-encoder | [OpenVLA 视觉 backbone 契约 / OpenVLA Vision Backbone Contract](../nano/vla/2026-10-23-openvla-vision-backbone-contract.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-10-22 | action-head-continuous (advanced variant, embodiment action mask) | [Isaac GR00T 动作有效位：padding 不是动作 / Isaac GR00T Action Validity](../nano/vla/2026-10-22-isaac-groot-action-padding.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |

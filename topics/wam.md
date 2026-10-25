@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-25 | sampler-inference (advanced variant, per-head cross-layer KV fusion) | [FastWAM Lite KV 融合：每个动作头选择视频层 / FastWAM Lite KV Fusion](../nano/wam/2026-10-25-fastwam-lite-kv-fusion.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-24 | dit-block (advanced variant, six-way AdaLN residual gates) | [Wan2.1 AdaLN DiT block：六个门控制三段残差 / Wan2.1 AdaLN DiT Block](../nano/wam/2026-10-24-wan21-adaln-attention-block.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-10-23 | action-conditioning | [DreamZero 多 embodiment 动作编码 / DreamZero Multi-Embodiment Action Encoding](../nano/wam/2026-10-23-dreamzero-multi-embodiment-action-encoder.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-10-22 | training-loop (advanced variant, distributed accumulation gate) | [FastWAM 分布式 step：只在真正更新时推进时间表 / FastWAM Distributed Step](../nano/wam/2026-10-22-fastwam-distributed-step.md) | [yuantianyuan01/FastWAM](https://github.com/yuantianyuan01/FastWAM) |

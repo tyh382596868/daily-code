@@ -974,6 +974,13 @@
         "note": "nano/vla/2026-10-24-smolvla-action-queue.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-10-25",
+        "note": "nano/vla/2026-10-25-fastwam-action-chunk-queue.md",
+        "repo": "huggingface/lerobot",
+        "via": "vla"
       }
     ]
   },
@@ -1936,6 +1943,13 @@
         "date": "2026-10-24",
         "note": "nano/wam/2026-10-24-wan21-adaln-attention-block.md",
         "repo": "Wan-Video/Wan2.1",
+        "via": "wam"
+      },
+      {
+        "id": "sampler-inference",
+        "date": "2026-10-25",
+        "note": "nano/wam/2026-10-25-fastwam-lite-kv-fusion.md",
+        "repo": "huggingface/lerobot",
         "via": "wam"
       }
     ]

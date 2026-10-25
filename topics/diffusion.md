@@ -4,6 +4,8 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-25 | [Wan VAE 时间分块：首帧先走，后续四帧接力 / Wan VAE Temporal Chunks](../2026/10/2026-10-25-wan-vae-temporal-chunks.md) | Wan-Video/Wan2.1 |
+| 2026-10-25 | [llm_intents 安全计算器：解析 AST，不执行字符串 / llm_intents Safe Calculator](../2026/10/2026-10-25-llm-intents-safe-ast-calculator.md) | skye-harris/llm_intents |
 | 2026-10-22 | [VEnhancer 噪声刻度：在 beta、sigma 与 log-SNR 间切换 / VEnhancer Noise Coordinates](../2026/10/2026-10-22-venhancer-sigma-schedule.md) | Vchitect/VEnhancer |
 | 2026-10-22 | [GenZ-LIO 鲁棒门控：先拒绝坏测量，再融合好测量 / GenZ-LIO Robust Gating](../2026/10/2026-10-22-genz-lio-robust-gating.md) | cocel-postech/genz-lio |
 | 2026-10-13 | [MetaFine DP3 workspace：训练状态、normalizer 和 scheduler 一起落座 / MetaFine DP3 Workspace: Seat Training State, Normalizer, and Scheduler Together](../2026/10/2026-10-13-metafine-dp3-workspace.md) | Hiangx-robotics/MetaFine |

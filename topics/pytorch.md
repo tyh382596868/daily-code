@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-10-25 | [PyTorch checkpoint 调试：把两次执行的证据并排摆出 / PyTorch Checkpoint Debugging](../2026/10/2026-10-25-pytorch-checkpoint-debug-traces.md) | `torch/utils/checkpoint.py` |
 | 2026-10-24 | [PyTorch foreach 分组：先按设备和 dtype 分桶 / PyTorch Foreach Groups](../2026/10/2026-10-24-pytorch-foreach-device-dtype-groups.md) | `torch/utils/_foreach_utils.py` |
 | 2026-10-23 | [PyTorch 选择性 checkpoint / PyTorch Selective Checkpointing](../2026/10/2026-10-23-pytorch-selective-checkpoint.md) | `torch/utils/checkpoint.py` |
 | 2026-10-22 | [PyTorch pytree 注册：给容器一份可逆说明书 / PyTorch Pytree Registration](../2026/10/2026-10-22-pytorch-pytree-registration.md) | `torch/utils/_pytree.py` |

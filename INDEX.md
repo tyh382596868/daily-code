@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-10-25 | diffusion | [Wan VAE 时间分块：首帧先走，后续四帧接力 / Wan VAE Temporal Chunks](2026/10/2026-10-25-wan-vae-temporal-chunks.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (tracked) |
+| 2026-10-25 | pytorch | [PyTorch checkpoint 调试：把两次执行的证据并排摆出 / PyTorch Checkpoint Debugging](2026/10/2026-10-25-pytorch-checkpoint-debug-traces.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-10-25 | huggingface | [Diffusers FasterCache：用两次真实结果外推一次 attention / Diffusers FasterCache](2026/10/2026-10-25-diffusers-faster-cache-attention.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |
+| 2026-10-25 | vla | [FastWAM 动作队列：预测一段，控制器逐拍取 / FastWAM Action Queue](nano/vla/2026-10-25-fastwam-action-chunk-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (vla) |
+| 2026-10-25 | wam | [FastWAM Lite KV 融合：每个动作头选择视频层 / FastWAM Lite KV Fusion](nano/wam/2026-10-25-fastwam-lite-kv-fusion.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (wam) |
+| 2026-10-25 | diffusion | [llm_intents 安全计算器：解析 AST，不执行字符串 / llm_intents Safe Calculator](2026/10/2026-10-25-llm-intents-safe-ast-calculator.md) | [skye-harris/llm_intents](https://github.com/skye-harris/llm_intents) (trending, 217 stars observed) |
 | 2026-10-24 | robotics | [LeRobot PI0 处理顺序：先相对化，再归一化 / LeRobot PI0 Processor Order](2026/10/2026-10-24-lerobot-pi0-processor-order.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) (tracked) |
 | 2026-10-24 | pytorch | [PyTorch foreach 分组：先按设备和 dtype 分桶 / PyTorch Foreach Groups](2026/10/2026-10-24-pytorch-foreach-device-dtype-groups.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-10-24 | huggingface | [Transformers 连续批处理状态 / Transformers Continuous Batching State](2026/10/2026-10-24-transformers-continuous-request-state.md) | [huggingface/transformers](https://github.com/huggingface/transformers) (huggingface) |
