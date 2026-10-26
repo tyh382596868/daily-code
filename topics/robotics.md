@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-26 | [openpi 重打包 / openpi Repacking](../2026/10/2026-10-26-openpi-repack-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
+| 2026-10-26 | [FastVLA 首帧缓存 / FastVLA First-Frame Cache](../2026/10/2026-10-26-fastvla-first-frame-cache.md) | [Garfield-kh/FastVLA](https://github.com/Garfield-kh/FastVLA) |
 | 2026-10-24 | [LeRobot PI0 处理顺序：先相对化，再归一化 / LeRobot PI0 Processor Order](../2026/10/2026-10-24-lerobot-pi0-processor-order.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-24 | [ABot-World 因果块生成：首帧永远是干净条件 / ABot-World Causal Blocks](../2026/10/2026-10-24-abot-world-causal-block-generation.md) | [amap-cvlab/ABot-World](https://github.com/amap-cvlab/ABot-World) |
 | 2026-10-16 | [LeRobot 推理边界：把一次动作预测封进可控的安全壳 / LeRobot Inference Boundary: Put One Action Prediction in a Controlled Shell](../2026/10/2026-10-16-lerobot-inference-boundary.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

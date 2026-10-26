@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-10-26 | robotics | [openpi 重打包：用路径表把机器人数据变成模型契约 / openpi Repacking](2026/10/2026-10-26-openpi-repack-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (tracked) |
+| 2026-10-26 | pytorch | [PyTorch 保存张量钩子：给反向传播换一套仓库 / PyTorch Saved-Tensor Hooks](2026/10/2026-10-26-pytorch-saved-tensor-hooks.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-10-26 | huggingface | [Accelerate 提前看一批：最后一批也有明确状态 / Accelerate One-Batch Lookahead](2026/10/2026-10-26-accelerate-dataloader-lookahead.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) (huggingface) |
+| 2026-10-26 | vla | [openpi 动作增量：只把指定自由度改写成相对量 / openpi Delta Actions](nano/vla/2026-10-26-openpi-delta-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) (vla) |
+| 2026-10-26 | wam | [Wan2.1 时空 RoPE attention / Wan2.1 Spatiotemporal RoPE Attention](nano/wam/2026-10-26-wan21-rope-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (wam) |
+| 2026-10-26 | robotics | [FastVLA 首帧缓存 / FastVLA First-Frame Cache](2026/10/2026-10-26-fastvla-first-frame-cache.md) | [Garfield-kh/FastVLA](https://github.com/Garfield-kh/FastVLA) (trending, newly released) |
 | 2026-10-25 | diffusion | [Wan VAE 时间分块：首帧先走，后续四帧接力 / Wan VAE Temporal Chunks](2026/10/2026-10-25-wan-vae-temporal-chunks.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) (tracked) |
 | 2026-10-25 | pytorch | [PyTorch checkpoint 调试：把两次执行的证据并排摆出 / PyTorch Checkpoint Debugging](2026/10/2026-10-25-pytorch-checkpoint-debug-traces.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-10-25 | huggingface | [Diffusers FasterCache：用两次真实结果外推一次 attention / Diffusers FasterCache](2026/10/2026-10-25-diffusers-faster-cache-attention.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) (huggingface) |

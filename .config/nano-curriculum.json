@@ -219,6 +219,7 @@
       }
     ],
     "covered": [
+      {"id": "action-tokenizer", "date": "2026-10-26", "note": "nano/vla/2026-10-26-openpi-delta-actions.md", "repo": "Physical-Intelligence/openpi", "via": "vla"},
       {
         "id": "action-chunking",
         "date": "2026-10-13",
@@ -1217,6 +1218,7 @@
       }
     ],
     "covered": [
+      {"id": "patchify-positional", "date": "2026-10-26", "note": "nano/wam/2026-10-26-wan21-rope-attention.md", "repo": "Wan-Video/Wan2.1", "via": "wam"},
       {
         "id": "text-conditioning",
         "date": "2026-10-13",
