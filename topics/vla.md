@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-27 | action-head-continuous (advanced variant, selective delta targets) | [openpi 掩码动作增量 / openpi Masked Delta Actions](../nano/vla/2026-10-27-openpi-mask-delta-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-26 | action-tokenizer (advanced) | [openpi 动作增量 / openpi Delta Actions](../nano/vla/2026-10-26-openpi-delta-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-25 | action-chunking (advanced variant, policy-owned chunk queue) | [FastWAM 动作队列：预测一段，控制器逐拍取 / FastWAM Action Queue](../nano/vla/2026-10-25-fastwam-action-chunk-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-24 | action-chunking (advanced variant, queue-backed tick consumption) | [SmolVLA 动作队列：一次预测，逐拍消费 / SmolVLA Action Queue](../nano/vla/2026-10-24-smolvla-action-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

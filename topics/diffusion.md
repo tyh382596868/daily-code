@@ -4,6 +4,7 @@ Notes tagged `diffusion`, newest first. Covers diffusion samplers, video diffusi
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-27 | [Wan2.1 因果卷积 / Wan2.1 Causal Convolution](../2026/10/2026-10-27-wan21-causal-conv-padding.md) | Wan-Video/Wan2.1 |
 | 2026-10-25 | [Wan VAE 时间分块：首帧先走，后续四帧接力 / Wan VAE Temporal Chunks](../2026/10/2026-10-25-wan-vae-temporal-chunks.md) | Wan-Video/Wan2.1 |
 | 2026-10-25 | [llm_intents 安全计算器：解析 AST，不执行字符串 / llm_intents Safe Calculator](../2026/10/2026-10-25-llm-intents-safe-ast-calculator.md) | skye-harris/llm_intents |
 | 2026-10-22 | [VEnhancer 噪声刻度：在 beta、sigma 与 log-SNR 间切换 / VEnhancer Noise Coordinates](../2026/10/2026-10-22-venhancer-sigma-schedule.md) | Vchitect/VEnhancer |

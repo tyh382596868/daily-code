@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-27 | [Datasets skip / Datasets Skip](../2026/10/2026-10-27-datasets-resumable-skip.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |
 | 2026-10-26 | [Accelerate 提前看一批 / Accelerate One-Batch Lookahead](../2026/10/2026-10-26-accelerate-dataloader-lookahead.md) | [huggingface/accelerate](https://github.com/huggingface/accelerate) |
 | 2026-10-25 | [Diffusers FasterCache：用两次真实结果外推一次 attention / Diffusers FasterCache](../2026/10/2026-10-25-diffusers-faster-cache-attention.md) | [huggingface/diffusers](https://github.com/huggingface/diffusers) |
 | 2026-10-24 | [Transformers 连续批处理状态：状态转换就是计时边界 / Transformers Continuous Batching State](../2026/10/2026-10-24-transformers-continuous-request-state.md) | [huggingface/transformers](https://github.com/huggingface/transformers) |

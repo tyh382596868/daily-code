@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-27** · diffusion · [Wan2.1 因果卷积 / Wan2.1 Causal Convolution](2026/10/2026-10-27-wan21-causal-conv-padding.md) — `Wan-Video/Wan2.1` (tracked)
+- **2026-10-27** · pytorch · [PyTorch 流式数据 / PyTorch Iterable Data](2026/10/2026-10-27-pytorch-iterable-worker-sharding.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-27** · huggingface · [Datasets skip / Datasets Skip](2026/10/2026-10-27-datasets-resumable-skip.md) — `huggingface/datasets` (huggingface)
+- **2026-10-27** · vla · [openpi 掩码动作增量 / openpi Masked Delta Actions](nano/vla/2026-10-27-openpi-mask-delta-actions.md) — `Physical-Intelligence/openpi` (vla)
+- **2026-10-27** · wam · [DreamZero 流匹配时间表 / DreamZero Flow Schedule](nano/wam/2026-10-27-dreamzero-flow-sigma-schedule.md) — `dreamzero0/dreamzero` (wam)
+- **2026-10-27** · infrastructure · [Hyperloom 规范指纹 / Hyperloom Canonical Fingerprint](2026/10/2026-10-27-hyperloom-canonical-fingerprint.md) — `AMD-AGI/Hyperloom` (trending)
 - **2026-10-26** · robotics · [openpi 重打包：用路径表把机器人数据变成模型契约 / openpi Repacking](2026/10/2026-10-26-openpi-repack-transform.md) — `Physical-Intelligence/openpi` (tracked)
 - **2026-10-26** · pytorch · [PyTorch 保存张量钩子 / PyTorch Saved-Tensor Hooks](2026/10/2026-10-26-pytorch-saved-tensor-hooks.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-26** · huggingface · [Accelerate 提前看一批 / Accelerate One-Batch Lookahead](2026/10/2026-10-26-accelerate-dataloader-lookahead.md) — `huggingface/accelerate` (huggingface)

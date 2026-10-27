@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-27 | noise-scheduler (advanced) | [DreamZero 流匹配时间表 / DreamZero Flow Schedule](../nano/wam/2026-10-27-dreamzero-flow-sigma-schedule.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-10-26 | patchify-positional (advanced) | [Wan2.1 时空 RoPE attention / Wan2.1 Spatiotemporal RoPE Attention](../nano/wam/2026-10-26-wan21-rope-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-10-25 | sampler-inference (advanced variant, per-head cross-layer KV fusion) | [FastWAM Lite KV 融合：每个动作头选择视频层 / FastWAM Lite KV Fusion](../nano/wam/2026-10-25-fastwam-lite-kv-fusion.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
 | 2026-10-24 | dit-block (advanced variant, six-way AdaLN residual gates) | [Wan2.1 AdaLN DiT block：六个门控制三段残差 / Wan2.1 AdaLN DiT Block](../nano/wam/2026-10-24-wan21-adaln-attention-block.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
