@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-28** · infrastructure · [vLLM 前缀命中 / vLLM Prefix Cache](2026/10/2026-10-28-vllm-prefix-cache-last-token.md) — `vllm-project/vllm` (tracked)
+- **2026-10-28** · pytorch · [PyTorch DataLoader 顺序开关 / PyTorch DataLoader `in_order`](2026/10/2026-10-28-pytorch-dataloader-in-order.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-28** · huggingface · [PEFT 编译态 LoRA 热替换 / PEFT Compiled LoRA Hotswap](2026/10/2026-10-28-peft-compiled-lora-rank-padding.md) — `huggingface/peft` (huggingface)
+- **2026-10-28** · vla · [Isaac GR00T state padding / Isaac GR00T State Padding](nano/vla/2026-10-28-isaac-groot-state-padding.md) — `NVIDIA/Isaac-GR00T` (vla)
+- **2026-10-28** · wam · [LingBot-VA token 对齐 / LingBot-VA Token Alignment](nano/wam/2026-10-28-lingbot-va-token-alignment.md) — `Robbyant/lingbot-va` (wam)
+- **2026-10-28** · diffusion · [DreamX-World 相机条件 / DreamX-World Camera Conditioning](2026/10/2026-10-28-dreamx-world-camera-token-conditioning.md) — `AMAP-ML/DreamX-World` (trending, 772 stars observed)
 - **2026-10-27** · diffusion · [Wan2.1 因果卷积 / Wan2.1 Causal Convolution](2026/10/2026-10-27-wan21-causal-conv-padding.md) — `Wan-Video/Wan2.1` (tracked)
 - **2026-10-27** · pytorch · [PyTorch 流式数据 / PyTorch Iterable Data](2026/10/2026-10-27-pytorch-iterable-worker-sharding.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-27** · huggingface · [Datasets skip / Datasets Skip](2026/10/2026-10-27-datasets-resumable-skip.md) — `huggingface/datasets` (huggingface)

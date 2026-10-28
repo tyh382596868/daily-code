@@ -13,6 +13,7 @@ maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA buil
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-28 | vision-encoder (advanced variant, multi-embodiment state contract) | [Isaac GR00T state padding / Isaac GR00T State Padding](../nano/vla/2026-10-28-isaac-groot-state-padding.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2026-10-27 | action-head-continuous (advanced variant, selective delta targets) | [openpi 掩码动作增量 / openpi Masked Delta Actions](../nano/vla/2026-10-27-openpi-mask-delta-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-26 | action-tokenizer (advanced) | [openpi 动作增量 / openpi Delta Actions](../nano/vla/2026-10-26-openpi-delta-actions.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-25 | action-chunking (advanced variant, policy-owned chunk queue) | [FastWAM 动作队列：预测一段，控制器逐拍取 / FastWAM Action Queue](../nano/vla/2026-10-25-fastwam-action-chunk-queue.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |

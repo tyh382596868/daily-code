@@ -6,6 +6,7 @@ internals, distributed, `torch.compile`, and other framework internals.
 
 | Date | Title | File |
 |------|-------|------|
+| 2026-10-28 | [PyTorch DataLoader 顺序开关 / PyTorch DataLoader `in_order`](../2026/10/2026-10-28-pytorch-dataloader-in-order.md) | `torch/utils/data/dataloader.py` |
 | 2026-10-27 | [PyTorch 流式数据 / PyTorch Iterable Data](../2026/10/2026-10-27-pytorch-iterable-worker-sharding.md) | `torch/utils/data/dataset.py` |
 | 2026-10-26 | [PyTorch 保存张量钩子 / PyTorch Saved-Tensor Hooks](../2026/10/2026-10-26-pytorch-saved-tensor-hooks.md) | `torch/autograd/graph.py` |
 | 2026-10-25 | [PyTorch checkpoint 调试：把两次执行的证据并排摆出 / PyTorch Checkpoint Debugging](../2026/10/2026-10-25-pytorch-checkpoint-debug-traces.md) | `torch/utils/checkpoint.py` |

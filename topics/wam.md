@@ -12,6 +12,7 @@ explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-28 | dit-block (advanced variant, mixed-stream kernel alignment) | [LingBot-VA token 对齐 / LingBot-VA Token Alignment](../nano/wam/2026-10-28-lingbot-va-token-alignment.md) | [Robbyant/lingbot-va](https://github.com/Robbyant/lingbot-va) |
 | 2026-10-27 | noise-scheduler (advanced) | [DreamZero 流匹配时间表 / DreamZero Flow Schedule](../nano/wam/2026-10-27-dreamzero-flow-sigma-schedule.md) | [dreamzero0/dreamzero](https://github.com/dreamzero0/dreamzero) |
 | 2026-10-26 | patchify-positional (advanced) | [Wan2.1 时空 RoPE attention / Wan2.1 Spatiotemporal RoPE Attention](../nano/wam/2026-10-26-wan21-rope-attention.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-10-25 | sampler-inference (advanced variant, per-head cross-layer KV fusion) | [FastWAM Lite KV 融合：每个动作头选择视频层 / FastWAM Lite KV Fusion](../nano/wam/2026-10-25-fastwam-lite-kv-fusion.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
