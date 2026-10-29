@@ -982,6 +982,13 @@
         "note": "nano/vla/2026-10-25-fastwam-action-chunk-queue.md",
         "repo": "huggingface/lerobot",
         "via": "vla"
+      },
+      {
+        "id": "action-chunking",
+        "date": "2026-10-29",
+        "note": "nano/vla/2026-10-29-isaac-groot-action-chunk-deltas.md",
+        "repo": "NVIDIA/Isaac-GR00T",
+        "via": "vla"
       }
     ]
   },
@@ -1952,6 +1959,13 @@
         "date": "2026-10-25",
         "note": "nano/wam/2026-10-25-fastwam-lite-kv-fusion.md",
         "repo": "huggingface/lerobot",
+        "via": "wam"
+      },
+      {
+        "id": "patchify-positional",
+        "date": "2026-10-29",
+        "note": "nano/wam/2026-10-29-open-sora-rope-rotation.md",
+        "repo": "hpcaitech/Open-Sora",
         "via": "wam"
       }
     ]

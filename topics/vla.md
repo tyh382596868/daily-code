@@ -8,6 +8,10 @@ Notes tagged `vla`, newest first. Daily teaching points sourced from
 [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T),
 and [starVLA](https://github.com/starVLA/starVLA).
 
+| Date | Component | Title | Repo |
+|------|-----------|-------|------|
+| 2026-10-29 | action-chunking (advanced variant, per-step deltas) | [Isaac GR00T 动作 chunk 增量 / Isaac GR00T Action-Chunk Deltas](../nano/vla/2026-10-29-isaac-groot-action-chunk-deltas.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
+
 Each entry teaches **one component** of a Vision-Language-Action model and
 maps it explicitly to its role in a from-scratch `nanoVLA` / production VLA build.
 

@@ -8,6 +8,12 @@ Full archive of daily code notes, newest first.
 
 | Date | Topic | Title | Source |
 |------|-------|-------|--------|
+| 2026-10-29 | robotics | [Isaac GR00T policy 边界 / Isaac GR00T Policy Boundary](2026/10/2026-10-29-isaac-groot-policy-boundary.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) (tracked) |
+| 2026-10-29 | pytorch | [PyTorch 单进程 DataLoader / PyTorch Single-Process DataLoader](2026/10/2026-10-29-pytorch-dataloader-single-process.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
+| 2026-10-29 | huggingface | [TRL activation storage 去重 / TRL Activation Storage Deduplication](2026/10/2026-10-29-trl-activation-storage-dedup.md) | [huggingface/trl](https://github.com/huggingface/trl) (huggingface) |
+| 2026-10-29 | vla | [Isaac GR00T 动作 chunk 增量 / Isaac GR00T Action-Chunk Deltas](nano/vla/2026-10-29-isaac-groot-action-chunk-deltas.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) (vla) |
+| 2026-10-29 | wam | [Open-Sora RoPE 旋转矩阵 / Open-Sora RoPE Rotation Matrices](nano/wam/2026-10-29-open-sora-rope-rotation.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) (wam) |
+| 2026-10-29 | robotics | [Boundless World Model 动作分组 / Boundless World Model Action Groups](2026/10/2026-10-29-boundless-world-model-action-groups.md) | [boundless-large-model/boundless-world-model](https://github.com/boundless-large-model/boundless-world-model) (trending, 1.8k stars observed) |
 | 2026-10-28 | infrastructure | [vLLM 前缀命中：最后一个 token 仍要重算 / vLLM Prefix Cache: Recompute the Last Token](2026/10/2026-10-28-vllm-prefix-cache-last-token.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) (tracked) |
 | 2026-10-28 | pytorch | [PyTorch DataLoader 顺序开关 / PyTorch DataLoader `in_order`](2026/10/2026-10-28-pytorch-dataloader-in-order.md) | [pytorch/pytorch](https://github.com/pytorch/pytorch) (pytorch) |
 | 2026-10-28 | huggingface | [PEFT 编译态 LoRA 热替换 / PEFT Compiled LoRA Hotswap](2026/10/2026-10-28-peft-compiled-lora-rank-padding.md) | [huggingface/peft](https://github.com/huggingface/peft) (huggingface) |

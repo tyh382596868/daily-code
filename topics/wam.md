@@ -7,6 +7,10 @@ Notes tagged `wam`, newest first. Daily teaching points sourced from
 [Wan2.1](https://github.com/Wan-Video/Wan2.1),
 and [Open-Sora](https://github.com/hpcaitech/Open-Sora).
 
+| Date | Component | Title | Repo |
+|------|-----------|-------|------|
+| 2026-10-29 | patchify-positional (advanced variant, RoPE Q/K rotation) | [Open-Sora RoPE 旋转矩阵 / Open-Sora RoPE Rotation Matrices](../nano/wam/2026-10-29-open-sora-rope-rotation.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
+
 Each entry teaches **one component** of a World Action Model and maps it
 explicitly to its role in a from-scratch `nanoWAM` / production WAM build.
 

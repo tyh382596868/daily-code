@@ -4,6 +4,8 @@ Notes tagged `robotics`, newest first. Covers VLA, manipulation policies, locomo
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-29 | [Isaac GR00T policy 边界 / Isaac GR00T Policy Boundary](../2026/10/2026-10-29-isaac-groot-policy-boundary.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
+| 2026-10-29 | [Boundless World Model 动作分组 / Boundless World Model Action Groups](../2026/10/2026-10-29-boundless-world-model-action-groups.md) | [boundless-large-model/boundless-world-model](https://github.com/boundless-large-model/boundless-world-model) |
 | 2026-10-26 | [openpi 重打包 / openpi Repacking](../2026/10/2026-10-26-openpi-repack-transform.md) | [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) |
 | 2026-10-26 | [FastVLA 首帧缓存 / FastVLA First-Frame Cache](../2026/10/2026-10-26-fastvla-first-frame-cache.md) | [Garfield-kh/FastVLA](https://github.com/Garfield-kh/FastVLA) |
 | 2026-10-24 | [LeRobot PI0 处理顺序：先相对化，再归一化 / LeRobot PI0 Processor Order](../2026/10/2026-10-24-lerobot-pi0-processor-order.md) | [huggingface/lerobot](https://github.com/huggingface/lerobot) |
