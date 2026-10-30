@@ -16,6 +16,12 @@ that maps the component to its role in a from-scratch implementation.
 ## Latest
 
 <!-- auto-updated by daily-code-teach -->
+- **2026-10-30** · infrastructure · [torchtune 打包序列的块因果 mask / torchtune Packed Block-Causal Mask](2026/10/2026-10-30-torchtune-packed-block-causal-mask.md) — `pytorch/torchtune` (tracked)
+- **2026-10-30** · pytorch · [PyTorch 梯度范数裁剪 / PyTorch Gradient-Norm Clipping](2026/10/2026-10-30-pytorch-clip-grad-norm.md) — `pytorch/pytorch` (pytorch)
+- **2026-10-30** · huggingface · [Tokenizers 词级 tag 缓存 / Tokenizers Word-Level Tag Cache](2026/10/2026-10-30-tokenizers-word-cache.md) — `huggingface/tokenizers` (huggingface)
+- **2026-10-30** · vla · [OpenVLA 动作 token 的边界处理 / OpenVLA Action-Token Boundaries](nano/vla/2026-10-30-openvla-action-token-boundary.md) — `openvla/openvla` (vla)
+- **2026-10-30** · wam · [Wan2.1 因果卷积的时间缓存 / Wan2.1 Causal-Convolution Cache](nano/wam/2026-10-30-wan21-causal-conv-cache.md) — `Wan-Video/Wan2.1` (wam)
+- **2026-10-30** · infrastructure · [nanochat BOS 对齐的最佳适配打包 / nanochat BOS-Aligned Best-Fit Packing](2026/10/2026-10-30-nanochat-bos-best-fit-packing.md) — `karpathy/nanochat` (trending)
 - **2026-10-29** · robotics · [Isaac GR00T policy 边界 / Isaac GR00T Policy Boundary](2026/10/2026-10-29-isaac-groot-policy-boundary.md) — `NVIDIA/Isaac-GR00T` (tracked)
 - **2026-10-29** · pytorch · [PyTorch 单进程 DataLoader / PyTorch Single-Process DataLoader](2026/10/2026-10-29-pytorch-dataloader-single-process.md) — `pytorch/pytorch` (pytorch)
 - **2026-10-29** · huggingface · [TRL activation storage 去重 / TRL Activation Storage Deduplication](2026/10/2026-10-29-trl-activation-storage-dedup.md) — `huggingface/trl` (huggingface)

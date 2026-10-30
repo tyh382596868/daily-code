@@ -989,6 +989,13 @@
         "note": "nano/vla/2026-10-29-isaac-groot-action-chunk-deltas.md",
         "repo": "NVIDIA/Isaac-GR00T",
         "via": "vla"
+      },
+      {
+        "id": "action-tokenizer",
+        "date": "2026-10-30",
+        "note": "nano/vla/2026-10-30-openvla-action-token-boundary.md",
+        "repo": "openvla/openvla",
+        "via": "vla"
       }
     ]
   },
@@ -1966,6 +1973,13 @@
         "date": "2026-10-29",
         "note": "nano/wam/2026-10-29-open-sora-rope-rotation.md",
         "repo": "hpcaitech/Open-Sora",
+        "via": "wam"
+      },
+      {
+        "id": "vae-encoder-decoder",
+        "date": "2026-10-30",
+        "note": "nano/wam/2026-10-30-wan21-causal-conv-cache.md",
+        "repo": "Wan-Video/Wan2.1",
         "via": "wam"
       }
     ]

@@ -9,6 +9,7 @@ and [Open-Sora](https://github.com/hpcaitech/Open-Sora).
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-30 | vae-encoder-decoder (advanced variant, causal cache) | [Wan2.1 因果卷积的时间缓存 / Wan2.1 Causal-Convolution Cache](../nano/wam/2026-10-30-wan21-causal-conv-cache.md) | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) |
 | 2026-10-29 | patchify-positional (advanced variant, RoPE Q/K rotation) | [Open-Sora RoPE 旋转矩阵 / Open-Sora RoPE Rotation Matrices](../nano/wam/2026-10-29-open-sora-rope-rotation.md) | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) |
 
 Each entry teaches **one component** of a World Action Model and maps it

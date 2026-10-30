@@ -6,6 +6,7 @@ libraries — `transformers`, `diffusers`, `accelerate`, `datasets`, `peft`, `tr
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-30 | [Tokenizers 词级 tag 缓存 / Tokenizers Word-Level Tag Cache](../2026/10/2026-10-30-tokenizers-word-cache.md) | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) |
 | 2026-10-29 | [TRL activation storage 去重 / TRL Activation Storage Deduplication](../2026/10/2026-10-29-trl-activation-storage-dedup.md) | [huggingface/trl](https://github.com/huggingface/trl) |
 | 2026-10-28 | [PEFT 编译态 LoRA 热替换 / PEFT Compiled LoRA Hotswap](../2026/10/2026-10-28-peft-compiled-lora-rank-padding.md) | [huggingface/peft](https://github.com/huggingface/peft) |
 | 2026-10-27 | [Datasets skip / Datasets Skip](../2026/10/2026-10-27-datasets-resumable-skip.md) | [huggingface/datasets](https://github.com/huggingface/datasets) |

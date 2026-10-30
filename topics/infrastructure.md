@@ -4,6 +4,8 @@ Notes tagged `infrastructure`, newest first. Covers serving systems, CUDA kernel
 
 | Date | Title | Repo |
 |------|-------|------|
+| 2026-10-30 | [torchtune 打包序列的块因果 mask / torchtune Packed Block-Causal Mask](../2026/10/2026-10-30-torchtune-packed-block-causal-mask.md) | [pytorch/torchtune](https://github.com/pytorch/torchtune) |
+| 2026-10-30 | [nanochat BOS 对齐的最佳适配打包 / nanochat BOS-Aligned Best-Fit Packing](../2026/10/2026-10-30-nanochat-bos-best-fit-packing.md) | [karpathy/nanochat](https://github.com/karpathy/nanochat) |
 | 2026-10-28 | [vLLM 前缀命中：最后一个 token 仍要重算 / vLLM Prefix Cache: Recompute the Last Token](../2026/10/2026-10-28-vllm-prefix-cache-last-token.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
 | 2026-10-27 | [Hyperloom 规范指纹 / Hyperloom Canonical Fingerprint](../2026/10/2026-10-27-hyperloom-canonical-fingerprint.md) | [AMD-AGI/Hyperloom](https://github.com/AMD-AGI/Hyperloom) |
 | 2026-10-23 | [vLLM 前缀块索引 / vLLM Prefix Block Index](../2026/10/2026-10-23-vllm-prefix-block-map.md) | [vllm-project/vllm](https://github.com/vllm-project/vllm) |

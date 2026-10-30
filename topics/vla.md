@@ -10,6 +10,7 @@ and [starVLA](https://github.com/starVLA/starVLA).
 
 | Date | Component | Title | Repo |
 |------|-----------|-------|------|
+| 2026-10-30 | action-tokenizer (advanced variant, endpoint contract) | [OpenVLA 动作 token 的边界处理 / OpenVLA Action-Token Boundaries](../nano/vla/2026-10-30-openvla-action-token-boundary.md) | [openvla/openvla](https://github.com/openvla/openvla) |
 | 2026-10-29 | action-chunking (advanced variant, per-step deltas) | [Isaac GR00T 动作 chunk 增量 / Isaac GR00T Action-Chunk Deltas](../nano/vla/2026-10-29-isaac-groot-action-chunk-deltas.md) | [NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 
 Each entry teaches **one component** of a Vision-Language-Action model and
